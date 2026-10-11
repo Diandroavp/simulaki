@@ -134,13 +134,13 @@ describe('fonte da questão', () => {
   });
 });
 
-import { loadQuestions, examTopic } from './questions';
+import { loadQuestions, examTopic, signImage } from './questions';
 describe('prova com o banco nacional', () => {
-  it('AM: sorteia 30 questões únicas, todas respondíveis sem imagem', () => {
+  it('AM: sorteia 30 questões únicas, nenhuma depende de placa sem imagem', () => {
     const pool = loadQuestions('AM');
     expect(pool.length).toBeGreaterThan(1000);
     expect(loadQuestions('SP').length).toBe(loadQuestions('BA').length);
-    expect(pool.every((q) => !q.signCode)).toBe(true);
+    expect(pool.every((q) => !q.signCode || signImage(q.signCode))).toBe(true);
     const exam = buildExam(pool.map((q) => ({ ...q, topic: examTopic(q.topic) })), getExamConfig('AM'));
     expect(exam).toHaveLength(30);
     expect(new Set(exam.map((q) => q.id)).size).toBe(30);
