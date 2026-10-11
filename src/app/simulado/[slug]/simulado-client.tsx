@@ -118,7 +118,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
             <p style={{ marginTop: 0 }}><strong>{i + 1}.</strong> {r.statement}</p>
             {r.options.map((o) => (
               <div key={o.id} className={`opt ${o.id === r.correctOptionId ? 'ok' : o.id === r.selectedOptionId ? 'bad' : ''}`}>
-                {o.id.toUpperCase()}) {o.text}
+                <span className="ltr">{o.id.toUpperCase()}</span><span>{o.text}</span>
               </div>
             ))}
             {r.selectedOptionId === null && <p className="muted">Sem resposta.</p>}
@@ -148,10 +148,10 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
         </p>
       )}
       <div className="card">
-        <p style={{ marginTop: 0 }}>{q.statement}</p>
+        <p style={{ marginTop: 0, font: '700 1.2rem/1.4 var(--display)' }}>{q.statement}</p>
         {q.options.map((o) => (
           <button key={o.id} className="opt" aria-pressed={answers[q.id] === o.id} onClick={() => setAnswers((a) => ({ ...a, [q.id]: o.id }))}>
-            {o.id.toUpperCase()}) {o.text}
+            <span className="ltr">{o.id.toUpperCase()}</span><span>{o.text}</span>
           </button>
         ))}
       </div>
