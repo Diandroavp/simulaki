@@ -29,17 +29,17 @@ export const EXAM_CONFIGS: Record<string, ExamConfig> = {
   AM: {
     stateCode: 'AM',
     questionCount: 30,
-    durationMinutes: 60, // fonte secundária cita 60 min; SP usa 40. Confirmar.
-    minCorrect: 21,
+    durationMinutes: 60, // Res. CONTRAN 1.020/2025: mínimo de 1h (art. 33 §2º)
+    minCorrect: 20,
     topicDistribution: DISTRIBUICAO_BLOG,
     verified: false,
-    source: 'https://doutormultas.com.br/?p=20469 (blog; confirmar em detran.am.gov.br ou no CFC)',
+    source: 'Res. CONTRAN 1.020/2025 art. 33-34: 30 questões, mín. 60 min, 20 acertos. Distribuição por tema: não confirmada',
   },
   BA: {
     stateCode: 'BA',
     questionCount: 30,
     durationMinutes: 60, // idem: valores iguais aos de AM na mesma fonte; confirmar.
-    minCorrect: 21,
+    minCorrect: 20,
     topicDistribution: DISTRIBUICAO_BLOG,
     verified: false,
     source: 'https://doutormultas.com.br/?p=20024 (blog; confirmar em detran.ba.gov.br ou no CFC)',
@@ -48,7 +48,7 @@ export const EXAM_CONFIGS: Record<string, ExamConfig> = {
     stateCode: 'SP',
     questionCount: 30,
     durationMinutes: 40,
-    minCorrect: 21,
+    minCorrect: 20,
     // sem distribuição por tema conhecida: sorteio livre do banco do estado
     verified: false,
     source:
@@ -61,7 +61,7 @@ export const DEFAULT_EXAM: ExamConfig = {
   stateCode: 'BR',
   questionCount: 30,
   durationMinutes: 40,
-  minCorrect: 21,
+  minCorrect: 20,
   verified: false,
   source: 'Referência geral; cada Detran define as próprias regras',
 };

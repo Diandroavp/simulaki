@@ -74,9 +74,9 @@ describe('canInviteStudent', () => {
 });
 
 describe('prova', () => {
-  it('AM usa 30 questões, 60 minutos e 21 acertos (a confirmar no Detran-AM)', () => {
+  it('AM usa 30 questões, 60 minutos e 20 acertos (Res. CONTRAN 1.020/2025)', () => {
     const c = getExamConfig('am');
-    expect([c.questionCount, c.durationMinutes, c.minCorrect]).toEqual([30, 60, 21]);
+    expect([c.questionCount, c.durationMinutes, c.minCorrect]).toEqual([30, 60, 20]);
     expect(Object.values(c.topicDistribution ?? {}).reduce((a, b) => a + b, 0)).toBe(30);
   });
 
@@ -104,15 +104,15 @@ describe('prova', () => {
     expect(exam.filter((q) => q.topic === 'mecanica')).toHaveLength(2);
   });
 
-  it('20 acertos reprova e 21 aprova', () => {
+  it('19 acertos reprova e 20 aprova', () => {
     const config = getExamConfig('AM');
     const make = (ok: number) =>
       Array.from({ length: 30 }, (_, i) => ({
         selectedOptionId: i < ok ? 'a' : 'b',
         correctOptionId: 'a',
       }));
-    expect(scoreAttempt(make(20), config).passed).toBe(false);
-    expect(scoreAttempt(make(21), config).passed).toBe(true);
+    expect(scoreAttempt(make(19), config).passed).toBe(false);
+    expect(scoreAttempt(make(20), config).passed).toBe(true);
   });
 
   it('sorteio não repete e respeita o tamanho', () => {
