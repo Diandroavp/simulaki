@@ -1,0 +1,4779 @@
+[
+ {
+  "id": "bnq-p2-1-001",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "A faixa de pedestres, com suas largas listras brancas, concede qual direito ao pedestre?",
+  "options": [
+   {
+    "id": "a",
+    "text": "O direito de atravessar apenas se não houver veículos se aproximando."
+   },
+   {
+    "id": "b",
+    "text": "O direito de atravessar, mas somente quando o semáforo de pedestres estiver verde."
+   },
+   {
+    "id": "c",
+    "text": "Direito do pedestre esperar até que não passe mais carro."
+   },
+   {
+    "id": "d",
+    "text": "A prioridade de travessia, exigindo que os veículos parem."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A faixa de pedestres garante ao pedestre prioridade absoluta de passagem sobre os veículos ao atravessar a via.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 1, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-002",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual a função das faixas vermelhas na pavimentação das vias?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Uma área de cruzamento perigoso que deve ser evitada."
+   },
+   {
+    "id": "b",
+    "text": "Uma faixa de tráfego com velocidade máxima reduzida."
+   },
+   {
+    "id": "c",
+    "text": "Um espaço exclusivo ou preferencial para a circulação de ciclistas."
+   },
+   {
+    "id": "d",
+    "text": "Uma área de parada obrigatória para todos os veículos."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A pintura de faixas vermelhas no asfalto indica faixas exclusivas para ciclistas (ciclovia/ciclofaixa)",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 2, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-003",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "A placa 'Sentido Proibido' indica que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A velocidade máxima permitida é muito baixa."
+   },
+   {
+    "id": "b",
+    "text": "A rua não tem saída e será preciso retornar."
+   },
+   {
+    "id": "c",
+    "text": "Não pode virar à direita ou à esquerda no próximo cruzamento."
+   },
+   {
+    "id": "d",
+    "text": "A entrada de veículos naquela via ou faixa é proibida, pois o tráfego flui no sentido contrário."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A placa \"Sentido Proibido\" indica que os veículos não podem entrar ou trafegar na via naquele sentido.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 3, nível Fácil",
+  "signCode": "R-3"
+ },
+ {
+  "id": "bnq-p2-1-004",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Ao ver uma placa amarela com o desenho de uma lombada (quebra-molas), o que o condutor deve fazer?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acelerar para passar rapidamente pela lombada(quebra-molas)."
+   },
+   {
+    "id": "b",
+    "text": "Desviar para a outra faixa para evitar a lombada (quebra-molas)."
+   },
+   {
+    "id": "c",
+    "text": "Reduzir a velocidade para passar pela alteração no pavimento com segurança e conforto."
+   },
+   {
+    "id": "d",
+    "text": "Manter a velocidade, pois a placa é apenas um aviso."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Ao ver uma placa amarela indicando lombada, o condutor deve reduzir a velocidade e ficar atento para passar com segurança e cuidado sobre o obstáculo.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 4, nível Fácil",
+  "signCode": "A-18"
+ },
+ {
+  "id": "bnq-p2-1-005",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Ao ver uma placa amarela com o desenho de uma lombada, o que o condutor deve fazer?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acelerar para passar rápido."
+   },
+   {
+    "id": "b",
+    "text": "Ignorar a placa."
+   },
+   {
+    "id": "c",
+    "text": "Parar o veículo completamente."
+   },
+   {
+    "id": "d",
+    "text": "Reduzir a velocidade e passar com atenção."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A placa amarela alerta para mudanças nas condições da via, como lombadas ou obstáculos, exigindo redução de velocidade.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 5, nível Fácil",
+  "signCode": "A-18"
+ },
+ {
+  "id": "bnq-p2-1-006",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Ao ver uma placa amarela indicando 'Aclive acentuado', qual é a recomendação para um motorista de carro manual?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Manter a marcha mais alta possível para economizar combustível."
+   },
+   {
+    "id": "b",
+    "text": "Acionar o freio de mão levemente para ajudar no controle do veículo."
+   },
+   {
+    "id": "c",
+    "text": "Acelerar ao máximo antes da subida para ganhar impulso."
+   },
+   {
+    "id": "d",
+    "text": "Reduzir a marcha antes de iniciar a subida para não perder força."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Aconselhável 'reduzir a marcha antes de iniciar o aclive para não perder força no meio do caminho'.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 6, nível Fácil",
+  "signCode": "A-20b"
+ },
+ {
+  "id": "bnq-p2-1-007",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "As placas brancas com mensagens como 'Use o cinto de segurança' pertencem a qual categoria?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Placas de Advertência"
+   },
+   {
+    "id": "b",
+    "text": "Placas de Sinalização Temporária"
+   },
+   {
+    "id": "c",
+    "text": "Placas de Indicação (Educativas)"
+   },
+   {
+    "id": "d",
+    "text": "Placas de Regulamentação"
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Placas brancas com mensagens como \"Use o cinto de segurança\" pertencem à categoria de placas de indicação educativas, que informam ou orientam condutores e pedestres.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 7, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-008",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "As placas de formato octogonal (oito lados) e triangular invertido são exceções dentro de qual família de placas?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Placas de Advertência"
+   },
+   {
+    "id": "b",
+    "text": "Placas de Indicação"
+   },
+   {
+    "id": "c",
+    "text": "Placas de Regulamentação"
+   },
+   {
+    "id": "d",
+    "text": "Placas de Sinalização Temporária"
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "As Placas \"Pare\" (octogonal) e \"Dê a Preferência (triângulo invertido) pertencem a família das Placas de Regulamentação. Seus formatos são exceção à regra. As demais placas dessa Família são redondas e das cores vermelha, branca e preta",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 8, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-1-009",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "As placas de indicação de cor marrom são utilizadas para sinalizar o quê?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Atrativos turísticos, como cachoeiras e museus."
+   },
+   {
+    "id": "b",
+    "text": "Mensagens educativas para um trânsito mais seguro."
+   },
+   {
+    "id": "c",
+    "text": "Direções e distâncias para outras cidades em rodovias."
+   },
+   {
+    "id": "d",
+    "text": "Serviços auxiliares, como postos de gasolina e hospitais."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "As placas de indicação marrons são dedicadas ao turismo, servem pra indicar pontos próximos ao local, que podem ser de interesse histórico, cultural ou natural",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 9, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-010",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "As placas de indicação de cor verde são mais comuns em qual tipo de ambiente?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Em zonas escolares para reforçar a necessidade de atenção."
+   },
+   {
+    "id": "b",
+    "text": "Dentro de áreas urbanas para indicar nomes de ruas locais."
+   },
+   {
+    "id": "c",
+    "text": "Em estradas e rodovias para orientar sobre direções, destinos e distâncias."
+   },
+   {
+    "id": "d",
+    "text": "Próximo a parques e reservas naturais para indicar atrativos turísticos."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "As placas verdes são mais comuns em rodovias e vias de circulação rápida, pois servem para orientar e indicar destinos, distâncias e direções.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 10, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-011",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "As placas de regulamentação, com exceção de duas, possuem formato circular. Quais são essas duas exceções e por que têm formatos distintos?",
+  "options": [
+   {
+    "id": "a",
+    "text": "'Velocidade Máxima Permitida' (quadrada) e 'Sentido Proibido' (retangular), para destacar sua importância."
+   },
+   {
+    "id": "b",
+    "text": "'Proibido Estacionar' (retangular) e 'Alfândega' (quadrada), devido a convenções internacionais."
+   },
+   {
+    "id": "c",
+    "text": "'Lombada' (losango) e 'Cruz de Santo André' (formato de X), por indicarem perigos e não regras."
+   },
+   {
+    "id": "d",
+    "text": "PARE' (octogonal) e 'Dê a Preferência' (triângulo invertido), para serem facilmente reconhecíveis."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "As duas exceções às placas circulares de regulamentação são a placa “PARE”, que tem formato octogonal para ser reconhecida facilmente de longe, e a placa “DÊ A PREFERÊNCIA”, que é triangular invertida para destacar a obrigação de ceder passagem. Esses formatos distintos ajudam a identificar rapidamente a mensagem principal, mesmo sem ler o texto.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 11, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-012",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "As placas de Regulamentação, que estabelecem regras obrigatórias, são predominantemente de que cores?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Laranja e preta"
+   },
+   {
+    "id": "b",
+    "text": "Azul e branca"
+   },
+   {
+    "id": "c",
+    "text": "Amarela e preta"
+   },
+   {
+    "id": "d",
+    "text": "Vermelha, branca e preta"
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "As placas de regulamentação são das cores vermelha, branca e preta, sendo a vermelha a cor predominante",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 12, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-013",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "As placas fixadas ao lado da via como a de 'PARE', pertencem a qual tipo de sinalização?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Dispositivos Auxiliares"
+   },
+   {
+    "id": "b",
+    "text": "Sinalização Horizontal"
+   },
+   {
+    "id": "c",
+    "text": "Sinalização Vertical"
+   },
+   {
+    "id": "d",
+    "text": "Sinalização Semafórica"
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "As placas instaladas ao lado ou sobre a via para regulamentar, advertir e orientar os usuários do trânsito são classificadas como sinalização vertical",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 13, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-014",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "De acordo com a hierarquia da sinalização, o que tem mais prioridade: uma placa de 'Velocidade Máxima 60 km/h' ou um semáforo vermelho?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Depende do horário, durante a noite a placa prevalece."
+   },
+   {
+    "id": "b",
+    "text": "A placa, pois ela estabelece uma regra permanente para a via."
+   },
+   {
+    "id": "c",
+    "text": "Nenhum dos dois, o condutor deve usar o bom senso."
+   },
+   {
+    "id": "d",
+    "text": "O semáforo, pois na hierarquia ele está acima das placas."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O semáforo vermelho tem prioridade, mesmo sobre a placa de “Velocidade Máxima 60 km/h”, pois as ordens do semáforo prevalecem sobre placas e outras sinalizações. Art. 89, CTB.",
+  "legalRef": "CTB, art. 89",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 14, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-015",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Dispositivos como cones, balizadores e tachas refletivas (olho de gato) são classificados como qual tipo de sinalização?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Dispositivos Auxiliares"
+   },
+   {
+    "id": "b",
+    "text": "Sinalização Vertical"
+   },
+   {
+    "id": "c",
+    "text": "Sinalização Cicloviária"
+   },
+   {
+    "id": "d",
+    "text": "Sinalização Horizontal"
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Os dispositivos auxiliares são “ajudantes físicos” que complementam e reforçam a sinalização, como postes, tachas refletivas e balizadores na pista.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 15, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-016",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "É permitido transitar em uma faixa exclusiva de ônibus de transporte público?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Sim, fora do horário de pico, quando não há muito ônibus circulando."
+   },
+   {
+    "id": "b",
+    "text": "Não, é uma infração gravíssima e o condutor deve respeitar a sinalização."
+   },
+   {
+    "id": "c",
+    "text": "Sim, se o trânsito nas outras faixas estiver completamente parado."
+   },
+   {
+    "id": "d",
+    "text": "Sim, se for apenas por poucos metros para fazer uma conversão."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Essa conduta é infração gravíssima e o condutor deve observar e respeitar a sinalização. Art. 184, inciso III do CTB",
+  "legalRef": "CTB, art. 184",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 16, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-017",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Na sinalização horizontal, o que linhas contínuas amarelas pintadas no centro da pista indicam?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Permissão para ultrapassagem para ambos os sentidos."
+   },
+   {
+    "id": "b",
+    "text": "Área exclusiva para a circulação de bicicletas."
+   },
+   {
+    "id": "c",
+    "text": "Separação de fluxos no mesmo sentido, com ultrapassagem proibida."
+   },
+   {
+    "id": "d",
+    "text": "Separação de fluxos em sentidos opostos, com ultrapassagem proibida para ambos os lados."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Na sinalização horizontal, a cor amarela indica fluxos em sentidos opostos e a linha contínua significa que a ultrapassagem é proibida. MBST, volume IV",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 17, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-018",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Na sinalização horizontal, qual é a função da linha de retenção?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Separar faixas de tráfego que seguem em sentidos opostos."
+   },
+   {
+    "id": "b",
+    "text": "Indicar o local exato onde é permitido ultrapassar outro veículo."
+   },
+   {
+    "id": "c",
+    "text": "Mostrar o local limite onde o veículo deve parar, antes de um semáforo ou placa 'PARE'."
+   },
+   {
+    "id": "d",
+    "text": "Delimitar a área onde os pedestres devem atravessar a rua."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A linha de retenção é uma faixa grossa pintada no chão que mostra o ponto onde o veículo deve parar completamente, antes dela, em locais de parada obrigatória, como cruzamentos. MBST, volume IV",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 18, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-019",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "O que a cor laranja em uma placa de sinalização geralmente indica?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Uma regra de trânsito que se aplica apenas durante a noite."
+   },
+   {
+    "id": "b",
+    "text": "Uma área com grande fluxo de pedestres e ciclistas."
+   },
+   {
+    "id": "c",
+    "text": "A proximidade de um ponto turístico de interesse histórico."
+   },
+   {
+    "id": "d",
+    "text": "Uma condição temporária na via, como obras ou desvios."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A cor laranja é usada nas sinalizações temporárias porque é bem visível e indica que há uma mudança nas condições normais da via, como obras ou serviços na pista.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 19, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-020",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "O que indica uma linha contínua amarela pintada no centro de uma pista?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que a ultrapassagem e o retorno são proibidos naquele trecho."
+   },
+   {
+    "id": "b",
+    "text": "Que a via é de mão única."
+   },
+   {
+    "id": "c",
+    "text": "Que é uma área exclusiva para pedestres."
+   },
+   {
+    "id": "d",
+    "text": "Que a ultrapassagem é permitida para ambos os sentidos."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A linha contínua funciona como uma barreira visual, indicando que cruzar para a outra faixa é proibido e perigoso.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 20, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-021",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "O que o motorista deve fazer ao se deparar com a luz amarela do semáforo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Reduzir a velocidade e se preparar para parar antes da faixa de retenção."
+   },
+   {
+    "id": "b",
+    "text": "Acelerar para conseguir passar antes que o sinal fique vermelho."
+   },
+   {
+    "id": "c",
+    "text": "Continuar com a mesma velocidade, pois a preferência ainda é sua."
+   },
+   {
+    "id": "d",
+    "text": "Parar imediatamente, mesmo que esteja no meio do cruzamento."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A luz amarela significa \"atenção\", indicando que o sinal ficará vermelho em breve e o condutor deve se preparar a parada obrigatória",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 21, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-022",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "O que são 'marcas de canalização' na sinalização horizontal?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Faixas brancas diagonais que organizam o fluxo, separando ou direcionando os veículos."
+   },
+   {
+    "id": "b",
+    "text": "As setas pintadas no chão que indicam a direção de cada faixa."
+   },
+   {
+    "id": "c",
+    "text": "As faixas brancas que delimitam vagas de estacionamento."
+   },
+   {
+    "id": "d",
+    "text": "A linha grossa branca antes do semáforo onde os carros devem parar."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "As marcas de canalização são linhas e símbolos pintados no chão que orientam o fluxo de veículos, indicando faixas, desvios ou separações de pistas para organizar o trânsito, e não devem ser ultrapassadas ou trafegadas, pois delimitam o espaço de circulação e mantêm a segurança.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 22, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-1-023",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "O que significa uma linha dupla na pista, sendo a linha do seu lado contínua e a outra tracejada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A ultrapassagem é proibida para ambos os sentidos de tráfego."
+   },
+   {
+    "id": "b",
+    "text": "A ultrapassagem é permitida para ambos os sentidos de tráfego."
+   },
+   {
+    "id": "c",
+    "text": "A ultrapassagem é permitida apenas para o seu sentido de tráfego."
+   },
+   {
+    "id": "d",
+    "text": "A ultrapassagem é permitida apenas para os veículos no sentido oposto."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Em uma pista dupla com linha contínua e tracejada, vale a regra: se a linha contínua está do seu lado, você não pode ultrapassar",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 23, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-024",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a atitude correta de um bom condutor ao ver o sinal de trânsito ficar amarelo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Buzinar para avisar o carro de trás que você vai parar."
+   },
+   {
+    "id": "b",
+    "text": "Frear bruscamente, mesmo que tenha espaço para parar com calma."
+   },
+   {
+    "id": "c",
+    "text": "Reduzir a velocidade e se preparar para parar com segurança antes da faixa."
+   },
+   {
+    "id": "d",
+    "text": "Acelerar para aproveitar o 'último segundo' e não ter que parar."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Esta é a conduta do motorista consciente, que entende que o amarelo é um aviso para parar, não para acelerar.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 24, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-025",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a função das setas direcionais pintadas no chão?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Alertar para a presença de ciclistas compartilhando a via."
+   },
+   {
+    "id": "b",
+    "text": "Indicar a direção obrigatória que cada faixa de tráfego segue."
+   },
+   {
+    "id": "c",
+    "text": "Avisar sobre a proximidade de um retorno na via."
+   },
+   {
+    "id": "d",
+    "text": "Sugerir as melhores rotas para evitar congestionamentos."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "As setas direcionais pintadas no chão indicam a direção obrigatória que os veículos devem seguir em cada faixa. MBST Vol. IV",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 25, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-026",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a principal característica das sinalizações temporárias?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ela utiliza exclusivamente dispositivos luminosos, como semáforos."
+   },
+   {
+    "id": "b",
+    "text": "É sempre acompanhada por um agente de trânsito."
+   },
+   {
+    "id": "c",
+    "text": "Sua cor laranja e sinaliza que há um evento ou obra no caminho, caracteriza-se por não ser permanente."
+   },
+   {
+    "id": "d",
+    "text": "Ela só é válida durante o dia."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A principal característica da sinalização temporária é que ela indica mudanças nas condições normais da via, como obras ou desvios, e pode ser removida ou alterada conforme a situação. MBST Vol. VII",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 26, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-1-027",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Qual é a principal diferença entre a placa 'Proibido Estacionar' e 'Proibido Parar e Estacionar'?",
+  "options": [
+   {
+    "id": "a",
+    "text": "'Proibido Estacionar' é uma recomendação, enquanto 'Proibido Parar e Estacionar' é uma ordem."
+   },
+   {
+    "id": "b",
+    "text": "Uma se aplica a carros e a outra a motocicletas."
+   },
+   {
+    "id": "c",
+    "text": "Não há diferença, ambas proíbem completamente a imobilização do veículo."
+   },
+   {
+    "id": "d",
+    "text": "Em 'Proibido Estacionar' é permitida uma parada rápida para embarque/desembarque, enquanto na outra, nem isso é permitido."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Em \"Proibido Estacionar\" é permitida uma parada rápida para embarque e desembarque (E com um corte diagonal), mas o condutor não pode deixar o veículo estacionado",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 27, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-028",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Qual é a principal função das placas de advertência, como a que indica 'Curva Acentuada'?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Educar o motorista sobre comportamento seguro."
+   },
+   {
+    "id": "b",
+    "text": "Informar a distância até a próxima cidade."
+   },
+   {
+    "id": "c",
+    "text": "Alertar sobre perigos e situações especiais à frente na via."
+   },
+   {
+    "id": "d",
+    "text": "Ordenar a parada imediata do veículo."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "As placas de advertência servem para avisar como antecedência sobre condições que exigem atenção, como curvas à frente ou lombadas",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 28, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-029",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "O que a sinalização cicloviária, com faixas vermelhas e símbolos de bicicleta, indica?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que os ciclistas devem ceder a preferência aos veículos motorizados nessas áreas."
+   },
+   {
+    "id": "b",
+    "text": "Indicar áreas onde o trânsito de bicicletas é proibido devido ao alto fluxo de carros."
+   },
+   {
+    "id": "c",
+    "text": "Indicar um espaço prioritário ou exclusivo para a circulação de ciclistas, que deve ser respeitado pelos motoristas."
+   },
+   {
+    "id": "d",
+    "text": "Alertar os ciclistas de que eles estão entrando em uma via compartilhada sem preferência definida."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A sinalização cicloviária, como faixas vermelhas e símbolos de bicicleta, indica áreas exclusivas para ciclistas e orienta sua circulação, garantindo segurança do ciclista e separação do tráfego de veículos motorizados. MBST Vol. IV",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 29, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-1-030",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Qual é a principal razão para que a placa 'PARE' tenha um formato octogonal único?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Para ser facilmente reconhecida, mesmo que vista de costas ou parcialmente coberta."
+   },
+   {
+    "id": "b",
+    "text": "Para diferenciar as paradas obrigatórias em áreas rurais e urbanas."
+   },
+   {
+    "id": "c",
+    "text": "Para indicar que a parada é uma sugestão e não uma ordem."
+   },
+   {
+    "id": "d",
+    "text": "Para economizar material na sua fabricação."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "O formato octogonal da placa \"PARE\" é único para que seja facilmente reconhecida à distância, garantindo que o condutor identifique imediatamente a obrigação de parar.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 30, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-031",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Qual é o principal objetivo da sinalização de trânsito no Brasil?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Decorar as ruas e estradas com placas e pinturas coloridas."
+   },
+   {
+    "id": "b",
+    "text": "Tornar o trânsito mais seguro, organizado e previsível para todos os usuários da via."
+   },
+   {
+    "id": "c",
+    "text": "Testar a habilidade e atenção dos motoristas em situações complexas."
+   },
+   {
+    "id": "d",
+    "text": "Aumentar a arrecadação de multas para os municípios e estados."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A sinalização existe para organizar o trânsito e garantir a segurança, funcionando como uma linguagem universal",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 31, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-032",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual tipo de calçado é considerado inadequado e perigoso para a condução de um veículo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Chinelos e calçados que não ficam firmes nos pés."
+   },
+   {
+    "id": "b",
+    "text": "Tênis com solado grosso."
+   },
+   {
+    "id": "c",
+    "text": "Sapatos fechados."
+   },
+   {
+    "id": "d",
+    "text": "Botas de cano longo."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Este tipo de calçado pode escapar dos pés, enroscar nos pedais e comprometer seriamente a segurança da condução.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 32, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-033",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Quando a sinalização horizontal apresenta uma linha branca seccionada (tracejada), o que isso significa?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Separa fluxos no mesmo sentido e a ultrapassagem é permitida, se houver segurança."
+   },
+   {
+    "id": "b",
+    "text": "É uma área onde é proibido parar e estacionar."
+   },
+   {
+    "id": "c",
+    "text": "Separa fluxos de sentidos opostos e a ultrapassagem é proibida."
+   },
+   {
+    "id": "d",
+    "text": "Indica a aproximação de uma faixa de pedestres."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A linha branca tracejada separa faixas de mesmo sentido e indica que o condutor pode trocar de faixa ou ultrapassar, desde que seja seguro, respeitando os limites de velocidade e atenção ao trânsito ao redor.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 33, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-034",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Quando um motorista encontra a palavra 'PARE' escrita no chão, qual é a sua relação com a placa vertical de 'PARE'?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A palavra no chão indica que a parada é opcional, enquanto a placa a torna obrigatória."
+   },
+   {
+    "id": "b",
+    "text": "É uma marcação para pedestres, indicando onde eles devem parar antes de atravessar."
+   },
+   {
+    "id": "c",
+    "text": "Ela reforça a mensagem da placa de 'PARE', indicando a mesma ordem de parada obrigatória."
+   },
+   {
+    "id": "d",
+    "text": "A marcação no chão substitui a placa, tendo maior prioridade na hierarquia."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A palavra \"PARE\" pintada no chão reforça a placa vertical de “PARE”, indicando o ponto exato onde o veículo deve parar completamente.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 34, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-035",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Se um semáforo em uma passagem de trem começar a piscar em vermelho, o que isso significa?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que a passagem está livre e os carros podem cruzar a ferrovia."
+   },
+   {
+    "id": "b",
+    "text": "Que o semáforo está com defeito e o motorista deve passar com cuidado."
+   },
+   {
+    "id": "c",
+    "text": "Que um trem está se aproximando e a travessia deve ser interrompida imediatamente."
+   },
+   {
+    "id": "d",
+    "text": "Que apenas veículos pesados, como caminhões, devem parar."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Se o semáforo em uma passagem de trem começar a piscar em vermelho, significa que os veículos devem parar e aguardar a passagem do trem, pois a travessia não está segura.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 35, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-036",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Se você estiver em um cruzamento onde o semáforo está verde, mas um agente de trânsito sinaliza para você parar, qual instrução você deve seguir?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A da placa de 'PARE', se houver uma no cruzamento."
+   },
+   {
+    "id": "b",
+    "text": "Nenhuma, deve-se usar a regra geral de preferência da direita."
+   },
+   {
+    "id": "c",
+    "text": "A do semáforo, pois é um equipamento eletrônico e mais preciso."
+   },
+   {
+    "id": "d",
+    "text": "A do agente de trânsito, pois suas ordens prevalecem sobre todas as outras sinalizações."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Você deve obedecer ao agente, pois ele tem a maior autoridade no trânsito: vem antes do semáforo, das placas e das marcas pintadas no chão.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 36, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-037",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Um motorista avista uma placa amarela em formato de losango. Qual tipo de informação essa placa está transmitindo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A identificação de uma rodovia ou a indicação de serviços auxiliares, como um restaurante."
+   },
+   {
+    "id": "b",
+    "text": "Um aviso sobre uma condição potencialmente perigosa à frente, como 'Saliência ou lombada'."
+   },
+   {
+    "id": "c",
+    "text": "Uma ordem que, se desobedecida, resulta em infração, como um limite de velocidade."
+   },
+   {
+    "id": "d",
+    "text": "Um indicativo de ponto turístico, como parque natural ou museu."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "As placas amarelas em formato de losango são advertências e alertas sobre perigos adiante na estrada.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 37, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-1-038",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Um semáforo está verde, mas um agente de trânsito sinaliza para você parar. Qual instrução deve ser seguida?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Parar imediatamente, pois o agente tem prioridade."
+   },
+   {
+    "id": "b",
+    "text": "Acelerar para atravessar antes do agente."
+   },
+   {
+    "id": "c",
+    "text": "Seguir o semáforo."
+   },
+   {
+    "id": "d",
+    "text": "Ignorar e continuar."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "As instruções do agente de trânsito têm prioridade sobre semáforos, placas e outras sinalizações, garantindo segurança e controle do fluxo.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 38, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-1-039",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Você encontra uma placa circular branca com borda vermelha e o número 60. O que significa?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Velocidade mínima de 60 km/h."
+   },
+   {
+    "id": "b",
+    "text": "Velocidade máxima permitida: 60 km/h."
+   },
+   {
+    "id": "c",
+    "text": "Faixa exclusiva para veículos que trafegam a 60 km/h."
+   },
+   {
+    "id": "d",
+    "text": "Distância de 60 metros até a próxima curva."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Placas circulares com borda vermelha indicam regulamentações obrigatórias",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 39, nível Fácil",
+  "signCode": "R-19"
+ },
+ {
+  "id": "bnq-p2-1-040",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Você está dirigindo e vê uma placa de regulamentação com o símbolo de um 'E' cortado por uma faixa vermelha. O que essa placa permite?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Indica que o estacionamento é exclusivo para um determinado tipo de veículo."
+   },
+   {
+    "id": "b",
+    "text": "Não permite nenhuma forma de imobilização do veículo, nem mesmo por um instante."
+   },
+   {
+    "id": "c",
+    "text": "Permite estacionar, mas proíbe a parada rápida para embarque e desembarque."
+   },
+   {
+    "id": "d",
+    "text": "Permite uma parada rápida para embarque e desembarque, mas proíbe estacionar o veículo no local."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Uma placa de regulamentação com o símbolo de um “E” cortado por uma faixa vermelha indica “Proibido Estacionar”, permitindo apenas paradas rápidas para embarque e desembarque, mas não permite estacionar o veículo.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 40, nível Fácil",
+  "signCode": "R-6a"
+ },
+ {
+  "id": "bnq-p2-1-041",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Você vê uma placa amarela com o desenho de pessoa atravessando. O que ela significa?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Apenas alerta sobre ciclovia."
+   },
+   {
+    "id": "b",
+    "text": "Indica que não há pedestres na área."
+   },
+   {
+    "id": "c",
+    "text": "Faixa de pedestres, respeite a prioridade."
+   },
+   {
+    "id": "d",
+    "text": "Permite que veículos passem sem reduzir velocidade."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Placas de advertência alertam sobre locais onde há maior atenção necessária",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 1, q. 41, nível Fácil",
+  "signCode": "A-32b"
+ },
+ {
+  "id": "bnq-p2-2-001",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "A atitude de seguir um veículo de emergência (ambulância, bombeiros) para aproveitar o caminho livre é considerada:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Permitida, desde que se mantenha uma distância segura."
+   },
+   {
+    "id": "b",
+    "text": "Uma estratégia permitida em caso de congestionamento."
+   },
+   {
+    "id": "c",
+    "text": "Uma infração de trânsito."
+   },
+   {
+    "id": "d",
+    "text": "Uma atitude de bom senso para liberar a via mais rápido."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Essa conduta é irregular e perigosa. Infração do artigo 190 do CTB",
+  "legalRef": "CTB, art. 190",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 1, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-002",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Ameaçar pedestres que atravessam a via ou outros veículos é uma infração de que tipo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Leve"
+   },
+   {
+    "id": "b",
+    "text": "Grave"
+   },
+   {
+    "id": "c",
+    "text": "Média"
+   },
+   {
+    "id": "d",
+    "text": "Gravíssima"
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Art. 170 do CTB",
+  "legalRef": "CTB, art. 170",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 2, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-003",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Avançar o sinal vermelho é uma infração gravíssima. Quantos pontos são adicionados à CNH do condutor por essa atitude?",
+  "options": [
+   {
+    "id": "a",
+    "text": "4 pontos."
+   },
+   {
+    "id": "b",
+    "text": "7 pontos."
+   },
+   {
+    "id": "c",
+    "text": "5 pontos."
+   },
+   {
+    "id": "d",
+    "text": "3 pontos."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "As infrações gravíssimas, que representam o maior risco, recebem a pontuação máxima. Art. 259, inciso I do CTB",
+  "legalRef": "CTB, art. 259",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 3, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-004",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Dirigir com a CNH vencida há mais de 30 dias é considerado qual tipo de infração?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Média"
+   },
+   {
+    "id": "b",
+    "text": "Gravíssima"
+   },
+   {
+    "id": "c",
+    "text": "Leve"
+   },
+   {
+    "id": "d",
+    "text": "Grave"
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Dirigir sem estar devidamente habilitado (o que inclui CNH vencida) representa um risco imediato e elevado. Art. 162, inciso V do CTB",
+  "legalRef": "CTB, art. 162",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 4, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-005",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Dirigir com o som do carro excessivamente alto, perturbando o sossego público, é uma infração de qual gravidade?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Média."
+   },
+   {
+    "id": "b",
+    "text": "Grave."
+   },
+   {
+    "id": "c",
+    "text": "Leve."
+   },
+   {
+    "id": "d",
+    "text": "Não é uma infração de trânsito, mas sim uma contravenção penal."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Além de ser uma falta de respeito, o som alto é considerado uma infração de alto risco social, com multa e possibilidade de retenção do veículo. Art. 228 do CTB",
+  "legalRef": "CTB, art. 228",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 5, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-006",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Dirigir com uma lâmpada do farol queimada é considerado uma infração de qual natureza?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Grave, pois é um equipamento obrigatório."
+   },
+   {
+    "id": "b",
+    "text": "Leve, pois a outra lâmpada ainda funciona."
+   },
+   {
+    "id": "c",
+    "text": "Não é uma infração, mas o motorista deve consertar assim que possível."
+   },
+   {
+    "id": "d",
+    "text": "Média, pois representa risco à segurança por falta de visibilidade."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Uma lâmpada queimada é um exemplo de infração média, que pode colocar a vida do condutor em risco. Art. 230, inciso XXII do CTB",
+  "legalRef": "CTB, art. 230",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 6, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-007",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Durante o período da Permissão Para Dirigir , qual combinação de infrações resultará na perda do direito de obter a CNH definitiva?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Cometer uma única infração de natureza média."
+   },
+   {
+    "id": "b",
+    "text": "Cometer duas infrações de natureza leve em um ano."
+   },
+   {
+    "id": "c",
+    "text": "Ser reincidente em uma infração de natureza média."
+   },
+   {
+    "id": "d",
+    "text": "Não cometer infração."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "O condutor em período de permissão não pode ser reincidente em infrações médias, além de não poder cometer infrações graves ou gravíssimas.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 7, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-008",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Durante o período de validade da Permissão Para Dirigir, qual tipo de infração o condutor NÃO pode cometer para obter a CNH definitiva?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Receber duas multa leves."
+   },
+   {
+    "id": "b",
+    "text": "Cometer infração grave ou gravíssima."
+   },
+   {
+    "id": "c",
+    "text": "Ser autuado por excesso de velocidade de até 20% acima do limite."
+   },
+   {
+    "id": "d",
+    "text": "Cometer qualquer infração de natureza leve."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Art. 148, §§ 3º e 4º do CTB",
+  "legalRef": "CTB, art. 148",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 8, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-009",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Estacionar em uma vaga reservada para idosos ou pessoas com deficiência sem possuir a devida credencial é uma infração:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Leve, se for 'apenas 5 minutinhos'."
+   },
+   {
+    "id": "b",
+    "text": "Grave, pois dificulta a mobilidade de outras pessoas."
+   },
+   {
+    "id": "c",
+    "text": "Média, pois apenas atrapalha o acesso."
+   },
+   {
+    "id": "d",
+    "text": "Gravíssima, por ser uma falta de respeito e desrespeito à lei de acessibilidade."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O uso indevido dessas vagas é uma das infrações mais severas por seu impacto social e desrespeito a um direito.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 9, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-010",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "É permitido estacionar o veículo no sentido contrário ao fluxo da via, ainda que esteja corretamente alinhado à calçada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Sim, desde que seja durante a noite, quando o trânsito é menor."
+   },
+   {
+    "id": "b",
+    "text": "Não, mas é considerado apenas uma infração leve."
+   },
+   {
+    "id": "c",
+    "text": "Sim, se não houver placa proibindo."
+   },
+   {
+    "id": "d",
+    "text": "Não, é uma infração de trânsito média, pois pode confundir outros condutores."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Essa prática é uma infração pois surpreende outros motoristas e vai contra o fluxo da via.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 10, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-011",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Estacionar sobre uma calçada ou ciclovia é uma infração de qual gravidade?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Leve"
+   },
+   {
+    "id": "b",
+    "text": "Gravíssima"
+   },
+   {
+    "id": "c",
+    "text": "Média"
+   },
+   {
+    "id": "d",
+    "text": "Grave"
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Desrespeitar o espaço exclusivo de pedestres e ciclistas, colocando-os em risco, é classificado como uma infração de alto perigo.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 11, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-012",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Fazer manobras perigosas como 'empinar' a moto em via pública é considerado:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Uma infração gravíssima e também pode ser considerada crime de trânsito."
+   },
+   {
+    "id": "b",
+    "text": "Uma demonstração de habilidade, permitida se não houver outros veículos por perto."
+   },
+   {
+    "id": "c",
+    "text": "Apenas uma infração grave, com multa de valor moderado."
+   },
+   {
+    "id": "d",
+    "text": "Uma infração leve, pois não causa danos diretos a ninguém."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Essas manobras são infrações gravíssimas e, quando geram situação de risco, podem configurar crime. Art. 244, inciso III",
+  "legalRef": "CTB, art. 244",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 12, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-013",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Fugir do local de um sinistro para evitar a responsabilidade é considerado o que pela lei de trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Um crime de trânsito, com pena de detenção ou multa."
+   },
+   {
+    "id": "b",
+    "text": "Uma infração média, se ninguém ficou ferido."
+   },
+   {
+    "id": "c",
+    "text": "Uma atitude moralmente errada, mas sem punição legal específica."
+   },
+   {
+    "id": "d",
+    "text": "Uma infração grave, com multa e pontos na CNH."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "O Código de Trânsito Brasileiro tipifica a fuga do local do sinistro como crime, pois demonstra a intenção de não arcar com as responsabilidades.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 13, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-014",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Não usar o cinto de segurança, seja no banco da frente ou de trás, é classificado como qual tipo de infração?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Gravíssima"
+   },
+   {
+    "id": "b",
+    "text": "Grave"
+   },
+   {
+    "id": "c",
+    "text": "Média"
+   },
+   {
+    "id": "d",
+    "text": "Leve"
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "O CTB classifica essa infração como grave.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 14, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-015",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual o limite de pontos em 12 meses para o condutor que não tem nenhuma infração gravíssima?",
+  "options": [
+   {
+    "id": "a",
+    "text": "40 (quarenta) pontos."
+   },
+   {
+    "id": "b",
+    "text": "19 (dezenove) pontos."
+   },
+   {
+    "id": "c",
+    "text": "20 (vinte) pontos."
+   },
+   {
+    "id": "d",
+    "text": "30 (trinta) pontos."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Conforme o Art. 261, Inciso I, alínea 'c' do CTB, a penalidade de suspensão do direito de dirigir será imposta quando o infrator atingir 40 (quarenta) pontos no período de 12 meses, caso não conste nenhuma infração gravíssima na pontuação.",
+  "legalRef": "CTB, art. 261",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 15, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-016",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "O que pode acontecer se você não pagar uma multa de trânsito dentro do prazo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "O veículo pode ficar com restrições no licenciamento, impedindo sua circulação e transferência."
+   },
+   {
+    "id": "b",
+    "text": "O valor da multa é descontado diretamente do seu salário."
+   },
+   {
+    "id": "c",
+    "text": "Você perde pontos na CNH, mas não precisa pagar a multa."
+   },
+   {
+    "id": "d",
+    "text": "A multa é perdoada automaticamente após um ano."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Conforme dispõe o Art. 131, § 2º do CTB, multas não pagas impedem a regularização do veículo e acumulam juros.",
+  "legalRef": "CTB, art. 131",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 16, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-017",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Para um motociclista, qual é a infração por pilotar com a viseira do capacete levantada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Infração leve"
+   },
+   {
+    "id": "b",
+    "text": "Não é uma infração"
+   },
+   {
+    "id": "c",
+    "text": "Infração gravíssima"
+   },
+   {
+    "id": "d",
+    "text": "Infração média"
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Pilotar sem a proteção dos olhos (viseira ou óculos) é uma infração média. Art. 244, inciso X",
+  "legalRef": "CTB, art. 244",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 17, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-018",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Por que é proibido estacionar a menos de 5 metros de uma esquina?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque é um espaço reservado para carga e descarga."
+   },
+   {
+    "id": "b",
+    "text": "Porque essa área é de uso exclusivo dos pedestres."
+   },
+   {
+    "id": "c",
+    "text": "Porque a prefeitura costuma instalar lixeiras nesse local."
+   },
+   {
+    "id": "d",
+    "text": "Porque atrapalha a visão dos motoristas, dificulta manobras, além de ser uma infração de trânsito."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Estacionar na esquina prejudica a visibilidade no cruzamento, aumentando o risco de sinistros. Art. 181, inciso I",
+  "legalRef": "CTB, art. 181",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 18, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-019",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual atitude pode transformar uma infração de trânsito em um crime de trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Receber mais de três multas gravíssimas no mesmo ano."
+   },
+   {
+    "id": "b",
+    "text": "Dirigir sob efeito de álcool acima do limite previsto em lei."
+   },
+   {
+    "id": "c",
+    "text": "Estacionar em local proibido por mais de duas horas."
+   },
+   {
+    "id": "d",
+    "text": "Não pagar a multa de trânsito dentro do prazo de vencimento."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Quando o comportamento do condutor é tão perigoso que ultrapassa a esfera administrativa, como dirigir embriagado, ela se torna um crime.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 19, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-020",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual das atitudes a seguir pode ser considerada um crime de trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Transitar pela faixa exclusiva de ônibus."
+   },
+   {
+    "id": "b",
+    "text": "Estacionar em fila dupla para um desembarque rápido."
+   },
+   {
+    "id": "c",
+    "text": "Fugir do pagamento do pedágio."
+   },
+   {
+    "id": "d",
+    "text": "Participar de 'racha' ou exibição perigosa em via pública."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Competições ilegais e manobras arriscadas geram um risco tão alto que são tipificadas como crime, com pena de detenção.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 20, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-021",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual das seguintes ações é classificada como uma infração de gravidade média?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Estacionar o veículo afastado um pouco da guia."
+   },
+   {
+    "id": "b",
+    "text": "Não usar o cinto de segurança."
+   },
+   {
+    "id": "c",
+    "text": "Transitar em velocidade até 20% superior à máxima permitida."
+   },
+   {
+    "id": "d",
+    "text": "Avançar o sinal vermelho do semáforo."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "O excesso de velocidade nesta faixa representa um risco moderado, de acordo com a classificação do sistema de trânsito.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 21, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-022",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Qual das seguintes ações representa uma infração de trânsito grave e um risco ambiental relacionado à poluição sonora e do ar?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Dirigir com as palhetas do limpador de para-brisa gastas."
+   },
+   {
+    "id": "b",
+    "text": "Não realizar o rodízio de pneus a cada 10 mil km."
+   },
+   {
+    "id": "c",
+    "text": "Circular com o carro fazendo barulho pelo escapamento e soltando fumaça preta e excessiva."
+   },
+   {
+    "id": "d",
+    "text": "Utilizar o farol alto em vias iluminadas, ofuscando outros motoristas."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A fumaça preta indica problemas no motor, alta emissão de poluentes e constitui uma infração de trânsito grave.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 22, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-023",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a classificação da infração de um motociclista que pilota sem usar o capacete?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Gravíssima, com multa e suspensão do direito de dirigir."
+   },
+   {
+    "id": "b",
+    "text": "Leve, se for em um trajeto curto dentro do bairro."
+   },
+   {
+    "id": "c",
+    "text": "Média, se estiver em baixa velocidade."
+   },
+   {
+    "id": "d",
+    "text": "Grave, com multa e retenção da moto."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A falta do principal equipamento de segurança para motociclistas é uma das infrações mais perigosas e acarreta, além da multa, a suspensão da CNH.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 23, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-024",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a classificação da infração por deixar de usar a seta para indicar uma mudança de faixa?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Gravíssima"
+   },
+   {
+    "id": "b",
+    "text": "Grave"
+   },
+   {
+    "id": "c",
+    "text": "Leve"
+   },
+   {
+    "id": "d",
+    "text": "Média"
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A seta é um sistema de comunicação essencial, e não usá-la coloca outros em alto risco ao criar uma situação imprevisível.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 24, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-025",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a classificação da infração por não dar passagem a um veículo de emergência com sirene e luzes ligadas?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Média, pois é uma questão de gentileza."
+   },
+   {
+    "id": "b",
+    "text": "Leve, se o motorista não percebeu a tempo."
+   },
+   {
+    "id": "c",
+    "text": "Gravíssima."
+   },
+   {
+    "id": "d",
+    "text": "Grave, pois atrapalha o trânsito."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Deve ser dada prioridade aos veículos de emergência.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 25, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-026",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a gravidade da infração de transitar pelo acostamento?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Grave, com multa e 5 pontos."
+   },
+   {
+    "id": "b",
+    "text": "Leve, pois não interfere na faixa de rolamento."
+   },
+   {
+    "id": "c",
+    "text": "Gravíssima, com multa multiplicada por 3."
+   },
+   {
+    "id": "d",
+    "text": "Média, se for por um trecho curto."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Utilizar o acostamento para obter vantagem no trânsito gera um alto risco de sinistros e é punido com severidade.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 26, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-027",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Qual é a gravidade da infração por desobedecer às ordens de um agente de trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Leve, pois o agente pode apenas dar uma advertência verbal."
+   },
+   {
+    "id": "b",
+    "text": "Gravíssima."
+   },
+   {
+    "id": "c",
+    "text": "Média, se a desobediência não causar um sinistro."
+   },
+   {
+    "id": "d",
+    "text": "Grave."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A autoridade do agente é fundamental para a segurança, e desrespeitá-la é uma infração de alto risco.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 27, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-028",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual o limite de pontos na CNH, em um período de 12 meses, para um condutor que não cometeu nenhuma infração gravíssima?",
+  "options": [
+   {
+    "id": "a",
+    "text": "40 pontos."
+   },
+   {
+    "id": "b",
+    "text": "30 pontos."
+   },
+   {
+    "id": "c",
+    "text": "50 pontos."
+   },
+   {
+    "id": "d",
+    "text": "20 pontos."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Conforme o art. 261, Inciso I, alínea 'c' do CTB, a penalidade de suspensão do direito de dirigir será imposta quando o infrator atingir 40 (quarenta) pontos no período de 12 meses, caso não conste nenhuma infração gravíssima na pontuação.",
+  "legalRef": "CTB, art. 261",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 28, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-029",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Quando um agente de trânsito retém o veículo no local da fiscalização, qual tipo de consequência está sendo aplicada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Crime de Trânsito"
+   },
+   {
+    "id": "b",
+    "text": "Medida Administrativa"
+   },
+   {
+    "id": "c",
+    "text": "Pontuação na Carteira"
+   },
+   {
+    "id": "d",
+    "text": "Penalidade"
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Esta é a ação imediata realizada pelo agente no momento da fiscalização para impedir que o perigo continue.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 29, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-2-030",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Quando uma infração de trânsito, como dirigir alcoolizado, se torna também um crime de trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Infrações de trânsito e crimes de trânsito são a mesma coisa."
+   },
+   {
+    "id": "b",
+    "text": "Sempre que o motorista é parado em uma blitz."
+   },
+   {
+    "id": "c",
+    "text": "Apenas se o motorista causar um sinistro com vítimas"
+   },
+   {
+    "id": "d",
+    "text": "Quando o comportamento é tão grave que ultrapassa a esfera administrativa, como atingir um certo limite no bafômetro."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O crime ocorre quando a conduta é tão perigosa que a lei prevê processo criminal, como ao exceder 0,3 mg/L no etilômetro (bafômetro).",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 30, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-031",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Quantos pontos são somados na CNH por uma infração de natureza Leve?",
+  "options": [
+   {
+    "id": "a",
+    "text": "7 pontos"
+   },
+   {
+    "id": "b",
+    "text": "5 pontos"
+   },
+   {
+    "id": "c",
+    "text": "3 pontos"
+   },
+   {
+    "id": "d",
+    "text": "4 pontos"
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Infrações leves, que geram menor risco imediato, resultam nesta pontuação.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 31, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-032",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Transportar uma criança sem o dispositivo de retenção adequado (bebê-conforto, cadeirinha, etc.) é uma infração de qual natureza?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Grave"
+   },
+   {
+    "id": "b",
+    "text": "Média"
+   },
+   {
+    "id": "c",
+    "text": "Gravíssima"
+   },
+   {
+    "id": "d",
+    "text": "Leve"
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A vulnerabilidade de uma criança em um sinistro torna essa infração uma das mais perigosas, sendo punida com a máxima severidade.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 32, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-2-033",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Um motorista joga uma lata de refrigerante pela janela do carro. Além de ser uma falta de educação, como essa atitude é classificada pela legislação?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Como uma infração leve, pois não coloca a vida de ninguém em risco."
+   },
+   {
+    "id": "b",
+    "text": "Como uma infração de trânsito média e um ato que prejudica o meio ambiente."
+   },
+   {
+    "id": "c",
+    "text": "Como uma infração grave, com a mesma penalidade de furar um sinal vermelho."
+   },
+   {
+    "id": "d",
+    "text": "Como uma atitude inadequada, mas que não gera nenhuma penalidade."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Jogar lixo pela janela é classificado como infração média, além de ser um crime ambiental que contribui para a poluição das cidades e entupimento de bueiros. Art. 172 do CTB",
+  "legalRef": "CTB, art. 172",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 33, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-2-034",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Um motorista que ultrapassa o limite de velocidade em mais de 50% comete uma infração gravíssima que resulta em:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Apenas a suspensão do direito de dirigir."
+   },
+   {
+    "id": "b",
+    "text": "Multa multiplicada por 3 e suspensão do direito de dirigir."
+   },
+   {
+    "id": "c",
+    "text": "Multa multiplicada por 5 e cassação da CNH."
+   },
+   {
+    "id": "d",
+    "text": "Apenas multa com valor normal e 7 pontos na CNH."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Esta combinação de penalidades é aplicada para esse nível de excesso de velocidade, refletindo o alto risco da conduta.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 2, q. 34, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-001",
+  "stateCode": "AM",
+  "topic": "direcao_defensiva",
+  "statement": "Qual a finalidade de se manter uma distância mínima de 2 metros em relação ao veículo que segue à frente?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Visibilidade dos semáforos e placas de trânsito."
+   },
+   {
+    "id": "b",
+    "text": "Que o motorista da frente não se sinta pressionado."
+   },
+   {
+    "id": "c",
+    "text": "Uma melhor aerodinâmica e economia de combustível."
+   },
+   {
+    "id": "d",
+    "text": "Espaço suficiente para frear com segurança em caso de imprevisto."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Este tempo/distância permite que o motorista perceba o perigo, reaja e acione os freios sem colidir com o veículo à frente.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 1, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-002",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Além de enxergar bem ao dirigir, ser visto pelos outros depende de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Faróis apagados para não “incomodar”."
+   },
+   {
+    "id": "b",
+    "text": "Seta desligada para surpresa."
+   },
+   {
+    "id": "c",
+    "text": "Películas escuras no para-brisa."
+   },
+   {
+    "id": "d",
+    "text": "Faróis e lanternas limpos e funcionando."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "É muito perigoso dirigir sem esses equipamentos ligados, acione seus fárois e lanternas para segurança de todos.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 2, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-003",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Ao dirigir em uma estrada de terra, qual comportamento é essencial para manter a segurança e o controle do veículo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Dirigir com as mãos relaxadas no volante para sentir melhor o terreno."
+   },
+   {
+    "id": "b",
+    "text": "Manter a mesma velocidade de uma rodovia asfaltada para evitar que o carro 'flutue'."
+   },
+   {
+    "id": "c",
+    "text": "Frear bruscamente antes das curvas para garantir a máxima aderência."
+   },
+   {
+    "id": "d",
+    "text": "Aumentar a distância do veículo da frente e reduzir a velocidade."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A poeira levantada pelo veículo da frente prejudica a visibilidade e a menor aderência do piso exige mais espaço para frenagem, tornando essas duas ações cruciais.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 3, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-004",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Ao dirigir em uma rodovia durante o dia, qual procedimento relacionado à iluminação do veículo é recomendado?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Manter o farol baixo sempre aceso."
+   },
+   {
+    "id": "b",
+    "text": "Usar apenas as luzes de neblina."
+   },
+   {
+    "id": "c",
+    "text": "Ligar o farol alto para ser visto de longe."
+   },
+   {
+    "id": "d",
+    "text": "Não é necessário usar os faróis durante o dia."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Esta prática aumenta a visibilidade do seu veículo para os outros condutores, mesmo sob a luz do sol.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 4, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-005",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Ao realizar uma conversão à direita, como o motorista deve posicionar o veículo antes de iniciar a manobra?",
+  "options": [
+   {
+    "id": "a",
+    "text": "No meio da faixa, para ter mais espaço de manobra."
+   },
+   {
+    "id": "b",
+    "text": "O mais próximo possível do bordo direito da via."
+   },
+   {
+    "id": "c",
+    "text": "O mais próximo possível do eixo central da via."
+   },
+   {
+    "id": "d",
+    "text": "O mais próximo possível do bordo esquerdo da via."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Esta posição impede que outros veículos passem pela direita e indica claramente a intenção de virar.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 5, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-006",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Ao realizar uma conversão à esquerda em uma via de mão dupla, qual o posicionamento correto a ser adotado antes de iniciar a conversão?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Invadir a pista contrária para ter mais espaço na curva."
+   },
+   {
+    "id": "b",
+    "text": "Aproximar-se do eixo central da via, sem invadir a contramão."
+   },
+   {
+    "id": "c",
+    "text": "Manter-se no centro da faixa de rolamento."
+   },
+   {
+    "id": "d",
+    "text": "Aproximar-se do bordo direito da pista."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Este posicionamento sinaliza corretamente a intenção de virar à esquerda e organiza o fluxo de quem segue em frente.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 6, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-007",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Ao sair de uma rodovia, quando o condutor deve começar a reduzir a velocidade?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente após ter entrado completamente na faixa de desaceleração."
+   },
+   {
+    "id": "b",
+    "text": "Ainda na pista principal, antes de entrar na faixa de desaceleração."
+   },
+   {
+    "id": "c",
+    "text": "Assim que avistar a placa indicando a saída."
+   },
+   {
+    "id": "d",
+    "text": "Apenas no final da faixa de desaceleração, freando bruscamente."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A faixa de desaceleração existe justamente para que a redução de velocidade seja feita fora do fluxo principal, com segurança.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 7, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-008",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Ao se deparar com uma rotatória, quem tem a preferência de passagem?",
+  "options": [
+   {
+    "id": "a",
+    "text": "O veículo que já está circulando dentro dela."
+   },
+   {
+    "id": "b",
+    "text": "O veículo maior ou mais rápido."
+   },
+   {
+    "id": "c",
+    "text": "O veículo que está entrando na rotatória."
+   },
+   {
+    "id": "d",
+    "text": "O veículo que vem pela direita, mesmo que vá entrar na rotatória."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Para manter a fluidez e a segurança, a prioridade é sempre de quem já está realizando a manobra circular.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 8, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-009",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Após uma pequena colisão em uma avenida movimentada que resultou apenas em para-choques amassados, sem feridos, o que os condutores devem fazer prioritariamente?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Deixar os carros na posição da batida e aguardar a chegada da polícia para fazer o registro."
+   },
+   {
+    "id": "b",
+    "text": "Ligar imediatamente para o SAMU (192), mesmo que ninguém aparente estar machucado."
+   },
+   {
+    "id": "c",
+    "text": "Retirar os veículos para um local seguro, como o acostamento, para liberar o fluxo de trânsito e evitar novos sinistros."
+   },
+   {
+    "id": "d",
+    "text": "Iniciar a troca de informações e acionar o seguro antes de mover os carros do local."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A legislação determina que, em casos de sinistro apenas com danos materiais, os veículos devem ser removidos para garantir a segurança e a fluidez da via.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 9, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-010",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "As defensas metálicas instaladas nas margens de pontes e curvas perigosas são um exemplo de quê?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Sinalização vertical"
+   },
+   {
+    "id": "b",
+    "text": "Sinalização Horizontal"
+   },
+   {
+    "id": "c",
+    "text": "Dispositivo auxiliar"
+   },
+   {
+    "id": "d",
+    "text": "Sinalização temporária"
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "As defensas metálicas são um exemplo de dispositivos auxiliares, elementos físicos que compõem a sinalização projetado para proteger veículos e reduzir a gravidade de colisões em pontes e curvas perigosas.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 10, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-011",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Até que a criança atinja 1,45 m de altura, em qual local do veículo ela deve ser transportada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "No banco traseiro, no colo de um adulto."
+   },
+   {
+    "id": "b",
+    "text": "Em qualquer assento, desde que use o cinto de segurança do veículo"
+   },
+   {
+    "id": "c",
+    "text": "No banco traseiro, utilizando o dispositivo de retenção adequado."
+   },
+   {
+    "id": "d",
+    "text": "No banco dianteiro, se estiver usando assento de elevação."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A legislação determina que o transporte seja feito no banco traseiro com o equipamento de segurança correto para a idade, peso e altura.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 11, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-012",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "É permitido levar passageiros na caçamba de uma caminhonete?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Sim, se todos os passageiros estiverem sentados e segurando firmemente."
+   },
+   {
+    "id": "b",
+    "text": "Não, pois oferece alto risco de queda e lesões graves, além de ser uma infração gravíssima."
+   },
+   {
+    "id": "c",
+    "text": "Apenas em áreas rurais, onde não há fiscalização."
+   },
+   {
+    "id": "d",
+    "text": "Sim, desde que seja em baixa velocidade e em trajetos curtos."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Art. 230, inciso II do CTB",
+  "legalRef": "CTB, art. 230",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 12, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-013",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Em um cruzamento não sinalizado entre duas vias de mesmo porte, qual veículo tem a preferência?",
+  "options": [
+   {
+    "id": "a",
+    "text": "O veículo que for maior."
+   },
+   {
+    "id": "b",
+    "text": "Os dois têm preferência."
+   },
+   {
+    "id": "c",
+    "text": "O veículo que buzinar."
+   },
+   {
+    "id": "d",
+    "text": "O veículo que estiver à direita do condutor."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Esta é a 'regra da direita', fundamental para a organização do trânsito em cruzamentos sem sinalização específica. Art. 215, inciso I, alínea b",
+  "legalRef": "CTB, art. 215",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 13, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-014",
+  "stateCode": "AM",
+  "topic": "sinalizacao",
+  "statement": "Em uma situação onde não há nenhuma sinalização, qual regra geral de preferência deve ser aplicada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A preferência é do veículo maior."
+   },
+   {
+    "id": "b",
+    "text": "A preferência é do veículo que está na via da esquerda."
+   },
+   {
+    "id": "c",
+    "text": "A preferência é do veículo que se aproxima pela direita do condutor."
+   },
+   {
+    "id": "d",
+    "text": "A preferência é do veículo que está trafegando em maior velocidade."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Em um cruzamento não sinalizado, a regra geral é dar preferência a quem vem da direita.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 14, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-015",
+  "stateCode": "AM",
+  "topic": "direcao_defensiva",
+  "statement": "Qual é a principal finalidade do uso da buzina, segundo os princípios da direção defensiva e comunicação no trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Apressar o motorista da frente quando o semáforo abre."
+   },
+   {
+    "id": "b",
+    "text": "Alertar outros usuários da via sobre um perigo iminente ou sua presença para evitar um sinistro."
+   },
+   {
+    "id": "c",
+    "text": "Expressar irritação com uma manobra incorreta de outro condutor."
+   },
+   {
+    "id": "d",
+    "text": "Cumprimentar pedestres ou outros motoristas conhecidos."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "O Código de Trânsito prevê o uso da buzina em toques breves para fazer as advertências necessárias a fim de evitar sinistros.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 15, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-016",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "O que o condutor deve fazer ao perceber um pedestre atravessando fora da faixa?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Frear bruscamente."
+   },
+   {
+    "id": "b",
+    "text": "Reduzir a velocidade e manter a atenção redobrada."
+   },
+   {
+    "id": "c",
+    "text": "Buzinar para advertir."
+   },
+   {
+    "id": "d",
+    "text": "Ignorar e seguir, pois o pedestre está errado."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Mesmo fora da faixa, a vida tem prioridade. O condutor deve reduzir e manter a atenção, pois o pedestre é o mais vulnerável no trânsito.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 16, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-017",
+  "stateCode": "AM",
+  "topic": "direcao_defensiva",
+  "statement": "O que significa ver e ser visto na direção defensiva?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Usar o farol alto o tempo todo."
+   },
+   {
+    "id": "b",
+    "text": "Dirigir apenas de dia."
+   },
+   {
+    "id": "c",
+    "text": "Manter o carro limpo e bonito."
+   },
+   {
+    "id": "d",
+    "text": "Tornar-se visível e estar atento aos demais usuários da via."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "“Ver e ser visto” é um princípio da direção defensiva que busca garantir que o condutor perceba os outros e seja percebido, prevenindo sinistros.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 17, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-018",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "O que significa dizer que, no trânsito, o motorista precisa estar sempre atento?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que todas as decisões são punidas com multa."
+   },
+   {
+    "id": "b",
+    "text": "Que as regras de trânsito são subjetivas e cada um interpreta de um jeito."
+   },
+   {
+    "id": "c",
+    "text": "Que tudo o que o motorista faz ou deixa de fazer gera um resultado, seguro ou perigoso."
+   },
+   {
+    "id": "d",
+    "text": "Que dirigir é uma atividade automática que não exige muitas decisões."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Cada ação, como uma freada brusca ou uma pequena distração, tem uma consequência direta na segurança.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 18, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-019",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "O que significa ser um bom motorista?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Seguir as regras de trânsito."
+   },
+   {
+    "id": "b",
+    "text": "Conhecer atalhos para chegar mais rápido ao destino."
+   },
+   {
+    "id": "c",
+    "text": "Ter um carro novo todo ano."
+   },
+   {
+    "id": "d",
+    "text": "Dirigir rapidamente para não atrapalhar o trânsito."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Seguir as regras é o compromisso fundamental que o condutor assume para proteger vidas.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 19, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-020",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "O que um motorista deve fazer imediatamente ao ouvir a sirene e ver as luzes de uma ambulância se aproximando?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Reduzir a velocidade e deslocar-se para a faixa da direita para liberar a passagem."
+   },
+   {
+    "id": "b",
+    "text": "Acelerar e não deixar ela passar."
+   },
+   {
+    "id": "c",
+    "text": "Continuar no mesmo ritmo e esperar que a ambulância desvie."
+   },
+   {
+    "id": "d",
+    "text": "Parar bruscamente no meio da pista onde está."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "O procedimento correto é facilitar a passagem do veículo de emergência de forma segura, movendo-se para a direita.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 20, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-021",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Por que ver e ser visto é essencial no trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque serve só para rodovias."
+   },
+   {
+    "id": "b",
+    "text": "Porque se você não vê ou não é visto, o risco de sinistro aumenta."
+   },
+   {
+    "id": "c",
+    "text": "Porque melhora apenas o conforto do motorista."
+   },
+   {
+    "id": "d",
+    "text": "Porque evita gastar com manutenção."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Uma atitude simples que evita sinistros de trânsito, ligar o sistema de iluminação do veículos (faróis e lanternas)",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 21, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-022",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Por que a palavra 'acidente' foi substituída por 'sinistro' no trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque 'acidente' só se aplica a rodovias."
+   },
+   {
+    "id": "b",
+    "text": "Porque a palavra 'acidente' se aplica apenas a eventos sem vítimas fatais."
+   },
+   {
+    "id": "c",
+    "text": "Para padronizar a linguagem com as companhias de seguro."
+   },
+   {
+    "id": "d",
+    "text": "Para indicar que a grande maioria desses eventos é evitável e não fruto do acaso."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A mudança de terminologia reforça a ideia de que esses eventos são consequência de escolhas e comportamentos, e não fatalidades inevitáveis.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 22, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-023",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Crianças menores de 10 anos podem ser transportadas em motocicletas?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Não, pois a lei de trânsito proíbe o transporte de qualquer passageiro em motos."
+   },
+   {
+    "id": "b",
+    "text": "Não, porque o capacete infantil é difícil de encontrar para comprar."
+   },
+   {
+    "id": "c",
+    "text": "Não, porque coloca em risco a criança."
+   },
+   {
+    "id": "d",
+    "text": "Sim, desde que tenham condições de cuidar de sua própria segurança"
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Além de ser infração gravíssima com multa e suspensão do direito de dirigir. Art. 244, § 1º, alínea c",
+  "legalRef": "CTB, art. 244",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 23, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-024",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Por que é importante não realizar o ziguezague entre as faixas de trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque causa desgaste nos pneus."
+   },
+   {
+    "id": "b",
+    "text": "Porque aumenta o consumo de combustível."
+   },
+   {
+    "id": "c",
+    "text": "Porque desorienta outros motoristas e aumenta o risco de colisões."
+   },
+   {
+    "id": "d",
+    "text": "Porque reduz a velocidade do veículo."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Trocar de faixa repetidamente é perigoso e imprevisível. Mantenha-se em uma faixa até que seja realmente necessário mudar.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 24, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-025",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Por que um condutor não deve parar em fila dupla?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque é uma infração que causa a suspensão da CNH."
+   },
+   {
+    "id": "b",
+    "text": "Porque pode causar um congestionamento sonoro."
+   },
+   {
+    "id": "c",
+    "text": "Porque gasta mais combustível do que estacionar corretamente."
+   },
+   {
+    "id": "d",
+    "text": "Porque atrapalha o fluxo do trânsito"
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Esta atitude obstrui uma faixa de rolamento e força pedestres a desviarem para a rua, aumentando o risco de sinistro.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 25, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-026",
+  "stateCode": "AM",
+  "topic": "direcao_defensiva",
+  "statement": "Por que não se deve usar farol alto em situações de neblina?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque é proibido por lei usar farol alto em rodovias."
+   },
+   {
+    "id": "b",
+    "text": "Porque gasta mais bateria do que o farol baixo."
+   },
+   {
+    "id": "c",
+    "text": "Porque a luz forte reflete nas partículas de água e piora a visibilidade."
+   },
+   {
+    "id": "d",
+    "text": "Porque o farol alto pode superaquecer e queimar."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A luz do farol alto é refletida de volta para os olhos do motorista, formando uma 'parede de luz' que ofusca em vez de iluminar.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 26, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-027",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Por que o condutor deve ajustar o banco e os retrovisores antes de dirigir?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Para conforto apenas."
+   },
+   {
+    "id": "b",
+    "text": "Para garantir boa visibilidade e controle do veículo."
+   },
+   {
+    "id": "c",
+    "text": "Para o carro gastar menos combustível."
+   },
+   {
+    "id": "d",
+    "text": "Para seguir uma exigência burocrática."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Ajustar o banco e os retrovisores aumenta a segurança, permitindo melhor campo de visão e reação a imprevistos.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 27, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-028",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Por que o motorista deve sempre usar a seta antes de mudar de faixa ou virar?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Para cumprir uma formalidade da lei."
+   },
+   {
+    "id": "b",
+    "text": "Para avisar os outros motoristas e tornar o trânsito previsível."
+   },
+   {
+    "id": "c",
+    "text": "Porque melhora o desempenho do veículo."
+   },
+   {
+    "id": "d",
+    "text": "Para deixar o carro mais moderno."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A seta é a principal forma de comunicação no trânsito. Usá-la com antecedência avisa os demais condutores sobre suas intenções e evita sinistros.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 28, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-029",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual a importância de manter os faróis baixos acesos durante o dia, especialmente em rodovias?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Para economizar a bateria, pois o farol baixo consome menos energia que o farol de rodagem diurna (DRL)."
+   },
+   {
+    "id": "b",
+    "text": "Para aumentar a visibilidade do seu veículo para os outros motoristas, tornando-o mais perceptível."
+   },
+   {
+    "id": "c",
+    "text": "Para evitar multas, pois é uma exigência legal em todas as vias urbanas e rurais durante o dia."
+   },
+   {
+    "id": "d",
+    "text": "Para melhorar a iluminação da pista e a visibilidade de placas de sinalização durante o dia."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Lembre-se do princípio de 'ver e ser visto', que explica que essa simples atitude aumenta muito a visibilidade do carro para os demais usuários da via, prevenindo sinistros.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 29, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-030",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual a principal diferença entre uma rodovia e uma estrada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Rodovias ligam cidades e estradas ligam bairros."
+   },
+   {
+    "id": "b",
+    "text": "Rodovias são para carros e estradas para caminhões."
+   },
+   {
+    "id": "c",
+    "text": "Rodovias possuem pedágio e estradas não."
+   },
+   {
+    "id": "d",
+    "text": "Rodovias são vias rurais pavimentadas e estradas são vias rurais não pavimentadas."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A pavimentação (asfalto ou concreto) é o que caracteriza uma rodovia, enquanto estradas são vias não pavimentadas. Glossário do CTB",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 30, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-031",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Qual comportamento demonstra direção defensiva?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Usar o celular apenas em semáforos vermelhos."
+   },
+   {
+    "id": "b",
+    "text": "Ajustar a velocidade conforme o clima e as condições da via."
+   },
+   {
+    "id": "c",
+    "text": "Tentar ultrapassar sempre que possível."
+   },
+   {
+    "id": "d",
+    "text": "Ignorar motociclistas que passam pelo corredor."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A velocidade segura depende das condições do ambiente. Reduzir em caso de chuva, neblina ou tráfego intenso é um sinal de prudência e consciência.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 31, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-032",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual dispositivo de retenção infantil é indicado para uma criança de 2 anos com 13 kg?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Bebê conforto, virado para trás."
+   },
+   {
+    "id": "b",
+    "text": "Assento de elevação."
+   },
+   {
+    "id": "c",
+    "text": "Cadeirinha, virada para frente."
+   },
+   {
+    "id": "d",
+    "text": "Apenas o cinto de segurança do banco traseiro."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Para a faixa de 1 a 4 anos (ou de 9 a 18 kg), a cadeirinha instalada virada para frente é o equipamento correto.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 32, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-033",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Qual é a distância lateral mínima que um motorista deve manter ao ultrapassar um ciclista?",
+  "options": [
+   {
+    "id": "a",
+    "text": "0,5 metro."
+   },
+   {
+    "id": "b",
+    "text": "1,5 metro."
+   },
+   {
+    "id": "c",
+    "text": "2,0 metros."
+   },
+   {
+    "id": "d",
+    "text": "1,0 metro."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Esta é a distância necessária para evitar provocar desequilíbrio e garantir a segurança, sendo o desrespeito uma infração média. Art. 201 do CTB",
+  "legalRef": "CTB, art. 201",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 33, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-034",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a função da faixa de aceleração ao entrar em uma via de trânsito rápido?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Reduzir a velocidade antes de entrar na pista principal."
+   },
+   {
+    "id": "b",
+    "text": "Aguardar parado até que haja uma brecha no trânsito."
+   },
+   {
+    "id": "c",
+    "text": "Servir como acostamento temporário para emergências."
+   },
+   {
+    "id": "d",
+    "text": "Aumentar a velocidade para se igualar ao fluxo da via principal."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O propósito desta faixa é permitir que o veículo ganhe velocidade de forma segura antes de ingressar no fluxo de tráfego intenso.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 34, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-035",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "O que significa o princípio “o maior cuida do menor” no trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Veículos maiores, como caminhões, sempre têm a preferência."
+   },
+   {
+    "id": "b",
+    "text": "Pedestres e ciclistas devem sempre ceder a passagem para os carros."
+   },
+   {
+    "id": "c",
+    "text": "O condutor de um veículo motorizado tem a responsabilidade de zelar pela segurança de ciclistas e pedestres."
+   },
+   {
+    "id": "d",
+    "text": "Apenas veículos de emergência, como ambulâncias, precisam seguir esta regra."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "O princípio \"o maior cuida do menor\" significa que veículos maiores ou mais rápidos devem ter atenção redobrada e proteger os mais vulneráveis, como pedestres, ciclistas e motociclistas.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 35, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-036",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a principal razão para manter os faróis baixos acesos durante o dia em rodovias, conforme a prática de 'ver e ser visto'?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque o farol alto pode ser usado durante o dia e o baixo é uma alternativa."
+   },
+   {
+    "id": "b",
+    "text": "Para evitar o desgaste do sistema de iluminação noturna do veículo."
+   },
+   {
+    "id": "c",
+    "text": "Para que outros motoristas, mesmo a longas distâncias, percebam a presença do seu veículo mais facilmente."
+   },
+   {
+    "id": "d",
+    "text": "Para iluminar a pista e enxergar buracos com mais facilidade sob o sol."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A luz acesa torna o veículo muito mais visível para os outros, tanto para quem vem em sentido contrário quanto para quem olha pelo retrovisor, prevenindo sinistros.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 36, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-037",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a principal razão pela qual crianças não devem ser transportadas no banco dianteiro?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque o airbag dianteiro pode ser perigoso para elas."
+   },
+   {
+    "id": "b",
+    "text": "Porque a lei permite apenas maiores de 18 anos no banco da frente."
+   },
+   {
+    "id": "c",
+    "text": "Porque elas podem se distrair com a paisagem mais facilmente."
+   },
+   {
+    "id": "d",
+    "text": "Porque elas podem distrair o motorista."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A força de expansão do airbag é projetada para um adulto e pode causar lesões graves ou fatais em uma criança.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 37, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-038",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a principal razão pela qual manusear o celular ao volante é tão perigoso?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque a multa é muito cara."
+   },
+   {
+    "id": "b",
+    "text": "Porque o desvio de atenção, mesmo por poucos segundos, faz o carro percorrer uma longa distância sem o motorista estar prestando atenção."
+   },
+   {
+    "id": "c",
+    "text": "Porque pode danificar o aparelho celular em caso de freada brusca."
+   },
+   {
+    "id": "d",
+    "text": "Porque é uma das infrações grave."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A principal razão é que o ato de manusear o celular causa uma distração visual e cognitiva que, devido à velocidade, faz o veículo percorrer longas distâncias sem a atenção do motorista, impedindo a reação a eventos críticos e aumentando drasticamente o risco de acidentes.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 38, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-039",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a principal restrição de peso para um veículo ser conduzido com a Categoria B da CNH?",
+  "options": [
+   {
+    "id": "a",
+    "text": "O veículo não pode ter mais de 1.500 kg."
+   },
+   {
+    "id": "b",
+    "text": "O peso do veículo não pode ultrapassar o do motorista."
+   },
+   {
+    "id": "c",
+    "text": "Não há restrição de peso, apenas de lugares."
+   },
+   {
+    "id": "d",
+    "text": "O peso bruto total não pode passar de 3.500 kg."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "De acordo com o art. 143, inciso III do CTB, a principal restrição de peso para a Categoria B é que o Peso Bruto Total (PBT) não exceda a 3.500 kg, pois veículos de carga acima desse peso exigem a Categoria C.",
+  "legalRef": "CTB, art. 143",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 39, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-040",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a recomendação para o uso do acostamento em uma rodovia?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Utilizá-lo para fazer ultrapassagens mais rápidas."
+   },
+   {
+    "id": "b",
+    "text": "Trafegar por ele quando o trânsito na pista principal estiver lento."
+   },
+   {
+    "id": "c",
+    "text": "Parar para atender ao celular ou descansar."
+   },
+   {
+    "id": "d",
+    "text": "Usá-lo apenas em casos de emergência, como pane mecânica."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O acostamento é uma área de segurança destinada exclusivamente a paradas emergenciais, devidamente sinalizadas.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 40, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-041",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a regra fundamental ao se aproximar de uma faixa de pedestres?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acelerar para passar antes que o pedestre comece a atravessar."
+   },
+   {
+    "id": "b",
+    "text": "Manter a velocidade se o pedestre ainda não colocou o pé na faixa."
+   },
+   {
+    "id": "c",
+    "text": "Reduzir a velocidade e parar, pois a preferência é sempre do pedestre na faixa."
+   },
+   {
+    "id": "d",
+    "text": "Buzinar para alertar o pedestre da sua aproximação."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A lei é clara: se houver pedestre atravessando ou com intenção de atravessar, o condutor deve parar.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 41, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-042",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é a velocidade máxima permitida em uma via local, como a rua de um bairro residencial?",
+  "options": [
+   {
+    "id": "a",
+    "text": "80 km/h"
+   },
+   {
+    "id": "b",
+    "text": "30 km/h"
+   },
+   {
+    "id": "c",
+    "text": "40 km/h"
+   },
+   {
+    "id": "d",
+    "text": "60 km/h"
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "O art. 61, § 1º, I, \"d\" do CTB estabelece que a velocidade máxima, na ausência de sinalização, é de 30 km/h nas Vias Locais",
+  "legalRef": "CTB, art. 61",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 42, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-3-043",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual equipamento de proteção, além do capacete, é altamente recomendado para proteger as mãos em caso de queda de motocicleta?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Calçados abertos."
+   },
+   {
+    "id": "b",
+    "text": "Óculos de sol."
+   },
+   {
+    "id": "c",
+    "text": "Luvas específicas para motociclismo."
+   },
+   {
+    "id": "d",
+    "text": "Bermudas."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "As mãos são frequentemente as primeiras a tocar o chão em uma queda, e luvas apropriadas protegem contra abrasões e impactos.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 43, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-044",
+  "stateCode": "AM",
+  "topic": "direcao_defensiva",
+  "statement": "Qual prática de segurança é fundamental para aumentar a visibilidade do motociclista e ajudar outros condutores a percebê-lo com mais facilidade no trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Utilizar roupas escuras para não distrair outros motoristas."
+   },
+   {
+    "id": "b",
+    "text": "Buzinar frequentemente em cruzamentos para anunciar sua presença."
+   },
+   {
+    "id": "c",
+    "text": "Posicionar-se sempre no ponto cego dos carros para se proteger."
+   },
+   {
+    "id": "d",
+    "text": "Manter o farol baixo sempre aceso, mesmo durante o dia."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O farol aceso cria um ponto de luz que se destaca na paisagem do trânsito, permitindo que outros motoristas identifiquem a presença e a distância da motocicleta com mais antecedência.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 44, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-045",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Se você perceber que passou da saída que precisava pegar, qual é a atitude mais segura a ser tomada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Dar ré na avenida para voltar até a saída."
+   },
+   {
+    "id": "b",
+    "text": "Fazer uma manobra brusca de última hora para tentar entrar na saída."
+   },
+   {
+    "id": "c",
+    "text": "Seguir em frente com segurança e procurar o próximo retorno."
+   },
+   {
+    "id": "d",
+    "text": "Parar no acostamento e esperar uma oportunidade para cruzar as faixas."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Esta é a forma de evitar riscos que permite realizar a manobra com tranquilidade.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 45, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-046",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Dirigir com segurança é, principalmente, um conjunto de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Conhecimento profundo da mecânica do veículo."
+   },
+   {
+    "id": "b",
+    "text": "Hábitos e escolhas conscientes."
+   },
+   {
+    "id": "c",
+    "text": "Habilidades naturais"
+   },
+   {
+    "id": "d",
+    "text": "Capacidade de dirigir em alta velocidade."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "O texto conclui que a direção segura é resultado de atitudes como respeito, empatia e escolhas deliberadas, que se tornam hábitos.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 46, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-3-047",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Sobre o uso do cinto de segurança no banco de trás, o que podemos afirmar?",
+  "options": [
+   {
+    "id": "a",
+    "text": "É obrigatório para todos os passageiros."
+   },
+   {
+    "id": "b",
+    "text": "É obrigatório apenas para crianças."
+   },
+   {
+    "id": "c",
+    "text": "É recomendado, mas não obrigatório."
+   },
+   {
+    "id": "d",
+    "text": "É obrigatório apenas em viagens intermunicipais."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Em uma colisão, um passageiro solto no banco de trás pode ser arremessado com força fatal. Art. 65 do CTB",
+  "legalRef": "CTB, art. 65",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 47, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-3-048",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Um condutor com habilitação na categoria B está autorizado a dirigir qual dos seguintes veículos?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Uma motocicleta de 250 cilindradas."
+   },
+   {
+    "id": "b",
+    "text": "Uma picape leve com peso total de 3.000 kg e capacidade para 5 pessoas."
+   },
+   {
+    "id": "c",
+    "text": "Um caminhão pequeno com peso bruto total de 4.000 kg."
+   },
+   {
+    "id": "d",
+    "text": "Uma van escolar com capacidade para 12 passageiros."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A Categoria B permite a condução de veículos cujo peso bruto total não exceda 3.500 kg e cuja lotação não exceda 8 lugares, excluído o do motorista. Artigo 143, inciso II",
+  "legalRef": "CTB, art. 143",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 3, q. 48, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-001",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "O que um condutor recém-habilitado com a Categoria A está autorizado a pilotar?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Qualquer tipo de motocicleta, exceto triciclos motorizados."
+   },
+   {
+    "id": "b",
+    "text": "Veículos de duas rodas e picapes leves."
+   },
+   {
+    "id": "c",
+    "text": "Motocicletas, motonetas e ciclomotores."
+   },
+   {
+    "id": "d",
+    "text": "Apenas motocicletas de até 50 cilindradas."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Esta categoria abrange todos os veículos motorizados de duas ou três rodas, conforme descrito na fonte.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 1, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-002",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Sobre o uso de capacete danificado ou que já sofreu um impacto, o que deve ser feito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Pode ser emprestado, desde que o novo usuário verifique a fivela."
+   },
+   {
+    "id": "b",
+    "text": "Deve ser consertado em um local especializado."
+   },
+   {
+    "id": "c",
+    "text": "Nunca deve ser utilizado, pois sua eficácia está comprometida."
+   },
+   {
+    "id": "d",
+    "text": "Pode ser usado em trajetos curtos e de baixa velocidade."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Um capacete que sofreu impacto pode ter danos estruturais não visíveis que o tornam incapaz de proteger adequadamente em um novo sinistro.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 2, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-003",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "A citação \"No trânsito, o equilíbrio emocional é tão importante quanto o freio do carro\" significa que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "É desnecessário ter um controle emocional para saber usar o freio corretamente em uma emergência."
+   },
+   {
+    "id": "b",
+    "text": "Pessoas muito emotivas não deveriam ser autorizadas a dirigir."
+   },
+   {
+    "id": "c",
+    "text": "O autocontrole emocional é um item de segurança essencial para prevenir sinistros."
+   },
+   {
+    "id": "d",
+    "text": "Dirigir triste ou com raiva pode causar problemas mecânicos no sistema de freios."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A citação compara o equilíbrio emocional (que controla os impulsos e permite tomar decisões racionais) ao freio (que controla a velocidade e para o carro), ambos sendo cruciais para a segurança.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 3, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-004",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Ao ligar para um número de emergência como o SAMU (192), qual das informações a seguir é a mais crucial para agilizar o atendimento?",
+  "options": [
+   {
+    "id": "a",
+    "text": "O modelo e a cor dos veículos envolvidos no sinistro."
+   },
+   {
+    "id": "b",
+    "text": "A localização exata do sinistro e o número de vítimas."
+   },
+   {
+    "id": "c",
+    "text": "O seu nome completo e número de telefone para contato."
+   },
+   {
+    "id": "d",
+    "text": "Quem foi o culpado pela colisão, para o registro da ocorrência."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Saber onde ir e quantos recursos (ambulâncias, médicos) enviar é a informação mais crítica para que o socorro chegue rápido e preparado.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 4, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-005",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Ao presenciar um sinistro, você vê um motociclista caído no chão, consciente, mas reclamando de dor. Qual das seguintes ações é considerada um erro grave que pode piorar muito o estado da vítima?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ligar para o número 193 (Bombeiros) para solicitar resgate."
+   },
+   {
+    "id": "b",
+    "text": "Conversar com a vítima para acalmá-la enquanto o socorro não chega."
+   },
+   {
+    "id": "c",
+    "text": "Tentar remover o capacete do motociclista para ajudá-lo a respirar melhor."
+   },
+   {
+    "id": "d",
+    "text": "Sinalizar o local com o triângulo de segurança a uma distância adequada."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "A retirada do capacete só deve ser feita por profissionais, pois um movimento incorreto pode causar lesões gravíssimas na coluna cervical.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 5, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-006",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Ao prestar assistência a uma vítima de sinistro, o que significa 'não remova, não movimente, não transporte'?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que qualquer movimento pode agravar lesões ocultas, especialmente na coluna, e só deve ser feito por profissionais ou em caso de perigo iminente."
+   },
+   {
+    "id": "b",
+    "text": "Que a vítima não deve ser tocada em nenhuma circunstância, nem mesmo para confortá-la."
+   },
+   {
+    "id": "c",
+    "text": "Que a vítima deve permanecer exatamente na mesma posição em que foi encontrada até a conclusão da perícia técnica."
+   },
+   {
+    "id": "d",
+    "text": "Que é ilegal mover uma vítima de sinistro, configurando crime de lesão corporal culposa."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Esta é a essência da regra: a movimentação inadequada é um risco grave de agravar fraturas e lesões na coluna, sendo a exceção apenas situações extremas como incêndio.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 6, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-007",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Ao registrar um sinistro sem vítimas, por que é importante que os motoristas tirem fotos dos danos nos veículos e dos documentos um do outro?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Para postar nas redes sociais e alertar os amigos sobre o ocorrido."
+   },
+   {
+    "id": "b",
+    "text": "Para enviar para a oficina mecânica e já obter um orçamento dos reparos."
+   },
+   {
+    "id": "c",
+    "text": "Apenas para ter uma lembrança do que aconteceu e evitar que se repita."
+   },
+   {
+    "id": "d",
+    "text": "Para ter um registro claro que pode ser usado no acionamento no momento de reparação do dano."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "As fotografias servem como prova documental dos danos e dos dados dos envolvidos, facilitando os procedimentos com a seguradora e, se necessário, com as autoridades.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 7, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-008",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Ao se deparar com um sinistro envolvendo um veículo que transporta cargas perigosas, identificado pelo painel laranja, qual é o procedimento mais seguro a ser seguido?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Manter uma distância mínima de 50 metros, posicionar-se contra o vento e informar o número do painel aos bombeiros."
+   },
+   {
+    "id": "b",
+    "text": "Utilizar o extintor do seu carro para conter qualquer princípio de incêndio e evacuar as vítimas do local."
+   },
+   {
+    "id": "c",
+    "text": "Sinalizar o local com o triângulo a 30 metros e aguardar dentro do seu veículo a chegada do socorro."
+   },
+   {
+    "id": "d",
+    "text": "Aproximar-se para identificar o número no painel e prestar os primeiros socorros imediatamente."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Este procedimento combina as principais recomendações de segurança: manter distância, evitar a inalação de gases tóxicos (posicionando-se a favor do vento, não contra) e fornecer informações cruciais para o socorro especializado.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 8, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-009",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Ao se deparar com uma vítima de sinistro que não responde e parece não respirar, o que uma pessoa sem treinamento em reanimação deve fazer?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Jogar água no rosto da vítima para tentar acordá-la."
+   },
+   {
+    "id": "b",
+    "text": "Virar a vítima de lado para que ela possa respirar melhor."
+   },
+   {
+    "id": "c",
+    "text": "Tentar fazer massagem cardíaca de qualquer jeito, pois é melhor que nada."
+   },
+   {
+    "id": "d",
+    "text": "Informar imediatamente ao SAMU (192) e seguir as orientações do atendente por telefone."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O atendente do SAMU é treinado para dar instruções precisas por telefone, guiando a pessoa no local sobre como proceder de forma segura até a chegada da ambulância.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 9, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-010",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Dirigir com pneus murchos, além de perigoso, causa um impacto negativo específico. Qual é ele?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Aumenta o consumo de combustível."
+   },
+   {
+    "id": "b",
+    "text": "Causa superaquecimento no sistema de freios."
+   },
+   {
+    "id": "c",
+    "text": "Danifica o sistema de escapamento do carro."
+   },
+   {
+    "id": "d",
+    "text": "Aumenta a poluição sonora do veículo."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Pneus com pressão abaixo da ideal aumentam a área de contato com o solo e, consequentemente, o arrasto, forçando o motor a trabalhar mais.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 10, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-011",
+  "stateCode": "AM",
+  "topic": "direcao_defensiva",
+  "statement": "Dirigir com sono é tão perigoso quanto dirigir alcoolizado. Por qual motivo principal?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque te deixa alegre e agitado."
+   },
+   {
+    "id": "b",
+    "text": "Porque tanto o sono quanto o álcool causam visão dupla no motorista."
+   },
+   {
+    "id": "c",
+    "text": "Porque dirigir com sono pode causar multas de trânsito"
+   },
+   {
+    "id": "d",
+    "text": "Porque a sonolência reduz os reflexos, a atenção e a capacidade de reagir."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A comparação é feita porque o sono, assim como o álcool, afeta gravemente as funções neurológicas essenciais para uma direção segura, como tempo de reação e percepção de perigo.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 11, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-012",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Durante o atendimento a uma vítima de sinistro que está consciente e com frio, o que é permitido fazer enquanto o socorro não chega?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Cobri-la com um casaco ou cobertor para aquecê-la."
+   },
+   {
+    "id": "b",
+    "text": "Movê-la para um local mais confortável, como a sombra."
+   },
+   {
+    "id": "c",
+    "text": "Passar um remédio para dor que você tenha no carro."
+   },
+   {
+    "id": "d",
+    "text": "Dar um copo de água com açúcar para acalmá-la."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Manter a vítima aquecida ajuda a estabilizar sua condição e a mantê-la confortável, sendo uma das poucas intervenções seguras que uma pessoa leiga pode fazer.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 12, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-013",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Durante uma longa viagem noturna, um motorista percebe que está bocejando com frequência e que, por alguns instantes, teve dificuldade em manter o foco na estrada. Qual a ação correta e imediata a ser tomada?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acelerar para diminuir o tempo de viagem e, assim, poder descansar ao chegar ao destino."
+   },
+   {
+    "id": "b",
+    "text": "Procurar um local seguro, como um posto de gasolina ou ponto de parada, para estacionar e descansar por um tempo."
+   },
+   {
+    "id": "c",
+    "text": "Beber um café forte ou um energético e continuar a viagem para chegar ao destino mais rápido."
+   },
+   {
+    "id": "d",
+    "text": "Aumentar o volume do rádio e abrir as janelas, pois isso é suficiente para despertar."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Dirigir com sono é tão perigoso quanto dirigir alcoolizado",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 13, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-014",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Em um sinistro sem vítimas, onde os veículos obstruem o trânsito, qual é a ação prioritária que os condutores devem tomar após garantirem a própria segurança?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ligar para o SAMU (192) como precaução, mesmo que ninguém aparente estar ferido."
+   },
+   {
+    "id": "b",
+    "text": "Retirar os veículos da via para um local seguro para não obstruir o tráfego e evitar novos sinistros."
+   },
+   {
+    "id": "c",
+    "text": "Aguardar a chegada da autoridade policial para registrar a ocorrência antes de mover os veículos."
+   },
+   {
+    "id": "d",
+    "text": "Fotografar os danos e a posição dos veículos na via antes de qualquer movimentação para garantir o registro."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Se não houver feridos e os veículos estiverem bloqueando o trânsito, eles devem ser removidos para liberar a via e aumentar a segurança. Art. 178 do CTB",
+  "legalRef": "CTB, art. 178",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 14, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-015",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Joana teve uma discussão estressante no trabalho e, ao entrar no carro para voltar para casa, sente muita raiva. No trânsito, outro motorista a fecha. Qual é a atitude mais segura e responsável que Joana pode tomar nessa situação?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acelerar para alcançar o outro veículo e buzinar para expressar sua indignação."
+   },
+   {
+    "id": "b",
+    "text": "Anotar a placa do outro carro para registrar uma queixa formal contra o motorista depois."
+   },
+   {
+    "id": "c",
+    "text": "Respirar fundo algumas vezes, reconhecer que está com raiva e focar em dirigir com calma para chegar em segurança."
+   },
+   {
+    "id": "d",
+    "text": "Ligar para um colega para desabafar sobre a discussão e sobre o motorista que a fechou."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "O gerenciamento das emoções, como reconhecer o sentimento e agir com calma, é fundamental para manter a segurança e evitar decisões impulsivas no trânsito.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 15, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-016",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "O que significa dizer que os pneus são responsáveis pela 'aquaplanagem'?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que pneus de baixa qualidade podem absorver água e aumentar o peso do veículo na chuva."
+   },
+   {
+    "id": "b",
+    "text": "Que os pneus podem ser velhos que funcionarão."
+   },
+   {
+    "id": "c",
+    "text": "Que a calibragem não é importante."
+   },
+   {
+    "id": "d",
+    "text": "Que pneus gastos perdem a capacidade de expulsar a água da pista, fazendo o veículo flutuar sobre ela e perder o controle."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Os sulcos dos pneus são projetados para drenar a água. Quando estão gastos ('carecas'), essa drenagem falha, e uma camada de água se forma entre o pneu e o asfalto.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 16, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-017",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "O que um motociclista deve verificar em seu capacete para garantir que ele está em conformidade para circular?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Se a viseira é espelhada."
+   },
+   {
+    "id": "b",
+    "text": "Verificar se o capacete sofreu algum impacto ou dano estrutural e não usar se estiver danificado."
+   },
+   {
+    "id": "c",
+    "text": "Se a marca do capacete é igual ao da moto."
+   },
+   {
+    "id": "d",
+    "text": "Se ele possui adesivos."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "É importante fazer a verificação do equipamento de segurança para garantir a segurança do motociclista e a eficiência do equipamento.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 17, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-018",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Para garantir a segurança e a durabilidade do veículo, a manutenção preventiva é essencial. Com que frequência e em que condição os pneus devem ser calibrados?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Semanalmente, com os pneus frios, seguindo a pressão indicada no manual do veículo."
+   },
+   {
+    "id": "b",
+    "text": "Apenas quando parecerem visivelmente murchos, usando qualquer pressão."
+   },
+   {
+    "id": "c",
+    "text": "A cada seis meses, com os pneus quentes para a pressão se ajustar melhor."
+   },
+   {
+    "id": "d",
+    "text": "Uma vez por mês, enchendo-os um pouco acima do recomendado para durar mais."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Esta é a recomendação correta para garantir a pressão ideal, o que melhora a segurança, a durabilidade dos pneus e a economia de combustível.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 18, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-019",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Para proteger o meio ambiente, qual das atitudes abaixo deve ser EVITADA por um condutor consciente?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Planejar a rota antes de sair para evitar engarrafamentos."
+   },
+   {
+    "id": "b",
+    "text": "Calibrar os pneus do carro toda semana."
+   },
+   {
+    "id": "c",
+    "text": "Fazer a manutenção preventiva do veículo regularmente."
+   },
+   {
+    "id": "d",
+    "text": "Circular com o carro soltando fumaça preta e com o escapamento furado."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "Fumaça preta indica queima incorreta de combustível, liberando altos níveis de poluição, e um escapamento furado causa poluição sonora excessiva.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 19, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-020",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Para que o airbag funcione de forma eficaz e segura, o uso de qual outro item é crucial?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Cinto de segurança."
+   },
+   {
+    "id": "b",
+    "text": "Calçados adequados."
+   },
+   {
+    "id": "c",
+    "text": "limpador de parabrisas."
+   },
+   {
+    "id": "d",
+    "text": "Freios ABS."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "O cinto mantém o corpo do ocupante na posição correta, evitando que ele seja lançado contra o airbag em expansão.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 20, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-021",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Por que é errado fotografar ou filmar vítimas em um local de sinistro para divulgar na internet?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque desrespeita a dignidade das pessoas envolvidas e atrapalha o trabalho do socorro."
+   },
+   {
+    "id": "b",
+    "text": "Porque apenas jornalistas profissionais têm autorização para registrar essas cenas."
+   },
+   {
+    "id": "c",
+    "text": "Porque a câmera do celular pode atrapalhar os equipamentos da equipe de resgate."
+   },
+   {
+    "id": "d",
+    "text": "Porque as imagens podem ser consideradas falsas e gerar pânico."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A legislação protege a imagem e a dignidade da pessoa. Além disso, a ação de filmar desvia o foco de quem poderia estar ajudando e interfere no trabalho dos profissionais.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 21, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-022",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Por que o manual do proprietário é considerado a ferramenta mais importante para a manutenção preventiva do veículo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque sem ele o veículo não anda."
+   },
+   {
+    "id": "b",
+    "text": "Porque contém os contatos de todas as oficinas mecânicas credenciadas pela montadora."
+   },
+   {
+    "id": "c",
+    "text": "Porque traz um cronograma de revisões desenvolvido pelos engenheiros que projetaram o carro, detalhando o que e quando verificar."
+   },
+   {
+    "id": "d",
+    "text": "Porque ensina o proprietário a ser mecânico."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "O manual contém o cronograma exato de revisões, criado por quem conhece o veículo em profundidade, e seguir essas recomendações é fundamental.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 22, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-023",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Qual das alternativas de mobilidade é apresentada como ideal para trajetos pequenos, combinando benefícios para a saúde, custo zero e impacto ambiental nulo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Caronas Solidárias."
+   },
+   {
+    "id": "b",
+    "text": "Caminhada."
+   },
+   {
+    "id": "c",
+    "text": "utilziar a motocicleta"
+   },
+   {
+    "id": "d",
+    "text": "utilizar o ciclomotor"
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A caminhada para trajetos pequenos é uma das melhores formas de deslocamento, trazendo os benefícios à saúde e o custo e poluição zero.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 23, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-024",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Qual dos seguintes meios de transporte é considerado o mais sustentável para a preservação do meio ambiente?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Motocicleta."
+   },
+   {
+    "id": "b",
+    "text": "Bicicleta."
+   },
+   {
+    "id": "c",
+    "text": "Transporte Público."
+   },
+   {
+    "id": "d",
+    "text": "Carro elétrico."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A bicicleta é o meio de transporte mais sustentável para a preservação do meio ambiente, pois não utiliza combustíveis fósseis, não emite poluentes e contribui para a redução do tráfego e da poluição sonora.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 24, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-025",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Qual das seguintes ações é um exemplo de condução ecológica que ajuda a reduzir o consumo de combustível e a poluição do ar?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acelerar e frear bruscamente para tornar o fluxo do trânsito mais dinâmico."
+   },
+   {
+    "id": "b",
+    "text": "Acelerar de forma suave e progressiva, antecipando as paradas para evitar freadas bruscas."
+   },
+   {
+    "id": "c",
+    "text": "Manter o ar-condicionado sempre ligado na potência máxima para o motor funcionar melhor."
+   },
+   {
+    "id": "d",
+    "text": "Retirar o catalisador do escapamento para dar mais potência ao veículo."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Dirigir de maneira suave mantém o motor em uma faixa de rotação mais eficiente, economizando combustível e diminuindo a emissão de poluentes.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 25, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-026",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual das seguintes práticas de 'Condução Ecológica' tem o maior impacto na economia de combustível?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Manter os pneus sempre bem calibrados."
+   },
+   {
+    "id": "b",
+    "text": "Acelerar forte."
+   },
+   {
+    "id": "c",
+    "text": "Deixar o porta-malas cheio de coisa desnecessária."
+   },
+   {
+    "id": "d",
+    "text": "Deixar de desligar o motor em paradas longas."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A calibragem correta dos pneus pode gerar uma economia de até 8% no consumo de combustível, um valor percentual direto mencionado.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 26, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-027",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual dos números de emergência listados é o mais indicado para ligar em caso de um sinistro em uma rodovia federal?",
+  "options": [
+   {
+    "id": "a",
+    "text": "191 - Polícia Rodoviária Federal (PRF)"
+   },
+   {
+    "id": "b",
+    "text": "192 - SAMU"
+   },
+   {
+    "id": "c",
+    "text": "190 - Polícia Militar"
+   },
+   {
+    "id": "d",
+    "text": "193 - Bombeiros"
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "A PRF é a autoridade responsável pela fiscalização e atendimento de ocorrências em rodovias federais.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 27, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-028",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Qual é a principal vantagem ambiental do etanol como combustível no Brasil?",
+  "options": [
+   {
+    "id": "a",
+    "text": "É um combustível renovável que contribui para a redução da emissão de gases de efeito estufa na frota de veículos."
+   },
+   {
+    "id": "b",
+    "text": "Pode ser utilizado em veículos feito para gasolina."
+   },
+   {
+    "id": "c",
+    "text": "É feito de petróleo."
+   },
+   {
+    "id": "d",
+    "text": "Não deve ser considerado como opção."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "É um combustível renovável (de cana-de-açúcar, etc.) e um dos principais responsáveis pela redução das emissões de gases poluentes no país.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 28, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-029",
+  "stateCode": "AM",
+  "topic": "primeiros_socorros",
+  "statement": "Qual é o principal motivo para NÃO oferecer água, comida ou medicamentos a uma vítima de sinistro de trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porque é responsabilidade exclusiva da família oferecer alimentos à vítima."
+   },
+   {
+    "id": "b",
+    "text": "Porque pode causar complicações médicas graves, como durante uma cirurgia."
+   },
+   {
+    "id": "c",
+    "text": "Para evitar engasgos, já que a vítima pode estar deitada."
+   },
+   {
+    "id": "d",
+    "text": "Porque a vítima pode não estar com sede ou fome no momento."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "A ingestão de qualquer substância pode interferir na anestesia ou em outros procedimentos médicos de emergência que a vítima possa precisar.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 29, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-030",
+  "stateCode": "AM",
+  "topic": "legislacao",
+  "statement": "Qual é o princípio fundamental da filosofia 'Visão Zero', que influencia as estratégias modernas de segurança no trânsito?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A responsabilidade pela prevenção de mortes e lesões graves é compartilhada por todo o sistema viário, não apenas pelo condutor."
+   },
+   {
+    "id": "b",
+    "text": "A meta é eliminar completamente os erros humanos na condução por meio de tecnologia autônoma."
+   },
+   {
+    "id": "c",
+    "text": "O objetivo é zerar o número de multas de trânsito através de uma educação mais rigorosa dos condutores."
+   },
+   {
+    "id": "d",
+    "text": "A prioridade máxima é a fluidez do tráfego, pois congestionamentos geram comportamentos de risco."
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Visão Zero parte da premissa de que o erro humano é inevitável e, portanto, o sistema (vias, veículos, leis) deve ser projetado para que esses erros não tenham consequências fatais.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 30, nível Difícil"
+ },
+ {
+  "id": "bnq-p2-4-031",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Se a luz indicadora do airbag no painel do carro permanecer acesa após ligar o veículo, o que isso pode indicar?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que o veículo está em modo de segurança para estacionamento."
+   },
+   {
+    "id": "b",
+    "text": "Que o sistema está ativado e pronto para uso."
+   },
+   {
+    "id": "c",
+    "text": "Que o óleo está baixo."
+   },
+   {
+    "id": "d",
+    "text": "Uma possível falha no sistema do airbag."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "A permanência da luz acesa é um sinal de alerta de que o sistema pode não funcionar corretamente em caso de colisão.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 31, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-032",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Se um motorista sai do carro para se alongar durante uma viagem longa, qual benefício direto essa ação traz para a segurança?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Melhora o consumo de combustível do veículo."
+   },
+   {
+    "id": "b",
+    "text": "Permite verificar a calibragem dos pneus."
+   },
+   {
+    "id": "c",
+    "text": "Ajuda a combater o cansaço e a sonolência."
+   },
+   {
+    "id": "d",
+    "text": "Diminui o tempo total da viagem."
+   }
+  ],
+  "correctOptionId": "c",
+  "explanation": "Ao sair do carro, caminhar e respirar ar fresco são medidas eficazes para recuperar o estado de alerta durante pausas.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 32, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-033",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Um carro bate em um poste, e cabos elétricos caem sobre ele. O que o motorista, que não se feriu, deve fazer enquanto está dentro do veículo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Tentar empurrar os cabos para longe do carro com um objeto não condutor."
+   },
+   {
+    "id": "b",
+    "text": "Sair imediatamente do carro, tomando cuidado para não tocar nos fios."
+   },
+   {
+    "id": "c",
+    "text": "Abrir a porta do veículo."
+   },
+   {
+    "id": "d",
+    "text": "Permanecer dentro do veículo sem tocar nas partes metálicas e ligar para os bombeiros (193)."
+   }
+  ],
+  "correctOptionId": "d",
+  "explanation": "O interior do veículo é o local mais seguro. A recomendação é ficar imóvel, evitar contato com o metal e acionar os bombeiros, que são treinados para lidar com riscos elétricos.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 33, nível Intermediário"
+ },
+ {
+  "id": "bnq-p2-4-034",
+  "stateCode": "AM",
+  "topic": "meio_ambiente_cidadania",
+  "statement": "Um motorista envolvido em um sinistro percebe um cheiro de combustível e fumaça saindo de um dos carros. Qual deve ser a sua prioridade máxima?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Tentar ligar o carro novamente para tirá-lo do local."
+   },
+   {
+    "id": "b",
+    "text": "Garantir a própria segurança e a de outros, afastando-se do local e acionando os bombeiros."
+   },
+   {
+    "id": "c",
+    "text": "Avaliar os danos materiais para acionar o seguro."
+   },
+   {
+    "id": "d",
+    "text": "Pegar o extintor de incêndio e tentar apagar a fumaça."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Fumaça e vazamento de combustível indicam risco de incêndio ou explosão. A primeira ação deve ser sempre proteger a vida, afastando-se e chamando socorro especializado.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 34, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-035",
+  "stateCode": "AM",
+  "topic": "direcao_defensiva",
+  "statement": "Dirigir com sono, mesmo que por poucos segundos, pode causar:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Apenas distração leve, sem risco real."
+   },
+   {
+    "id": "b",
+    "text": "Perda de controle do veículo e maior chance de acidente."
+   },
+   {
+    "id": "c",
+    "text": "Nenhum problema, se o cochilo for rápido."
+   },
+   {
+    "id": "d",
+    "text": "O carro desacelera automaticamente, prevenindo acidente."
+   }
+  ],
+  "correctOptionId": "b",
+  "explanation": "Cochilar, mesmo por poucos segundos, pode fazer o carro percorrer metros sem controle, aumentando muito o risco de acidentes.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 35, nível Fácil"
+ },
+ {
+  "id": "bnq-p2-4-036",
+  "stateCode": "AM",
+  "topic": "mecanica",
+  "statement": "Um motorista nota que as palhetas do limpador de para-brisa estão deixando marcas e rastros de água no vidro, dificultando a visão. O que isso indica?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Que as palhetas estão ressecadas ou gastas e precisam ser trocadas."
+   },
+   {
+    "id": "b",
+    "text": "Que o motor do limpador de para-brisa está sem força."
+   },
+   {
+    "id": "c",
+    "text": "Que o reservatório de água do limpador está vazio."
+   },
+   {
+    "id": "d",
+    "text": "Que está tudo funcionando corretamente"
+   }
+  ],
+  "correctOptionId": "a",
+  "explanation": "Quando a borracha das palhetas perde a flexibilidade ou se danifica, ela não consegue mais remover a água de forma uniforme, devendo ser substituídas.",
+  "legalRef": "Banco Nacional de Questões v1.0 (Senatran)",
+  "status": "draft",
+  "reviewedBy": null,
+  "source": "Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, P2 módulo 4, q. 36, nível Fácil"
+ }
+]

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Importa o Banco Nacional de Questões (Senatran, v1.0) a partir do texto extraído do PDF oficial.
-Uso: python3 scripts/import-bnq.py texto.txt content/questions/am/bnq-001.json AM
+Uso: pdftotext banco.pdf; separar PARTE 1 / PARTE 2; python3 scripts/import-bnq.py parte1.txt content/questions/am/bnq-p1.json AM p1
 Tudo entra como 'draft' (revisão humana antes de publicar)."""
 import re, sys, json, random
 src, out, uf = sys.argv[1:4]
+pfx = sys.argv[4] if len(sys.argv) > 4 else 'p1'
 txt = open(src, encoding='utf8').read()
 txt = re.sub(r'CNH do Brasil - Ministério dos Transportes - Secretaria Nacional de Trânsito', '', txt)
 mods = re.split(r'MÓDULO (\d+) - ([^\n]+)', txt)
@@ -13,7 +14,7 @@ TOP = [
  ('meio_ambiente_cidadania', r'ambient|polu|fuma[çc]a|descarte|reciclag|cidadania|ru[ií]do|lixo|sustent'),
  ('mecanica', r'motor|pneu|[óo]leo|freio|bateria|suspens|radiador|amortecedor|farol queimado|painel|calibr|escapamento|embreagem|correia'),
  ('sinalizacao', r'placa|sem[áa]foro|sinaliza[çc][ãa]o|marca[çc][ãa]o vi[áa]ria|gesto|agente de tr[âa]nsito'),
- ('direcao_defensiva', r'defensiv|dist[âa]ncia de seguran|chuva|neblina|aquaplan|cansa[çc]o|sono|velocidade adequada|ponto cego|ultrapassag|condi[çc][õo]es adversas'),
+ ('direcao_defensiva', r'defensiv|dire[çc][ãa]o defensiva|dist[âa]ncia de seguran|pista molhada|freada|frenagem|visibilidade|fadiga|aderência|aquecimento|derrapa|colis[ãa]o traseira|ponto cego|dist[âa]ncia|chuva|neblina|aquaplan|cansa[çc]o|sono|velocidade adequada|ponto cego|ultrapassag|condi[çc][õo]es adversas'),
 ]
 def topic(stmt, com, sign):
     if sign: return 'sinalizacao'
@@ -43,11 +44,11 @@ for i in range(1, len(mods), 3):
         if arts: ref = 'CTB, art. ' + ', '.join(dict.fromkeys(arts[:3]))
         elif res: ref = 'Resolução CONTRAN ' + res.group(1)
         n += 1
-        q = {'id': f'bnq-{mod}-{int(num):03d}', 'stateCode': uf, 'topic': topic(stmt, com, sign),
+        q = {'id': f'bnq-{pfx}-{mod}-{int(num):03d}', 'stateCode': uf, 'topic': topic(stmt, com, sign),
              'statement': re.sub(r'\s+', ' ', stmt).strip(), 'options': options, 'correctOptionId': correct,
              'explanation': com or None, 'legalRef': (ref or 'Banco Nacional de Questões v1.0 (Senatran)'),
              'status': 'draft', 'reviewedBy': None,
-             'source': f'Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, módulo {mod}, q. {num}, nível {lvl}'}
+             'source': f'Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, {pfx.upper()} módulo {mod}, q. {num}, nível {lvl}'}
         if sign: q['signCode'] = sign
         if not q['explanation']: del q['explanation']
         qs.append(q)
