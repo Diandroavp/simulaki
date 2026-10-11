@@ -1,0 +1,988 @@
+[
+  {
+    "id": "am-leg-0101",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Nas vias rurais e urbanas, o uso do cinto de segurança é obrigatório para:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Condutor e passageiros, somente nas rodovias."
+      },
+      {
+        "id": "b",
+        "text": "Apenas os ocupantes do banco da frente, em vias urbanas."
+      },
+      {
+        "id": "c",
+        "text": "Apenas o condutor, em qualquer via."
+      },
+      {
+        "id": "d",
+        "text": "O condutor e todos os passageiros, em todas as vias do território nacional."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "O cinto de segurança é obrigatório para condutor e passageiros em todas as vias, urbanas ou rurais. Deixar de usá-lo é infração grave.",
+    "legalRef": "CTB, art. 65",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0102",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Quando não houver sinalização, a velocidade máxima permitida em uma via urbana coletora é de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "40 km/h."
+      },
+      {
+        "id": "b",
+        "text": "80 km/h."
+      },
+      {
+        "id": "c",
+        "text": "60 km/h."
+      },
+      {
+        "id": "d",
+        "text": "30 km/h."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Na ausência de sinalização, os limites nas vias urbanas são: 80 km/h na via de trânsito rápido, 60 km/h na arterial, 40 km/h na coletora e 30 km/h na local.",
+    "legalRef": "CTB, art. 61, § 1º, I, c",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0103",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Em uma rotatória sem sinalização específica, tem preferência de passagem:",
+    "options": [
+      {
+        "id": "a",
+        "text": "O veículo que já estiver circulando por ela."
+      },
+      {
+        "id": "b",
+        "text": "O veículo que vier pela direita de quem quer entrar."
+      },
+      {
+        "id": "c",
+        "text": "O veículo de maior porte."
+      },
+      {
+        "id": "d",
+        "text": "O veículo que chegar primeiro à entrada."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Em rotatória, a preferência é de quem já está circulando por ela. Quem quer entrar deve aguardar uma oportunidade segura.",
+    "legalRef": "CTB, art. 29, III, b",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0104",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "A pontuação na carteira de habilitação para uma infração de natureza grave é de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 pontos."
+      },
+      {
+        "id": "b",
+        "text": "4 pontos."
+      },
+      {
+        "id": "c",
+        "text": "5 pontos."
+      },
+      {
+        "id": "d",
+        "text": "3 pontos."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "As infrações somam: leve, 3 pontos; média, 4 pontos; grave, 5 pontos; gravíssima, 7 pontos.",
+    "legalRef": "CTB, art. 259",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0105",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Dirigir sem possuir Carteira Nacional de Habilitação ou Permissão para Dirigir é infração de natureza:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Média."
+      },
+      {
+        "id": "b",
+        "text": "Grave."
+      },
+      {
+        "id": "c",
+        "text": "Leve."
+      },
+      {
+        "id": "d",
+        "text": "Gravíssima."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Conduzir veículo sem possuir CNH ou Permissão para Dirigir é infração gravíssima, com retenção do veículo até a apresentação de condutor habilitado.",
+    "legalRef": "CTB, art. 162, I",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0106",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "O condutor flagrado com velocidade superior à máxima permitida em mais de 50% comete infração:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grave, com 5 pontos e sem outras penalidades."
+      },
+      {
+        "id": "b",
+        "text": "Média, apenas com multa."
+      },
+      {
+        "id": "c",
+        "text": "Gravíssima, com suspensão do direito de dirigir."
+      },
+      {
+        "id": "d",
+        "text": "Leve, com advertência por escrito."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Excesso de velocidade acima de 50% do limite é gravíssimo e sujeita o condutor também à suspensão do direito de dirigir. Até 20% é média; de 20% a 50%, grave.",
+    "legalRef": "CTB, art. 218, III",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0107",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Nas interseções e nas suas proximidades, a ultrapassagem é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Permitida apenas para motocicletas."
+      },
+      {
+        "id": "b",
+        "text": "Permitida, se a via for larga."
+      },
+      {
+        "id": "c",
+        "text": "Proibida."
+      },
+      {
+        "id": "d",
+        "text": "Permitida, se o condutor buzinar antes."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nas interseções e suas proximidades o condutor não pode efetuar ultrapassagem, pois há risco de veículos cruzando a via.",
+    "legalRef": "CTB, art. 33",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0108",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Crianças menores de 10 anos devem ser transportadas:",
+    "options": [
+      {
+        "id": "a",
+        "text": "No banco traseiro, em dispositivo de retenção adequado à idade, peso e altura."
+      },
+      {
+        "id": "b",
+        "text": "Em qualquer banco, desde que acompanhadas de um responsável."
+      },
+      {
+        "id": "c",
+        "text": "No banco da frente, com o cinto de segurança comum."
+      },
+      {
+        "id": "d",
+        "text": "No colo de um adulto, no banco traseiro."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Menores de 10 anos vão no banco traseiro, usando bebê conforto, cadeirinha ou assento de elevação, conforme idade, peso e altura.",
+    "legalRef": "CTB, art. 64",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0109",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Dirigir sob a influência de álcool, em qualquer quantidade, é infração:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Leve, com advertência."
+      },
+      {
+        "id": "b",
+        "text": "Gravíssima, com multa e suspensão do direito de dirigir por 12 meses."
+      },
+      {
+        "id": "c",
+        "text": "Média, apenas com multa."
+      },
+      {
+        "id": "d",
+        "text": "Grave, com 5 pontos e sem suspensão."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A lei não admite tolerância: qualquer concentração de álcool sujeita o condutor a infração gravíssima, multa e suspensão do direito de dirigir por 12 meses. Recusar o teste também tem penalidade.",
+    "legalRef": "CTB, art. 165",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0110",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "A pessoa que ultrapassa o limite de 20 pontos na CNH em 12 meses está sujeita a:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nada, pois o limite é de 40 pontos."
+      },
+      {
+        "id": "b",
+        "text": "Apreensão definitiva do veículo."
+      },
+      {
+        "id": "c",
+        "text": "Suspensão do direito de dirigir."
+      },
+      {
+        "id": "d",
+        "text": "Apenas uma advertência por escrito."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ao atingir 20 pontos no período de 12 meses, o condutor é sujeito ao processo de suspensão do direito de dirigir. O limite varia (20, 30 ou 40 pontos) conforme o número de infrações gravíssimas.",
+    "legalRef": "CTB, art. 261",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0101",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "Placas de advertência, em geral, têm formato:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Triangular invertido, com fundo branco."
+      },
+      {
+        "id": "b",
+        "text": "De losango, com fundo amarelo."
+      },
+      {
+        "id": "c",
+        "text": "Circular, com fundo branco e borda vermelha."
+      },
+      {
+        "id": "d",
+        "text": "Retangular, com fundo azul."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "As placas de advertência alertam sobre perigos à frente e, em regra, têm forma de losango e fundo amarelo.",
+    "legalRef": "CTB, Anexo II; Contran, Manual de Sinalização Vertical de Advertência",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0102",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "A placa R-2 (\"Dê a preferência\"), de formato triangular com um vértice para baixo, indica que o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduzir a velocidade e buzinar."
+      },
+      {
+        "id": "b",
+        "text": "Parar sempre, mesmo sem trânsito."
+      },
+      {
+        "id": "c",
+        "text": "Dar preferência de passagem aos veículos da via em que vai entrar."
+      },
+      {
+        "id": "d",
+        "text": "Seguir em frente, pois tem a preferência."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A R-2 obriga a dar preferência aos veículos que circulam pela via transversal. Diferente da R-1 (Parada obrigatória), não exige parar quando a via está livre.",
+    "legalRef": "CTB, Anexo II",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0103",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "Uma linha dupla contínua amarela no centro da pista indica que:",
+    "options": [
+      {
+        "id": "a",
+        "text": "É proibida a ultrapassagem e a transposição da linha nos dois sentidos."
+      },
+      {
+        "id": "b",
+        "text": "A pista é de mão única."
+      },
+      {
+        "id": "c",
+        "text": "A ultrapassagem é permitida nos dois sentidos."
+      },
+      {
+        "id": "d",
+        "text": "A ultrapassagem é permitida apenas em um dos sentidos."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A linha dupla contínua amarela separa fluxos opostos e proíbe ultrapassar ou cruzar a linha nos dois sentidos.",
+    "legalRef": "CTB, Anexo II; Contran, Manual de Sinalização Horizontal",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0104",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "Diante de um semáforo com luz amarela acesa, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Buzinar e passar com cuidado."
+      },
+      {
+        "id": "b",
+        "text": "Seguir em velocidade normal."
+      },
+      {
+        "id": "c",
+        "text": "Acelerar para passar antes do vermelho."
+      },
+      {
+        "id": "d",
+        "text": "Parar, a menos que a parada brusca possa causar acidente."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "A luz amarela é de atenção: o condutor deve parar. Só segue se estiver tão próximo que a freada brusca criaria risco de colisão.",
+    "legalRef": "CTB, Anexo II (sinalização luminosa); conferir art. 208",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0105",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "Placas de fundo azul, de modo geral, têm a função de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Regulamentar a velocidade máxima."
+      },
+      {
+        "id": "b",
+        "text": "Proibir o estacionamento."
+      },
+      {
+        "id": "c",
+        "text": "Advertir sobre curvas perigosas."
+      },
+      {
+        "id": "d",
+        "text": "Indicar serviços auxiliares, como hospital, posto de combustível e restaurante."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Placas azuis com símbolo informam serviços auxiliares. As de advertência são amarelas e as de regulamentação, em regra, brancas com borda vermelha.",
+    "legalRef": "CTB, Anexo II",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0106",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "A faixa de pedestres sem semáforo exige que o condutor:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pare o veículo para os pedestres que já iniciaram a travessia."
+      },
+      {
+        "id": "b",
+        "text": "Buzine para o pedestre apressar a travessia."
+      },
+      {
+        "id": "c",
+        "text": "Passe com velocidade reduzida, sem parar."
+      },
+      {
+        "id": "d",
+        "text": "Dê preferência apenas a idosos."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O pedestre que está atravessando na faixa tem prioridade. Deixar de dar passagem é infração gravíssima.",
+    "legalRef": "CTB, art. 70 e art. 214",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dir-0101",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Em caso de aquaplanagem, o que o condutor deve fazer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tirar o pé do acelerador, segurar firme o volante e evitar frear ou esterçar bruscamente."
+      },
+      {
+        "id": "b",
+        "text": "Frear com força até parar."
+      },
+      {
+        "id": "c",
+        "text": "Girar o volante rapidamente para os lados."
+      },
+      {
+        "id": "d",
+        "text": "Acelerar para sair da poça."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Na aquaplanagem os pneus perdem o contato com o solo. Frear ou girar o volante bruscamente piora a perda de controle; o correto é aliviar o acelerador e manter a direção firme.",
+    "legalRef": "Manual Brasileiro de Direção Defensiva (Contran/Denatran)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dir-0102",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Por que manter distância segura do veículo da frente é uma regra de direção defensiva?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque reduz o consumo de combustível em qualquer situação."
+      },
+      {
+        "id": "b",
+        "text": "Porque dispensa o uso do pisca-alerta."
+      },
+      {
+        "id": "c",
+        "text": "Porque permite ultrapassar com mais rapidez."
+      },
+      {
+        "id": "d",
+        "text": "Porque dá tempo e espaço para reagir e frear sem colidir."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "A distância de segurança compensa o tempo de reação e a distância de frenagem, e deve aumentar com chuva, velocidade e peso do veículo.",
+    "legalRef": "CTB, art. 29, II",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dir-0103",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Em condições de chuva forte, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diminuir a distância para não perder o veículo da frente."
+      },
+      {
+        "id": "b",
+        "text": "Usar o pisca-alerta enquanto estiver andando."
+      },
+      {
+        "id": "c",
+        "text": "Reduzir a velocidade, aumentar a distância do veículo da frente e manter ao menos a luz baixa acesa."
+      },
+      {
+        "id": "d",
+        "text": "Manter a velocidade para sair logo da chuva."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Chuva reduz aderência e visibilidade. Menos velocidade, mais distância e luzes acesas aumentam a segurança. O pisca-alerta é para veículo parado ou emergência.",
+    "legalRef": "CTB, art. 40, IV",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dir-0104",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Ao ultrapassar outro veículo, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ultrapassar pela direita sempre que possível."
+      },
+      {
+        "id": "b",
+        "text": "Sinalizar com antecedência, certificar-se de que a pista está livre e voltar à faixa depois de ultrapassar com segurança."
+      },
+      {
+        "id": "c",
+        "text": "Buzinar e acelerar sem olhar o retrovisor."
+      },
+      {
+        "id": "d",
+        "text": "Acender o pisca-alerta e seguir."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A ultrapassagem exige indicar a manobra, verificar a pista à frente e o trânsito atrás, e só retornar à faixa quando houver distância segura.",
+    "legalRef": "CTB, arts. 29 a 35",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dir-0105",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "O que caracteriza a fadiga ao volante e como preveni-la?",
+    "options": [
+      {
+        "id": "a",
+        "text": "É a perda de aderência dos pneus; previne-se calibrando-os."
+      },
+      {
+        "id": "b",
+        "text": "É o excesso de combustível; previne-se abastecendo menos."
+      },
+      {
+        "id": "c",
+        "text": "É o cansaço que reduz os reflexos; previne-se com descanso, paradas periódicas e sono adequado."
+      },
+      {
+        "id": "d",
+        "text": "É um sintoma só de quem dirige à noite."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A fadiga e a sonolência prejudicam a atenção e o tempo de reação. Em viagens longas, faça pausas e evite dirigir sem descanso.",
+    "legalRef": "Manual Brasileiro de Direção Defensiva (Contran/Denatran)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dir-0106",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Ao se aproximar de um cruzamento, mesmo com preferência, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Demonstrar prudência especial, reduzindo a velocidade e verificando a presença de outros veículos."
+      },
+      {
+        "id": "b",
+        "text": "Manter a velocidade, pois tem a preferência."
+      },
+      {
+        "id": "c",
+        "text": "Acelerar para liberar o cruzamento mais rápido."
+      },
+      {
+        "id": "d",
+        "text": "Desligar os faróis."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A preferência não dispensa cautela. Ao se aproximar de qualquer cruzamento o condutor deve reduzir a velocidade e ter atenção ao trânsito transversal.",
+    "legalRef": "CTB, art. 44",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mec-0101",
+    "stateCode": "AM",
+    "topic": "mecanica",
+    "statement": "A profundidade mínima dos sulcos da banda de rodagem dos pneus é de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,6 mm."
+      },
+      {
+        "id": "b",
+        "text": "0,5 mm."
+      },
+      {
+        "id": "c",
+        "text": "5,0 mm."
+      },
+      {
+        "id": "d",
+        "text": "3,0 mm."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pneus com sulcos abaixo de 1,6 mm (indicador TWI) perdem aderência, principalmente em pista molhada, e devem ser trocados. Circular assim é infração.",
+    "legalRef": "Resolução Contran 558/1980 (conferir a numeração vigente)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mec-0102",
+    "stateCode": "AM",
+    "topic": "mecanica",
+    "statement": "A luz de advertência de pressão do óleo do motor acesa no painel, com o veículo em movimento, indica que o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parar em local seguro e desligar o motor, pois falta lubrificação."
+      },
+      {
+        "id": "b",
+        "text": "Seguir viagem normalmente até o destino."
+      },
+      {
+        "id": "c",
+        "text": "Apenas calibrar os pneus."
+      },
+      {
+        "id": "d",
+        "text": "Aumentar a velocidade para esfriar o motor."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Sem pressão de óleo, o motor perde lubrificação e pode fundir. O recomendado é parar assim que for seguro e verificar o nível do óleo.",
+    "legalRef": "CTB, art. 27 (verificação das condições do veículo)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mec-0103",
+    "stateCode": "AM",
+    "topic": "mecanica",
+    "statement": "Os pneus devem ser calibrados:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Com a pressão que o borracheiro achar melhor."
+      },
+      {
+        "id": "b",
+        "text": "Conforme a pressão indicada pelo fabricante do veículo, de preferência com os pneus frios."
+      },
+      {
+        "id": "c",
+        "text": "Sempre com a maior pressão possível."
+      },
+      {
+        "id": "d",
+        "text": "Apenas quando estiverem visivelmente vazios."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A pressão correta, que consta no manual ou na etiqueta do veículo, garante aderência, economia e segurança. Medir com os pneus frios evita leituras falsas.",
+    "legalRef": "CTB, art. 27",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mec-0104",
+    "stateCode": "AM",
+    "topic": "mecanica",
+    "statement": "Qual é a função do sistema de freios ABS?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduzir o consumo de combustível."
+      },
+      {
+        "id": "b",
+        "text": "Evitar o travamento das rodas em frenagens fortes, permitindo manter o controle direcional."
+      },
+      {
+        "id": "c",
+        "text": "Aumentar a potência do motor."
+      },
+      {
+        "id": "d",
+        "text": "Dispensar o uso do cinto de segurança."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O ABS impede que as rodas travem ao frear com força, ajudando o condutor a controlar a direção. Não substitui a distância de segurança.",
+    "legalRef": "Manual Brasileiro de Direção Defensiva (Contran/Denatran)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-pri-0101",
+    "stateCode": "AM",
+    "topic": "primeiros_socorros",
+    "statement": "Ao chegar a um acidente com vítimas, qual é a primeira providência?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dar água às vítimas."
+      },
+      {
+        "id": "b",
+        "text": "Retirar imediatamente todas as vítimas dos veículos."
+      },
+      {
+        "id": "c",
+        "text": "Remover os veículos da pista antes de qualquer outra coisa."
+      },
+      {
+        "id": "d",
+        "text": "Sinalizar o local e acionar o socorro especializado (SAMU 192 ou Bombeiros 193)."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Sinalizar evita novos acidentes, e acionar o socorro garante atendimento adequado. Mover vítimas sem necessidade pode agravar lesões.",
+    "legalRef": "CTB, art. 176 e Manual de Primeiros Socorros",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-pri-0102",
+    "stateCode": "AM",
+    "topic": "primeiros_socorros",
+    "statement": "Em caso de hemorragia externa, a medida inicial mais indicada é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dar água à vítima."
+      },
+      {
+        "id": "b",
+        "text": "Comprimir o local com um pano limpo ou gaze e pedir socorro."
+      },
+      {
+        "id": "c",
+        "text": "Lavar o ferimento com álcool e deixar sangrar."
+      },
+      {
+        "id": "d",
+        "text": "Retirar objetos cravados no corpo."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A compressão direta com material limpo estanca o sangramento. Objetos cravados não devem ser retirados, pois podem provocar mais sangramento.",
+    "legalRef": "Manual de Primeiros Socorros",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-pri-0103",
+    "stateCode": "AM",
+    "topic": "primeiros_socorros",
+    "statement": "Um motociclista caído, consciente e respirando, está com capacete. O correto é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não retirar o capacete sem necessidade e aguardar o socorro, salvo se houver obstrução das vias aéreas."
+      },
+      {
+        "id": "b",
+        "text": "Retirar o capacete imediatamente para ele respirar melhor."
+      },
+      {
+        "id": "c",
+        "text": "Dar água para ele se recuperar."
+      },
+      {
+        "id": "d",
+        "text": "Fazê-lo levantar e andar."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A remoção do capacete pode agravar lesão na coluna. Só deve ser feita por quem sabe, e se for indispensável para manter a respiração.",
+    "legalRef": "Manual de Primeiros Socorros",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-pri-0104",
+    "stateCode": "AM",
+    "topic": "primeiros_socorros",
+    "statement": "Em queimaduras leves, o que se deve fazer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Resfriar a área com água corrente em temperatura ambiente e cobrir com pano limpo, sem estourar bolhas."
+      },
+      {
+        "id": "b",
+        "text": "Passar pasta de dente ou manteiga."
+      },
+      {
+        "id": "c",
+        "text": "Estourar as bolhas para aliviar."
+      },
+      {
+        "id": "d",
+        "text": "Aplicar gelo diretamente sobre a pele."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Água corrente alivia a dor e limita a lesão. Produtos caseiros e gelo direto podem piorar, e as bolhas protegem contra infecção.",
+    "legalRef": "Manual de Primeiros Socorros",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mei-0101",
+    "stateCode": "AM",
+    "topic": "meio_ambiente_cidadania",
+    "statement": "A defesa da vida inclui, entre as prioridades do trânsito:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Apenas a fluidez do tráfego."
+      },
+      {
+        "id": "b",
+        "text": "A preservação da saúde e do meio ambiente."
+      },
+      {
+        "id": "c",
+        "text": "Somente a arrecadação de multas."
+      },
+      {
+        "id": "d",
+        "text": "Exclusivamente a proteção do patrimônio dos veículos."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O CTB determina que os órgãos de trânsito deem prioridade à defesa da vida, nela incluída a preservação da saúde e do meio ambiente.",
+    "legalRef": "CTB, art. 1º, § 5º",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mei-0102",
+    "stateCode": "AM",
+    "topic": "meio_ambiente_cidadania",
+    "statement": "Manter o motor regulado e o escapamento em bom estado ajuda a:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduzir a emissão de poluentes e o ruído do veículo."
+      },
+      {
+        "id": "b",
+        "text": "Aumentar o consumo de combustível."
+      },
+      {
+        "id": "c",
+        "text": "Aumentar a emissão de fumaça preta."
+      },
+      {
+        "id": "d",
+        "text": "Dispensar a revisão periódica."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Motor desregulado consome mais e polui mais. Escapamento furado aumenta o ruído, e circular com ruído acima do permitido é infração.",
+    "legalRef": "CTB, art. 1º, § 5º; resoluções do Contran sobre emissões e ruído (conferir)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mei-0103",
+    "stateCode": "AM",
+    "topic": "meio_ambiente_cidadania",
+    "statement": "Jogar lixo pela janela do veículo é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Permitido com o veículo parado."
+      },
+      {
+        "id": "b",
+        "text": "Permitido apenas fora da cidade."
+      },
+      {
+        "id": "c",
+        "text": "Permitido, se for papel."
+      },
+      {
+        "id": "d",
+        "text": "Infração de trânsito e conduta prejudicial ao meio ambiente e à convivência."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Lançar objetos ou substâncias do veículo na via é infração e polui o ambiente, entope bueiros e pode causar acidentes.",
+    "legalRef": "CTB, art. 172",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mei-0104",
+    "stateCode": "AM",
+    "topic": "meio_ambiente_cidadania",
+    "statement": "Respeitar o pedestre e o ciclista é uma atitude de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Obrigação apenas de quem dirige motocicleta."
+      },
+      {
+        "id": "b",
+        "text": "Cortesia opcional, sem previsão legal."
+      },
+      {
+        "id": "c",
+        "text": "Cidadania e convivência segura, e a responsabilidade do maior veículo pelo menor."
+      },
+      {
+        "id": "d",
+        "text": "Exigência só em vias rurais."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Os veículos maiores são responsáveis pela segurança dos menores, e todos pela dos pedestres. Ao ultrapassar ciclista, deve-se manter distância lateral mínima de 1,5 m.",
+    "legalRef": "CTB, art. 29, §2º e art. 201",
+    "status": "draft",
+    "reviewedBy": null
+  }
+]

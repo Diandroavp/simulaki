@@ -1,0 +1,35 @@
+{
+  "name": "simulaki",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Simulaki: plataforma de simulados para a prova teórica do Detran (núcleo de domínio, schema e conteúdo)",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "validate:questions": "node scripts/validate-questions.mjs",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "drizzle-orm": "^0.44.0",
+    "next": "^15.5.27",
+    "postgres": "^3.4.5",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "drizzle-kit": "^0.31.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}

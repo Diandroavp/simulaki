@@ -1,0 +1,843 @@
+[
+  {
+    "id": "am-sin-0002",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "A placa R-2 (Dê a preferência) indica que o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Manter a velocidade, pois a preferência é dele."
+      },
+      {
+        "id": "b",
+        "text": "Dar a preferência somente aos pedestres."
+      },
+      {
+        "id": "c",
+        "text": "Reduzir a velocidade e dar passagem aos veículos da via preferencial, parando se for necessário."
+      },
+      {
+        "id": "d",
+        "text": "Parar sempre, mesmo que a via esteja livre."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Na R-2 o condutor não precisa parar sempre, mas deve reduzir e ceder a passagem a quem está na via preferencial, parando se a situação exigir.",
+    "legalRef": "CTB, Anexo II (sinalização vertical de regulamentação)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0003",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "As placas de advertência têm, em geral, qual aspecto?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Forma circular, fundo branco e borda vermelha."
+      },
+      {
+        "id": "b",
+        "text": "Forma retangular, fundo azul."
+      },
+      {
+        "id": "c",
+        "text": "Forma de losango, fundo amarelo."
+      },
+      {
+        "id": "d",
+        "text": "Forma quadrada, fundo verde."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "As placas de advertência alertam para uma situação perigosa à frente e, em geral, são em losango e amarelas. A forma circular com borda vermelha é a das placas de regulamentação.",
+    "legalRef": "CTB, Anexo II (sinalização vertical de advertência)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0004",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "Uma linha dupla contínua amarela no centro da pista indica que:",
+    "options": [
+      {
+        "id": "a",
+        "text": "É permitido ultrapassar, com cuidado."
+      },
+      {
+        "id": "b",
+        "text": "A via é de mão única."
+      },
+      {
+        "id": "c",
+        "text": "É proibido ultrapassar nos dois sentidos de circulação."
+      },
+      {
+        "id": "d",
+        "text": "Há obras na pista."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A linha dupla contínua amarela separa fluxos de sentidos opostos e proíbe a ultrapassagem para os dois lados.",
+    "legalRef": "CTB, Anexo II (sinalização horizontal)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0005",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "O que significa a luz amarela do semáforo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pedestres têm preferência absoluta."
+      },
+      {
+        "id": "b",
+        "text": "Via livre, sem necessidade de atenção."
+      },
+      {
+        "id": "c",
+        "text": "Acelerar para passar antes do vermelho."
+      },
+      {
+        "id": "d",
+        "text": "Atenção: o condutor deve parar, se puder fazê-lo com segurança."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "A luz amarela é de atenção e avisa que o sinal vai fechar. O condutor deve parar, salvo se isso criar perigo para quem vem atrás.",
+    "legalRef": "CTB, Anexo II (sinalização semafórica)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0006",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "A placa R-19 informa ao condutor:",
+    "options": [
+      {
+        "id": "a",
+        "text": "A distância até o próximo radar."
+      },
+      {
+        "id": "b",
+        "text": "A velocidade recomendada para a próxima curva."
+      },
+      {
+        "id": "c",
+        "text": "A velocidade máxima permitida na via."
+      },
+      {
+        "id": "d",
+        "text": "A velocidade mínima da via."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A R-19 é a placa de velocidade máxima permitida. Ultrapassar o número indicado é infração.",
+    "legalRef": "CTB, Anexo II (sinalização vertical de regulamentação)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-sin-0007",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "A placa R-6c, com círculo vermelho e dois traços cruzados sobre fundo azul, indica:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proibido parar e estacionar."
+      },
+      {
+        "id": "b",
+        "text": "Estacionamento regulamentado."
+      },
+      {
+        "id": "c",
+        "text": "Proibido estacionar."
+      },
+      {
+        "id": "d",
+        "text": "Proibido ultrapassar."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A R-6c proíbe parar e estacionar. A R-6a, com uma só barra, proíbe apenas estacionar.",
+    "legalRef": "CTB, Anexo II (sinalização vertical de regulamentação)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0002",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Em uma faixa de pedestres sem semáforo, o pedestre que já está atravessando:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tem prioridade apenas em vias de mão única."
+      },
+      {
+        "id": "b",
+        "text": "Tem prioridade de passagem, e o condutor deve aguardar."
+      },
+      {
+        "id": "c",
+        "text": "Deve esperar o condutor passar."
+      },
+      {
+        "id": "d",
+        "text": "Só tem prioridade se estiver acompanhado de uma criança."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O pedestre que atravessa sobre a faixa tem prioridade de passagem, exceto onde há sinalização semafórica que determine outra coisa.",
+    "legalRef": "CTB, art. 70",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0003",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "A Carteira Nacional de Habilitação definitiva só é concedida depois de um ano se, nesse período, o condutor:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pagar a taxa de renovação antecipada."
+      },
+      {
+        "id": "b",
+        "text": "Dirigir ao menos 1.000 km."
+      },
+      {
+        "id": "c",
+        "text": "Fizer um curso de reciclagem."
+      },
+      {
+        "id": "d",
+        "text": "Não cometer infração grave ou gravíssima nem for reincidente em infração média."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "No primeiro ano o condutor recebe a Permissão para Dirigir. A habilitação definitiva depende de ele não ter cometido infração grave ou gravíssima nem reincidido em infração média.",
+    "legalRef": "CTB, art. 148, § 3º",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0004",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "A habilitação na categoria B autoriza a condução de veículo motorizado com:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Qualquer peso, desde que tenha quatro rodas."
+      },
+      {
+        "id": "b",
+        "text": "Peso bruto total de até 3.500 kg e lotação de até oito lugares, excluído o do motorista."
+      },
+      {
+        "id": "c",
+        "text": "Duas ou três rodas, com ou sem carro lateral."
+      },
+      {
+        "id": "d",
+        "text": "Peso bruto total de até 6.000 kg e lotação de até dez lugares."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A categoria B é para veículos de até 3.500 kg de peso bruto total e até oito lugares, sem contar o do motorista. As motocicletas são da categoria A.",
+    "legalRef": "CTB, art. 143",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0005",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Dirigir sob a influência de álcool é infração:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gravíssima, com multa e suspensão do direito de dirigir."
+      },
+      {
+        "id": "b",
+        "text": "Média, apenas com multa."
+      },
+      {
+        "id": "c",
+        "text": "Leve, com advertência por escrito."
+      },
+      {
+        "id": "d",
+        "text": "Grave, sem pontuação."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A embriaguez ao volante é infração gravíssima, com multa e suspensão do direito de dirigir, e pode configurar crime.",
+    "legalRef": "CTB, art. 165",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0006",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Ao se aproximar de uma rotatória não sinalizada, tem a preferência de passagem:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quem já está circulando pela rotatória."
+      },
+      {
+        "id": "b",
+        "text": "Quem vai entrar na rotatória."
+      },
+      {
+        "id": "c",
+        "text": "O veículo maior."
+      },
+      {
+        "id": "d",
+        "text": "O que vem pela direita, sempre."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Em rotatória, a preferência é de quem já está circulando por ela.",
+    "legalRef": "CTB, art. 29, III",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0007",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "O condutor só pode usar a buzina:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para chamar a atenção de pedestres na calçada."
+      },
+      {
+        "id": "b",
+        "text": "Em toque breve, para fazer advertências necessárias a fim de evitar acidentes."
+      },
+      {
+        "id": "c",
+        "text": "Para cumprimentar conhecidos."
+      },
+      {
+        "id": "d",
+        "text": "Sempre que o trânsito parar."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A buzina é permitida apenas em toque breve, para evitar acidentes e, fora da área urbana, para avisar que pretende ultrapassar.",
+    "legalRef": "CTB, art. 41",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0008",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Dirigir utilizando o aparelho de telefone celular:",
+    "options": [
+      {
+        "id": "a",
+        "text": "É permitido, se o veículo estiver devagar."
+      },
+      {
+        "id": "b",
+        "text": "Constitui infração de trânsito."
+      },
+      {
+        "id": "c",
+        "text": "É permitido apenas para receber chamadas."
+      },
+      {
+        "id": "d",
+        "text": "É permitido em vias urbanas."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O uso do celular ao conduzir o veículo é infração prevista no Código de Trânsito, porque tira a atenção do condutor.",
+    "legalRef": "CTB, art. 252",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0009",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "A habilitação na categoria A autoriza a condução de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ônibus de transporte coletivo."
+      },
+      {
+        "id": "b",
+        "text": "Caminhões com peso bruto acima de 3.500 kg."
+      },
+      {
+        "id": "c",
+        "text": "Automóveis de passeio de até oito lugares."
+      },
+      {
+        "id": "d",
+        "text": "Veículo motorizado de duas ou três rodas, com ou sem carro lateral."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "A categoria A é a das motocicletas, motonetas e triciclos motorizados, com ou sem carro lateral.",
+    "legalRef": "CTB, art. 143",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0010",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Ao ouvir a sirene de uma ambulância em serviço de urgência, devidamente identificada, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Seguir a ambulância de perto para aproveitar a via livre."
+      },
+      {
+        "id": "b",
+        "text": "Manter a posição e a velocidade."
+      },
+      {
+        "id": "c",
+        "text": "Facilitar a passagem, deslocando o veículo para o lado e parando, se necessário."
+      },
+      {
+        "id": "d",
+        "text": "Acelerar para sair da frente."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Veículos de socorro em serviço de urgência têm prioridade, e o condutor deve dar passagem. Não dar passagem é infração gravíssima.",
+    "legalRef": "CTB, arts. 29, VII e 189",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dd-0002",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Como prática de direção defensiva, a distância de segurança em relação ao veículo da frente deve ser de, pelo menos:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Um segundo."
+      },
+      {
+        "id": "b",
+        "text": "Três segundos."
+      },
+      {
+        "id": "c",
+        "text": "Dez segundos."
+      },
+      {
+        "id": "d",
+        "text": "Nenhuma, se o trânsito estiver lento."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A regra dos três segundos dá tempo de reação e frenagem. Em chuva, neblina ou pista ruim, a distância deve ser maior.",
+    "legalRef": "Manual de direção defensiva; CTB, art. 29, II",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dd-0003",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Ao dirigir com neblina, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acender o farol alto para enxergar mais longe."
+      },
+      {
+        "id": "b",
+        "text": "Manter a velocidade e usar a buzina o tempo todo."
+      },
+      {
+        "id": "c",
+        "text": "Acender o farol baixo e reduzir a velocidade."
+      },
+      {
+        "id": "d",
+        "text": "Desligar as luzes para não ofuscar."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O farol alto reflete na neblina e piora a visão. O farol baixo, junto com a redução da velocidade, é o mais seguro.",
+    "legalRef": "Manual de direção defensiva",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dd-0004",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Antes de mudar de faixa, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mudar e só depois sinalizar."
+      },
+      {
+        "id": "b",
+        "text": "Apenas buzinar."
+      },
+      {
+        "id": "c",
+        "text": "Sinalizar, olhar o retrovisor e conferir o ponto cego olhando por cima do ombro."
+      },
+      {
+        "id": "d",
+        "text": "Acelerar para fechar o espaço rapidamente."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O retrovisor não mostra tudo. Conferir o ponto cego antes de mudar de faixa evita colisões laterais.",
+    "legalRef": "Manual de direção defensiva; CTB, art. 35",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dd-0005",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Se o veículo começar a aquaplanar, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tirar o pé do acelerador e manter o volante firme, sem frear bruscamente."
+      },
+      {
+        "id": "b",
+        "text": "Acelerar para sair da poça."
+      },
+      {
+        "id": "c",
+        "text": "Frear com força."
+      },
+      {
+        "id": "d",
+        "text": "Girar o volante bruscamente para os lados."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Na aquaplanagem os pneus perdem contato com o chão. Frear ou girar o volante bruscamente piora a perda de controle.",
+    "legalRef": "Manual de direção defensiva",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dd-0006",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Ao sentir sono durante uma viagem, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aumentar o volume do som."
+      },
+      {
+        "id": "b",
+        "text": "Abrir o vidro e continuar dirigindo."
+      },
+      {
+        "id": "c",
+        "text": "Parar em local seguro e descansar."
+      },
+      {
+        "id": "d",
+        "text": "Aumentar a velocidade para chegar logo."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Sono reduz os reflexos e pode causar cochilo ao volante. A única solução segura é parar em local seguro e descansar.",
+    "legalRef": "Manual de direção defensiva",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dd-0007",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Mesmo tendo a preferência de passagem em um cruzamento, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reduzir e verificar se os demais veículos vão respeitar a preferência."
+      },
+      {
+        "id": "b",
+        "text": "Buzinar e acelerar."
+      },
+      {
+        "id": "c",
+        "text": "Passar sem reduzir, pois a preferência é dele."
+      },
+      {
+        "id": "d",
+        "text": "Parar em qualquer situação."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Direção defensiva é antecipar o erro dos outros. Ter a preferência não evita o acidente se o outro condutor não a respeitar.",
+    "legalRef": "Manual de direção defensiva",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-ps-0001",
+    "stateCode": "AM",
+    "topic": "primeiros_socorros",
+    "statement": "Ao presenciar um acidente com vítimas, uma das primeiras providências é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Retirar todas as vítimas do veículo imediatamente."
+      },
+      {
+        "id": "b",
+        "text": "Dar água às vítimas."
+      },
+      {
+        "id": "c",
+        "text": "Sinalizar o local e acionar o socorro, pelo SAMU (192) ou pelos Bombeiros (193)."
+      },
+      {
+        "id": "d",
+        "text": "Deixar o local para não atrapalhar."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Sinalizar evita novos acidentes e chamar o socorro rápido aumenta as chances da vítima. Movimentar vítimas sem necessidade pode agravar lesões.",
+    "legalRef": "Manual de primeiros socorros",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-ps-0002",
+    "stateCode": "AM",
+    "topic": "primeiros_socorros",
+    "statement": "Em motociclista acidentado, como regra geral, o capacete:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deve ser retirado de imediato."
+      },
+      {
+        "id": "b",
+        "text": "Não deve ser retirado, salvo risco para as vias aéreas, e só com técnica adequada."
+      },
+      {
+        "id": "c",
+        "text": "Deve ser puxado com força para liberar a respiração."
+      },
+      {
+        "id": "d",
+        "text": "Deve ser girado para verificar ferimentos."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Retirar o capacete pode agravar uma lesão na coluna. Ele só deve sair se houver risco para a respiração, e de preferência com ajuda de quem sabe fazer.",
+    "legalRef": "Manual de primeiros socorros",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-ps-0003",
+    "stateCode": "AM",
+    "topic": "primeiros_socorros",
+    "statement": "Diante de um sangramento forte em um membro, a primeira ação é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aplicar pressão direta sobre o ferimento com um pano limpo e chamar o socorro."
+      },
+      {
+        "id": "b",
+        "text": "Lavar o ferimento com álcool."
+      },
+      {
+        "id": "c",
+        "text": "Esperar o sangramento parar sozinho."
+      },
+      {
+        "id": "d",
+        "text": "Aplicar pó de café para estancar."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A pressão direta com material limpo é a medida mais indicada para conter a hemorragia enquanto o socorro não chega.",
+    "legalRef": "Manual de primeiros socorros",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mac-0001",
+    "stateCode": "AM",
+    "topic": "meio_ambiente_cidadania",
+    "statement": "A manutenção periódica do motor contribui com o meio ambiente porque:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Faz o veículo gastar mais óleo."
+      },
+      {
+        "id": "b",
+        "text": "Aumenta a quantidade de fumaça do escapamento."
+      },
+      {
+        "id": "c",
+        "text": "Reduz a emissão de poluentes e o consumo de combustível."
+      },
+      {
+        "id": "d",
+        "text": "Não tem relação com poluição."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Um motor regulado queima o combustível de forma mais completa, polui menos e consome menos.",
+    "legalRef": "Manual do Detran-AM (a confirmar)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mac-0002",
+    "stateCode": "AM",
+    "topic": "meio_ambiente_cidadania",
+    "statement": "O descarte correto do óleo lubrificante usado é:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Misturá-lo ao lixo comum."
+      },
+      {
+        "id": "b",
+        "text": "Jogá-lo no esgoto ou no rio."
+      },
+      {
+        "id": "c",
+        "text": "Enterrá-lo no quintal."
+      },
+      {
+        "id": "d",
+        "text": "Entregá-lo em ponto de coleta ou estabelecimento que receba o resíduo."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "O óleo usado contamina o solo e a água. Ele deve ser levado a pontos de coleta, para reciclagem ou destinação adequada.",
+    "legalRef": "Manual do Detran-AM (a confirmar)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mac-0003",
+    "stateCode": "AM",
+    "topic": "meio_ambiente_cidadania",
+    "statement": "Ao ultrapassar uma bicicleta, o condutor deve manter uma distância lateral mínima de:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,50 metro."
+      },
+      {
+        "id": "b",
+        "text": "1 metro."
+      },
+      {
+        "id": "c",
+        "text": "3 metros."
+      },
+      {
+        "id": "d",
+        "text": "50 centímetros."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O Código de Trânsito exige 1,50 m de distância lateral ao passar ou ultrapassar uma bicicleta. Não respeitar é infração.",
+    "legalRef": "CTB, art. 201",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mec-0001",
+    "stateCode": "AM",
+    "topic": "mecanica",
+    "statement": "Pneus rodando com pressão abaixo da recomendada:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Melhoram a aderência em qualquer piso."
+      },
+      {
+        "id": "b",
+        "text": "Duram mais e economizam combustível."
+      },
+      {
+        "id": "c",
+        "text": "Não alteram a segurança."
+      },
+      {
+        "id": "d",
+        "text": "Aumentam o desgaste e o consumo e reduzem a segurança."
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Pneu murcho se deforma mais, esquenta, gasta mais e responde pior em curvas e frenagens. A calibragem deve seguir o manual do veículo.",
+    "legalRef": "Manual do veículo",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-mec-0002",
+    "stateCode": "AM",
+    "topic": "mecanica",
+    "statement": "Se o indicador de temperatura do motor mostrar superaquecimento, o condutor deve:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continuar dirigindo até o destino."
+      },
+      {
+        "id": "b",
+        "text": "Parar em local seguro, desligar o motor e esperar esfriar antes de abrir o reservatório."
+      },
+      {
+        "id": "c",
+        "text": "Acelerar para refrigerar o motor."
+      },
+      {
+        "id": "d",
+        "text": "Abrir a tampa do radiador de imediato."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Continuar com o motor superaquecido pode danificá-lo. Abrir o radiador quente é perigoso, porque o líquido pode esguichar e queimar.",
+    "legalRef": "Manual do veículo",
+    "status": "draft",
+    "reviewedBy": null
+  }
+]

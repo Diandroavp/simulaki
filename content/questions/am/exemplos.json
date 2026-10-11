@@ -1,0 +1,53 @@
+[
+  {
+    "id": "am-sin-0001",
+    "stateCode": "AM",
+    "topic": "sinalizacao",
+    "statement": "Ao se aproximar de uma placa R-1 (Parada obrigatória), o condutor deve:",
+    "options": [
+      { "id": "a", "text": "Reduzir a velocidade e seguir, se não houver outros veículos à vista." },
+      { "id": "b", "text": "Parar o veículo e só prosseguir quando puder fazê-lo com segurança." },
+      { "id": "c", "text": "Buzinar para avisar os demais condutores e manter a velocidade." },
+      { "id": "d", "text": "Dar preferência apenas aos veículos que vierem pela direita." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A placa R-1 exige a parada completa do veículo. Só depois de parar, e quando a via estiver livre e seguro prosseguir, o condutor pode seguir. Reduzir a velocidade não basta.",
+    "legalRef": "CTB, Anexo II (sinalização vertical de regulamentação)",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-leg-0001",
+    "stateCode": "AM",
+    "topic": "legislacao",
+    "statement": "Sobre o uso do cinto de segurança, é correto afirmar que ele é obrigatório:",
+    "options": [
+      { "id": "a", "text": "Somente para o condutor, em rodovias." },
+      { "id": "b", "text": "Somente para quem viaja no banco da frente." },
+      { "id": "c", "text": "Para o condutor e os passageiros, em todas as vias, salvo as exceções regulamentadas pelo Contran." },
+      { "id": "d", "text": "Apenas em vias urbanas com limite superior a 60 km/h." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O CTB determina o uso do cinto para condutor e passageiros em todas as vias do território nacional. As exceções são definidas por regulamentação do Contran.",
+    "legalRef": "CTB, art. 65",
+    "status": "draft",
+    "reviewedBy": null
+  },
+  {
+    "id": "am-dd-0001",
+    "stateCode": "AM",
+    "topic": "direcao_defensiva",
+    "statement": "Ao dirigir em pista molhada, a atitude mais adequada do condutor é:",
+    "options": [
+      { "id": "a", "text": "Diminuir a distância do veículo da frente para não perdê-lo de vista." },
+      { "id": "b", "text": "Manter a mesma velocidade e a mesma distância de uma pista seca." },
+      { "id": "c", "text": "Aumentar a distância de segurança e reduzir a velocidade." },
+      { "id": "d", "text": "Frear forte e repetidamente para testar a aderência." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Na pista molhada a aderência dos pneus cai e a distância necessária para parar aumenta. Reduzir a velocidade e ampliar a distância de segurança dá mais tempo para reagir.",
+    "legalRef": "CTB, art. 29, inciso II",
+    "status": "draft",
+    "reviewedBy": null
+  }
+]
