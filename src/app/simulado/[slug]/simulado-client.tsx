@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 type Option = { id: string; text: string };
-type PQ = { id: string; topic: string; statement: string; options: Option[] };
+type PQ = { id: string; topic: string; statement: string; options: Option[]; sourceLine: string; signCode?: string };
 type Exam = { attemptId: string; durationMinutes: number; configVerified: boolean; shortExam: boolean; questions: PQ[]; remainingSeconds: number; draftAnswers: Record<string, string>; resumed: boolean };
 type Review = {
   questionId: string; statement: string; options: Option[];
-  selectedOptionId: string | null; correctOptionId: string; explanation: string | null; legalRef: string | null;
+  selectedOptionId: string | null; correctOptionId: string; explanation: string | null; legalRef: string | null; sourceLine: string;
 };
 type Result = { correct: number; total: number; passed: boolean; minCorrect: number; review: Review[] };
 
@@ -123,7 +123,8 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
             ))}
             {r.selectedOptionId === null && <p className="muted">Sem resposta.</p>}
             {r.explanation && <p className="muted">{r.explanation}</p>}
-            {r.legalRef && <p className="muted">Base: {r.legalRef}</p>}
+            {r.legalRef && !r.legalRef.includes('conferir') && <p className="muted">Base legal: {r.legalRef}</p>}
+            <p className="muted" style={{ fontSize: '.8rem' }}>{r.sourceLine}</p>
             <ReportError questionId={r.questionId} />
           </div>
         ))}
@@ -155,11 +156,13 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
       )}
       <div className="card">
         <p style={{ marginTop: 0, font: '700 1.2rem/1.4 var(--display)' }}>{q.statement}</p>
+        {q.signCode && <p className="muted" style={{ marginTop: 0 }}>Placa: {q.signCode}</p>}
         {q.options.map((o) => (
           <button key={o.id} className="opt" aria-pressed={answers[q.id] === o.id} onClick={() => setAnswers((a) => ({ ...a, [q.id]: o.id }))}>
             <span className="ltr">{o.id.toUpperCase()}</span><span>{o.text}</span>
           </button>
         ))}
+        <p className="muted" style={{ fontSize: '.8rem', marginBottom: 0 }}>{q.sourceLine}</p>
       </div>
       <div className="row">
         <button className="btn ghost" disabled={idx === 0} onClick={() => setIdx(idx - 1)}>Anterior</button>

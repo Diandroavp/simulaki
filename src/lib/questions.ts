@@ -11,11 +11,17 @@ export type Question = {
   correctOptionId: string;
   explanation?: string;
   legalRef?: string;
+  /** Fonte da questão, para exibir ao aluno (ex.: banco oficial e ano). */
+  source?: string;
+  /** Detalhe da fonte (parte, módulo, número). */
+  sourceRef?: string;
+  /** Código da placa, quando a questão se refere a uma. */
+  signCode?: string;
   status: 'draft' | 'reviewed' | 'published' | 'archived';
 };
 
 /** Visão pública da questão: nunca inclui o gabarito. */
-export type PublicQuestion = Pick<Question, 'id' | 'topic' | 'statement' | 'options'>;
+export type PublicQuestion = Pick<Question, 'id' | 'topic' | 'statement' | 'options'> & { sourceLine: string; signCode?: string };
 
 const ROOT = path.join(process.cwd(), 'content', 'questions');
 
@@ -56,6 +62,15 @@ export function examTopic(topic: string): string {
   return topic === 'sinalizacao' ? 'legislacao' : topic;
 }
 
+/** Linha de fonte mostrada ao aluno: de onde vem a questão e em que ela se baseia. */
+export function sourceLine(q: Question): string {
+  if (q.source) return `Fonte: ${q.source}${q.sourceRef ? ` · ${q.sourceRef}` : ''}`;
+  const ref = q.legalRef && !q.legalRef.includes('conferir') ? q.legalRef : null;
+  if (!ref) return 'Fonte: elaborada pelo Simulaki';
+  const law = /^CTB/i.test(ref) ? ' (Lei nº 9.503/1997)' : '';
+  return `Fonte: elaborada pelo Simulaki com base em ${ref}${law}`;
+}
+
 export function toPublic(q: Question): PublicQuestion {
-  return { id: q.id, topic: q.topic, statement: q.statement, options: q.options };
+  return { id: q.id, topic: q.topic, statement: q.statement, options: q.options, sourceLine: sourceLine(q), ...(q.signCode ? { signCode: q.signCode } : {}) };
 }

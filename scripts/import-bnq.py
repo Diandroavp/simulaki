@@ -48,7 +48,8 @@ for i in range(1, len(mods), 3):
              'statement': re.sub(r'\s+', ' ', stmt).strip(), 'options': options, 'correctOptionId': correct,
              'explanation': com or None, 'legalRef': (ref or 'Banco Nacional de Questões v1.0 (Senatran)'),
              'status': 'draft', 'reviewedBy': None,
-             'source': f'Banco Nacional de Questões v1.0 - Senatran/CNH do Brasil, {pfx.upper()} módulo {mod}, q. {num}, nível {lvl}'}
+             'source': 'Banco Nacional de Questões, v1.0 — Senatran / CNH do Brasil, Ministério dos Transportes (2025)',
+             'sourceRef': f'{"Parte 1" if pfx == "p1" else "Parte 2"}, módulo {mod}, questão {num}, nível {lvl}'}
         if sign: q['signCode'] = sign
         if not q['explanation']: del q['explanation']
         qs.append(q)

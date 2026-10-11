@@ -2,7 +2,7 @@ import { and, desc, eq, gte, isNotNull, sql } from 'drizzle-orm';
 import { getDb, schema } from '@/db';
 import { userHasAccess } from './billing';
 import { buildExam, getExamConfig, scoreAttempt } from './exam';
-import { examTopic, loadQuestions, toPublic, type PublicQuestion } from './questions';
+import { examTopic, loadQuestions, sourceLine, toPublic, type PublicQuestion } from './questions';
 import { getSimulation } from './simulations';
 
 export const FREE_PER_DAY = 1;
@@ -117,7 +117,7 @@ export async function getOpenAttempt(userId: string) {
 
 export type Review = {
   questionId: string; statement: string; options: { id: string; text: string }[];
-  selectedOptionId: string | null; correctOptionId: string; explanation: string | null; legalRef: string | null;
+  selectedOptionId: string | null; correctOptionId: string; explanation: string | null; legalRef: string | null; sourceLine: string;
 };
 
 export async function finishAttempt(
@@ -144,7 +144,7 @@ export async function finishAttempt(
     const opt = q.options.some((o) => o.id === a.selectedOptionId) ? a.selectedOptionId : null;
     return {
       questionId: q.id, statement: q.statement, options: q.options, selectedOptionId: opt,
-      correctOptionId: q.correctOptionId, explanation: q.explanation ?? null, legalRef: q.legalRef ?? null,
+      correctOptionId: q.correctOptionId, explanation: q.explanation ?? null, legalRef: q.legalRef ?? null, sourceLine: sourceLine(q),
     };
   });
   // Questões não respondidas contam como erro: o total é o da prova, não o das respostas enviadas.

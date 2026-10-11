@@ -122,3 +122,14 @@ describe('prova', () => {
     expect(new Set(picked).size).toBe(30);
   });
 });
+
+import { sourceLine } from './questions';
+describe('fonte da questão', () => {
+  const base = { id: 'x', stateCode: 'AM', topic: 'legislacao', statement: 's', options: [], correctOptionId: 'a', status: 'draft' as const };
+  it('mostra a fonte oficial quando existe', () => {
+    expect(sourceLine({ ...base, source: 'Banco Nacional de Questões, v1.0 (2025)', sourceRef: 'Parte 1, q. 3' })).toBe('Fonte: Banco Nacional de Questões, v1.0 (2025) · Parte 1, q. 3');
+  });
+  it('questão própria cita a base legal e a lei', () => {
+    expect(sourceLine({ ...base, legalRef: 'CTB, art. 65' })).toContain('Lei nº 9.503/1997');
+  });
+});
