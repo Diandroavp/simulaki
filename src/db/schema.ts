@@ -382,3 +382,17 @@ export const emailVerifications = pgTable(
   },
   (t) => [uniqueIndex('email_verifications_token_uq').on(t.tokenHash)],
 );
+
+// Avisos de erro em questões (as questões vêm dos arquivos JSON, por isso o id é texto).
+export const questionFeedback = pgTable(
+  'question_feedback',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    questionId: text('question_id').notNull(),
+    userId: uuid('user_id').references(() => users.id),
+    reason: text('reason').notNull(),
+    resolvedAt: timestamp('resolved_at', { withTimezone: true }),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index('question_feedback_q_idx').on(t.questionId)],
+);

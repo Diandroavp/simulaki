@@ -1,7 +1,7 @@
 import { legal } from '@/lib/legal';
 import { ReviewNotice } from '../legal-notice';
 
-export const metadata = { title: 'Política de privacidade | Simulaki' };
+export const metadata = { title: 'Política de privacidade' };
 export const dynamic = 'force-dynamic';
 
 export default function Privacidade() {

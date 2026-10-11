@@ -12,6 +12,26 @@ type Review = {
 };
 type Result = { correct: number; total: number; passed: boolean; minCorrect: number; review: Review[] };
 
+function ReportError({ questionId }: { questionId: string }) {
+  const [open, setOpen] = useState(false);
+  const [text, setText] = useState('');
+  const [msg, setMsg] = useState('');
+  async function send() {
+    const r = await fetch('/api/questao/reportar', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ questionId, reason: text }) });
+    const d = await r.json().catch(() => ({}));
+    if (r.ok) { setMsg('Obrigado! Vamos revisar esta questão.'); setOpen(false); } else setMsg(d.error ?? 'Não foi possível enviar.');
+  }
+  if (msg && !open) return <p className="muted">{msg}</p>;
+  if (!open) return <button className="btn ghost" style={{ padding: '2px 10px', fontSize: '.85rem' }} onClick={() => setOpen(true)}>Reportar erro nesta questão</button>;
+  return (
+    <div>
+      <label>O que está errado?<textarea value={text} onChange={(e) => setText(e.target.value)} rows={2} maxLength={1000} style={{ width: '100%' }} /></label>
+      {msg && <p className="err">{msg}</p>}
+      <div className="row"><button className="btn" onClick={send}>Enviar</button><button className="btn ghost" onClick={() => setOpen(false)}>Cancelar</button></div>
+    </div>
+  );
+}
+
 const fmt = (s: number) => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 
 export default function SimuladoClient({ slug, name }: { slug: string; name: string }) {
@@ -104,6 +124,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
             {r.selectedOptionId === null && <p className="muted">Sem resposta.</p>}
             {r.explanation && <p className="muted">{r.explanation}</p>}
             {r.legalRef && <p className="muted">Base: {r.legalRef}</p>}
+            <ReportError questionId={r.questionId} />
           </div>
         ))}
       </>

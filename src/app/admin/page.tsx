@@ -36,7 +36,7 @@ export default async function Admin() {
   return (
     <>
       <h1>Gestão</h1>
-      <p><Link href="/admin/cupons">Cupons</Link> · <Link href="/admin/parceiros">Parceiros</Link></p>
+      <p><Link href="/admin/cupons">Cupons</Link> · <Link href="/admin/parceiros">Parceiros</Link> · <Link href="/admin/questoes">Questões</Link></p>
       <div className="grid">
         <div className="card"><div className="muted">Usuários</div><div className="price">{users?.total}</div><div className="muted">{users?.novos} nos últimos 30 dias</div></div>
         <div className="card"><div className="muted">Assinantes ativos</div><div className="price">{subs?.ativas}</div></div>

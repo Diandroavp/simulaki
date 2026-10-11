@@ -264,28 +264,28 @@
     "id": "am-leg-0110",
     "stateCode": "AM",
     "topic": "legislacao",
-    "statement": "A pessoa que ultrapassa o limite de 20 pontos na CNH em 12 meses está sujeita a:",
+    "statement": "Para o condutor que NÃO cometeu nenhuma infração gravíssima no período, a suspensão do direito de dirigir por acúmulo de pontos ocorre ao atingir, em 12 meses:",
     "options": [
       {
         "id": "a",
-        "text": "Nada, pois o limite é de 40 pontos."
+        "text": "15 pontos."
       },
       {
         "id": "b",
-        "text": "Apreensão definitiva do veículo."
+        "text": "20 pontos."
       },
       {
         "id": "c",
-        "text": "Suspensão do direito de dirigir."
+        "text": "40 pontos."
       },
       {
         "id": "d",
-        "text": "Apenas uma advertência por escrito."
+        "text": "30 pontos."
       }
     ],
     "correctOptionId": "c",
-    "explanation": "Ao atingir 20 pontos no período de 12 meses, o condutor é sujeito ao processo de suspensão do direito de dirigir. O limite varia (20, 30 ou 40 pontos) conforme o número de infrações gravíssimas.",
-    "legalRef": "CTB, art. 261",
+    "explanation": "Desde a Lei 14.071/2020 o limite é de 40 pontos em 12 meses para quem não tem infração gravíssima; 30 pontos para quem cometeu uma gravíssima; 20 pontos para duas ou mais gravíssimas. Para condutores que exercem atividade remunerada de condução, o limite é de 40 pontos.",
+    "legalRef": "CTB, art. 261, I (redação da Lei 14.071/2020)",
     "status": "draft",
     "reviewedBy": null
   },
@@ -401,7 +401,7 @@
     ],
     "correctOptionId": "d",
     "explanation": "A luz amarela é de atenção: o condutor deve parar. Só segue se estiver tão próximo que a freada brusca criaria risco de colisão.",
-    "legalRef": "CTB, Anexo II (sinalização luminosa); conferir art. 208",
+    "legalRef": "CTB, Anexo II (sinalização luminosa) (conferir artigo da infração)",
     "status": "draft",
     "reviewedBy": null
   },
@@ -575,7 +575,7 @@
     ],
     "correctOptionId": "b",
     "explanation": "A ultrapassagem exige indicar a manobra, verificar a pista à frente e o trânsito atrás, e só retornar à faixa quando houver distância segura.",
-    "legalRef": "CTB, arts. 29 a 35",
+    "legalRef": "CTB, art. 29, X, e art. 34",
     "status": "draft",
     "reviewedBy": null
   },
@@ -923,7 +923,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "Motor desregulado consome mais e polui mais. Escapamento furado aumenta o ruído, e circular com ruído acima do permitido é infração.",
-    "legalRef": "CTB, art. 1º, § 5º; resoluções do Contran sobre emissões e ruído (conferir)",
+    "legalRef": "CTB, art. 1º, § 5º; arts. 228 e 229 (conferir numeração e resoluções do Contran sobre ruído e emissões)",
     "status": "draft",
     "reviewedBy": null
   },

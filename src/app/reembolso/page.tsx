@@ -1,7 +1,7 @@
 import { legal } from '@/lib/legal';
 import { ReviewNotice } from '../legal-notice';
 
-export const metadata = { title: 'Reembolso e cancelamento | Simulaki' };
+export const metadata = { title: 'Reembolso e cancelamento' };
 export const dynamic = 'force-dynamic';
 
 export default function Reembolso() {

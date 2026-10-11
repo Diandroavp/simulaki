@@ -1,13 +1,15 @@
 'use server';
 
 import { eq } from 'drizzle-orm';
+import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { getDb, schema } from '@/db';
 import { createSession, destroySession, getCurrentUser, hashPassword, promoteIfAdmin, verifyPassword } from '@/lib/auth';
 import { simulatePaid, startCheckout } from '@/lib/billing';
-import { isLockedOut, recordFailure, clearFailures } from '@/lib/ratelimit';
+import { allowAction, isLockedOut, recordFailure, clearFailures } from '@/lib/ratelimit';
 import { applyReset, requestReset } from '@/lib/password-reset';
 import { confirmEmail, sendVerification } from '@/lib/email-verification';
+import { deleteAccount } from '@/lib/account';
 
 const appUrl = () => process.env.APP_URL ?? 'http://localhost:3000';
 
@@ -23,6 +25,8 @@ export async function signupAction(form: FormData) {
   if (!EMAIL.test(email)) err('/cadastro', 'E-mail inválido.');
   if (password.length < 8) err('/cadastro', 'A senha precisa ter pelo menos 8 caracteres.');
   if (form.get('terms') !== 'on') err('/cadastro', 'Aceite os termos para continuar.');
+  const ip = (await headers()).get('x-forwarded-for')?.split(',')[0]?.trim() || 'sem-ip';
+  if (!(await allowAction(`signup:${ip}`, 10, 60 * 60_000))) err('/cadastro', 'Muitos cadastros deste endereço. Tente de novo em uma hora.');
   const db = await getDb();
   const [exists] = await db.select({ id: schema.users.id }).from(schema.users).where(eq(schema.users.email, email)).limit(1);
   if (exists) err('/cadastro', 'Este e-mail já tem cadastro. Entre com sua senha ou com o Google.');
@@ -102,4 +106,14 @@ export async function resendVerificationAction() {
   if (!u) redirect('/entrar');
   const r = await sendVerification(u!.id, appUrl());
   redirect(`/app?${r === 'limited' ? 'verifique=limite' : r === 'already' ? 'verificado=1' : 'verifique=1'}`);
+}
+
+export async function deleteAccountAction(form: FormData) {
+  const u = await getCurrentUser();
+  if (!u) redirect('/entrar');
+  if (str(form, 'confirm').toUpperCase() !== 'EXCLUIR') err('/app/conta', 'Digite EXCLUIR para confirmar.');
+  const r = await deleteAccount(u!.id);
+  if (r === 'is_manager') err('/app/conta', 'Sua conta gerencia uma autoescola parceira. Fale com o suporte para excluir.');
+  await destroySession();
+  redirect('/?conta=excluida');
 }

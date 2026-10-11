@@ -121,6 +121,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
           </table>
         </div>
       )}
+          <p className="muted"><Link href="/app/conta">Minha conta: baixar meus dados ou excluir</Link></p>
     </>
   );
 }

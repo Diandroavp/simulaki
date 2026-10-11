@@ -5,8 +5,10 @@ import { getCurrentUser } from '@/lib/auth';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Simulaki',
-  description: 'Simulados para a prova teórica do Detran, ENEM, PSC e SIS.',
+  metadataBase: new URL(process.env.APP_URL ?? 'http://localhost:3000'),
+  title: { default: 'Simulaki | Simulados para a prova do Detran', template: '%s | Simulaki' },
+  description: 'Treine no formato da prova teórica do Detran com cronômetro, correção na hora e explicação de cada questão com a base legal.',
+  openGraph: { type: 'website', locale: 'pt_BR', siteName: 'Simulaki', title: 'Simulaki | Simulados para a prova do Detran', description: 'Simulados com cronômetro, correção na hora e explicação com a base legal.' },
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {

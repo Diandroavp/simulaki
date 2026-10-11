@@ -67,3 +67,7 @@ npm run db:migrate          # com DATABASE_URL: aplica a migração no PostgreSQ
 - Pagamento: sem credenciais Canvi o site mostra "Pix em breve" (cupons seguem funcionando).
 - Textos legais em /termos, /privacidade e /reembolso, preenchidos por variáveis LEGAL_*; trocam o aviso de revisão com LEGAL_REVIEWED=1.
 - Perguntas: `node scripts/review.mjs export` gera o CSV para o revisor; `node scripts/review.mjs publish "Nome" id...` publica (exige explicação e base legal; bloqueia base marcada "conferir").
+
+## Migrações (importante)
+
+O banco de produção já recebeu a migração `0000`. **Nunca apague a pasta `drizzle/` nem gere tudo de novo.** Depois de mudar `src/db/schema.ts`, rode `npm run db:generate` (cria só a diferença, `0001`, `0002`...) e faça commit; o deploy na Vercel aplica sozinho.

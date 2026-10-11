@@ -6,6 +6,7 @@ import { redirect } from 'next/navigation';
 import { getDb, schema } from '@/db';
 import { requireAdmin } from '@/lib/auth';
 import { normalizeCode } from '@/lib/billing';
+import { resolveFeedback } from '@/lib/feedback';
 
 const back = (msg: string, kind: 'erro' | 'ok' = 'erro'): never => redirect(`/admin/cupons?${kind}=${encodeURIComponent(msg)}`);
 
@@ -48,4 +49,10 @@ export async function toggleCouponAction(form: FormData) {
   const db = await getDb();
   await db.update(schema.coupons).set({ active }).where(eq(schema.coupons.id, id));
   revalidatePath('/admin/cupons');
+}
+
+export async function resolveFeedbackAction(form: FormData) {
+  if (!(await requireAdmin())) redirect('/');
+  await resolveFeedback(String(form.get('id') ?? ''));
+  revalidatePath('/admin/questoes');
 }

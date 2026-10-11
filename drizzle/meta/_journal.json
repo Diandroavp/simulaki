@@ -8,6 +8,13 @@
       "when": 1791723202647,
       "tag": "0000_foamy_vulcan",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791726853338,
+      "tag": "0001_brave_xorn",
+      "breakpoints": true
     }
   ]
 }

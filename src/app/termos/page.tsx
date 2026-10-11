@@ -1,7 +1,7 @@
 import { legal } from '@/lib/legal';
 import { ReviewNotice } from '../legal-notice';
 
-export const metadata = { title: 'Termos de uso | Simulaki' };
+export const metadata = { title: 'Termos de uso' };
 export const dynamic = 'force-dynamic';
 
 export default function Termos() {
