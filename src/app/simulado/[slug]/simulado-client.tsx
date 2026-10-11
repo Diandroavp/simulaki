@@ -138,8 +138,14 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
       <h1 style={{ fontSize: '1.2rem' }}>{name}</h1>
       <div className="bar">
         <span>Questão {idx + 1} de {exam.questions.length}</span>
-        <span>⏱ {fmt(left)}</span>
+        <span className={`clock ${left <= 300 ? 'low' : ''}`} aria-label="Tempo restante">{fmt(left)}</span>
       </div>
+      <div className="meter" aria-hidden style={{ marginBottom: 14 }}><i style={{ width: `${(answered / exam.questions.length) * 100}%` }} /></div>
+      <nav className="sheet" aria-label="Navegar entre as questões">
+        {exam.questions.map((qq, i) => (
+          <button key={qq.id} className={`dot ${answers[qq.id] ? 'done' : ''} ${i === idx ? 'cur' : ''}`} aria-label={`Questão ${i + 1}${answers[qq.id] ? ', respondida' : ''}`} aria-current={i === idx} onClick={() => setIdx(i)}>{i + 1}</button>
+        ))}
+      </nav>
       {exam.resumed && <p className="note">Retomamos o simulado de onde você parou.</p>}
       {(exam.shortExam || !exam.configVerified) && (
         <p className="note">

@@ -71,9 +71,9 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
 
       <h2>Por simulado</h2>
       <div className="grid">
-        {SIMULATIONS.map((sim) => {
+        {SIMULATIONS.filter((sim) => isAvailable(sim)).map((sim) => {
           const s = stats.get(sim.slug);
-          const on = isAvailable(sim);
+          const on = true;
           return (
             <div className="card" key={sim.slug}>
               <div style={{ display: 'flex', justifyContent: 'space-between', gap: 8 }}>
@@ -99,6 +99,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
           );
         })}
       </div>
+      <p className="soon muted">Em breve: {SIMULATIONS.filter((sim) => !isAvailable(sim)).map((sim) => sim.name).join(', ')}.</p>
 
       <h2>Histórico</h2>
       {history.length === 0 ? (

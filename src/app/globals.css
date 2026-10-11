@@ -89,3 +89,17 @@ th{color:var(--muted);font-weight:600}
 .tablewrap table { border-collapse: collapse; width: 100%; min-width: 480px; }
 .tablewrap th, .tablewrap td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line, #ddd); }
 .beta{text-align:center;padding:6px 16px;font-size:.85rem;background:color-mix(in srgb,var(--yellow) 22%,var(--card));border-bottom:1px solid var(--yellow)}
+
+/* Simulado: relógio e folha de respostas */
+.clock{font:800 1.1rem var(--display);font-variant-numeric:tabular-nums;padding:4px 12px;border-radius:999px;background:var(--tint)}
+.clock.low{background:color-mix(in srgb,var(--bad) 14%,var(--card));color:var(--bad)}
+.sheet{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.dot{width:34px;height:34px;border-radius:50%;border:1.5px solid var(--line);background:var(--card);color:var(--muted);font:700 .8rem var(--display);cursor:pointer;font-variant-numeric:tabular-nums}
+.dot.done{background:var(--tint);border-color:color-mix(in srgb,var(--green) 45%,var(--line));color:var(--green)}
+.dot.cur{background:var(--green);border-color:var(--green);color:var(--green-fg)}
+.checks{list-style:none;margin:14px 0;padding:0;display:grid;gap:8px}
+.checks li{display:flex;gap:10px;align-items:flex-start}
+.checks li::before{content:'';flex:none;width:18px;height:18px;margin-top:3px;border-radius:50%;background:color-mix(in srgb,var(--ok) 16%,var(--card)) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M5 9.5l2.6 2.6L13 6.6' fill='none' stroke='%231E8A68' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/18px no-repeat}
+.plan.best{border:2px solid var(--green);box-shadow:var(--shadow)}
+.plan .perday{color:var(--muted);font-size:.9rem;margin:0}
+.soon{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}
