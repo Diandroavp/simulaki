@@ -13,7 +13,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "vercel-build": "drizzle-kit migrate && next build"
+    "vercel-build": "drizzle-kit migrate && next build",
+    "placas:faltando": "node scripts/placas-faltando.mjs"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",

@@ -1,6 +1,8 @@
 # Banco de questões
 
-Uma pasta por estado (`am/`, depois outros). Cada arquivo `.json` é uma lista de questões.
+Uma pasta por estado (`am/`, depois outros) e `br/` com o Banco Nacional de Questões (Senatran), que vale para todos os estados. Cada arquivo `.json` é uma lista de questões.
+
+Campos opcionais: `source` e `sourceRef` (fonte exibida ao aluno), `signCode` (código da placa; a questão só entra na prova se existir `public/placas/<codigo>.svg|png|webp`).
 
 ## Formato
 

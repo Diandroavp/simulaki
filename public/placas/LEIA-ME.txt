@@ -1,0 +1,4 @@
+Imagens das placas de trânsito, nomeadas pelo código oficial: R-1.svg, A-33a.svg, etc.
+Fonte recomendada: Manual Brasileiro de Sinalização de Trânsito (CONTRAN), volumes de sinalização vertical.
+Questões que dependem de uma placa só entram na prova quando o arquivo da placa existe aqui.
+Lista de códigos necessários: npm run placas:faltando

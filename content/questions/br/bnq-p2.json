@@ -1,7 +1,7 @@
 [
  {
   "id": "bnq-p2-1-001",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "A faixa de pedestres, com suas largas listras brancas, concede qual direito ao pedestre?",
   "options": [
@@ -32,7 +32,7 @@
  },
  {
   "id": "bnq-p2-1-002",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual a função das faixas vermelhas na pavimentação das vias?",
   "options": [
@@ -63,7 +63,7 @@
  },
  {
   "id": "bnq-p2-1-003",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "A placa 'Sentido Proibido' indica que:",
   "options": [
@@ -95,7 +95,7 @@
  },
  {
   "id": "bnq-p2-1-004",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Ao ver uma placa amarela com o desenho de uma lombada (quebra-molas), o que o condutor deve fazer?",
   "options": [
@@ -127,7 +127,7 @@
  },
  {
   "id": "bnq-p2-1-005",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Ao ver uma placa amarela com o desenho de uma lombada, o que o condutor deve fazer?",
   "options": [
@@ -159,7 +159,7 @@
  },
  {
   "id": "bnq-p2-1-006",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Ao ver uma placa amarela indicando 'Aclive acentuado', qual é a recomendação para um motorista de carro manual?",
   "options": [
@@ -191,7 +191,7 @@
  },
  {
   "id": "bnq-p2-1-007",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "As placas brancas com mensagens como 'Use o cinto de segurança' pertencem a qual categoria?",
   "options": [
@@ -222,7 +222,7 @@
  },
  {
   "id": "bnq-p2-1-008",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "As placas de formato octogonal (oito lados) e triangular invertido são exceções dentro de qual família de placas?",
   "options": [
@@ -253,7 +253,7 @@
  },
  {
   "id": "bnq-p2-1-009",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "As placas de indicação de cor marrom são utilizadas para sinalizar o quê?",
   "options": [
@@ -284,7 +284,7 @@
  },
  {
   "id": "bnq-p2-1-010",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "As placas de indicação de cor verde são mais comuns em qual tipo de ambiente?",
   "options": [
@@ -315,7 +315,7 @@
  },
  {
   "id": "bnq-p2-1-011",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "As placas de regulamentação, com exceção de duas, possuem formato circular. Quais são essas duas exceções e por que têm formatos distintos?",
   "options": [
@@ -346,7 +346,7 @@
  },
  {
   "id": "bnq-p2-1-012",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "As placas de Regulamentação, que estabelecem regras obrigatórias, são predominantemente de que cores?",
   "options": [
@@ -377,7 +377,7 @@
  },
  {
   "id": "bnq-p2-1-013",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "As placas fixadas ao lado da via como a de 'PARE', pertencem a qual tipo de sinalização?",
   "options": [
@@ -408,7 +408,7 @@
  },
  {
   "id": "bnq-p2-1-014",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "De acordo com a hierarquia da sinalização, o que tem mais prioridade: uma placa de 'Velocidade Máxima 60 km/h' ou um semáforo vermelho?",
   "options": [
@@ -439,7 +439,7 @@
  },
  {
   "id": "bnq-p2-1-015",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Dispositivos como cones, balizadores e tachas refletivas (olho de gato) são classificados como qual tipo de sinalização?",
   "options": [
@@ -470,7 +470,7 @@
  },
  {
   "id": "bnq-p2-1-016",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "É permitido transitar em uma faixa exclusiva de ônibus de transporte público?",
   "options": [
@@ -501,7 +501,7 @@
  },
  {
   "id": "bnq-p2-1-017",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Na sinalização horizontal, o que linhas contínuas amarelas pintadas no centro da pista indicam?",
   "options": [
@@ -532,7 +532,7 @@
  },
  {
   "id": "bnq-p2-1-018",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Na sinalização horizontal, qual é a função da linha de retenção?",
   "options": [
@@ -563,7 +563,7 @@
  },
  {
   "id": "bnq-p2-1-019",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "O que a cor laranja em uma placa de sinalização geralmente indica?",
   "options": [
@@ -594,7 +594,7 @@
  },
  {
   "id": "bnq-p2-1-020",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "O que indica uma linha contínua amarela pintada no centro de uma pista?",
   "options": [
@@ -625,7 +625,7 @@
  },
  {
   "id": "bnq-p2-1-021",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "O que o motorista deve fazer ao se deparar com a luz amarela do semáforo?",
   "options": [
@@ -656,7 +656,7 @@
  },
  {
   "id": "bnq-p2-1-022",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "O que são 'marcas de canalização' na sinalização horizontal?",
   "options": [
@@ -687,7 +687,7 @@
  },
  {
   "id": "bnq-p2-1-023",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "O que significa uma linha dupla na pista, sendo a linha do seu lado contínua e a outra tracejada?",
   "options": [
@@ -718,7 +718,7 @@
  },
  {
   "id": "bnq-p2-1-024",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a atitude correta de um bom condutor ao ver o sinal de trânsito ficar amarelo?",
   "options": [
@@ -749,7 +749,7 @@
  },
  {
   "id": "bnq-p2-1-025",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a função das setas direcionais pintadas no chão?",
   "options": [
@@ -780,7 +780,7 @@
  },
  {
   "id": "bnq-p2-1-026",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a principal característica das sinalizações temporárias?",
   "options": [
@@ -811,7 +811,7 @@
  },
  {
   "id": "bnq-p2-1-027",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Qual é a principal diferença entre a placa 'Proibido Estacionar' e 'Proibido Parar e Estacionar'?",
   "options": [
@@ -842,7 +842,7 @@
  },
  {
   "id": "bnq-p2-1-028",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Qual é a principal função das placas de advertência, como a que indica 'Curva Acentuada'?",
   "options": [
@@ -873,7 +873,7 @@
  },
  {
   "id": "bnq-p2-1-029",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "O que a sinalização cicloviária, com faixas vermelhas e símbolos de bicicleta, indica?",
   "options": [
@@ -904,7 +904,7 @@
  },
  {
   "id": "bnq-p2-1-030",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Qual é a principal razão para que a placa 'PARE' tenha um formato octogonal único?",
   "options": [
@@ -935,7 +935,7 @@
  },
  {
   "id": "bnq-p2-1-031",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Qual é o principal objetivo da sinalização de trânsito no Brasil?",
   "options": [
@@ -966,7 +966,7 @@
  },
  {
   "id": "bnq-p2-1-032",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual tipo de calçado é considerado inadequado e perigoso para a condução de um veículo?",
   "options": [
@@ -997,7 +997,7 @@
  },
  {
   "id": "bnq-p2-1-033",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Quando a sinalização horizontal apresenta uma linha branca seccionada (tracejada), o que isso significa?",
   "options": [
@@ -1028,7 +1028,7 @@
  },
  {
   "id": "bnq-p2-1-034",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Quando um motorista encontra a palavra 'PARE' escrita no chão, qual é a sua relação com a placa vertical de 'PARE'?",
   "options": [
@@ -1059,7 +1059,7 @@
  },
  {
   "id": "bnq-p2-1-035",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Se um semáforo em uma passagem de trem começar a piscar em vermelho, o que isso significa?",
   "options": [
@@ -1090,7 +1090,7 @@
  },
  {
   "id": "bnq-p2-1-036",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Se você estiver em um cruzamento onde o semáforo está verde, mas um agente de trânsito sinaliza para você parar, qual instrução você deve seguir?",
   "options": [
@@ -1121,7 +1121,7 @@
  },
  {
   "id": "bnq-p2-1-037",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Um motorista avista uma placa amarela em formato de losango. Qual tipo de informação essa placa está transmitindo?",
   "options": [
@@ -1152,7 +1152,7 @@
  },
  {
   "id": "bnq-p2-1-038",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Um semáforo está verde, mas um agente de trânsito sinaliza para você parar. Qual instrução deve ser seguida?",
   "options": [
@@ -1183,7 +1183,7 @@
  },
  {
   "id": "bnq-p2-1-039",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Você encontra uma placa circular branca com borda vermelha e o número 60. O que significa?",
   "options": [
@@ -1215,7 +1215,7 @@
  },
  {
   "id": "bnq-p2-1-040",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Você está dirigindo e vê uma placa de regulamentação com o símbolo de um 'E' cortado por uma faixa vermelha. O que essa placa permite?",
   "options": [
@@ -1247,7 +1247,7 @@
  },
  {
   "id": "bnq-p2-1-041",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Você vê uma placa amarela com o desenho de pessoa atravessando. O que ela significa?",
   "options": [
@@ -1279,7 +1279,7 @@
  },
  {
   "id": "bnq-p2-2-001",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "A atitude de seguir um veículo de emergência (ambulância, bombeiros) para aproveitar o caminho livre é considerada:",
   "options": [
@@ -1310,7 +1310,7 @@
  },
  {
   "id": "bnq-p2-2-002",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Ameaçar pedestres que atravessam a via ou outros veículos é uma infração de que tipo?",
   "options": [
@@ -1341,7 +1341,7 @@
  },
  {
   "id": "bnq-p2-2-003",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Avançar o sinal vermelho é uma infração gravíssima. Quantos pontos são adicionados à CNH do condutor por essa atitude?",
   "options": [
@@ -1372,7 +1372,7 @@
  },
  {
   "id": "bnq-p2-2-004",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Dirigir com a CNH vencida há mais de 30 dias é considerado qual tipo de infração?",
   "options": [
@@ -1403,7 +1403,7 @@
  },
  {
   "id": "bnq-p2-2-005",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Dirigir com o som do carro excessivamente alto, perturbando o sossego público, é uma infração de qual gravidade?",
   "options": [
@@ -1434,7 +1434,7 @@
  },
  {
   "id": "bnq-p2-2-006",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Dirigir com uma lâmpada do farol queimada é considerado uma infração de qual natureza?",
   "options": [
@@ -1465,7 +1465,7 @@
  },
  {
   "id": "bnq-p2-2-007",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Durante o período da Permissão Para Dirigir , qual combinação de infrações resultará na perda do direito de obter a CNH definitiva?",
   "options": [
@@ -1496,7 +1496,7 @@
  },
  {
   "id": "bnq-p2-2-008",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Durante o período de validade da Permissão Para Dirigir, qual tipo de infração o condutor NÃO pode cometer para obter a CNH definitiva?",
   "options": [
@@ -1527,7 +1527,7 @@
  },
  {
   "id": "bnq-p2-2-009",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Estacionar em uma vaga reservada para idosos ou pessoas com deficiência sem possuir a devida credencial é uma infração:",
   "options": [
@@ -1558,7 +1558,7 @@
  },
  {
   "id": "bnq-p2-2-010",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "É permitido estacionar o veículo no sentido contrário ao fluxo da via, ainda que esteja corretamente alinhado à calçada?",
   "options": [
@@ -1589,7 +1589,7 @@
  },
  {
   "id": "bnq-p2-2-011",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Estacionar sobre uma calçada ou ciclovia é uma infração de qual gravidade?",
   "options": [
@@ -1620,7 +1620,7 @@
  },
  {
   "id": "bnq-p2-2-012",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Fazer manobras perigosas como 'empinar' a moto em via pública é considerado:",
   "options": [
@@ -1651,7 +1651,7 @@
  },
  {
   "id": "bnq-p2-2-013",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Fugir do local de um sinistro para evitar a responsabilidade é considerado o que pela lei de trânsito?",
   "options": [
@@ -1682,7 +1682,7 @@
  },
  {
   "id": "bnq-p2-2-014",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Não usar o cinto de segurança, seja no banco da frente ou de trás, é classificado como qual tipo de infração?",
   "options": [
@@ -1713,7 +1713,7 @@
  },
  {
   "id": "bnq-p2-2-015",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual o limite de pontos em 12 meses para o condutor que não tem nenhuma infração gravíssima?",
   "options": [
@@ -1744,7 +1744,7 @@
  },
  {
   "id": "bnq-p2-2-016",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "O que pode acontecer se você não pagar uma multa de trânsito dentro do prazo?",
   "options": [
@@ -1775,7 +1775,7 @@
  },
  {
   "id": "bnq-p2-2-017",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Para um motociclista, qual é a infração por pilotar com a viseira do capacete levantada?",
   "options": [
@@ -1806,7 +1806,7 @@
  },
  {
   "id": "bnq-p2-2-018",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Por que é proibido estacionar a menos de 5 metros de uma esquina?",
   "options": [
@@ -1837,7 +1837,7 @@
  },
  {
   "id": "bnq-p2-2-019",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual atitude pode transformar uma infração de trânsito em um crime de trânsito?",
   "options": [
@@ -1868,7 +1868,7 @@
  },
  {
   "id": "bnq-p2-2-020",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual das atitudes a seguir pode ser considerada um crime de trânsito?",
   "options": [
@@ -1899,7 +1899,7 @@
  },
  {
   "id": "bnq-p2-2-021",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual das seguintes ações é classificada como uma infração de gravidade média?",
   "options": [
@@ -1930,7 +1930,7 @@
  },
  {
   "id": "bnq-p2-2-022",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Qual das seguintes ações representa uma infração de trânsito grave e um risco ambiental relacionado à poluição sonora e do ar?",
   "options": [
@@ -1961,7 +1961,7 @@
  },
  {
   "id": "bnq-p2-2-023",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a classificação da infração de um motociclista que pilota sem usar o capacete?",
   "options": [
@@ -1992,7 +1992,7 @@
  },
  {
   "id": "bnq-p2-2-024",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a classificação da infração por deixar de usar a seta para indicar uma mudança de faixa?",
   "options": [
@@ -2023,7 +2023,7 @@
  },
  {
   "id": "bnq-p2-2-025",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a classificação da infração por não dar passagem a um veículo de emergência com sirene e luzes ligadas?",
   "options": [
@@ -2054,7 +2054,7 @@
  },
  {
   "id": "bnq-p2-2-026",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a gravidade da infração de transitar pelo acostamento?",
   "options": [
@@ -2085,7 +2085,7 @@
  },
  {
   "id": "bnq-p2-2-027",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Qual é a gravidade da infração por desobedecer às ordens de um agente de trânsito?",
   "options": [
@@ -2116,7 +2116,7 @@
  },
  {
   "id": "bnq-p2-2-028",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual o limite de pontos na CNH, em um período de 12 meses, para um condutor que não cometeu nenhuma infração gravíssima?",
   "options": [
@@ -2147,7 +2147,7 @@
  },
  {
   "id": "bnq-p2-2-029",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Quando um agente de trânsito retém o veículo no local da fiscalização, qual tipo de consequência está sendo aplicada?",
   "options": [
@@ -2178,7 +2178,7 @@
  },
  {
   "id": "bnq-p2-2-030",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Quando uma infração de trânsito, como dirigir alcoolizado, se torna também um crime de trânsito?",
   "options": [
@@ -2209,7 +2209,7 @@
  },
  {
   "id": "bnq-p2-2-031",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Quantos pontos são somados na CNH por uma infração de natureza Leve?",
   "options": [
@@ -2240,7 +2240,7 @@
  },
  {
   "id": "bnq-p2-2-032",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Transportar uma criança sem o dispositivo de retenção adequado (bebê-conforto, cadeirinha, etc.) é uma infração de qual natureza?",
   "options": [
@@ -2271,7 +2271,7 @@
  },
  {
   "id": "bnq-p2-2-033",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Um motorista joga uma lata de refrigerante pela janela do carro. Além de ser uma falta de educação, como essa atitude é classificada pela legislação?",
   "options": [
@@ -2302,7 +2302,7 @@
  },
  {
   "id": "bnq-p2-2-034",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Um motorista que ultrapassa o limite de velocidade em mais de 50% comete uma infração gravíssima que resulta em:",
   "options": [
@@ -2333,7 +2333,7 @@
  },
  {
   "id": "bnq-p2-3-001",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "direcao_defensiva",
   "statement": "Qual a finalidade de se manter uma distância mínima de 2 metros em relação ao veículo que segue à frente?",
   "options": [
@@ -2364,7 +2364,7 @@
  },
  {
   "id": "bnq-p2-3-002",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Além de enxergar bem ao dirigir, ser visto pelos outros depende de:",
   "options": [
@@ -2395,7 +2395,7 @@
  },
  {
   "id": "bnq-p2-3-003",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Ao dirigir em uma estrada de terra, qual comportamento é essencial para manter a segurança e o controle do veículo?",
   "options": [
@@ -2426,7 +2426,7 @@
  },
  {
   "id": "bnq-p2-3-004",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Ao dirigir em uma rodovia durante o dia, qual procedimento relacionado à iluminação do veículo é recomendado?",
   "options": [
@@ -2457,7 +2457,7 @@
  },
  {
   "id": "bnq-p2-3-005",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Ao realizar uma conversão à direita, como o motorista deve posicionar o veículo antes de iniciar a manobra?",
   "options": [
@@ -2488,7 +2488,7 @@
  },
  {
   "id": "bnq-p2-3-006",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Ao realizar uma conversão à esquerda em uma via de mão dupla, qual o posicionamento correto a ser adotado antes de iniciar a conversão?",
   "options": [
@@ -2519,7 +2519,7 @@
  },
  {
   "id": "bnq-p2-3-007",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Ao sair de uma rodovia, quando o condutor deve começar a reduzir a velocidade?",
   "options": [
@@ -2550,7 +2550,7 @@
  },
  {
   "id": "bnq-p2-3-008",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Ao se deparar com uma rotatória, quem tem a preferência de passagem?",
   "options": [
@@ -2581,7 +2581,7 @@
  },
  {
   "id": "bnq-p2-3-009",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Após uma pequena colisão em uma avenida movimentada que resultou apenas em para-choques amassados, sem feridos, o que os condutores devem fazer prioritariamente?",
   "options": [
@@ -2612,7 +2612,7 @@
  },
  {
   "id": "bnq-p2-3-010",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "As defensas metálicas instaladas nas margens de pontes e curvas perigosas são um exemplo de quê?",
   "options": [
@@ -2643,7 +2643,7 @@
  },
  {
   "id": "bnq-p2-3-011",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Até que a criança atinja 1,45 m de altura, em qual local do veículo ela deve ser transportada?",
   "options": [
@@ -2674,7 +2674,7 @@
  },
  {
   "id": "bnq-p2-3-012",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "É permitido levar passageiros na caçamba de uma caminhonete?",
   "options": [
@@ -2705,7 +2705,7 @@
  },
  {
   "id": "bnq-p2-3-013",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Em um cruzamento não sinalizado entre duas vias de mesmo porte, qual veículo tem a preferência?",
   "options": [
@@ -2736,7 +2736,7 @@
  },
  {
   "id": "bnq-p2-3-014",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "sinalizacao",
   "statement": "Em uma situação onde não há nenhuma sinalização, qual regra geral de preferência deve ser aplicada?",
   "options": [
@@ -2767,7 +2767,7 @@
  },
  {
   "id": "bnq-p2-3-015",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "direcao_defensiva",
   "statement": "Qual é a principal finalidade do uso da buzina, segundo os princípios da direção defensiva e comunicação no trânsito?",
   "options": [
@@ -2798,7 +2798,7 @@
  },
  {
   "id": "bnq-p2-3-016",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "O que o condutor deve fazer ao perceber um pedestre atravessando fora da faixa?",
   "options": [
@@ -2829,7 +2829,7 @@
  },
  {
   "id": "bnq-p2-3-017",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "direcao_defensiva",
   "statement": "O que significa ver e ser visto na direção defensiva?",
   "options": [
@@ -2860,7 +2860,7 @@
  },
  {
   "id": "bnq-p2-3-018",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "O que significa dizer que, no trânsito, o motorista precisa estar sempre atento?",
   "options": [
@@ -2891,7 +2891,7 @@
  },
  {
   "id": "bnq-p2-3-019",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "O que significa ser um bom motorista?",
   "options": [
@@ -2922,7 +2922,7 @@
  },
  {
   "id": "bnq-p2-3-020",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "O que um motorista deve fazer imediatamente ao ouvir a sirene e ver as luzes de uma ambulância se aproximando?",
   "options": [
@@ -2953,7 +2953,7 @@
  },
  {
   "id": "bnq-p2-3-021",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Por que ver e ser visto é essencial no trânsito?",
   "options": [
@@ -2984,7 +2984,7 @@
  },
  {
   "id": "bnq-p2-3-022",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Por que a palavra 'acidente' foi substituída por 'sinistro' no trânsito?",
   "options": [
@@ -3015,7 +3015,7 @@
  },
  {
   "id": "bnq-p2-3-023",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Crianças menores de 10 anos podem ser transportadas em motocicletas?",
   "options": [
@@ -3046,7 +3046,7 @@
  },
  {
   "id": "bnq-p2-3-024",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Por que é importante não realizar o ziguezague entre as faixas de trânsito?",
   "options": [
@@ -3077,7 +3077,7 @@
  },
  {
   "id": "bnq-p2-3-025",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Por que um condutor não deve parar em fila dupla?",
   "options": [
@@ -3108,7 +3108,7 @@
  },
  {
   "id": "bnq-p2-3-026",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "direcao_defensiva",
   "statement": "Por que não se deve usar farol alto em situações de neblina?",
   "options": [
@@ -3139,7 +3139,7 @@
  },
  {
   "id": "bnq-p2-3-027",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Por que o condutor deve ajustar o banco e os retrovisores antes de dirigir?",
   "options": [
@@ -3170,7 +3170,7 @@
  },
  {
   "id": "bnq-p2-3-028",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Por que o motorista deve sempre usar a seta antes de mudar de faixa ou virar?",
   "options": [
@@ -3201,7 +3201,7 @@
  },
  {
   "id": "bnq-p2-3-029",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual a importância de manter os faróis baixos acesos durante o dia, especialmente em rodovias?",
   "options": [
@@ -3232,7 +3232,7 @@
  },
  {
   "id": "bnq-p2-3-030",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual a principal diferença entre uma rodovia e uma estrada?",
   "options": [
@@ -3263,7 +3263,7 @@
  },
  {
   "id": "bnq-p2-3-031",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Qual comportamento demonstra direção defensiva?",
   "options": [
@@ -3294,7 +3294,7 @@
  },
  {
   "id": "bnq-p2-3-032",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual dispositivo de retenção infantil é indicado para uma criança de 2 anos com 13 kg?",
   "options": [
@@ -3325,7 +3325,7 @@
  },
  {
   "id": "bnq-p2-3-033",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Qual é a distância lateral mínima que um motorista deve manter ao ultrapassar um ciclista?",
   "options": [
@@ -3356,7 +3356,7 @@
  },
  {
   "id": "bnq-p2-3-034",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a função da faixa de aceleração ao entrar em uma via de trânsito rápido?",
   "options": [
@@ -3387,7 +3387,7 @@
  },
  {
   "id": "bnq-p2-3-035",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "O que significa o princípio “o maior cuida do menor” no trânsito?",
   "options": [
@@ -3418,7 +3418,7 @@
  },
  {
   "id": "bnq-p2-3-036",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a principal razão para manter os faróis baixos acesos durante o dia em rodovias, conforme a prática de 'ver e ser visto'?",
   "options": [
@@ -3449,7 +3449,7 @@
  },
  {
   "id": "bnq-p2-3-037",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a principal razão pela qual crianças não devem ser transportadas no banco dianteiro?",
   "options": [
@@ -3480,7 +3480,7 @@
  },
  {
   "id": "bnq-p2-3-038",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a principal razão pela qual manusear o celular ao volante é tão perigoso?",
   "options": [
@@ -3511,7 +3511,7 @@
  },
  {
   "id": "bnq-p2-3-039",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a principal restrição de peso para um veículo ser conduzido com a Categoria B da CNH?",
   "options": [
@@ -3542,7 +3542,7 @@
  },
  {
   "id": "bnq-p2-3-040",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a recomendação para o uso do acostamento em uma rodovia?",
   "options": [
@@ -3573,7 +3573,7 @@
  },
  {
   "id": "bnq-p2-3-041",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a regra fundamental ao se aproximar de uma faixa de pedestres?",
   "options": [
@@ -3604,7 +3604,7 @@
  },
  {
   "id": "bnq-p2-3-042",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é a velocidade máxima permitida em uma via local, como a rua de um bairro residencial?",
   "options": [
@@ -3635,7 +3635,7 @@
  },
  {
   "id": "bnq-p2-3-043",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual equipamento de proteção, além do capacete, é altamente recomendado para proteger as mãos em caso de queda de motocicleta?",
   "options": [
@@ -3666,7 +3666,7 @@
  },
  {
   "id": "bnq-p2-3-044",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "direcao_defensiva",
   "statement": "Qual prática de segurança é fundamental para aumentar a visibilidade do motociclista e ajudar outros condutores a percebê-lo com mais facilidade no trânsito?",
   "options": [
@@ -3697,7 +3697,7 @@
  },
  {
   "id": "bnq-p2-3-045",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Se você perceber que passou da saída que precisava pegar, qual é a atitude mais segura a ser tomada?",
   "options": [
@@ -3728,7 +3728,7 @@
  },
  {
   "id": "bnq-p2-3-046",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Dirigir com segurança é, principalmente, um conjunto de:",
   "options": [
@@ -3759,7 +3759,7 @@
  },
  {
   "id": "bnq-p2-3-047",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Sobre o uso do cinto de segurança no banco de trás, o que podemos afirmar?",
   "options": [
@@ -3790,7 +3790,7 @@
  },
  {
   "id": "bnq-p2-3-048",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Um condutor com habilitação na categoria B está autorizado a dirigir qual dos seguintes veículos?",
   "options": [
@@ -3821,7 +3821,7 @@
  },
  {
   "id": "bnq-p2-4-001",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "O que um condutor recém-habilitado com a Categoria A está autorizado a pilotar?",
   "options": [
@@ -3852,7 +3852,7 @@
  },
  {
   "id": "bnq-p2-4-002",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Sobre o uso de capacete danificado ou que já sofreu um impacto, o que deve ser feito?",
   "options": [
@@ -3883,7 +3883,7 @@
  },
  {
   "id": "bnq-p2-4-003",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "A citação \"No trânsito, o equilíbrio emocional é tão importante quanto o freio do carro\" significa que:",
   "options": [
@@ -3914,7 +3914,7 @@
  },
  {
   "id": "bnq-p2-4-004",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Ao ligar para um número de emergência como o SAMU (192), qual das informações a seguir é a mais crucial para agilizar o atendimento?",
   "options": [
@@ -3945,7 +3945,7 @@
  },
  {
   "id": "bnq-p2-4-005",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Ao presenciar um sinistro, você vê um motociclista caído no chão, consciente, mas reclamando de dor. Qual das seguintes ações é considerada um erro grave que pode piorar muito o estado da vítima?",
   "options": [
@@ -3976,7 +3976,7 @@
  },
  {
   "id": "bnq-p2-4-006",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Ao prestar assistência a uma vítima de sinistro, o que significa 'não remova, não movimente, não transporte'?",
   "options": [
@@ -4007,7 +4007,7 @@
  },
  {
   "id": "bnq-p2-4-007",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Ao registrar um sinistro sem vítimas, por que é importante que os motoristas tirem fotos dos danos nos veículos e dos documentos um do outro?",
   "options": [
@@ -4038,7 +4038,7 @@
  },
  {
   "id": "bnq-p2-4-008",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Ao se deparar com um sinistro envolvendo um veículo que transporta cargas perigosas, identificado pelo painel laranja, qual é o procedimento mais seguro a ser seguido?",
   "options": [
@@ -4069,7 +4069,7 @@
  },
  {
   "id": "bnq-p2-4-009",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Ao se deparar com uma vítima de sinistro que não responde e parece não respirar, o que uma pessoa sem treinamento em reanimação deve fazer?",
   "options": [
@@ -4100,7 +4100,7 @@
  },
  {
   "id": "bnq-p2-4-010",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Dirigir com pneus murchos, além de perigoso, causa um impacto negativo específico. Qual é ele?",
   "options": [
@@ -4131,7 +4131,7 @@
  },
  {
   "id": "bnq-p2-4-011",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "direcao_defensiva",
   "statement": "Dirigir com sono é tão perigoso quanto dirigir alcoolizado. Por qual motivo principal?",
   "options": [
@@ -4162,7 +4162,7 @@
  },
  {
   "id": "bnq-p2-4-012",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Durante o atendimento a uma vítima de sinistro que está consciente e com frio, o que é permitido fazer enquanto o socorro não chega?",
   "options": [
@@ -4193,7 +4193,7 @@
  },
  {
   "id": "bnq-p2-4-013",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Durante uma longa viagem noturna, um motorista percebe que está bocejando com frequência e que, por alguns instantes, teve dificuldade em manter o foco na estrada. Qual a ação correta e imediata a ser tomada?",
   "options": [
@@ -4224,7 +4224,7 @@
  },
  {
   "id": "bnq-p2-4-014",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Em um sinistro sem vítimas, onde os veículos obstruem o trânsito, qual é a ação prioritária que os condutores devem tomar após garantirem a própria segurança?",
   "options": [
@@ -4255,7 +4255,7 @@
  },
  {
   "id": "bnq-p2-4-015",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Joana teve uma discussão estressante no trabalho e, ao entrar no carro para voltar para casa, sente muita raiva. No trânsito, outro motorista a fecha. Qual é a atitude mais segura e responsável que Joana pode tomar nessa situação?",
   "options": [
@@ -4286,7 +4286,7 @@
  },
  {
   "id": "bnq-p2-4-016",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "O que significa dizer que os pneus são responsáveis pela 'aquaplanagem'?",
   "options": [
@@ -4317,7 +4317,7 @@
  },
  {
   "id": "bnq-p2-4-017",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "O que um motociclista deve verificar em seu capacete para garantir que ele está em conformidade para circular?",
   "options": [
@@ -4348,7 +4348,7 @@
  },
  {
   "id": "bnq-p2-4-018",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Para garantir a segurança e a durabilidade do veículo, a manutenção preventiva é essencial. Com que frequência e em que condição os pneus devem ser calibrados?",
   "options": [
@@ -4379,7 +4379,7 @@
  },
  {
   "id": "bnq-p2-4-019",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Para proteger o meio ambiente, qual das atitudes abaixo deve ser EVITADA por um condutor consciente?",
   "options": [
@@ -4410,7 +4410,7 @@
  },
  {
   "id": "bnq-p2-4-020",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Para que o airbag funcione de forma eficaz e segura, o uso de qual outro item é crucial?",
   "options": [
@@ -4441,7 +4441,7 @@
  },
  {
   "id": "bnq-p2-4-021",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Por que é errado fotografar ou filmar vítimas em um local de sinistro para divulgar na internet?",
   "options": [
@@ -4472,7 +4472,7 @@
  },
  {
   "id": "bnq-p2-4-022",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Por que o manual do proprietário é considerado a ferramenta mais importante para a manutenção preventiva do veículo?",
   "options": [
@@ -4503,7 +4503,7 @@
  },
  {
   "id": "bnq-p2-4-023",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Qual das alternativas de mobilidade é apresentada como ideal para trajetos pequenos, combinando benefícios para a saúde, custo zero e impacto ambiental nulo?",
   "options": [
@@ -4534,7 +4534,7 @@
  },
  {
   "id": "bnq-p2-4-024",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Qual dos seguintes meios de transporte é considerado o mais sustentável para a preservação do meio ambiente?",
   "options": [
@@ -4565,7 +4565,7 @@
  },
  {
   "id": "bnq-p2-4-025",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Qual das seguintes ações é um exemplo de condução ecológica que ajuda a reduzir o consumo de combustível e a poluição do ar?",
   "options": [
@@ -4596,7 +4596,7 @@
  },
  {
   "id": "bnq-p2-4-026",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual das seguintes práticas de 'Condução Ecológica' tem o maior impacto na economia de combustível?",
   "options": [
@@ -4627,7 +4627,7 @@
  },
  {
   "id": "bnq-p2-4-027",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual dos números de emergência listados é o mais indicado para ligar em caso de um sinistro em uma rodovia federal?",
   "options": [
@@ -4658,7 +4658,7 @@
  },
  {
   "id": "bnq-p2-4-028",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Qual é a principal vantagem ambiental do etanol como combustível no Brasil?",
   "options": [
@@ -4689,7 +4689,7 @@
  },
  {
   "id": "bnq-p2-4-029",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "primeiros_socorros",
   "statement": "Qual é o principal motivo para NÃO oferecer água, comida ou medicamentos a uma vítima de sinistro de trânsito?",
   "options": [
@@ -4720,7 +4720,7 @@
  },
  {
   "id": "bnq-p2-4-030",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "legislacao",
   "statement": "Qual é o princípio fundamental da filosofia 'Visão Zero', que influencia as estratégias modernas de segurança no trânsito?",
   "options": [
@@ -4751,7 +4751,7 @@
  },
  {
   "id": "bnq-p2-4-031",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Se a luz indicadora do airbag no painel do carro permanecer acesa após ligar o veículo, o que isso pode indicar?",
   "options": [
@@ -4782,7 +4782,7 @@
  },
  {
   "id": "bnq-p2-4-032",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Se um motorista sai do carro para se alongar durante uma viagem longa, qual benefício direto essa ação traz para a segurança?",
   "options": [
@@ -4813,7 +4813,7 @@
  },
  {
   "id": "bnq-p2-4-033",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Um carro bate em um poste, e cabos elétricos caem sobre ele. O que o motorista, que não se feriu, deve fazer enquanto está dentro do veículo?",
   "options": [
@@ -4844,7 +4844,7 @@
  },
  {
   "id": "bnq-p2-4-034",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "meio_ambiente_cidadania",
   "statement": "Um motorista envolvido em um sinistro percebe um cheiro de combustível e fumaça saindo de um dos carros. Qual deve ser a sua prioridade máxima?",
   "options": [
@@ -4875,7 +4875,7 @@
  },
  {
   "id": "bnq-p2-4-035",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "direcao_defensiva",
   "statement": "Dirigir com sono, mesmo que por poucos segundos, pode causar:",
   "options": [
@@ -4906,7 +4906,7 @@
  },
  {
   "id": "bnq-p2-4-036",
-  "stateCode": "AM",
+  "stateCode": "BR",
   "topic": "mecanica",
   "statement": "Um motorista nota que as palhetas do limpador de para-brisa estão deixando marcas e rastros de água no vidro, dificultando a visão. O que isso indica?",
   "options": [

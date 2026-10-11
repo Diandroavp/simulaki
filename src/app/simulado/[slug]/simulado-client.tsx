@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 type Option = { id: string; text: string };
-type PQ = { id: string; topic: string; statement: string; options: Option[]; sourceLine: string; signCode?: string };
+type PQ = { id: string; topic: string; statement: string; options: Option[]; sourceLine: string; signCode?: string; signImage?: string };
 type Exam = { attemptId: string; durationMinutes: number; configVerified: boolean; shortExam: boolean; questions: PQ[]; remainingSeconds: number; draftAnswers: Record<string, string>; resumed: boolean };
 type Review = {
   questionId: string; statement: string; options: Option[];
@@ -156,7 +156,13 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
       )}
       <div className="card">
         <p style={{ marginTop: 0, font: '700 1.2rem/1.4 var(--display)' }}>{q.statement}</p>
-        {q.signCode && <p className="muted" style={{ marginTop: 0 }}>Placa: {q.signCode}</p>}
+        {q.signImage && (
+          <figure style={{ margin: '0 0 12px', textAlign: 'center' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={q.signImage} alt={`Placa ${q.signCode}`} style={{ maxWidth: 160, maxHeight: 160, width: 'auto', height: 'auto' }} />
+            <figcaption className="muted" style={{ fontSize: '.8rem' }}>Placa {q.signCode}</figcaption>
+          </figure>
+        )}
         {q.options.map((o) => (
           <button key={o.id} className="opt" aria-pressed={answers[q.id] === o.id} onClick={() => setAnswers((a) => ({ ...a, [q.id]: o.id }))}>
             <span className="ltr">{o.id.toUpperCase()}</span><span>{o.text}</span>

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Importa o Banco Nacional de Questões (Senatran, v1.0) a partir do texto extraído do PDF oficial.
-Uso: pdftotext banco.pdf; separar PARTE 1 / PARTE 2; python3 scripts/import-bnq.py parte1.txt content/questions/am/bnq-p1.json AM p1
+Uso: pdftotext banco.pdf; separar PARTE 1 / PARTE 2; python3 scripts/import-bnq.py parte1.txt content/questions/br/bnq-p1.json BR p1
 Tudo entra como 'draft' (revisão humana antes de publicar)."""
 import re, sys, json, random
 src, out, uf = sys.argv[1:4]
