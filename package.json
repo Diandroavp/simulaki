@@ -12,7 +12,8 @@
     "db:migrate": "drizzle-kit migrate",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-build": "drizzle-kit migrate && next build"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",
