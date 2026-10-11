@@ -20,6 +20,7 @@ export default function Home() {
         <DemoQuestion />
       </section>
 
+      <hr className="roadline" aria-hidden />
       <h2>Simulados</h2>
       <ul className="simlist">
         {SIMULATIONS.map((s) => {
@@ -34,7 +35,7 @@ export default function Home() {
         })}
       </ul>
 
-      <h2>Como funciona</h2>
+      <h2 style={{ marginTop: 56 }}>Como funciona</h2>
       <ol className="steps">
         <li><strong>Escolha o simulado</strong><span className="muted">Mesmo número de questões e tempo da prova do seu estado.</span></li>
         <li><strong>Responda no tempo</strong><span className="muted">Cronômetro e navegação entre as questões, como na prova.</span></li>
