@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { cookies } from 'next/headers';
 import { logoutAction } from './actions';
 import { getCurrentUser } from '@/lib/auth';
 import './globals.css';
@@ -13,12 +14,14 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const user = await getCurrentUser();
+  const t = (await cookies()).get('tema')?.value;
+  const tema = t === 'placa' || t === 'painel' ? t : 'cartao';
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" data-tema={tema}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Hanken+Grotesk:wght@400;500;600;700&family=Archivo:wght@400;600;800&family=Archivo+Black&family=Chakra+Petch:wght@500;600;700&family=Figtree:wght@400;500;700&display=swap" />
       </head>
       <body>
         {process.env.BETA === '1' && <div className="beta">Versão beta: o conteúdo ainda está em revisão e pode conter erros. Confira sempre a legislação oficial.</div>}
@@ -46,6 +49,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <main>{children}</main>
         <footer className="muted wrap" style={{ paddingBottom: 32 }}>
           Plataforma independente de simulados. Não é um serviço oficial do Detran, do INEP, da UFAM nem da UEA.
+          <div className="tema" aria-label="Aparência do site">
+            Aparência:
+            {([['cartao', 'Cartão-resposta'], ['placa', 'Placa'], ['painel', 'Painel']] as const).map(([k, n]) => (
+              <a key={k} href={`/api/tema?t=${k}`} aria-current={tema === k}>{n}</a>
+            ))}
+          </div>
           <div><Link href="/termos">Termos de uso</Link> · <Link href="/privacidade">Privacidade</Link> · <Link href="/reembolso">Reembolso</Link></div>
         </footer>
       </body>
