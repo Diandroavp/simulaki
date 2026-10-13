@@ -180,6 +180,9 @@ def main():
                 u = u + (-2, -2, 2, 2)
             else: continue
             if u.height < 10 or u.width < 10: continue
+            if u.height < 24 and not sg['figs']:  # sobra de rodapé (código do caderno) em vez de conteúdo
+                resto = re.sub(r'\s+', '', d[sg['page']].get_text('text', clip=u))
+                if len(resto) < 4 or '*' in resto or re.fullmatch(r'[A-Z0-9]+', resto): continue
             i += 1; fn = f"d{dia}-{n:03d}{'' if q['lang']=='-' else q['lang']}-{i}.webp"
             salvar_webp(d[sg['page']].get_pixmap(matrix=pymupdf.Matrix(2, 2), clip=u), os.path.join(imgdir, fn)); imgs.append(f'/enem/{ano}/{fn}')
         k = (n, q['lang']); letra = ans.get(k)
