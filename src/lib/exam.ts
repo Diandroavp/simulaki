@@ -56,6 +56,20 @@ export const EXAM_CONFIGS: Record<string, ExamConfig> = {
   },
 };
 
+/**
+ * ENEM: não há nota de corte. A prova real vale por TRI (dificuldade de cada questão), que não dá para
+ * reproduzir. O simulado mistura as 4 áreas e usa 60% de acertos como meta de referência.
+ */
+EXAM_CONFIGS.ENEM = {
+  stateCode: 'ENEM',
+  questionCount: 45,
+  durationMinutes: 135, // ~3 min por questão (a prova real tem 90 questões em 5h30 com redação)
+  minCorrect: 27,
+  topicDistribution: { linguagens: 12, humanas: 11, natureza: 11, matematica: 11 },
+  verified: true,
+  source: 'Formato próprio do Simulaki, a partir de provas anteriores do INEP',
+};
+
 /** Padrão nacional mais comum (30 questões, 70% de acerto). Usado quando o estado não está configurado. */
 export const DEFAULT_EXAM: ExamConfig = {
   stateCode: 'BR',

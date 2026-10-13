@@ -13,6 +13,11 @@ const TOPICS = [
   'mecanica',
   'primeiros_socorros',
   'meio_ambiente_cidadania',
+  // provas de vestibular
+  'linguagens',
+  'humanas',
+  'natureza',
+  'matematica',
 ];
 const STATUSES = ['draft', 'reviewed', 'published', 'archived'];
 
@@ -52,21 +57,21 @@ for (const file of walk(ROOT)) {
     else if (seen.has(q.id)) fail(`id repetido (também em ${seen.get(q.id)})`);
     else seen.set(q.id, rel);
 
-    if (!/^([A-Z]{2})$/.test(q.stateCode ?? '')) fail('stateCode deve ser a sigla do estado em maiúsculas');
+    if (!/^([A-Z]{2}|ENEM|PSC|SIS|OAB)$/.test(q.stateCode ?? '')) fail('stateCode deve ser a sigla do estado (ou ENEM, PSC, SIS, OAB)');
     if (!TOPICS.includes(q.topic)) fail(`topic inválido: ${q.topic}`);
-    if (!q.statement || q.statement.trim().length < 10) fail('enunciado vazio ou muito curto');
+    if ((!q.statement || q.statement.trim().length < 10) && !(q.images && q.images.length)) fail('enunciado vazio ou muito curto');
 
     const opts = Array.isArray(q.options) ? q.options : [];
     if (opts.length < 4 || opts.length > 5) fail('use 4 ou 5 alternativas');
     const ids = opts.map((o) => o.id);
     if (new Set(ids).size !== ids.length) fail('ids de alternativas repetidos');
-    if (opts.some((o) => !o.text || !o.text.trim())) fail('há alternativa sem texto');
+    if (!q.optionsAsImage && opts.some((o) => !o.text || !o.text.trim())) fail('há alternativa sem texto');
     if (!ids.includes(q.correctOptionId)) fail('correctOptionId não existe nas alternativas');
 
     if (!STATUSES.includes(q.status)) fail(`status inválido: ${q.status}`);
     if (['reviewed', 'published'].includes(q.status)) {
       if (!q.explanation || !q.explanation.trim()) fail('questão revisada/publicada precisa de explicação');
-      if (!q.legalRef || !q.legalRef.trim()) fail('questão revisada/publicada precisa de referência legal');
+      if (q.stateCode !== 'ENEM' && (!q.legalRef || !q.legalRef.trim())) fail('questão revisada/publicada precisa de referência legal');
     }
     if (q.status === 'published' && !q.reviewedBy) fail('questão publicada precisa de reviewedBy');
 

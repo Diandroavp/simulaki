@@ -17,11 +17,16 @@ export type Question = {
   sourceRef?: string;
   /** Código da placa, quando a questão se refere a uma. */
   signCode?: string;
+  /** Figuras do enunciado (ex.: ENEM), servidas de /public. */
+  images?: string[];
+  /** Alternativas que são figuras: o texto fica vazio e a imagem mostra todas. */
+  optionsAsImage?: boolean;
+  year?: number;
   status: 'draft' | 'reviewed' | 'published' | 'archived';
 };
 
 /** Visão pública da questão: nunca inclui o gabarito. */
-export type PublicQuestion = Pick<Question, 'id' | 'topic' | 'statement' | 'options'> & { sourceLine: string; signCode?: string; signImage?: string };
+export type PublicQuestion = Pick<Question, 'id' | 'topic' | 'statement' | 'options'> & { sourceLine: string; signCode?: string; signImage?: string; images?: string[]; optionsAsImage?: boolean };
 
 const ROOT = path.join(process.cwd(), 'content', 'questions');
 const SIGNS = path.join(process.cwd(), 'public', 'placas');
@@ -44,6 +49,9 @@ function allowedStatuses(): Question['status'][] {
   return demo ? ['published', 'reviewed', 'draft'] : ['published'];
 }
 
+/** Provas de vestibular/concurso têm banco próprio e não misturam com o banco nacional do Detran. */
+const BANCOS_PROPRIOS = new Set(['ENEM', 'PSC', 'SIS', 'OAB']);
+
 let cache: Record<string, Question[]> = {};
 
 export function loadQuestions(stateCode: string): Question[] {
@@ -52,7 +60,8 @@ export function loadQuestions(stateCode: string): Question[] {
   if (cache[key]) return cache[key];
   const out: Question[] = [];
   // Banco nacional (br/) vale para todos os estados; o do estado soma a ele.
-  for (const sub of new Set([state.toLowerCase(), 'br'])) {
+  const subs = BANCOS_PROPRIOS.has(state) ? [state.toLowerCase()] : [state.toLowerCase(), 'br'];
+  for (const sub of new Set(subs)) {
     const dir = path.join(ROOT, sub);
     if (!existsSync(dir)) continue;
     for (const f of readdirSync(dir)) {
@@ -84,5 +93,5 @@ export function sourceLine(q: Question): string {
 }
 
 export function toPublic(q: Question): PublicQuestion {
-  return { id: q.id, topic: q.topic, statement: q.statement, options: q.options, sourceLine: sourceLine(q), ...(q.signCode ? { signCode: q.signCode, signImage: signImage(q.signCode) ?? undefined } : {}) };
+  return { id: q.id, topic: q.topic, statement: q.statement, options: q.options, sourceLine: sourceLine(q), ...(q.images?.length ? { images: q.images } : {}), ...(q.optionsAsImage ? { optionsAsImage: true } : {}), ...(q.signCode ? { signCode: q.signCode, signImage: signImage(q.signCode) ?? undefined } : {}) };
 }

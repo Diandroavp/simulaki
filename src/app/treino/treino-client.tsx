@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
+import { Statement, optionText } from '../question-body';
 import { useState } from 'react';
 
 type Option = { id: string; text: string };
-type PQ = { id: string; topic: string; statement: string; options: Option[]; sourceLine: string; signCode?: string; signImage?: string };
+type PQ = { id: string; topic: string; statement: string; options: Option[]; sourceLine: string; signCode?: string; signImage?: string; images?: string[]; optionsAsImage?: boolean };
 type Feedback = { correct: boolean; correctOptionId: string; explanation: string | null; legalRef: string | null; sourceLine: string; done: boolean; score?: { correct: number; total: number } };
 type Tema = { id: string; nome: string; total: number };
 
@@ -85,12 +86,12 @@ export default function TreinoClient({ temas, erros, tamanho, gratis }: { temas:
             <img src={q.signImage} alt={`Placa ${q.signCode}`} style={{ maxWidth: 160, maxHeight: 160, width: 'auto', height: 'auto' }} />
           </figure>
         )}
-        <p style={{ marginTop: 0, font: '400 1.3rem/1.4 var(--display)' }}>{q.statement}</p>
+        <Statement text={q.statement} images={q.images} hideText={q.optionsAsImage} />
         {q.options.map((o) => {
           const state = !f ? '' : o.id === f.correctOptionId ? 'ok' : o.id === picked[q.id] ? 'bad' : '';
           return (
             <button key={o.id} className={`opt ${state}`} aria-pressed={!f && picked[q.id] === o.id} disabled={!!f || busy} onClick={() => responder(q, o.id)}>
-              <span className="ltr">{o.id.toUpperCase()}</span><span>{o.text}</span>
+              <span className="ltr">{o.id.toUpperCase()}</span><span>{optionText(o.text, o.id)}</span>
             </button>
           );
         })}

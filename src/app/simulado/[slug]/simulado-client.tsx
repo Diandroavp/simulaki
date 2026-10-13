@@ -1,13 +1,14 @@
 'use client';
 
 import Link from 'next/link';
+import { Statement, optionText } from '../../question-body';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 type Option = { id: string; text: string };
-type PQ = { id: string; topic: string; statement: string; options: Option[]; sourceLine: string; signCode?: string; signImage?: string };
+type PQ = { id: string; topic: string; statement: string; options: Option[]; sourceLine: string; signCode?: string; signImage?: string; images?: string[]; optionsAsImage?: boolean };
 type Exam = { attemptId: string; durationMinutes: number; configVerified: boolean; shortExam: boolean; questions: PQ[]; remainingSeconds: number; draftAnswers: Record<string, string>; resumed: boolean };
 type Review = {
-  questionId: string; statement: string; options: Option[];
+  questionId: string; statement: string; images?: string[]; optionsAsImage?: boolean; options: Option[];
   selectedOptionId: string | null; correctOptionId: string; explanation: string | null; legalRef: string | null; sourceLine: string;
 };
 type Result = { correct: number; total: number; passed: boolean; minCorrect: number; review: Review[] };
@@ -115,10 +116,11 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
         <h2>Revisão</h2>
         {result.review.map((r, i) => (
           <div className="card" key={r.questionId} style={{ marginBottom: 12 }}>
-            <p style={{ marginTop: 0 }}><strong>{i + 1}.</strong> {r.statement}</p>
+            <p style={{ marginTop: 0 }}><strong>{i + 1}.</strong></p>
+            <Statement text={r.statement} images={r.images} hideText={r.optionsAsImage} />
             {r.options.map((o) => (
               <div key={o.id} className={`opt ${o.id === r.correctOptionId ? 'ok' : o.id === r.selectedOptionId ? 'bad' : ''}`}>
-                <span className="ltr">{o.id.toUpperCase()}</span><span>{o.text}</span>
+                <span className="ltr">{o.id.toUpperCase()}</span><span>{optionText(o.text, o.id)}</span>
               </div>
             ))}
             {r.selectedOptionId === null && <p className="muted">Sem resposta.</p>}
@@ -155,7 +157,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
         </p>
       )}
       <div className="card">
-        <p style={{ marginTop: 0, font: '700 1.2rem/1.4 var(--display)' }}>{q.statement}</p>
+        <Statement text={q.statement} images={q.images} hideText={q.optionsAsImage} />
         {q.signImage && (
           <figure style={{ margin: '0 0 12px', textAlign: 'center' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -165,7 +167,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
         )}
         {q.options.map((o) => (
           <button key={o.id} className="opt" aria-pressed={answers[q.id] === o.id} onClick={() => setAnswers((a) => ({ ...a, [q.id]: o.id }))}>
-            <span className="ltr">{o.id.toUpperCase()}</span><span>{o.text}</span>
+            <span className="ltr">{o.id.toUpperCase()}</span><span>{optionText(o.text, o.id)}</span>
           </button>
         ))}
         <p className="muted" style={{ fontSize: '.8rem', marginBottom: 0 }}>{q.sourceLine}</p>

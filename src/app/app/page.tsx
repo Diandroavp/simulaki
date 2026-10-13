@@ -13,7 +13,7 @@ import { PageHero } from '../page-hero';
 export const dynamic = 'force-dynamic';
 const TOPICS: Record<string, string> = {
   legislacao: 'Legislação', sinalizacao: 'Sinalização', direcao_defensiva: 'Direção defensiva',
-  mecanica: 'Mecânica', primeiros_socorros: 'Primeiros socorros', meio_ambiente_cidadania: 'Meio ambiente e cidadania',
+  linguagens: 'Linguagens', humanas: 'Ciências Humanas', natureza: 'Ciências da Natureza', matematica: 'Matemática', mecanica: 'Mecânica', primeiros_socorros: 'Primeiros socorros', meio_ambiente_cidadania: 'Meio ambiente e cidadania',
 };
 const fmtDate = (d: Date | null) => (d ? d.toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short', timeZone: 'America/Manaus' }) : '');
 

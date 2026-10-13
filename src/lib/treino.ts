@@ -7,7 +7,7 @@ import { loadQuestions, sourceLine, toPublic, type PublicQuestion } from './ques
 /** Treino por tema: respostas corrigidas na hora, sem relógio. Cada sessão é um "attempt" com tipo `treino:<tema>`. */
 export const TREINO_TEMAS: Record<string, string> = {
   legislacao: 'Legislação', sinalizacao: 'Sinalização', direcao_defensiva: 'Direção defensiva',
-  mecanica: 'Mecânica', primeiros_socorros: 'Primeiros socorros', meio_ambiente_cidadania: 'Meio ambiente e cidadania',
+  linguagens: 'Linguagens', humanas: 'Ciências Humanas', natureza: 'Ciências da Natureza', matematica: 'Matemática', mecanica: 'Mecânica', primeiros_socorros: 'Primeiros socorros', meio_ambiente_cidadania: 'Meio ambiente e cidadania',
 };
 export const TREINO_TAMANHO = 10;
 export const FREE_TREINOS_POR_DIA = 2;

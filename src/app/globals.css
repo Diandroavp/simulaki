@@ -269,3 +269,8 @@ a.sim:hover{transform:translateY(-3px);border-color:var(--muted);box-shadow:var(
 .waitbox .tips strong{color:var(--fg)}
 .waiting{align-items:flex-start}
 .waiting .pulse{margin-top:6px}
+
+/* Enunciados longos e figuras (ENEM) */
+.stmt p{margin:0 0 .8em;font:600 1.12rem/1.5 var(--display)}
+.stmt.long p{font:400 1.02rem/1.65 var(--text)}
+.stmt .qimg{display:block;max-width:100%;height:auto;margin:6px auto 14px;border-radius:8px;background:#fff}

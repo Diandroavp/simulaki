@@ -116,7 +116,7 @@ export async function getOpenAttempt(userId: string) {
 }
 
 export type Review = {
-  questionId: string; statement: string; options: { id: string; text: string }[];
+  questionId: string; statement: string; images?: string[]; optionsAsImage?: boolean; options: { id: string; text: string }[];
   selectedOptionId: string | null; correctOptionId: string; explanation: string | null; legalRef: string | null; sourceLine: string;
 };
 
@@ -143,7 +143,7 @@ export async function finishAttempt(
     const q = byId.get(a.questionId)!;
     const opt = q.options.some((o) => o.id === a.selectedOptionId) ? a.selectedOptionId : null;
     return {
-      questionId: q.id, statement: q.statement, options: q.options, selectedOptionId: opt,
+      questionId: q.id, statement: q.statement, images: q.images, optionsAsImage: q.optionsAsImage, options: q.options, selectedOptionId: opt,
       correctOptionId: q.correctOptionId, explanation: q.explanation ?? null, legalRef: q.legalRef ?? null, sourceLine: sourceLine(q),
     };
   });
