@@ -134,7 +134,9 @@ export async function finishAttempt(
   if (!attempt) return { ok: false as const, reason: 'Simulado não encontrado.' };
   if (attempt.finishedAt) return { ok: false as const, reason: 'Este simulado já foi finalizado.' };
   const sim = getSimulation(attempt.simulationType);
-  const byId = new Map(loadQuestions(sim?.stateCode ?? '').map((q) => [q.id, q]));
+  // Simulado personalizado guarda o banco no próprio tipo (custom:ENEM).
+  const bank = attempt.simulationType.startsWith('custom:') ? attempt.simulationType.slice('custom:'.length) : sim?.stateCode;
+  const byId = new Map(loadQuestions(bank ?? '').map((q) => [q.id, q]));
 
   // Só vale resposta para questão real, uma vez cada, e no máximo o tamanho da prova.
   const seen = new Set<string>();
@@ -148,7 +150,7 @@ export async function finishAttempt(
     };
   });
   // Questões não respondidas contam como erro: o total é o da prova, não o das respostas enviadas.
-  const score = scoreAttempt(review, { ...getExamConfig(sim?.stateCode), minCorrect: attempt.minCorrect ?? 0 });
+  const score = scoreAttempt(review, { ...getExamConfig(bank), minCorrect: attempt.minCorrect ?? 0 });
   const passed = score.correct >= (attempt.minCorrect ?? 0);
 
   await db.transaction(async (tx) => {

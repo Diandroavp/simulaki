@@ -35,7 +35,7 @@ function ReportError({ questionId }: { questionId: string }) {
 
 const fmt = (s: number) => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`;
 
-export default function SimuladoClient({ slug, name }: { slug: string; name: string }) {
+export default function SimuladoClient({ slug, name, custom }: { slug: string; name: string; custom?: Record<string, unknown> }) {
   const [exam, setExam] = useState<Exam | null>(null);
   const [error, setError] = useState<{ msg: string; limit: boolean } | null>(null);
   const [idx, setIdx] = useState(0);
@@ -48,7 +48,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
   useEffect(() => {
     if (started.current) return; // evita iniciar duas provas (modo estrito do React em desenvolvimento)
     started.current = true;
-    fetch('/api/simulado/start', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ slug }) })
+    fetch('/api/simulado/start', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ slug, ...(custom ? { custom } : {}) }) })
       .then(async (r) => {
         const d = await r.json();
         if (!r.ok) throw Object.assign(new Error(d.error ?? 'Erro ao iniciar'), { limit: d.code === 'limit' });
@@ -57,6 +57,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
         setAnswers(d.draftAnswers ?? {});
       })
       .catch((e: Error & { limit?: boolean }) => setError({ msg: e.message, limit: !!e.limit }));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug]);
 
   const finish = useCallback(async () => {
@@ -107,12 +108,12 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
   if (result) {
     return (
       <>
-        <h1>{result.passed ? 'Aprovado no simulado' : 'Não atingiu a nota mínima'}</h1>
+        <h1>{custom ? (result.passed ? 'Meta atingida' : 'Abaixo da meta') : result.passed ? 'Aprovado no simulado' : 'Não atingiu a nota mínima'}</h1>
         <div className="card">
           <p style={{ fontSize: '1.4rem', margin: 0 }}>{result.correct} de {result.total} acertos ({Math.round((result.correct / result.total) * 100)}%)</p>
-          <p className="muted">Mínimo para aprovação neste simulado: {result.minCorrect}.</p>
+          <p className="muted">{custom ? 'Meta deste simulado' : 'Mínimo para aprovação neste simulado'}: {result.minCorrect}.</p>
         </div>
-        <div className="row"><Link className="btn" href="/app">Ver minhas estatísticas</Link><a className="btn ghost" href={`/simulado/${slug}`}>Fazer outro</a></div>
+        <div className="row"><Link className="btn" href="/app">Ver minhas estatísticas</Link><a className="btn ghost" href={custom ? '/personalizado' : `/simulado/${slug}`}>Fazer outro</a></div>
         <h2>Revisão</h2>
         {result.review.map((r, i) => (
           <div className="card" key={r.questionId} style={{ marginBottom: 12 }}>
@@ -150,7 +151,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
         ))}
       </nav>
       {exam.resumed && <p className="note">Retomamos o simulado de onde você parou.</p>}
-      {(exam.shortExam || !exam.configVerified) && (
+      {!custom && (exam.shortExam || !exam.configVerified) && (
         <p className="note">
           {exam.shortExam ? 'Versão de demonstração com menos questões. ' : ''}
           {!exam.configVerified ? 'Regras da prova ainda não confirmadas com o Detran.' : ''}

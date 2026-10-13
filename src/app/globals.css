@@ -274,3 +274,16 @@ a.sim:hover{transform:translateY(-3px);border-color:var(--muted);box-shadow:var(
 .stmt p{margin:0 0 .8em;font:600 1.12rem/1.5 var(--display)}
 .stmt.long p{font:400 1.02rem/1.65 var(--text)}
 .stmt .qimg{display:block;max-width:100%;height:auto;margin:6px auto 14px;border-radius:8px;background:#fff}
+
+/* Simulado personalizado */
+.pers-list{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.pers-list li{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff}
+.pers-list li.on{border-color:var(--blue);box-shadow:0 0 0 2px var(--blue-soft)}
+.stepper{display:flex;align-items:center;gap:6px}
+.stepper button{min-width:36px;height:36px;border:1px solid var(--line);background:#fff;border-radius:8px;font:600 1.1rem/1 var(--text);cursor:pointer}
+.stepper button:disabled{opacity:.4;cursor:default}
+.stepper button.max{font-size:.8rem;padding:0 10px}
+.stepper input{width:56px;height:36px;text-align:center;border:1px solid var(--line);border-radius:8px;font:600 1rem var(--text)}
+.chk{display:flex!important;flex-direction:row!important;align-items:center;justify-content:flex-start;gap:8px;margin:6px 0;font-weight:400}
+.chk input{width:auto!important;margin:0;flex:none}
+.pers-resumo{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;bottom:12px}

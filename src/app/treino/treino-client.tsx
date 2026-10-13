@@ -9,8 +9,10 @@ type PQ = { id: string; topic: string; statement: string; options: Option[]; sou
 type Feedback = { correct: boolean; correctOptionId: string; explanation: string | null; legalRef: string | null; sourceLine: string; done: boolean; score?: { correct: number; total: number } };
 type Tema = { id: string; nome: string; total: number };
 
-export default function TreinoClient({ temas, erros, tamanho, gratis }: { temas: Tema[]; erros: number; tamanho: number; gratis: number | null }) {
-  const [sessao, setSessao] = useState<{ attemptId: string; tema: string; questions: PQ[] } | null>(null);
+type Sessao = { attemptId: string; tema: string; questions: PQ[] };
+
+export default function TreinoClient({ temas, erros, tamanho, gratis, sessaoInicial, onSair }: { temas: Tema[]; erros: number; tamanho: number; gratis: number | null; sessaoInicial?: Sessao; onSair?: () => void }) {
+  const [sessao, setSessao] = useState<Sessao | null>(sessaoInicial ?? null);
   const [idx, setIdx] = useState(0);
   const [picked, setPicked] = useState<Record<string, string>>({});
   const [fb, setFb] = useState<Record<string, Feedback>>({});
@@ -76,7 +78,7 @@ export default function TreinoClient({ temas, erros, tamanho, gratis }: { temas:
   return (
     <>
       <div className="bar">
-        <h1 style={{ fontSize: '1.2rem', margin: 0 }}>{sessao.tema === 'erros' ? 'Caderno de erros' : 'Treino'}</h1>
+        <h1 style={{ fontSize: '1.2rem', margin: 0 }}>{sessao.tema === 'erros' ? 'Caderno de erros' : sessao.tema === 'personalizado' ? 'Simulado personalizado' : 'Treino'}</h1>
         <span className="clock">{respondidas}/{sessao.questions.length} · {placar} {placar === 1 ? 'acerto' : 'acertos'}</span>
       </div>
       <div className="card">
@@ -110,7 +112,7 @@ export default function TreinoClient({ temas, erros, tamanho, gratis }: { temas:
         {idx < sessao.questions.length - 1 ? (
           <button className="btn" disabled={!f} onClick={() => setIdx(idx + 1)}>Próxima</button>
         ) : fim ? (
-          <button className="btn" onClick={() => setSessao(null)}>Concluir: {placar} de {sessao.questions.length}</button>
+          <button className="btn" onClick={() => (onSair ? onSair() : setSessao(null))}>Concluir: {placar} de {sessao.questions.length}</button>
         ) : null}
       </div>
     </>

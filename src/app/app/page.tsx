@@ -6,7 +6,7 @@ import { userHasAccess } from '@/lib/billing';
 import { resendVerificationAction } from '../actions';
 import { acceptInviteAction, declineInviteAction, leavePartnerAction } from '../parceiro/actions';
 import { partnersOf, pendingInvitesFor } from '@/lib/partners';
-import { getSimulation, isAvailable, SIMULATIONS } from '@/lib/simulations';
+import { isAvailable, nomeTipo, SIMULATIONS } from '@/lib/simulations';
 import { resumoErros } from '@/lib/treino';
 import { PageHero } from '../page-hero';
 
@@ -50,7 +50,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
           </div>
         </div>
       ))}
-      {open && <p className="note">Você tem um simulado em andamento. <Link href={`/simulado/${open.simulationType}`}>Continuar</Link></p>}
+      {open && <p className="note">Você tem um simulado em andamento. <Link href={open.simulationType.startsWith('custom:') ? '/personalizado?retomar=1' : `/simulado/${open.simulationType}`}>Continuar</Link></p>}
       {access.full ? (
         access.viaPartner ? (
           <p className="note">Acesso completo por meio de <strong>{access.viaPartner}</strong>.</p>
@@ -70,6 +70,12 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
         <div className="card"><div className="muted">Questões resolvidas</div><div className="price">{totalAnswered}</div></div>
         <div className="card"><div className="muted">Percentual de acertos</div><div className="price">{overall === null ? '-' : `${overall}%`}</div></div>
         <div className="card"><div className="muted">Simulados feitos</div><div className="price">{[...stats.values()].reduce((a, s) => a + s.attempts, 0)}</div></div>
+      </div>
+
+      <div className="card" style={{ marginBottom: 16 }}>
+        <h3 style={{ marginTop: 0 }}>Monte seu simulado</h3>
+        <p className="muted" style={{ marginTop: 0 }}>Escolha as matérias e a quantidade de questões de cada. Faça como prova, com relógio, ou como treino.</p>
+        <Link className="btn" href="/personalizado">Personalizar</Link>
       </div>
 
       <div className="card" style={{ marginBottom: 16 }}>
@@ -121,7 +127,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
               {history.map((h) => (
                 <tr key={h.id}>
                   <td>{fmtDate(h.finishedAt)}</td>
-                  <td>{getSimulation(h.simulationType)?.name ?? h.simulationType}</td>
+                  <td>{nomeTipo(h.simulationType)}</td>
                   <td>{h.correctCount}/{h.totalCount}</td>
                   <td>{h.totalCount ? Math.round(((h.correctCount ?? 0) / h.totalCount) * 100) : 0}%</td>
                   <td>{h.passed ? 'Aprovado' : 'Reprovado'}</td>

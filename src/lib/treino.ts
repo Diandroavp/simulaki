@@ -28,7 +28,7 @@ export async function questoesErradas(userId: string): Promise<string[]> {
     .orderBy(schema.attempts.startedAt);
   const ultima = new Map<string, boolean>(); // a resposta mais recente de cada questão vence
   for (const r of rows) ultima.set(r.id, r.ok);
-  const live = new Set(loadQuestions(ESTADO).map((q) => q.id));
+  const live = new Set([...loadQuestions(ESTADO), ...loadQuestions('ENEM')].map((q) => q.id));
   return [...ultima].filter(([id, ok]) => !ok && live.has(id)).map(([id]) => id);
 }
 
@@ -99,7 +99,9 @@ export async function answerTreino(userId: string, attemptId: string, questionId
     .limit(1);
   if (!at || !at.simulationType.startsWith('treino:')) return { ok: false, reason: 'Treino não encontrado.' };
   if (!at.questionIds?.includes(questionId)) return { ok: false, reason: 'Questão fora deste treino.' };
-  const q = loadQuestions(ESTADO).find((x) => x.id === questionId);
+  // treino:custom:<banco> (simulado personalizado) sorteia do banco escolhido; os demais usam o banco do Detran.
+  const banco = at.simulationType.startsWith('treino:custom:') ? at.simulationType.slice('treino:custom:'.length) : ESTADO;
+  const q = loadQuestions(banco).find((x) => x.id === questionId);
   if (!q || !q.options.some((o) => o.id === optionId)) return { ok: false, reason: 'Resposta inválida.' };
 
   const correct = optionId === q.correctOptionId;

@@ -18,6 +18,16 @@ export const SIMULATIONS: SimulationType[] = [
   { slug: 'sis', name: 'SIS', group: 'vestibular', description: 'Sistema de Ingresso Seriado.' },
 ];
 
+/** Nome para exibir de um tipo de tentativa (inclui o simulado personalizado). */
+export function nomeTipo(tipo: string): string {
+  if (tipo.startsWith('custom:') || tipo.startsWith('treino:custom:')) {
+    const bank = tipo.slice(tipo.lastIndexOf(':') + 1);
+    const sim = SIMULATIONS.find((s) => s.stateCode === bank);
+    return `Personalizado${sim ? ` · ${sim.name}` : ''}`;
+  }
+  return getSimulation(tipo)?.name ?? tipo;
+}
+
 export function getSimulation(slug: string): SimulationType | undefined {
   return SIMULATIONS.find((s) => s.slug === slug);
 }
