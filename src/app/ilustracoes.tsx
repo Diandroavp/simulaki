@@ -58,3 +58,15 @@ export function ApagadorLousa({ className }: { className?: string }) {
     </svg>
   );
 }
+
+/* Fita colorida (traço do lápis em cinco cores), usada como assinatura visual do site. */
+export function Fita({ className }: { className?: string }) {
+  const cores = ['#F4C20D', '#E86A33', '#D8453A', '#8B5CD6', '#2447D8', '#141A26'];
+  return (
+    <svg className={className} viewBox="0 0 640 460" aria-hidden focusable="false" preserveAspectRatio="xMidYMid slice">
+      {cores.map((c, i) => (
+        <path key={c} d="M-40 300 C 90 380 190 120 340 170 S 560 90 700 -10" transform={`translate(${i * 4} ${i * 30})`} fill="none" stroke={c} strokeWidth="34" opacity={i === 5 ? 0.85 : 0.92} />
+      ))}
+    </svg>
+  );
+}

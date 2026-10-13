@@ -5,6 +5,8 @@ import { getCurrentUser } from '@/lib/auth';
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/geist';
 import '@fontsource-variable/caveat';
+import '@fontsource-variable/playfair-display/wght.css';
+import '@fontsource-variable/playfair-display/wght-italic.css';
 import './globals.css';
 
 export const metadata: Metadata = {

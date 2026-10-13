@@ -2,34 +2,40 @@ import Link from 'next/link';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
 import { GUIAS } from '@/lib/guias';
-import { ApagadorLousa, Borracha, Lapis, Marcador, Regua } from './ilustracoes';
+import { ApagadorLousa, Borracha, Fita, Lapis, Marcador, Regua } from './ilustracoes';
 
 export default function Home() {
   const detran = SIMULATIONS.filter((s) => s.group === 'detran');
   const outros = SIMULATIONS.filter((s) => s.group !== 'detran');
   return (
     <>
-      <section className="hero">
-        <div>
-          <h1>Chegue seguro à <mark>prova teórica</mark> do Detran.</h1>
-          <p className="lead">Simulados com 30 questões, cronômetro e correção na hora. Cada resposta vem com a explicação e a base legal.</p>
-          <div className="row">
-            <Link className="btn" href="/cadastro">Criar conta grátis</Link>
-            <Link className="btn ghost" href="/planos">Ver planos</Link>
+      <div className="herowrap bleed">
+        <Fita className="fita" />
+        <section className="hero">
+          <span className="deco x" aria-hidden>xxxx</span>
+          <span className="deco o" aria-hidden><i /><i /><i /><i /><i /><i /></span>
+          <div>
+            <h1>Chegue seguro à <em>prova teórica</em> do Detran.</h1>
+            <p className="lead">Simulados com 30 questões, cronômetro e correção na hora. Cada resposta vem com a explicação e a base legal.</p>
+            <div className="row">
+              <Link className="btn" href="/cadastro">Criar conta grátis <span aria-hidden>→</span></Link>
+              <Link className="btn ghost" href="/planos">Ver planos</Link>
+            </div>
           </div>
-        </div>
-        <div className="board">
-          <div className="board-frame"><div className="board-face"><DemoQuestion /></div></div>
-          <div className="board-tray" aria-hidden>
-            <Marcador cor="#2447D8" />
-            <Marcador cor="#D8453A" />
-            <ApagadorLousa />
+          <div className="board">
+            <div className="board-frame"><div className="board-face"><DemoQuestion /></div></div>
+            <div className="board-tray" aria-hidden>
+              <Marcador cor="#2447D8" />
+              <Marcador cor="#D8453A" />
+              <ApagadorLousa />
+            </div>
+            <Lapis className="stick pencil" />
+            <Borracha className="stick eraser" />
+            <Regua className="stick ruler" />
           </div>
-          <Lapis className="stick pencil" />
-          <Borracha className="stick eraser" />
-          <Regua className="stick ruler" />
-        </div>
-      </section>
+        </section>
+        <svg className="wave" viewBox="0 0 1440 84" preserveAspectRatio="none" aria-hidden><path d="M0 46C220 96 440 6 720 38S1200 90 1440 26V84H0Z" /></svg>
+      </div>
 
       <section aria-label="Como é a prova">
         <div className="facts">
@@ -40,7 +46,7 @@ export default function Home() {
         <p className="facts-note">Regras da Resolução Contran 1.020/2025. 1 simulado grátis por dia, sem cartão.</p>
       </section>
 
-      <h2>Escolha o seu simulado</h2>
+      <h2>Escolha o seu <em>simulado</em></h2>
       <div className="sims">
         {detran.map((s, i) => {
           const on = isAvailable(s);
@@ -66,7 +72,7 @@ export default function Home() {
       </div>
 
       <section className="paper" style={{ marginTop: 72 }}>
-        <h2>Do primeiro simulado à aprovação</h2>
+        <h2>Do primeiro simulado à <em>aprovação</em></h2>
         <ol className="steps">
           <li><strong>Escolha o simulado</strong><span className="muted">Mesmo número de questões e tempo da prova do seu estado.</span></li>
           <li><strong>Responda no tempo</strong><span className="muted">Cronômetro e navegação entre as questões, como na prova.</span></li>
@@ -75,7 +81,7 @@ export default function Home() {
         </ol>
       </section>
 
-      <h2>Treine o que você mais erra</h2>
+      <h2>Treine o que você mais <em>erra</em></h2>
       <div className="treino">
         <div className="tile a">
           <h3>Treino por tema</h3>
@@ -88,7 +94,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h2>Guias para a prova teórica</h2>
+      <h2>Guias para a <em>prova teórica</em></h2>
       <div className="guias">
         {GUIAS.map((g) => (
           <Link key={g.slug} className="guia" href={`/guia/${g.slug}`}>
@@ -99,8 +105,9 @@ export default function Home() {
       </div>
 
       <section className="final">
-        <h2>Faça o primeiro simulado hoje.</h2>
-        <Link className="btn" href="/cadastro">Criar conta grátis</Link>
+        <Fita className="fita" />
+        <h2>Faça o primeiro simulado <em>hoje</em>.</h2>
+        <Link className="btn" href="/cadastro">Criar conta grátis <span aria-hidden>→</span></Link>
       </section>
     </>
   );
