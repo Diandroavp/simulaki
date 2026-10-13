@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { and, eq } from 'drizzle-orm';
 import { getDb, schema } from '@/db';
 import { getCurrentUser } from '@/lib/auth';
-import { reconcilePayment } from '@/lib/canvi-webhook';
+import { reconcileDetailed } from '@/lib/canvi-webhook';
 
 export const dynamic = 'force-dynamic';
 
@@ -20,9 +20,11 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
   // Sem depender só do webhook: com a Canvi, consulta a cobrança enquanto o aluno espera.
   if (p.status === 'pending' && process.env.PAYMENT_GATEWAY === 'canvi') {
     try {
-      return NextResponse.json({ status: (await reconcilePayment(id)) === 'paid' ? 'paid' : p.status });
-    } catch {
-      /* gateway indisponível: segue pendente */
+      const r = await reconcileDetailed(id);
+      return NextResponse.json({ status: r.state === 'paid' ? 'paid' : p.status, gateway: r.gateway });
+    } catch (e) {
+      console.error('[pagamento] consulta na Canvi falhou:', e instanceof Error ? e.message : e);
+      return NextResponse.json({ status: p.status, gateway: 'erro-consulta', erro: e instanceof Error ? e.message.slice(0, 120) : 'erro' });
     }
   }
   return NextResponse.json({ status: p.status });

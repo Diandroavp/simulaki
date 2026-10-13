@@ -72,10 +72,12 @@ type QueryData = { id?: number | string; valor: string; status: string };
 
 const toCents = (valor: string) => Math.round(Number.parseFloat(valor) * 100);
 
-export function mapStatus(s: string): ChargeState['status'] {
-  if (s === 'paid') return 'paid';
-  if (s === 'expired') return 'expired';
-  if (s === 'canceled') return 'canceled';
+export function mapStatus(raw: string): ChargeState['status'] {
+  const s = String(raw ?? '').trim().toLowerCase();
+  if (['paid', 'pago', 'liquidado', 'completed', 'concluido', 'concluído', 'confirmed'].includes(s)) return 'paid';
+  if (['expired', 'expirado', 'vencido'].includes(s)) return 'expired';
+  if (['canceled', 'cancelled', 'cancelado'].includes(s)) return 'canceled';
+  if (!['created', 'authorized', 'criado', 'autorizado', 'pending', 'pendente'].includes(s)) console.warn('[canvi] status desconhecido:', raw);
   return 'pending'; // created, authorized
 }
 
@@ -98,7 +100,7 @@ export function canviProvider(): PixProvider {
     },
     async getCharge(gatewayId): Promise<ChargeState> {
       const d = await call<QueryData>('/bt/pix/dinamico/consulta', { id_invoice_pix: gatewayId });
-      return { status: mapStatus(d.status), amountCents: toCents(d.valor) };
+      return { status: mapStatus(d.status), amountCents: toCents(d.valor), raw: String(d.status) };
     },
   };
 }

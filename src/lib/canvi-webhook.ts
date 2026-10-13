@@ -48,15 +48,21 @@ export async function handleCanviNotification(payload: unknown): Promise<{ confi
 
 /** Fallback sem webhook: consulta uma cobrança pendente e confirma se paga. */
 export async function reconcilePayment(paymentId: string): Promise<'paid' | 'pending' | 'expired'> {
+  return (await reconcileDetailed(paymentId)).state;
+}
+
+/** Igual a reconcilePayment, mas devolve também o status bruto do gateway (para diagnóstico do próprio aluno). */
+export async function reconcileDetailed(paymentId: string): Promise<{ state: 'paid' | 'pending' | 'expired'; gateway?: string }> {
   const db = await getDb();
   const [pay] = await db.select().from(schema.payments).where(eq(schema.payments.id, paymentId)).limit(1);
-  if (!pay) return 'pending';
-  if (pay.status === 'paid') return 'paid';
-  if (!pay.gatewayId) return 'pending';
+  if (!pay) return { state: 'pending' };
+  if (pay.status === 'paid') return { state: 'paid' };
+  if (!pay.gatewayId) return { state: 'pending' };
   const charge = await getPixProvider().getCharge(pay.gatewayId);
   if (charge.status === 'paid') {
     const r = await confirmPayment(pay.gatewayId, charge.amountCents);
-    return r === 'confirmed' || r === 'already' ? 'paid' : 'pending';
+    if (r !== 'confirmed' && r !== 'already') console.error('[pagamento] pago na Canvi mas não confirmado:', r, pay.id);
+    return { state: r === 'confirmed' || r === 'already' ? 'paid' : 'pending', gateway: `${charge.raw ?? 'paid'}/${r}` };
   }
-  return charge.status === 'expired' || charge.status === 'canceled' ? 'expired' : 'pending';
+  return { state: charge.status === 'expired' || charge.status === 'canceled' ? 'expired' : 'pending', gateway: charge.raw };
 }

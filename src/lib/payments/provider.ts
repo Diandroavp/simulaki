@@ -3,7 +3,7 @@ import { canviProvider } from './canvi';
 
 export type PixCharge = { gatewayId: string; copyPaste: string; expiresAt: Date };
 
-export type ChargeState = { status: 'pending' | 'paid' | 'expired' | 'canceled'; amountCents: number };
+export type ChargeState = { status: 'pending' | 'paid' | 'expired' | 'canceled'; amountCents: number; raw?: string };
 
 export interface PixProvider {
   name: string;
