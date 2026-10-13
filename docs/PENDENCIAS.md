@@ -22,8 +22,13 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Depois: adaptar `scripts/import-enem.py` ao formato das provas do PSC (etapas 1, 2 e 3; categoria "PSC 1/2/3").
 
 ### SIS (UEA)
-- A prova é aplicada e publicada pela **Vunesp** (páginas `vunesp.com.br/UEAM25xx` e `UEAM26xx`). Ainda não abri essas páginas nem baixei nada.
+- A prova é aplicada e publicada pela **Vunesp**. A "Área do candidato" da Vunesp (Provas e Gabaritos, Vista de prova) **exige login**: não entramos lá. Os PDFs públicos estão espelhados no portal Estratégia Vestibulares (mesma prova, mesmo gabarito).
+- **SIS 2025** (Prova de Acompanhamento I, II e III), 6 PDFs, padrão de URL: `vestibulares.estrategia.com/portal/wp-content/uploads/2025/10/SIS-Caderno-de-Questoes-Prova-de-Acompanhamento-{I|II|III}.pdf` e `SIS-Gabarito-Prova-de-Acompanhamento-{I|II|III}.pdf`. A página não diz qual série é cada etapa (conferir no edital).
+- **Vestibular UEA 2025** (Conhecimentos Gerais + Específicos Grupos I, II, III): mesmo padrão com prefixo `Vestibular-`. Não é prioridade (o SIS é o foco).
+- **SIS 2024, 2023, 2020** têm páginas equivalentes no Estratégia e no Vestibulando Web (a conferir).
+- **SIS 2026**: provas aplicadas; gabaritos previstos para 14/10/2026 às 20h (Manaus). Ainda sem PDF público.
 - **Direitos:** pedir autorização à Vunesp e à UEA antes de publicar questões do SIS, ou ter parecer jurídico. Mesmo cuidado com o PSC (UFAM) e a OAB (FGV).
+- **Pendente do Diandro:** liberar o download dos 6 PDFs do SIS 2025 (e depois dos outros anos) quando puder salvar.
 
 ### OAB (FGV)
 - Plano mais alto (premium). Precisa de autorização da FGV/análise jurídica antes de qualquer questão.
