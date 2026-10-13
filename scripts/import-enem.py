@@ -18,6 +18,7 @@ AREAS_NOVO = {1: [(1, 45, 'linguagens'), (46, 90, 'humanas')], 2: [(91, 135, 'na
 AREAS_ANTIGO = {1: [(1, 45, 'humanas'), (46, 90, 'natureza')], 2: [(91, 135, 'linguagens'), (136, 180, 'matematica')]}
 # ENEM 2009-2016 (dia 1 Humanas+Natureza). O dia 1 de 2017+ trocou a ordem.
 def areas(ano, dia):
+    if ano == 2009: return {1: [(1, 45, 'natureza'), (46, 90, 'humanas')], 2: [(91, 135, 'linguagens'), (136, 180, 'matematica')]}[dia]
     return (AREAS_ANTIGO if ano <= 2016 else AREAS_NOVO)[dia]
 
 def salvar_webp(pix, caminho):
@@ -28,6 +29,7 @@ def salvar_webp(pix, caminho):
 def parse(pdf, lo=1):
     d = pymupdf.open(pdf)
     qs, order, cur, lang = {}, [], None, None
+    pend = False
     cont = {}
     segs = {}
     for pno, page in enumerate(d):
@@ -37,7 +39,7 @@ def parse(pdf, lo=1):
             if y1 > 752: continue
             if y0 < 62:
                 t0 = ''.join(s_['text'] for l in b.get('lines', []) for s_ in l['spans']).strip()
-                if not (b['type'] == 0 and y1 > 50 and re.match(r'^QUESTÃO\s+\d+$', t0, re.I)): continue
+                if not (b['type'] == 0 and y1 > 50 and re.match(r'^QUESTÃO\s*\d+$', t0, re.I)): continue
             if b['type'] == 0:
                 txt = ''.join(s['text'] for l in b['lines'] for s in l['spans'])
                 if WM.search(txt) or txt.strip().startswith('*0') or (x1 - x0) < 4 or (y1 - y0) < 4: continue
@@ -59,7 +61,12 @@ def parse(pdf, lo=1):
                 ly = l['bbox'][1]
                 if 'opção espanhol' in t: lang = 'es'
                 if 'opção inglês' in t: lang = 'en'
-                m = re.match(r'^QUESTÃO\s+(\d+)\s*$', t.strip(), re.I)
+                ts = t.strip()
+                if ts.lower() == 'questão': pend = True; continue  # 2009: 'Questão' e o número em linhas separadas
+                if pend:
+                    pend = False
+                    if ts.isdigit(): ts = 'QUESTÃO ' + ts
+                m = re.match(r'^QUESTÃO\s*(\d+)\s*$', ts, re.I)
                 if m:
                     if cur and col in open_seg and open_seg[col]['y1'] is None: open_seg[col]['y1'] = ly - 2
                     n = int(m.group(1))
@@ -136,9 +143,9 @@ def gabarito(pdf, dia, lo=1):
             n = int(tk[i]); j = i + 1; ls = []
             while j < len(tk) and re.fullmatch(r'[A-E]', tk[j]) and len(ls) < 2: ls.append(tk[j]); j += 1
             if ls:
-                if dia and lo <= n <= lo + 4 and len(ls) == 2: ans[(n, 'en')], ans[(n, 'es')] = ls[0], ls[1]
-                elif dia and lo <= n <= lo + 4: ans[(n, 'es')] = ls[0]
-                else: ans[(n, '-')] = ls[0]
+                if dia and lo <= n <= lo + 4 and len(ls) == 2: ans.setdefault((n, 'en'), ls[0]); ans.setdefault((n, 'es'), ls[1])
+                elif dia and lo <= n <= lo + 4: ans.setdefault((n, 'es'), ls[0])
+                else: ans.setdefault((n, '-'), ls[0])
                 i = j; continue
         i += 1
     return ans
@@ -146,7 +153,7 @@ def gabarito(pdf, dia, lo=1):
 def main():
     ano, dia, pv, gb = int(sys.argv[1]), int(sys.argv[2]), sys.argv[3], sys.argv[4]
     cor = sys.argv[sys.argv.index('--cor') + 1] if '--cor' in sys.argv else 'azul'
-    haslang = (ano >= 2017 and dia == 1) or (ano <= 2016 and dia == 2)
+    haslang = (ano >= 2017 and dia == 1) or (2010 <= ano <= 2016 and dia == 2)
     lo = 91 if (ano <= 2016 and dia == 2) else 1
     d, qs = parse(pv, lo); ans = gabarito(gb, haslang, lo)
     if not haslang:
@@ -164,7 +171,7 @@ def main():
             y1 = sg['y1'] if sg['y1'] is not None else 748
             if as_img or (len(q['statement']) < 20 and not any(s['figs'] for s in q['segs'])):
                 if y1 - sg['y0'] < 14: continue
-                u = pymupdf.Rect(30 if sg['col'] == 0 else 288, sg['y0'], 284 if sg['col'] == 0 else 540, y1)
+                u = pymupdf.Rect(30 if sg['col'] == 0 else 288, sg['y0'], 284 if sg['col'] == 0 else 552, y1)
             elif sg['figs']:
                 u = pymupdf.Rect(sg['figs'][0])
                 for r in sg['figs'][1:]: u |= r
