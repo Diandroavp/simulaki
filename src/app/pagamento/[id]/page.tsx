@@ -51,7 +51,7 @@ export default async function Pagamento({ params }: { params: Promise<{ id: stri
         <div className="payok">
           <Steps at={3} />
           <div className="card center">
-            <div className="check" aria-hidden>✓</div>
+            <div className="okcheck" aria-hidden>✓</div>
             <h2>Tudo certo, bons estudos!</h2>
             <p className="muted">{plan.name} ativo. Você já pode fazer simulados sem limite.</p>
             <a className="btn" href="/app">Ir para minha área</a>

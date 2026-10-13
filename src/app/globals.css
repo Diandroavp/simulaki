@@ -261,7 +261,7 @@ a.sim:hover{transform:translateY(-3px);border-color:var(--muted);box-shadow:var(
 @keyframes pls{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
 @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
 .tabnum{font-variant-numeric:tabular-nums}
-.check{width:64px;height:64px;border-radius:50%;background:var(--brand);color:var(--brand-fg);display:grid;place-items:center;font-size:2rem;margin:0 auto 14px}
+.okcheck{width:64px;height:64px;border-radius:50%;background:var(--brand);color:var(--brand-fg);display:grid;place-items:center;font-size:2rem;margin:0 auto 14px}
 @media (max-width:760px){.co-grid{grid-template-columns:1fr}}
 
 .waitbox .tips{display:grid;gap:6px;margin-top:12px;font-size:.92rem;color:var(--muted)}
