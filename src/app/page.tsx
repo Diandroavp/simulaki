@@ -66,13 +66,16 @@ export default async function Home() {
         })}
       </div>
       <div className="sims two">
-        {outros.map((s) => (
-          <div key={s.slug} className="sim off">
-            <span className="nm">{s.name}</span>
-            <span className="muted">{s.description}</span>
-            <span className="badge" style={{ alignSelf: 'flex-start' }}>Em breve</span>
-          </div>
-        ))}
+        {outros.map((s) => {
+          const on = isAvailable(s);
+          return (
+            <Link key={s.slug} href={`/prova/${s.slug}`} className={`sim ${on ? '' : 'off'}`}>
+              <span className="nm">{s.name}</span>
+              <span className="muted">{s.description}</span>
+              {on ? <span className="go">Saiba mais</span> : <span className="badge" style={{ alignSelf: 'flex-start' }}>Em breve</span>}
+            </Link>
+          );
+        })}
       </div>
 
       <section className="paper" style={{ marginTop: 72 }}>

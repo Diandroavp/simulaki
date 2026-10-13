@@ -26,7 +26,7 @@ export default async function AdminEnem({ searchParams }: { searchParams: Promis
     <>
       <h1>Revisão do ENEM</h1>
       <p><Link href="/admin">Gestão</Link> · <Link href="/admin/questoes">Questões</Link></p>
-      {sp.ok && <p className="ok">{sp.ok}</p>}
+      {sp.ok && <p className="okmsg">{sp.ok}</p>}
       {sp.erro && <p className="err">{sp.erro}</p>}
       <p className="muted">{tot.published} publicadas, {tot.archived} rejeitadas, {tot.total - tot.published - tot.archived} pendentes de {tot.total}. Só as publicadas aparecem para os alunos.</p>
 
