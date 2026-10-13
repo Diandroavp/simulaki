@@ -7,6 +7,7 @@ import { resendVerificationAction } from '../actions';
 import { acceptInviteAction, declineInviteAction, leavePartnerAction } from '../parceiro/actions';
 import { partnersOf, pendingInvitesFor } from '@/lib/partners';
 import { getSimulation, isAvailable, SIMULATIONS } from '@/lib/simulations';
+import { resumoErros } from '@/lib/treino';
 
 export const dynamic = 'force-dynamic';
 const TOPICS: Record<string, string> = {
@@ -20,6 +21,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
   if (!user) redirect('/entrar');
   const { cupom, verifique, verificado } = await searchParams;
   const [{ stats, history }, access, open, invites, myPartners] = await Promise.all([getStats(user.id), userHasAccess(user.id), getOpenAttempt(user.id), user.emailVerified ? pendingInvitesFor(user.email) : Promise.resolve([]), partnersOf(user.id)]);
+  const errosPendentes = await resumoErros(user.id);
   const totalAnswered = [...stats.values()].reduce((a, s) => a + s.answered, 0);
   const totalCorrect = [...stats.values()].reduce((a, s) => a + s.correct, 0);
   const overall = totalAnswered ? Math.round((totalCorrect / totalAnswered) * 100) : null;
@@ -67,6 +69,12 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
         <div className="card"><div className="muted">Questões resolvidas</div><div className="price">{totalAnswered}</div></div>
         <div className="card"><div className="muted">Percentual de acertos</div><div className="price">{overall === null ? '-' : `${overall}%`}</div></div>
         <div className="card"><div className="muted">Simulados feitos</div><div className="price">{[...stats.values()].reduce((a, s) => a + s.attempts, 0)}</div></div>
+      </div>
+
+      <div className="card" style={{ marginBottom: 16 }}>
+        <h3 style={{ marginTop: 0 }}>Treino por tema</h3>
+        <p className="muted" style={{ marginTop: 0 }}>Sessões de 10 questões com correção na hora{errosPendentes > 0 ? `, e o caderno de erros com ${errosPendentes} ${errosPendentes === 1 ? 'questão' : 'questões'} para refazer` : ''}.</p>
+        <Link className="btn" href="/treino">Treinar agora</Link>
       </div>
 
       <h2>Por simulado</h2>

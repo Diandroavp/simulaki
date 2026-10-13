@@ -60,7 +60,7 @@ export async function startAttempt(userId: string, slug: string): Promise<StartA
     const [row] = await db
       .select({ n: sql<number>`count(*)::int` })
       .from(schema.attempts)
-      .where(and(eq(schema.attempts.userId, userId), gte(schema.attempts.startedAt, startOfDayManaus())));
+      .where(and(eq(schema.attempts.userId, userId), gte(schema.attempts.startedAt, startOfDayManaus()), sql`${schema.attempts.simulationType} not like 'treino:%'`));
     if ((row?.n ?? 0) >= FREE_PER_DAY) {
       return { ok: false, code: 'limit', reason: 'Você usou o simulado grátis de hoje. Assine para fazer quantos quiser.' };
     }
@@ -189,7 +189,7 @@ export async function getStats(userId: string) {
       passes: sql<number>`count(*) filter (where ${schema.attempts.passed})::int`,
     })
     .from(schema.attempts)
-    .where(and(eq(schema.attempts.userId, userId), isNotNull(schema.attempts.finishedAt)))
+    .where(and(eq(schema.attempts.userId, userId), isNotNull(schema.attempts.finishedAt), sql`${schema.attempts.simulationType} not like 'treino:%'`))
     .groupBy(schema.attempts.simulationType);
 
   const topics = await db
@@ -201,13 +201,13 @@ export async function getStats(userId: string) {
     })
     .from(schema.attemptAnswers)
     .innerJoin(schema.attempts, eq(schema.attempts.id, schema.attemptAnswers.attemptId))
-    .where(eq(schema.attempts.userId, userId))
+    .where(and(eq(schema.attempts.userId, userId), sql`${schema.attempts.simulationType} not like 'treino:%'`))
     .groupBy(schema.attempts.simulationType, schema.attemptAnswers.topic);
 
   const history = await db
     .select()
     .from(schema.attempts)
-    .where(and(eq(schema.attempts.userId, userId), isNotNull(schema.attempts.finishedAt)))
+    .where(and(eq(schema.attempts.userId, userId), isNotNull(schema.attempts.finishedAt), sql`${schema.attempts.simulationType} not like 'treino:%'`))
     .orderBy(desc(schema.attempts.finishedAt))
     .limit(20);
 

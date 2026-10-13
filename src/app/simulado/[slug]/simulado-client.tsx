@@ -123,7 +123,7 @@ export default function SimuladoClient({ slug, name }: { slug: string; name: str
             ))}
             {r.selectedOptionId === null && <p className="muted">Sem resposta.</p>}
             {r.explanation && <p className="muted">{r.explanation}</p>}
-            {r.legalRef && !r.legalRef.includes('conferir') && <p className="muted">Base legal: {r.legalRef}</p>}
+            {r.legalRef && !r.legalRef.includes('conferir') && !r.legalRef.startsWith('Banco Nacional') && <p className="muted">Base legal: {r.legalRef}</p>}
             <p className="muted" style={{ fontSize: '.8rem' }}>{r.sourceLine}</p>
             <ReportError questionId={r.questionId} />
           </div>
