@@ -8,6 +8,7 @@ import { acceptInviteAction, declineInviteAction, leavePartnerAction } from '../
 import { partnersOf, pendingInvitesFor } from '@/lib/partners';
 import { isAvailable, nomeTipo, SIMULATIONS } from '@/lib/simulations';
 import { resumoErros } from '@/lib/treino';
+import { ensureOverrides } from '@/lib/question-overrides';
 import { PageHero } from '../page-hero';
 
 export const dynamic = 'force-dynamic';
@@ -20,6 +21,7 @@ const fmtDate = (d: Date | null) => (d ? d.toLocaleString('pt-BR', { dateStyle: 
 export default async function Area({ searchParams }: { searchParams: Promise<{ cupom?: string; verifique?: string; verificado?: string }> }) {
   const user = await getCurrentUser();
   if (!user) redirect('/entrar');
+  await ensureOverrides();
   const { cupom, verifique, verificado } = await searchParams;
   const [{ stats, history }, access, open, invites, myPartners] = await Promise.all([getStats(user.id), userHasAccess(user.id), getOpenAttempt(user.id), user.emailVerified ? pendingInvitesFor(user.email) : Promise.resolve([]), partnersOf(user.id)]);
   const errosPendentes = await resumoErros(user.id);

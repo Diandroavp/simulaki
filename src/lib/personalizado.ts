@@ -5,6 +5,7 @@ import { userHasAccess } from './billing';
 import { getExamConfig } from './exam';
 import { loadQuestions, toPublic, type PublicQuestion, type Question } from './questions';
 import { SIMULATIONS } from './simulations';
+import { ensureOverrides } from './question-overrides';
 import { questoesErradas, TREINO_TEMAS } from './treino';
 
 /**
@@ -71,6 +72,7 @@ function embaralha<T>(xs: T[]): T[] {
 export type Validada = { ok: true; spec: CustomSpec; pool: Question[] } | { ok: false; code: 'invalido' | 'plano'; reason: string };
 
 export async function validar(userId: string, raw: unknown): Promise<Validada> {
+  await ensureOverrides();
   const r = (raw ?? {}) as Partial<CustomSpec>;
   const bank = String(r.bank ?? '').toUpperCase();
   const banco = catalogo().find((b) => b.bank === bank);
@@ -147,6 +149,7 @@ export async function startCustomTreino(userId: string, raw: unknown): Promise<S
 }
 
 export async function startCustomProva(userId: string, raw: unknown): Promise<StartAttempt> {
+  await ensureOverrides();
   const db = await getDb();
   const resume = !!(raw as { resume?: boolean } | null)?.resume;
 

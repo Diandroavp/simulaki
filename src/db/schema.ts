@@ -396,3 +396,11 @@ export const questionFeedback = pgTable(
   },
   (t) => [index('question_feedback_q_idx').on(t.questionId)],
 );
+
+/** Decisão de revisão por questão (publicar/arquivar), sobreposta ao status do arquivo JSON. */
+export const questionReviews = pgTable('question_reviews', {
+  questionId: text('question_id').primaryKey(),
+  status: text('status').notNull(), // 'published' | 'archived'
+  reviewerId: uuid('reviewer_id').references(() => users.id),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+});

@@ -3,6 +3,7 @@ import { getDb, schema } from '@/db';
 import { userHasAccess } from './billing';
 import { buildExam, getExamConfig, scoreAttempt } from './exam';
 import { examTopic, loadQuestions, sourceLine, toPublic, type PublicQuestion } from './questions';
+import { ensureOverrides } from './question-overrides';
 import { getSimulation } from './simulations';
 
 export const FREE_PER_DAY = 1;
@@ -22,6 +23,7 @@ export type StartAttempt =
   | { ok: false; code: 'unknown' | 'unavailable' | 'limit'; reason: string };
 
 export async function startAttempt(userId: string, slug: string): Promise<StartAttempt> {
+  await ensureOverrides();
   const sim = getSimulation(slug);
   if (!sim?.stateCode) return { ok: false, code: 'unavailable', reason: 'Este simulado ainda não está disponível.' };
   const pool = loadQuestions(sim.stateCode);
@@ -136,6 +138,7 @@ export async function finishAttempt(
   const sim = getSimulation(attempt.simulationType);
   // Simulado personalizado guarda o banco no próprio tipo (custom:ENEM).
   const bank = attempt.simulationType.startsWith('custom:') ? attempt.simulationType.slice('custom:'.length) : sim?.stateCode;
+  await ensureOverrides();
   const byId = new Map(loadQuestions(bank ?? '').map((q) => [q.id, q]));
 
   // Só vale resposta para questão real, uma vez cada, e no máximo o tamanho da prova.

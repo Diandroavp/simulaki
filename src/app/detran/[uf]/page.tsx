@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { PageHero } from '../../page-hero';
 import { notFound } from 'next/navigation';
 import { ESTADOS, FONTE_RESOLUCAO, GUIAS } from '@/lib/guias';
+import { ensureOverrides } from '@/lib/question-overrides';
 import { isAvailable, getSimulation } from '@/lib/simulations';
 
 export function generateStaticParams() {
@@ -21,6 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ uf: strin
 export default async function Page({ params }: { params: Promise<{ uf: string }> }) {
   const e = find((await params).uf);
   if (!e) notFound();
+  await ensureOverrides();
   const sim = getSimulation(e.slug);
   const on = sim ? isAvailable(sim) : false;
   return (

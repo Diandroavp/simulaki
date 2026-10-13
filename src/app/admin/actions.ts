@@ -7,6 +7,7 @@ import { getDb, schema } from '@/db';
 import { requireAdmin } from '@/lib/auth';
 import { normalizeCode } from '@/lib/billing';
 import { resolveFeedback } from '@/lib/feedback';
+import { decidir, pendentesDoCaderno, type Decisao } from '@/lib/enem-review';
 
 const back = (msg: string, kind: 'erro' | 'ok' = 'erro'): never => redirect(`/admin/cupons?${kind}=${encodeURIComponent(msg)}`);
 
@@ -56,3 +57,29 @@ export async function resolveFeedbackAction(form: FormData) {
   await resolveFeedback(String(form.get('id') ?? ''));
   revalidatePath('/admin/questoes');
 }
+
+async function revisarEnem(form: FormData, forcada?: Decisao) {
+  const admin = await requireAdmin();
+  if (!admin) redirect('/');
+  const caderno = String(form.get('caderno') ?? '');
+  const volta = String(form.get('volta') ?? `/admin/enem?c=${caderno}`);
+  const decisao = forcada ?? String(form.get('decisao') ?? '');
+  if (!['published', 'archived', 'pending'].includes(decisao)) redirect(volta);
+  const escopo = String(form.get('escopo') ?? 'ids');
+  let ids = form.getAll('id').map(String);
+  if (escopo === 'caderno-pendentes') {
+    // "Aprovar todas" exige digitar o caderno para confirmar.
+    if (String(form.get('confirma') ?? '').trim() !== caderno) redirect(`${volta}${volta.includes('?') ? '&' : '?'}erro=${encodeURIComponent('Digite o código do caderno para confirmar.')}`);
+    ids = await pendentesDoCaderno(caderno);
+  }
+  const n = await decidir(ids, decisao as Decisao, admin.id);
+  if (n > 0) await getDb().then((db) => db.insert(schema.auditLogs).values({ actorId: admin.id, action: 'enem.review', entity: 'question_bank', entityId: caderno || 'enem', after: { decisao, escopo, n } }));
+  revalidatePath('/admin/enem');
+  revalidatePath('/');
+  redirect(`${volta}${volta.includes('?') ? '&' : '?'}ok=${encodeURIComponent(`${n} questão(ões) atualizada(s).`)}`);
+}
+
+export async function revisarEnemAction(form: FormData) { return revisarEnem(form); }
+export async function publicarEnemAction(form: FormData) { return revisarEnem(form, 'published'); }
+export async function rejeitarEnemAction(form: FormData) { return revisarEnem(form, 'archived'); }
+export async function pendenteEnemAction(form: FormData) { return revisarEnem(form, 'pending'); }

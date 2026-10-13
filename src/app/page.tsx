@@ -2,9 +2,13 @@ import Link from 'next/link';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
 import { GUIAS } from '@/lib/guias';
+import { ensureOverrides } from '@/lib/question-overrides';
 import { ApagadorLousa, Borracha, Cena, CronometroSolto, Lapis, Livros, Marcador } from './ilustracoes';
 
-export default function Home() {
+export const revalidate = 60;
+
+export default async function Home() {
+  await ensureOverrides();
   const detran = SIMULATIONS.filter((s) => s.group === 'detran');
   const outros = SIMULATIONS.filter((s) => s.group !== 'detran');
   return (

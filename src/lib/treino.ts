@@ -2,6 +2,7 @@ import { and, desc, eq, gte, sql } from 'drizzle-orm';
 import { getDb, schema } from '@/db';
 import { startOfDayManaus } from './attempts';
 import { userHasAccess } from './billing';
+import { ensureOverrides } from './question-overrides';
 import { loadQuestions, sourceLine, toPublic, type PublicQuestion } from './questions';
 
 /** Treino por tema: respostas corrigidas na hora, sem relógio. Cada sessão é um "attempt" com tipo `treino:<tema>`. */
@@ -28,6 +29,7 @@ export async function questoesErradas(userId: string): Promise<string[]> {
     .orderBy(schema.attempts.startedAt);
   const ultima = new Map<string, boolean>(); // a resposta mais recente de cada questão vence
   for (const r of rows) ultima.set(r.id, r.ok);
+  await ensureOverrides();
   const live = new Set([...loadQuestions(ESTADO), ...loadQuestions('ENEM')].map((q) => q.id));
   return [...ultima].filter(([id, ok]) => !ok && live.has(id)).map(([id]) => id);
 }
@@ -64,6 +66,7 @@ export async function startTreino(userId: string, tema: string): Promise<StartTr
     }
   }
 
+  await ensureOverrides();
   const pool = loadQuestions(ESTADO);
   let picked;
   if (erros) {
@@ -101,6 +104,7 @@ export async function answerTreino(userId: string, attemptId: string, questionId
   if (!at.questionIds?.includes(questionId)) return { ok: false, reason: 'Questão fora deste treino.' };
   // treino:custom:<banco> (simulado personalizado) sorteia do banco escolhido; os demais usam o banco do Detran.
   const banco = at.simulationType.startsWith('treino:custom:') ? at.simulationType.slice('treino:custom:'.length) : ESTADO;
+  await ensureOverrides();
   const q = loadQuestions(banco).find((x) => x.id === questionId);
   if (!q || !q.options.some((o) => o.id === optionId)) return { ok: false, reason: 'Resposta inválida.' };
 

@@ -15,6 +15,13 @@
       "when": 1791726853338,
       "tag": "0001_brave_xorn",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791926609063,
+      "tag": "0002_oval_black_knight",
+      "breakpoints": true
     }
   ]
 }

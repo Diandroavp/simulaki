@@ -3,6 +3,7 @@ import { getCurrentUser } from '@/lib/auth';
 import { userHasAccess } from '@/lib/billing';
 import { FREE_TREINOS_POR_DIA, resumoErros, TREINO_TAMANHO, TREINO_TEMAS } from '@/lib/treino';
 import { loadQuestions } from '@/lib/questions';
+import { ensureOverrides } from '@/lib/question-overrides';
 import TreinoClient from './treino-client';
 
 export const dynamic = 'force-dynamic';
@@ -11,6 +12,7 @@ export const metadata = { title: 'Treino por tema' };
 export default async function Page() {
   const user = await getCurrentUser();
   if (!user) redirect(`/entrar?erro=${encodeURIComponent('Entre para treinar.')}`);
+  await ensureOverrides();
   const [erros, access] = await Promise.all([resumoErros(user.id), userHasAccess(user.id)]);
   const pool = loadQuestions('AM');
   const temas = Object.entries(TREINO_TEMAS)

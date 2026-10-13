@@ -1,5 +1,6 @@
 import { readdirSync, readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
+import { overrideOf, overridesVersion } from './question-overrides';
 
 export type Option = { id: string; text: string };
 export type Question = {
@@ -54,10 +55,11 @@ const BANCOS_PROPRIOS = new Set(['ENEM', 'PSC', 'SIS', 'OAB']);
 
 let cache: Record<string, Question[]> = {};
 
-export function loadQuestions(stateCode: string): Question[] {
+/** Todas as questões do banco como estão nos arquivos (sem filtro de status nem revisão). */
+const rawCache: Record<string, Question[]> = {};
+export function loadAllRaw(stateCode: string): Question[] {
   const state = stateCode.toUpperCase();
-  const key = `${state}:${allowedStatuses().join(',')}`;
-  if (cache[key]) return cache[key];
+  if (rawCache[state]) return rawCache[state];
   const out: Question[] = [];
   // Banco nacional (br/) vale para todos os estados; o do estado soma a ele.
   const subs = BANCOS_PROPRIOS.has(state) ? [state.toLowerCase()] : [state.toLowerCase(), 'br'];
@@ -69,7 +71,18 @@ export function loadQuestions(stateCode: string): Question[] {
       out.push(...(JSON.parse(readFileSync(path.join(dir, f), 'utf8')) as Question[]));
     }
   }
+  rawCache[state] = out;
+  return out;
+}
+
+let cacheVersion = -1;
+export function loadQuestions(stateCode: string): Question[] {
+  const state = stateCode.toUpperCase();
+  if (cacheVersion !== overridesVersion()) { cache = {}; cacheVersion = overridesVersion(); }
+  const key = `${state}:${allowedStatuses().join(',')}`;
+  if (cache[key]) return cache[key];
   const ok = allowedStatuses();
+  const out = loadAllRaw(state).map((q) => { const o = overrideOf(q.id); return o ? { ...q, status: o } : q; });
   // Questão que depende de uma placa só entra quando a imagem da placa existe.
   cache = { ...cache, [key]: out.filter((q) => ok.includes(q.status) && (!q.signCode || signImage(q.signCode))) };
   return cache[key] as Question[];
