@@ -105,11 +105,11 @@ describe('pagamento Pix', () => {
   it('desconto em porcentagem reduz o valor e é consumido só ao pagar', async () => {
     const uid = await newUser();
     await newCoupon({ code: 'METADE', percentOff: 50, maxUses: 5 });
-    expect(priceWithCoupon(2990, { percentOff: 50, amountOffCents: null })).toBe(1495);
+    expect(priceWithCoupon(1990, { percentOff: 50, amountOffCents: null })).toBe(995);
     await startCheckout(uid, 'passe-60', 'METADE');
     const db = await getDb();
     const pay = (await db.select().from(schema.payments)).find((p) => p.userId === uid)!;
-    expect(pay.amountCents).toBe(1495);
+    expect(pay.amountCents).toBe(995);
     let [c] = await db.select().from(schema.coupons);
     c = (await db.select().from(schema.coupons)).find((x) => x.code === 'METADE')!;
     expect(c.usedCount).toBe(0);

@@ -44,15 +44,17 @@ async function seedPlans(db: Db) {
   await db
     .insert(schema.plans)
     .values([
-      { slug: 'passe-60', name: 'Passe 60 dias', audience: 'student', billing: 'one_time', priceCents: 2990, periodDays: 60 },
+      { slug: 'passe-60', name: 'Passe 60 dias', audience: 'student', billing: 'one_time', priceCents: 1990, periodDays: 60 },
+      { slug: 'semestral', name: 'Semestral', audience: 'student', billing: 'one_time', priceCents: 4990, periodDays: 180 },
+      { slug: 'anual', name: 'Anual', audience: 'student', billing: 'one_time', priceCents: 7990, periodDays: 365 },
       { slug: 'mensal', name: 'Mensal', audience: 'student', billing: 'recurring', priceCents: 1290, periodDays: 30 },
       { slug: 'parceiro-start', name: 'Parceiro Start', audience: 'organization', billing: 'recurring', priceCents: 9900, periodDays: 30, studentLimit: 50 },
       { slug: 'parceiro-pro', name: 'Parceiro Pro', audience: 'organization', billing: 'recurring', priceCents: 19900, periodDays: 30, studentLimit: 200 },
     ])
     .onConflictDoNothing({ target: schema.plans.slug });
-  // Reajuste (out/2026): Passe 60 dias de R$ 19,90 para R$ 29,90. Só mexe se o preço ainda é o antigo,
-  // para não desfazer um ajuste feito depois. Pagamentos já criados mantêm o valor com que foram gerados.
-  await db.update(schema.plans).set({ priceCents: 2990 }).where(sql`${schema.plans.slug} = 'passe-60' and ${schema.plans.priceCents} = 1990`);
+  // O reajuste do Passe 60 para R$ 29,90 foi desfeito (a estratégia virou planos longos como âncora).
+  // Só volta ao preço original se ainda estiver em R$ 29,90, sem tocar em ajustes feitos depois.
+  await db.update(schema.plans).set({ priceCents: 1990 }).where(sql`${schema.plans.slug} = 'passe-60' and ${schema.plans.priceCents} = 2990`);
 }
 
 export { sql, schema };
