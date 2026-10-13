@@ -1,0 +1,3257 @@
+[
+ {
+  "id": "enem-2023-d2-091",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Na tirinha de Mauricio de Sousa, os personagens Cebolinha e Cascão fazem uma brincadeira utilizando duas latas e um barbante. Ao perceberem que o som pode ser transmitido através do barbante, resolvem alterar o comprimento do barbante para ficar cada vez mais extenso. As demais condições permaneceram inalteradas durante a brincadeira.\n\nSOUSA, M. Disponível em: www.monica.com.br. Acesso em: 2 out. 2012 (adaptado). Na prática, à medida que se aumenta o comprimento do barbante, ocorre a redução de qual característica da onda sonora? A",
+  "options": [
+   {
+    "id": "a",
+    "text": "Altura. B"
+   },
+   {
+    "id": "b",
+    "text": "Período. C"
+   },
+   {
+    "id": "c",
+    "text": "Amplitude. D"
+   },
+   {
+    "id": "d",
+    "text": "Velocidade. E"
+   },
+   {
+    "id": "e",
+    "text": "Comprimento de onda."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-091-1.png"
+  ],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 91",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-092",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Informações digitais — dados — são gravadas em discos ópticos, como CD e DVD, na forma de cavidades microscópicas. A gravação e a leitura óptica dessas informações são realizadas por um laser (fonte de luz monocromática). Quanto menores as dimensões dessas cavidades, mais dados são armazenados na mesma área do disco. O fator limitante para a leitura de dados é o espalhamento da luz pelo efeito de difração, fenômeno que ocorre quando a luz atravessa um obstáculo com dimensões da ordem de seu comprimento de onda. Essa limitação motivou o desenvolvimento de lasers com emissão em menores comprimentos de onda, possibilitando armazenar e ler dados em cavidades cada vez menores. Em qual região espectral se situa o comprimento de onda do laser que otimiza o armazenamento e a leitura de dados em discos de uma mesma área? A",
+  "options": [
+   {
+    "id": "a",
+    "text": "Violeta. B"
+   },
+   {
+    "id": "b",
+    "text": "Azul. C"
+   },
+   {
+    "id": "c",
+    "text": "Verde. D"
+   },
+   {
+    "id": "d",
+    "text": "Vermelho. E"
+   },
+   {
+    "id": "e",
+    "text": "Infravermelho."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 92",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-093",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O bluetooth é uma tecnologia de comunicação sem fio, de curto alcance, presente em diferentes dispositivos eletrônicos de consumo. Ela permite que aparelhos eletrônicos diferentes se conectem e troquem dados entre si. No padrão bluetooth, denominado de Classe 2, as antenas transmitem sinais de potência igual a 2,4 mW e possibilitam conectar dois dispositivos distanciados até 10 m. Considere que essas antenas se comportam como fontes puntiformes que emitem ondas eletromagnéticas esféricas e que a intensidade do sinal é calculada pela potência por unidade de área. Considere 3 como valor aproximado para π. Para que o sinal de bluetooth seja detectado pelas antenas, o valor mínimo de sua intensidade, em W\n\nm2 , é mais\npróximo de\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "2,0 × 10–6. B"
+   },
+   {
+    "id": "b",
+    "text": "2,0 × 10–5. C"
+   },
+   {
+    "id": "c",
+    "text": "2,4 × 10–5. D"
+   },
+   {
+    "id": "d",
+    "text": "2,4 × 10–3. E"
+   },
+   {
+    "id": "e",
+    "text": "2,4 × 10–1. 2 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 93",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-094",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes. Contudo, descobertas arqueológicas têm demonstrado que os antigos habitantes da Amazônia dominavam a técnica de preparo de um insumo agrícola natural, denominado terra preta. Esse insumo era constituído principalmente de uma espécie de biocarvão (biochar) obtido da queima de matéria orgânica, como troncos de árvores, pedaços de ossos e esterco, capaz de manter um solo fértil por anos.\n\nAdmite-se que o efeito do biocarvão na fertilização do solo estava, em parte, relacionado à presença de grupos orgânicos do tipo carboxilato em sua superfície, carregados negativamente (—COO−). Esses grupos atraem íons positivos necessários como nutrientes, tais quais os provenientes do potássio (K), do cálcio (Ca) e do magnésio (Mg), além de micronutrientes, como zinco (Zn) e ferro (Fe). Essa ligação no solo fertilizado é predominantemente iônica, conforme ilustra a figura, em que Mn+ representa os cátions metálicos. De acordo com a escala de Pauling, a eletronegatividade do elemento oxigênio é igual a 3,44.\n\nSolo com biocarvão Solo fertilizado\n\nO quadro apresenta os valores de eletronegatividade desses cinco elementos metálicos.\n\nElemento metálico Eletronegatividade\n\nMg 1,31\n\nO cátion que resultará em uma interação de maior caráter iônico com o ânion carboxilato será aquele proveniente do elemento\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2023/d2-094-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 94",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-095",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 °C e uma saída para água líquida em equilíbrio com o vapor a 100 °C. Ao passar pela parte oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.\n\nNo processo de concentração do produto, é utilizada energia proveniente\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2023/d2-095-1.png",
+   "/enem/2023/d2-095-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 95",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-096",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "A gasolina é uma mistura de hidrocarbonetos de cadeias saturadas contendo de 8 a 12 átomos de carbono. Além disso, a gasolina de alto desempenho deve conter elevados teores de hidrocarbonetos de cadeias ramificadas, de forma a resistir à compressão e entrar em ignição apenas quando a vela aciona uma centelha elétrica no motor. No quadro, estão apresentados compostos que podem ser utilizados como combustíveis.\n\nComposto Nomenclatura\n\nI n-decano\n\nII n-heptano\n\nIII 2,2,4-trimetilpentano\n\nIV 3-etil-4-metilex-1-eno\n\nV 3-etil-2-metilpentan-1-ol\n\nEntre esses compostos, aquele que conferirá maior desempenho como combustível é o\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-096-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 96",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-097",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "De acordo com a Constituição Federal, é competência dos municípios o gerenciamento dos serviços de limpeza e coleta dos resíduos urbanos (lixo). No entanto, há relatos de que parte desse lixo acaba sendo incinerado, liberando substâncias tóxicas para o ambiente e causando acidentes por explosões, principalmente quando ocorre a incineração de frascos de aerossóis (por exemplo: desodorantes, inseticidas e repelentes). A temperatura elevada provoca a vaporização de todo o conteúdo dentro desse tipo de frasco, aumentando a pressão em seu interior até culminar na explosão da embalagem.\n\nZVEIBIL, V. Z. et al. Cartilha de limpeza urbana. Disponível em:\n\nwww.ibam.org.br. Acesso em: 6 jul. 2015 (adaptado). Suponha um frasco metálico de um aerossol de capacidade igual a 100 mL, contendo 0,1 mol de produtos gasosos à temperatura de 650 °C, no momento da explosão.\n\nConsidere: R = 0,082 L atm\n\nmol K\n\nA pressão, em atm, dentro do frasco, no momento da explosão, é mais próxima de\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "756. B"
+   },
+   {
+    "id": "b",
+    "text": "533. C"
+   },
+   {
+    "id": "c",
+    "text": "76. D"
+   },
+   {
+    "id": "d",
+    "text": "53. E"
+   },
+   {
+    "id": "e",
+    "text": "13. 4 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 97",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-098",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O circuito com três lâmpadas incandescentes idênticas, representado na figura, consiste em uma associação mista de resistores. Cada lâmpada (L 1, L2 e L3) é associada, em paralelo, a um resistor de resistência R, formando um conjunto. Esses conjuntos são associados em série, tendo todas as lâmpadas o mesmo brilho quando ligadas à fonte de energia. Após vários dias em uso, apenas a lâmpada L2 queima, enquanto as demais permanecem acesas.\n\nL¹\n\nR\n\nR L²\n\nL³\n\nFonte de\n\nenergia R\n\nEm relação à situação em que todas as lâmpadas\nfuncionam, após a queima de L2, os brilhos das\nlâmpadas serão\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-098-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 98",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-099",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "A tecnologia de vacinas de RNA mensageiro (RNAm) é investigada há anos. Avanços científicos em genética molecular permitiram desenvolver uma vacina para controle da pandemia da covid-19 causada pelo vírus de RNA SARS-CoV-2. A vacina de RNAm tem sequências de genes do vírus. Entretanto, por ser muito instável, o RNAm deve ser recoberto por uma capa de lipídios que evita sua degradação e favorece sua ação. Dessa forma, o RNAm desempenhará sua função específica atuando no mesmo compartimento celular de sempre.\n\nDisponível em: https://sbim.org.br. Acesso em: 29 nov. 2021 (adaptado).\n\nA imunização produzida por esse tipo de vacina é alcançada por meio da\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "estimulação de leucócitos induzida pela capa lipídica contendo RNAm. B"
+   },
+   {
+    "id": "b",
+    "text": "atuação do RNAm como sequestrador do vírus para o meio extracelular. C"
+   },
+   {
+    "id": "c",
+    "text": "tradução do RNAm em proteína viral, desencadeando a resposta antigênica. D"
+   },
+   {
+    "id": "d",
+    "text": "competição entre o RNAm vacinal e o RNA viral pelos sítios dos ribossomos. E"
+   },
+   {
+    "id": "e",
+    "text": "incorporação do RNAm viral ao genoma do hospedeiro, gerando novo fenótipo."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 99",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-100",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Na fertilização in vitro, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura. O coquetel de inibidores impediu o(a)\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "formação do pronúcleo masculino. B"
+   },
+   {
+    "id": "b",
+    "text": "início da divisão mitótica do zigoto. C"
+   },
+   {
+    "id": "c",
+    "text": "término da segunda divisão meiótica do ovócito. D"
+   },
+   {
+    "id": "d",
+    "text": "passagem do espermatozoide pela corona radiata e zona pelúcida. E"
+   },
+   {
+    "id": "e",
+    "text": "fusão das membranas plasmáticas do ovócito e do espermatozoide."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 100",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-101",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O fogão por indução funciona a partir do surgimento de uma corrente elétrica induzida no fundo da panela, com consequente transformação de energia elétrica em calor por efeito Joule. A principal vantagem desses fogões é a eficiência energética, que é substancialmente maior que a dos fogões convencionais. A corrente elétrica mencionada é induzida por\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "radiação. B"
+   },
+   {
+    "id": "b",
+    "text": "condução. C"
+   },
+   {
+    "id": "c",
+    "text": "campo elétrico variável. D"
+   },
+   {
+    "id": "d",
+    "text": "campo magnético variável. E"
+   },
+   {
+    "id": "e",
+    "text": "ressonância eletromagnética."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 101",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-102",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Uma academia decide trocar gradualmente seus aparelhos de musculação. Agora, os frequentadores que utilizam os aparelhos do tipo 1 podem também utilizar os aparelhos do tipo 2, representados na figura, para elevar cargas correspondentes às massas M1 e M2, com velocidade constante. A fim de que o exercício seja realizado com a mesma força F, os usuários devem ser orientados a respeito da relação entre as cargas nos dois tipos de aparelhos, já que as polias fixas apenas mudam a direção das forças, enquanto a polia móvel divide as forças.\n\nEm ambos os aparelhos, considere as cordas inextensíveis, as massas das polias e das cordas desprezíveis e que não há dissipação de energia.\n\nAparelho do tipo 2 Aparelho do tipo 1\n\nF F\n\nM1\n\nM2\n\nPara essa academia, qual deve ser a razão M\n\n1\ninformada\naos usuários?\n\nM\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2023/d2-102-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 102",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-103",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Um garoto comprou vários abacates na feira, mas\ndescobriu que eles não estavam maduros o suficiente\npara serem consumidos. Sua mãe recomendou que\nele colocasse os abacates em um recipiente fechado,\npois isso aceleraria seu amadurecimento. Com certa\ndúvida, o garoto realizou esta experiência: colocou\nalguns abacates no recipiente e deixou os demais em\numa fruteira aberta. Surpreendendo-se, ele percebeu\nque os frutos que estavam no recipiente fechado\namadureceram mais rapidamente.\n\nA aceleração desse processo é causada por\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "acúmulo de gás etileno. B"
+   },
+   {
+    "id": "b",
+    "text": "redução da umidade do ar. C"
+   },
+   {
+    "id": "c",
+    "text": "aumento da concentração de CO2. D"
+   },
+   {
+    "id": "d",
+    "text": "diminuição da intensidade luminosa. E"
+   },
+   {
+    "id": "e",
+    "text": "isolamento do contato com O2 atmosférico."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 103",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-104",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Há muito tempo são conhecidas espécies de\nlesmas-do-mar com uma capacidade ímpar: guardar\nparte da maquinaria das células das algas que\nconsomem — os cloroplastos — e mantê-los funcionais\ndentro das suas próprias células, obtendo assim\nparte do seu alimento. Investigadores portugueses\ndescobriram que essas lesmas-do-mar podem ser\nmais eficientes nesse processo do que as próprias\nalgas que consomem.\n\nDisponível em: www.cienciahoje.pt. Acesso em: 10 fev. 2015 (adaptado).\n\nEssa adaptação confere a esse organismo a capacidade de obter primariamente\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "ácidos nucleicos. B"
+   },
+   {
+    "id": "b",
+    "text": "carboidratos. C"
+   },
+   {
+    "id": "c",
+    "text": "proteínas. D"
+   },
+   {
+    "id": "d",
+    "text": "vitaminas. E"
+   },
+   {
+    "id": "e",
+    "text": "lipídios. 6 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 104",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-105",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "A leishmaniose visceral é uma zoonose causada por um protozoário do gênero Leishmania que é encontrado em diversos tecidos. Ela é transmitida ao homem de forma indireta, por vetores do ambiente doméstico. O cão é considerado um importante hospedeiro desse protozoário, podendo ou não apresentar os sintomas da doença, como perda de peso, anemia, ferimentos na pele, diarreia, conjuntivite e insuficiência renal. Em uma região que sofre com alta incidência dessa doença, uma campanha do centro de zoonoses buscou verificar a presença desse protozoário nos cães para tentar controlar a doença.\n\nEm qual material biológico dos cães a presença desse protozoário representa risco de transmissão dessa zoonose?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "Urina. B"
+   },
+   {
+    "id": "b",
+    "text": "Saliva. C"
+   },
+   {
+    "id": "c",
+    "text": "Fezes. D"
+   },
+   {
+    "id": "d",
+    "text": "Sangue. E"
+   },
+   {
+    "id": "e",
+    "text": "Secreção ocular."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 105",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-106",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.\n\nGrandeza cinemática\nMódulo\nSentido\n\nVelocidade\nv ≠ 0\nPara cima\n\nPara baixo\n\nv = 0 Indefi nido*\n\nAceleração\na ≠ 0\nPara cima\n\nPara baixo\n\na = 0 Indefi nido*\n\n*Grandezas com módulo nulo não têm sentido definido.\n\nEle solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração. A escolha que corresponde à combinação correta é\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-106-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 106",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-107",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Muitas mulheres sofrem com desconfortos nos dias que antecedem a menstruação, a chamada tensão pré-menstrual. Entre outros sintomas, podem ocorrer alterações de humor. Atualmente, acredita-se que os sintomas são resultado da queda na concentração do neurotransmissor serotonina, que, por sua vez, está relacionado com a diminuição na produção dos hormônios ovarianos estrógeno e progesterona, observada nessa fase do ciclo feminino.\n\nDIMMOCK, P. W. et al. Efficacy of Selective Serotonin-Reuptake Inhibitors in Premenstrual\n\nSyndrome: a Systematic Review. The Lancet, n. 9 236, 2000 (adaptado).\n\nA redução da produção desses hormônios nessa fase está relacionada com o(a)\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "regressão do corpo lúteo ovariano. B"
+   },
+   {
+    "id": "b",
+    "text": "diminuição na produção de ocitocina. C"
+   },
+   {
+    "id": "c",
+    "text": "liberação do gameta feminino na ovulação. D"
+   },
+   {
+    "id": "d",
+    "text": "aumento nos níveis dos hormônios LH e FSH. E"
+   },
+   {
+    "id": "e",
+    "text": "elevação nos níveis sorológicos de adrenalina."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 107",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-108",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo desses compostos voláteis responsáveis pelo aroma, podendo ser obtida por processos energéticos realizados em meio ácido, na presença de oxidantes como o permanganato de potássio.\n\nPara se produzir esse composto volátil em laboratório, deve-se oxidar a molécula de\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "hexanal. B"
+   },
+   {
+    "id": "b",
+    "text": "hexan-1-ol. C"
+   },
+   {
+    "id": "c",
+    "text": "hexan-3-ol. D"
+   },
+   {
+    "id": "d",
+    "text": "hex-1-en-1-ol. E"
+   },
+   {
+    "id": "e",
+    "text": "ácido hexanoico."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 108",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-109",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgimento de algumas estruturas que as tornaram independentes da água. Esse fato permitiu maior dispersão desse grupo de seres vivos, sendo possível observá-los em diferentes ambientes na atualidade.\n\nQual estrutura possibilitou a independência da água para a fecundação dos seres vivos citados acima?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "Fruto. B"
+   },
+   {
+    "id": "b",
+    "text": "Esporo. C"
+   },
+   {
+    "id": "c",
+    "text": "Semente. D"
+   },
+   {
+    "id": "d",
+    "text": "Tubo polínico. E"
+   },
+   {
+    "id": "e",
+    "text": "Vaso condutor."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 109",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-110",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O vidro contendo alumínio em sua composição é um excelente material para acondicionar medicamentos e suplementos, porque pode ser esterilizado por aquecimento. No entanto, quando o medicamento ou suplemento contém substâncias que se ligam fortemente ao íon desse metal, a dissolução do alumínio é promovida em função do deslocamento do equilíbrio químico estabelecido entre a espécie imobilizada no vidro e a espécie em solução. Por essa razão, recomenda-se que suplementos de nutrição de recém-nascidos contendo gluconato de cálcio sejam acondicionados em embalagens plásticas, e não nesse tipo de vidro.\n\nAtualização da recomendação da Sociedade Portuguesa de Neonatologia.\n\nDisponível em: www.spneonatologia.pt. Acesso em: 22 out. 2021 (adaptado). Caso esse suplemento seja acondicionado em embalagem desse tipo de vidro, o risco de contaminação por alumínio será maior se o(a)\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "vidro do frasco for translúcido. B"
+   },
+   {
+    "id": "b",
+    "text": "concentração de gluconato de cálcio for alta. C"
+   },
+   {
+    "id": "c",
+    "text": "frasco de vidro apresentar uma maior espessura. D"
+   },
+   {
+    "id": "d",
+    "text": "vidro for previamente esterilizado em altas temperaturas. E"
+   },
+   {
+    "id": "e",
+    "text": "reação do alumínio com gluconato de cálcio for endotérmica."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 110",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-111",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Barbatimão é o nome popular de uma árvore cuja casca é utilizada para fins medicinais. Essa casca é constituída principalmente de dois tecidos vegetais: periderme e floema. A extração da casca tem levado à morte muitos indivíduos dessa espécie, quando o corte retira um anel completo ao longo da circunferência do tronco. Aqueles que têm parte da casca retirada sem completar essa circunferência podem sobreviver. A morte desses indivíduos, decorrente da retirada do anel completo da casca, é provocada pela interrupção da\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "fotossíntese. B"
+   },
+   {
+    "id": "b",
+    "text": "transpiração. C"
+   },
+   {
+    "id": "c",
+    "text": "troca de gases. D"
+   },
+   {
+    "id": "d",
+    "text": "formação de brotos. E"
+   },
+   {
+    "id": "e",
+    "text": "nutrição das raízes. 7 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 111",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-112",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O descarte de detergentes comuns nos esgotos domésticos ocasiona a formação de uma camada de espuma que impede a entrada de oxigênio na água. Os microrganismos que vivem nessas águas não são capazes de quebrar moléculas ramificadas, ocorrendo assim um desequilíbrio ambiental nos rios. A fórmula a seguir representa a estrutura química de um tensoativo presente na composição de um detergente não biodegradável.\n\nS O\n\nO\n\nO– Na+\n\nTensoativo não biodegradável\n\nQual modificação química na estrutura desse tensoativo o tornaria um detergente biodegradável?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-112-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 112",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-113",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Avaliação de substâncias genotóxicas\n\nO ensaio de micronúcleos é um teste de avaliação de genotoxicidade que associa a presença de micronúcleos (pequenos núcleos que aparecem próximo aos núcleos das células) com lesões genéticas. Os micronúcleos são fragmentos de DNA encapsulados, provenientes do fuso mitótico durante a divisão celular.\n\nDIAS, V. M. Micronúcleos em células tumorais: biologia e implicações\n\npara a tumorigênese. Dissertação de Mestrado. USP, 2006 (adaptado).\n\nOs micronúcleos se originam dos(as)\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "nucléolos. B"
+   },
+   {
+    "id": "b",
+    "text": "lisossomos. C"
+   },
+   {
+    "id": "c",
+    "text": "ribossomos. D"
+   },
+   {
+    "id": "d",
+    "text": "mitocôndrias. E"
+   },
+   {
+    "id": "e",
+    "text": "cromossomos. 8 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 113",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-114",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar a composição de materiais estratificados medindo-se a velocidade de propagação do som (onda mecânica) através deles. Considere que uma camada de 450 m de um líquido se encontra presa no subsolo entre duas camadas rochosas, conforme o esquema. Um pulso acústico (que gera uma vibração mecânica) é emitido a partir da superfície do solo, onde são posteriormente recebidas duas vibrações refletidas (ecos). A primeira corresponde à reflexão do pulso na interface superior do líquido com a camada rochosa. A segunda vibração deve-se à reflexão do pulso na interface inferior. O tempo entre a emissão do pulso e a chegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após a emissão do pulso.\n\nEmissor e detector de pulsos\n\nRocha\n\n450 m Líquido\n\nRocha\n\nA velocidade do som na camada líquida, em metro por\nsegundo, é\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2023/d2-114-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 114",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-115",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "É comum em viagens de avião sermos solicitados a desligar aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas, como celulares. A justificativa dada para esse procedimento é, entre outras coisas, a necessidade de eliminar fontes de sinais eletromagnéticos que possam interferir nas comunicações, via rádio, dos pilotos com a torre de controle.\n\nEssa interferência poderá ocorrer somente se as ondas emitidas pelo celular e as recebidas pelo rádio do avião\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "forem ambas audíveis. B"
+   },
+   {
+    "id": "b",
+    "text": "tiverem a mesma potência. C"
+   },
+   {
+    "id": "c",
+    "text": "tiverem a mesma frequência. D"
+   },
+   {
+    "id": "d",
+    "text": "tiverem a mesma intensidade. E"
+   },
+   {
+    "id": "e",
+    "text": "propagarem-se com velocidades diferentes."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 115",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-116",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O Aldrin é um inseticida agrícola organoclorado sintético de baixa polaridade, cuja estrutura molecular simétrica, de fórmula C12H8Cl6, está representada na figura. Introduzido na agricultura a partir da década de 1950, esse composto apresenta alta persistência no meio ambiente e acumulação nos organismos, sendo danoso para a saúde.\n\nH\n\nC\n\nH\n\nCl\n\nC\n\nCl Cl\n\nCl\n\nCl Cl\n\nAldrin\n\nVIEGAS JÚNIOR, C. Terpenos com atividade inseticida: uma alternativa para\n\no controle químico de insetos. Química Nova, v. 26, n. 3, 2003 (adaptado).\n\nUm pesquisador coletou fluidos biológicos de indivíduos de uma população contaminada por esse inseticida agrícola. Ele analisou amostras de saliva, sangue, lágrima, urina e leite quanto à presença dessa substância.\n\nEm qual dos fluidos o pesquisador provavelmente encontrou a maior concentração dessa substância?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-116-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 116",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-117",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Uma cafeteria adotou copos fabricados a partir de uma composição de 50% de plástico reciclado não biodegradável e 50% de casca de café. O copo é reutilizável e retornável, pois o material, semelhante a uma cerâmica, suporta a lavagem. Embora ele seja comercializado por um preço considerado alto quando comparado ao de um copo de plástico descartável, essa cafeteria possibilita aos clientes retornarem o copo sujo e levarem o café quente servido em outro copo já limpo e higienizado. O material desse copo oferece também o conforto de não esquentar na parte externa.\n\nCafeteria adota copo reutilizável feito com casca de café. Disponível em:\n\nwww.gazetadopovo.com.br. Acesso em: 5 dez. 2019 (adaptado).\n\nQuais duas vantagens esse copo apresenta em\ncomparação ao copo descartável?\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ter a durabilidade de uma cerâmica e ser totalmente biodegradável. B"
+   },
+   {
+    "id": "b",
+    "text": "Ser tão durável quanto uma cerâmica e ter alta condutividade térmica. C"
+   },
+   {
+    "id": "c",
+    "text": "Ser um mau condutor térmico e aumentar o resíduo biodegradável na natureza. D"
+   },
+   {
+    "id": "d",
+    "text": "Ter baixa condutividade térmica e reduzir o resíduo não biodegradável na natureza. E"
+   },
+   {
+    "id": "e",
+    "text": "Ter alta condutividade térmica e possibilitar a degradação do material no meio ambiente."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 117",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-118",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.\n\nCAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor\n\nde sacarose e CO2 em refrigerantes. Química Nova na Escola, n. 3, ago. 2014 (adaptado).\n\nEntre as duas versões apresentadas, o refrigerante\ncomum possui\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "maior densidade. B"
+   },
+   {
+    "id": "b",
+    "text": "menor viscosidade. C"
+   },
+   {
+    "id": "c",
+    "text": "maior volume de gás dissolvido. D"
+   },
+   {
+    "id": "d",
+    "text": "menor massa de solutos dissolvidos. E"
+   },
+   {
+    "id": "e",
+    "text": "maior temperatura de congelamento. 9 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 118",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-119",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O manual de um automóvel alerta sobre os cuidados em relação à pressão do ar no interior dos pneus. Recomenda-se que a pressão seja verificada com os pneus frios (à temperatura ambiente). Um motorista, desatento a essa informação, realizou uma viagem longa sobre o asfalto quente e, em seguida, verificou que a pressão P0 no interior dos pneus não era a recomendada pelo fabricante. Na ocasião, a temperatura dos pneus era T0. Após um longo período em repouso, os pneus do carro atingiram a temperatura ambiente T. Durante o resfriamento, não há alteração no volume dos pneus e na quantidade de ar no seu interior. Considere o ar dos pneus um gás perfeito (também denominado gás ideal).\n\nDurante o processo de resfriamento, os valores de pressão em relação à temperatura (P × T) são representados pelo gráfico:\n\nP (Pa)\n\nP0\n\nA\n\nT0\nT (K)\nT\n\nP (Pa)\n\nP0\n\nB\n\nT0 T\n\nT (K)\n\nP (Pa)\n\nC\n\nP0\n\nT0\nT\nT (K)\n\n10 CN • 2º DIA • CADERNO 5 • AMARELO\n\nP (Pa)\n\nP0\n\nD\n\nT0\nT\nT (K)\n\nP (Pa)\n\nP0\n\nE\n\nT0\nT\nT (K)",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-119-1.png",
+   "/enem/2023/d2-119-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 119",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-120",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Pais com síndrome de Down A síndrome de Down é uma alteração genética associada à trissomia do cromossomo 21, ou seja, o indivíduo possui três cromossomos 21 e não um par, como é normal. Isso ocorre pela união de um gameta contendo um cromossomo 21 com um gameta possuidor de dois cromossomos 21. Embora, normalmente, as mulheres com a síndrome sejam estéreis, em 2008, no interior de São Paulo, uma delas deu à luz uma menina sem a síndrome de Down.\n\nMORENO, T. Três anos após dar à luz, mãe portadora de síndrome de Down revela detalhes de seu dia a dia. Disponível em: www.band.uol.com.br. Acesso em: 31 out. 2013 (adaptado).\n\nSabendo disso, um jovem casal, ambos com essa síndrome, procura um médico especialista para aconselhamento genético porque querem ter um bebê. O médico informa ao casal que, com relação ao cromossomo 21, os zigotos formados serão\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "todos normais. B"
+   },
+   {
+    "id": "b",
+    "text": "todos tetrassômicos. C"
+   },
+   {
+    "id": "c",
+    "text": "apenas normais ou tetrassômicos. D"
+   },
+   {
+    "id": "d",
+    "text": "apenas trissômicos ou tetrassômicos. E"
+   },
+   {
+    "id": "e",
+    "text": "normais, trissômicos ou tetrassômicos."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 120",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-121",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Para que uma molécula dê origem a um medicamento de administração oral, além de apresentar atividade farmacológica, deve ser capaz de atingir o local de ação. Para tanto, essa molécula não deve se degradar no estômago (onde o meio é fortemente ácido e há várias enzimas que reagem mediante catálise ácida), deve ser capaz de atravessar as membranas celulares e ser solúvel no plasma sanguíneo (sistema aquoso). Para os fármacos cujas estruturas são formadas por cadeias carbônicas longas contendo pelo menos um grupamento amino, um recurso tecnológico empregado é sua conversão no cloridrato correspondente. Essa conversão é representada, de forma genérica, pela equação química:\n\nR3N + HCl (R3NH)+Cl–\n\nO aumento da eficiência de circulação do fármaco no sangue, promovido por essa conversão, deve-se ao incremento de seu(sua)\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "basicidade. B"
+   },
+   {
+    "id": "b",
+    "text": "lipofilicidade. C"
+   },
+   {
+    "id": "c",
+    "text": "caráter iônico. D"
+   },
+   {
+    "id": "d",
+    "text": "cadeia carbônica. E"
+   },
+   {
+    "id": "e",
+    "text": "estado de oxidação."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 121",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-122",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Toxicidade do cianeto A produção de ATP depende do gradiente de prótons gerado pela cadeia respiratória. Nessas reações, os elétrons provenientes da oxidação do NADH em NAD+ percorrem a cadeia até chegarem à citocromo c oxidase reduzindo o Fe3+ a Fe2+. O oxigênio atua como aceptor final desses elétrons formando água. O cianeto é uma espécie química altamente tóxica que tem grande afinidade pelo Fe3+. Quando células são expostas ao cianeto, ele se liga ao sítio de Fe3+ da citocromo c oxidase, impedindo a sua conversão em Fe2+ e bloqueando a cadeia respiratória.\n\nSubstrato\nproveniente\ndo nutriente\n\nForma reduzida\n\nNAD+\n\nTransportador\n\n1 Transportador\n\nForma oxidada\n\nALBERTS, B. et al. Biologia molecular da célula. Porto Alegre: Artmed, 2010 (adaptado). Esse bloqueio aumenta a concentração celular de\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-122-1.png",
+   "/enem/2023/d2-122-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 122",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-123",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O número de abelhas encontra-se em declínio em várias regiões do mundo, inclusive no Brasil, sendo que vários fatores contribuem para o colapso de suas colmeias. Nos Estados Unidos, bombas de sementes de espécies vegetais nativas têm sido utilizadas para combater o desaparecimento desses insetos. Elas são pequenas bolinhas recheadas com sementes, adubo e argila. Quando são arremessadas e ficam expostas ao sol e à chuva, germinam até mesmo em solo pouco fértil.\n\nDARAYA, V. Disponível em: http://planetasustentavel.abril.com.br.\n\nAcesso em: 2 fev. 2015 (adaptado).\n\nEsse método contribui para a preservação das abelhas porque\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "reduz sua predação. B"
+   },
+   {
+    "id": "b",
+    "text": "reduz o uso de pesticidas. C"
+   },
+   {
+    "id": "c",
+    "text": "reduz a competição por abrigo. D"
+   },
+   {
+    "id": "d",
+    "text": "aumenta a oferta de alimento. E"
+   },
+   {
+    "id": "e",
+    "text": "aumenta os locais de reprodução."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 123",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-124",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Os mais antigos cozinhavam o feijão na panela de ferro a fim de acabar com a palidez de seus filhos. Alguns chegavam até a colocar um prego enferrujado nesse cozimento para liberar o ferro contido nele. Sabe-se que esse elemento pode ser encontrado na sua forma metálica ou iônica, sendo essencial para a manutenção da vida humana.\n\nAs estratégias citadas eram utilizadas com o objetivo de\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "tratar a diarreia. B"
+   },
+   {
+    "id": "b",
+    "text": "prevenir a anemia. C"
+   },
+   {
+    "id": "c",
+    "text": "evitar as verminoses. D"
+   },
+   {
+    "id": "d",
+    "text": "remediar o raquitismo. E"
+   },
+   {
+    "id": "e",
+    "text": "combater a febre amarela."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 124",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-125",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "A utilização de tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos, a descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.\n\nA geração dessa energia tem como característica:\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "Formar resíduos facilmente recicláveis. B"
+   },
+   {
+    "id": "b",
+    "text": "Promover o aumento do desmatamento. C"
+   },
+   {
+    "id": "c",
+    "text": "Contribuir para a produção de chuva ácida. D"
+   },
+   {
+    "id": "d",
+    "text": "Emitir gases tóxicos que são lançados no ambiente. E"
+   },
+   {
+    "id": "e",
+    "text": "Produzir calor sem o consumo de combustíveis fósseis. 12 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 125",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-126",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Em uma indústria, o controle da dureza da água é importante quando ela é utilizada em caldeiras, uma vez que sais pouco solúveis, formados a partir de sulfatos e carbonatos, podem acumular-se no interior das tubulações, causando obstruções. Para avaliar a água utilizada nessa indústria, foram realizados testes de qualidade que consideraram os seguintes parâmetros:\n\nTeste Parâmetro medido\n\n1 Cálcio\n\n2 Cloreto\n\n3 Turbidez\n\n4 Coliformes totais\n\n5 Sólidos sedimentáveis\n\nQual teste deve ser considerado para controlar a formação desse tipo de obstrução de tubulações?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2023/d2-126-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 126",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-127",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e patos selvagens têm os músculos vermelhos bem desenvolvidos, com ampla rede de vasos sanguíneos. Nas viagens por grandes distâncias, tais músculos são fundamentais, pois favorecem o(a)\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "execução de manobras. B"
+   },
+   {
+    "id": "b",
+    "text": "metabolismo corpóreo elevado. C"
+   },
+   {
+    "id": "c",
+    "text": "manutenção da aerodinâmica. D"
+   },
+   {
+    "id": "d",
+    "text": "deslocamento a grandes velocidades. E"
+   },
+   {
+    "id": "e",
+    "text": "capacidade de voo em grandes altitudes."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 127",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-128",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Existe no comércio um produto antimofo constituído por uma embalagem com tampa perfurada contendo cloreto de cálcio anidro, CaCl2. Uma vez aberto o lacre, essa substância absorve a umidade ambiente, transformando-se em cloreto de cálcio di-hidratado, CaCl2⋅ 2H2O.\n\nConsidere a massa molar da água igual a 18 g mol−1, e a massa molar do cloreto de cálcio anidro igual a 111 g mol−1.\n\nNa hidratação da substância presente no antimofo, o ganho percentual, em massa, é mais próximo de\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "14% B"
+   },
+   {
+    "id": "b",
+    "text": "16% C"
+   },
+   {
+    "id": "c",
+    "text": "24% D"
+   },
+   {
+    "id": "d",
+    "text": "32% E"
+   },
+   {
+    "id": "e",
+    "text": "75%"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 128",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-129",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Um assistente de laboratório precisou descartar sete frascos contendo solução de nitrato de mercúrio(I) que não foram utilizados em uma aula prática. Cada frasco continha 5,25 g de Hg2(NO3)2 dissolvidos em água. Temendo a toxidez do mercúrio e sabendo que o Hg2Cl2 tem solubilidade muito baixa, o assistente optou por retirar o mercúrio da solução por precipitação com cloreto de sódio (NaCl), conforme a equação química:\n\nHg2(NO3)2 (aq) + 2 NaCl (aq) Hg2Cl2 (s) + 2 NaNO3 (aq)\n\nNa dúvida sobre a massa de NaCl a ser utilizada, o assistente aumentou gradativamente a quantidade adicionada em cada frasco, como apresentado no quadro.\n\nMassa de NaCl\n\nO produto obtido em cada experimento foi filtrado, secado e teve sua massa aferida. O assistente organizou os resultados na forma de um gráfico que correlaciona a massa de NaCl adicionada com a massa de Hg2Cl2 obtida em cada frasco. A massa molar do Hg2(NO3)2 é 525 g mol–1, a do NaCl é 58 g mol–1 e a do Hg2Cl2 é 472 g mol–1.\n\nQual foi o gráfico obtido pelo assistente de laboratório?\n\n5\n6\n7\n\nMassa de Hg2Cl2 (g)\n\n4\n3\n2\n1\n0\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\n1,2\n1,4\n\nA\n\nMassa de NaCI (g)\n\n5\n6\n7\n\nMassa de Hg2Cl2 (g)\n\n4\n3\n2\n1\n0\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\n1,2\n1,4\n\nB\n\nMassa de NaCI (g)\n\n5\n6\n7\n\nMassa de Hg2Cl2 (g)\n\n4\n3\n2\n1\n0\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\n1,2\n1,4\n\nC\n\nMassa de NaCI (g)\n\nFrasco\nI\nII\nIII\nIV\nV\nVI\nVII\n\nem grama (g)\n0,2\n0,4\n0,6\n0,8\n1,0\n1,2\n1,4\n\n5\n6\n7\n\nMassa de Hg2Cl2 (g)\n\n4\n3\n2\n1\n0\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\n1,2\n1,4\n\nD D\n\nMassa de NaCI (g)\n\n5\n6\n7\n\nMassa de Hg2Cl2 (g)\n\n4\n3\n2\n1\n0\n0,0\n0,2\n0,4\n0,6\n0,8\n1,0\n1,2\n1,4\n\nE\n\nMassa de NaCI (g)\n\n13 CN • 2º DIA • CADERNO 5 • AMARELO",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-129-1.png",
+   "/enem/2023/d2-129-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 129",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-130",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Uma equipe de segurança do transporte de uma empresa avalia o comportamento das tensões que aparecem em duas cordas, 1 e 2, usadas para prender uma carga de massa M = 200 kg na carroceria, conforme a ilustração. Quando o caminhão parte do repouso, sua aceleração é constante e igual a 3 m/s2 e, quando ele é freado bruscamente, sua frenagem é constante e igual a 5 m/s2. Em ambas as situações, a carga encontra-se na iminência de movimento, e o sentido do movimento do caminhão está indicado na figura. O coeficiente de atrito estático entre a caixa e o assoalho da carroceria é igual a 0,2. Considere a aceleração da gravidade igual a 10 m/s2, as tensões iniciais nas cordas iguais a zero e as duas cordas ideais.\n\n1\n2\nM\nV\n\nNas situações de aceleração e frenagem do caminhão, as tensões nas cordas 1 e 2, em newton, serão\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2023/d2-130-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 130",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-131",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal. Dentro do corpo do vegetal, esses contaminantes serão\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "digeridos por enzimas. B"
+   },
+   {
+    "id": "b",
+    "text": "acumulados nos tecidos. C"
+   },
+   {
+    "id": "c",
+    "text": "eliminados pelos estômatos. D"
+   },
+   {
+    "id": "d",
+    "text": "metabolizados por glândulas. E"
+   },
+   {
+    "id": "e",
+    "text": "utilizados como fonte energética. 14 CN • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 131",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-132",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "O ciclo do nitrogênio é composto por várias etapas,\nconforme a figura, sendo cada uma desempenhada por\num grupo específico de microrganismos.\n\nGás nitrogênio\n\n1 2\n\nAmônia Detritos\n\n5\n\n3\n\nNitrito\n\n4\n\nNitrato\n\nSe o grupo dos microrganismos decompositores fosse exterminado, qual etapa não ocorreria?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-132-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 132",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-133",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Os raios cósmicos são fontes de radiação ionizante potencialmente perigosas para o organismo humano. Para quantificar a dose de radiação recebida, utiliza-se o sievert (Sv), definido como a unidade de energia recebida por unidade de massa. A exposição à radiação proveniente de raios cósmicos aumenta com a altitude, o que pode representar um problema para as tripulações de aeronaves. Recentemente, foram realizadas medições acuradas das doses de radiação ionizante para voos entre Rio de Janeiro e Roma. Os resultados têm indicado que a dose média de radiação recebida na fase de cruzeiro (que geralmente representa 80% do tempo total de voo) desse trecho intercontinental é 2 μSv/h. As normas internacionais da aviação civil limitam em 1 000 horas por ano o tempo de trabalho para as tripulações que atuem em voos intercontinentais. Considere que a dose de radiação ionizante para uma radiografia torácica é estimada em 0,2 mSv.\n\nRUAS, A. C. O tripulante de aeronaves e a radiação ionizante.\n\nSão Paulo: Edição do Autor, 2019 (adaptado).\n\nA quantas radiografias torácicas corresponde a dose de radiação ionizante à qual um tripulante que atue no trecho Rio de Janeiro−Roma é exposto ao longo de um ano?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "8 B"
+   },
+   {
+    "id": "b",
+    "text": "10 C"
+   },
+   {
+    "id": "c",
+    "text": "80 D"
+   },
+   {
+    "id": "d",
+    "text": "100 E"
+   },
+   {
+    "id": "e",
+    "text": "1 000"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 133",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-134",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Entre os medicamentos mais comuns consumidos para o alívio da dor está o ibuprofeno, um composto quiral com ação anti-inflamatória e efeito analgésico, que é comercializado como fármaco opticamente puro, ou seja, sem a mistura com outro isômero óptico. A fórmula estrutural plana do ibuprofeno é:\n\nAlém do ibuprofeno, destacam-se também os princípios ativos a seguir, presentes em outros medicamentos para o alívio da dor:\n\nH\n\nH\n\nN\n\nN\n\nO O\n\nO\n\nHO\n\nFenacetina\n\nParacetamol\n\nCl\n\nNH Cl\n\nNa+\n\nO−\n\nO\n\nDiclofenaco sódico\n\nO princípio ativo que apresenta o mesmo tipo de isomeria espacial que o ibuprofeno é o(a) A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-134-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 134",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-135",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2023,
+  "statement": "Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho, foram construídas 10 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela, que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 km/h, para veículos leves, e 80 km/h, para veículos de grande porte.\n\nConsidere um carro e um caminhão viajando, ambos com velocidades constantes e iguais às máximas permitidas, e que somente o caminhão tenha o serviço automático de cobrança.\n\nComparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda a rodovia? A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-135-1.png",
+   "/enem/2023/d2-135-2.png",
+   "/enem/2023/d2-135-3.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 135",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-136",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Alguns estudos comprovam que os carboidratos fornecem energia ao corpo, preservam as proteínas estruturais dos músculos durante a prática de atividade física e ainda dão força para o cérebro coordenar os movimentos, o que de fato tem impacto positivo no desenvolvimento do praticante. O ideal é consumir 1 grama de carboidrato para cada minuto de caminhada.\n\nCIRINO, C. Boa pergunta: consumir carboidratos antes dos exercícios melhora o\n\ndesempenho do atleta? Revista Saúde! É Vital, n. 330, nov. 2010 (adaptado). Um casal realizará diariamente 30 minutos de caminhada, ingerindo, antes dessa atividade, a quantidade ideal de carboidratos recomendada. Para ter o consumo ideal apenas por meio do consumo de pão de fôrma integral, o casal planeja garantir o suprimento de pães para um período de 30 dias ininterruptos. Sabe-se que cada pacote desse pão vem com 18 fatias, e que cada uma delas tem 15 gramas de carboidratos.\n\nA quantidade mínima de pacotes de pão de fôrma\nnecessários para prover o suprimento a esse casal é\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "1. B"
+   },
+   {
+    "id": "b",
+    "text": "4. C"
+   },
+   {
+    "id": "c",
+    "text": "6. D"
+   },
+   {
+    "id": "d",
+    "text": "7. E"
+   },
+   {
+    "id": "e",
+    "text": "8."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 136",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-137",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "O mastro de uma bandeira foi instalado perpendicularmente ao solo em uma região plana. Devido aos fortes ventos, três cabos de aço, de mesmo comprimento, serão instalados para dar sustentação ao mastro. Cada cabo de aço ficará perfeitamente esticado, com uma extremidade num ponto P do mastro, a uma altura h do solo, e a outra extremidade, num ponto no chão, como mostra a figura.\n\nP\n\nh\n\nα\n\nα α\n\nOs cabos de aço formam um ângulo a com o plano do chão.\n\nPor medida de segurança, há apenas três opções de instalação:\n\n• opção I: h = 11 m e a = 30°\n\n• opção II: h = 12 m e a = 45°\n\n• opção III: h = 18 m e a = 60°\n\n16 MT • 2º DIA • CADERNO 5 • AMARELO\n\nA opção a ser escolhida é aquela em que a medida dos cabos seja a menor possível.\n\nQual será a medida, em metro, de cada um dos cabos a serem instalados?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-137-1.png",
+   "/enem/2023/d2-137-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 137",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-138",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um controlador de voo dispõe de um instrumento que descreve a altitude de uma aeronave em voo, em função da distância em solo. Essa distância em solo é a medida na horizontal entre o ponto de origem do voo até o ponto que representa a projeção ortogonal da posição da aeronave, em voo, no solo. Essas duas grandezas são dadas numa mesma unidade de medida.\n\nA tela do instrumento representa proporcionalmente as dimensões reais das distâncias associadas ao voo. A figura apresenta a tela do instrumento depois de concluída a viagem de um avião, sendo a medida do lado de cada quadradinho da malha igual a 1 cm.\n\nAltitude\n\nOrigem\n\nDestino Distância\n\ndo voo\n\nEssa tela apresenta os dados de um voo cuja maior altitude alcançada foi de 5 km.\n\nA escala em que essa tela representa as medidas reais é A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-138-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 138",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-139",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Uma pessoa pratica quatro atividades físicas — caminhar, correr, andar de bicicleta e jogar futebol — como parte de seu programa de emagrecimento. Essas atividades são praticadas semanalmente de acordo com o quadro, que apresenta o número de horas diárias por atividade.\n\nDias da semana\nCaminhar Correr\nAndar de bicicleta\nJogar futebol\n\nSegunda-feira\n1,0\n0,5\n0,0\n2,0\n\nTerça-feira\n0,5\n1,0\n0,5\n1,0\n\nQuarta-feira\n0,0\n1,5\n1,0\n0,5\n\nQuinta-feira\n0,0\n2,0\n0,0\n0,0\n\nSexta-feira\n0,0\n0,5\n0,0\n2,5\n\nEla deseja comemorar seu aniversário e escolhe o dia da semana em que o gasto calórico com as atividades físicas praticadas for o maior. Para tanto, considera que os valores dos gastos calóricos das atividades por hora (cal/h) são os seguintes:\n\nGasto calórico (cal/h)\n248\n764\n356\n492\n\nO dia da semana em que será comemorado o aniversário é A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-139-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 139",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-140",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos. A diretora só pode gastar R$ 220,00 nessa compra, e sabe que o fornecedor da escola vende as folhas de papel ofício em embalagens de 100 unidades a R$ 4,00 a embalagem. Assim, será preciso convencer o fornecedor a dar um desconto à escola, de modo que seja possível comprar a quantidade total de papel ofício necessária para o bimestre.\n\nO desconto necessário no preço final da compra, em porcentagem, pertence ao intervalo A",
+  "options": [
+   {
+    "id": "a",
+    "text": "(5,0 ; 5,5). B"
+   },
+   {
+    "id": "b",
+    "text": "(8,0 ; 8,5). C"
+   },
+   {
+    "id": "c",
+    "text": "(11,5 ; 12,5). D"
+   },
+   {
+    "id": "d",
+    "text": "(19,5 ; 20,5). E"
+   },
+   {
+    "id": "e",
+    "text": "(3,5 ; 4,0). Atividade física Caminhar Correr Andar de bicicleta Jogar futebol 17 MT • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 140",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-141",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "O calendário maia apresenta duas contagens simultâneas de anos, o chamado ano Tzolkim, composto por 260 dias e que determinava o calendário religioso, e o ano Haab, composto por 365 dias e que determinava o calendário agrícola. Um historiador encontrou evidências de que gerações de uma mesma família governaram certa comunidade maia pelo período de 20 ciclos, sendo cada ciclo formado por 52 anos Haab.\n\nDisponível em: www.suapesquisa.com. Acesso em: 20 ago. 2014.\n\nDe acordo com as informações fornecidas, durante\nquantos anos Tzolkim aquela comunidade maia foi\ngovernada por tal família?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "741 B"
+   },
+   {
+    "id": "b",
+    "text": "1 040 C"
+   },
+   {
+    "id": "c",
+    "text": "1 460 D"
+   },
+   {
+    "id": "d",
+    "text": "2 100 E"
+   },
+   {
+    "id": "e",
+    "text": "5 200"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 141",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-142",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Sejam a, b e c as medidas dos lados de um triângulo retângulo, tendo a como medida da hipotenusa. Esses valores a, b e c são, respectivamente, os diâmetros dos círculos C1, C2 e C3, como apresentados na figura.\n\nCírculo C1\n\nc a\n\nCírculo C3\n\nb\n\nCírculo C2\n\nObserve que essa construção assegura, pelo teorema de Pitágoras, que área (C1) = área (C2) + área (C3).\n\nUm professor de matemática era conhecedor dessa construção e, confraternizando com dois amigos em uma pizzaria onde são vendidas pizzas somente em formato de círculo, lançou um desafio: mesmo sem usar um instrumento de medição, poderia afirmar com certeza se a área do círculo correspondente à pizza que ele pedisse era maior, igual ou menor do que a soma das áreas das pizzas dos dois amigos. Assim, foram pedidas três pizzas. O professor as dividiu ao meio e formou um triângulo com os diâmetros das pizzas, conforme indicado na figura.\n\n18 MT • 2º DIA • CADERNO 5 • AMARELO\n\nMeia pizza do professor\n\nde matemática\n\nMeia pizza do\n\namigo 1\n\nα\n\nMeia pizza do amigo 2\n\nA partir da medida do ângulo a, o professor afirmou que a área de sua pizza é maior do que a soma das áreas das outras duas pizzas.\n\nA área da pizza do professor de matemática é maior do que a soma das áreas das outras duas pizzas, pois\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-142-1.png",
+   "/enem/2023/d2-142-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 142",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-143",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Entre maratonistas, um parâmetro utilizado é o de economia de corrida (EC). O valor desse parâmetro é calculado pela razão entre o consumo de oxigênio, em mililitro (mL) por minuto (min), e a massa, em quilograma (kg), do atleta correndo a uma velocidade constante.\n\nDisponível em: www.treinamentoonline.com.br. Acesso em: 23 out. 2019 (adaptado).\n\nUm maratonista, visando melhorar sua performance, auxiliado por um médico, mensura o seu consumo de oxigênio por minuto a velocidade constante. Com base nesse consumo e na massa do atleta, o médico calcula o EC do atleta.\n\nA unidade de medida da grandeza descrita pelo parâmetro EC é\n\nA\nA\nmin\nmL kg\n⋅\n\nB\nB\nmL\nmin kg\n⋅\n\nC",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-143-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 143",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-144",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "O gerente de uma fábrica pretende comparar a evolução das vendas de dois produtos similares (I e II). Para isso, passou a verificar o número de unidades vendidas de cada um desses produtos em cada mês. Os resultados dessa verificação, para os meses de abril a junho, são apresentados na tabela.\n\nVendas\nem abril\n(unidade)\n\nProduto\n\nl\n80\n90\n100\n\nll\n190\n170\n150\n\nO gerente estava decidido a cessar a produção do produto II no mês seguinte àquele em que as vendas do produto I superassem as do produto II.\n\nSuponha que a variação na quantidade de unidades vendidas dos produtos I e II se manteve, mês a mês, como no período representado na tabela.\n\nEm qual mês o produto II parou de ser produzido?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "Junho. B"
+   },
+   {
+    "id": "b",
+    "text": "Julho. C"
+   },
+   {
+    "id": "c",
+    "text": "Agosto. D"
+   },
+   {
+    "id": "d",
+    "text": "Setembro. E"
+   },
+   {
+    "id": "e",
+    "text": "Outubro."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 144",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-145",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Uma empresa de transporte faz regularmente um levantamento do número de viagens realizadas durante o dia por todos os 160 motoristas cadastrados em seu aplicativo. Em um certo dia, foi gerado um relatório, por meio de um gráfico de barras, no qual se relacionaram a quantidade de motoristas com a quantidade de viagens realizadas até aquele instante do dia.\n\nQuantidade de viagens realizadas\n\n7\n\n6\n\n5\n\n4\n\n3\n\n2\n\n1\n\nQuantidade de motoristas\n\nComparando os valores da média, da mediana e da moda da distribuição das quantidades de viagens realizadas pelos motoristas cadastrados nessa empresa, obtém-se\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-145-1.png",
+   "/enem/2023/d2-145-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 145",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-146",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "A foto mostra a construção de uma cisterna destinada ao armazenamento de água. Uma cisterna como essa, na forma de cilindro circular reto com 3 m² de área da base, foi abastecida por um curso-d’água com vazão constante. O seu proprietário registrou a altura do nível da água no interior da cisterna durante o abastecimento em diferentes momentos de um mesmo dia, conforme o quadro.\n\nHorário (h) Nível da água (m)\n\n6:00 0,5\n\n8:00 1,1\n\n12:00 2,3\n\n15:00 3,2\n\nDisponível em: www.paraibamix.com. Acesso em: 3 dez. 2012.\n\nQual foi a vazão, em metro cúbico por hora, do curso-d’água que abasteceu a cisterna?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-146-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 146",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-147",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Num certo momento de um jogo digital, a tela apresenta a imagem representada na figura. O ponto Q1 representa a posição de um jogador que está com a bola, os pontos Q2, Q3, Q4, Q5 e Q6 também indicam posições de jogadores da mesma equipe, e os pontos A e B indicam os dois pés da trave mais próxima deles. No momento da partida retratado, o jogador Q1 tem a posse da bola, que será passada para um dos outros jogadores das posições\n\nQn, n ∈ {2, 3, 4, 5, 6}, cujo ângulo AQ B\nn\ntenha a mesma\nmedida do ângulo\nAQ B\n1 .\n\n20 MT • 2º DIA • CADERNO 5 • AMARELO\n\nQ3\n\nA\n\nQ2\n\nQ4\n\nα\n\nB\n\nQ5\n\nQ1\n\nQ6\n\nQual é o jogador que receberá a bola?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-147-1.png",
+   "/enem/2023/d2-147-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 147",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-148",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "O triângulo da figura é denominado triângulo mágico. Nos círculos, escrevem-se os números de 1 a 6, sem repetição, com um número em cada círculo. O objetivo é distribuir os números de forma que as somas dos números em cada lado do triângulo sejam iguais.\n\nConsidere que os números colocados nos vértices do triângulo estejam em progressão aritmética de razão igual a 2.\n\nNas condições propostas, quais as possíveis soluções para as somas dos números que formam os lados do triângulo?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-148-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 148",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-149",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "No alojamento de uma universidade, há alguns quartos com o padrão superior ao dos demais. Um desses quartos ficou disponível, e muitos estudantes se candidataram para morar no local. Para escolher quem ficará com o quarto, um sorteio será realizado. Para esse sorteio, cartões individuais com os nomes de todos os estudantes inscritos serão depositados em uma urna, sendo que, para cada estudante de primeiro ano, será depositado um único cartão com seu nome; para cada estudante de segundo ano, dois cartões com seu nome; e, para cada estudante de terceiro ano, três cartões com seu nome. Foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Todos os cartões têm a mesma probabilidade de serem sorteados.\n\nQual a probabilidade de o vencedor do sorteio ser um estudante de terceiro ano?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "1 2 B"
+   },
+   {
+    "id": "b",
+    "text": "1 3 C"
+   },
+   {
+    "id": "c",
+    "text": "1 8 D"
+   },
+   {
+    "id": "d",
+    "text": "2 9 E"
+   },
+   {
+    "id": "e",
+    "text": "3 8"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 149",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-150",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "A água utilizada pelos 75 moradores de um vilarejo provém de um reservatório de formato cilíndrico circular reto cujo raio da base mede 5 metros, sempre abastecido no primeiro dia de cada mês por caminhões-pipa. Cada morador desse vilarejo consome, em média, 200 litros de água por dia.\n\nNo mês de junho de um determinado ano, o vilarejo festejou o dia do seu padroeiro e houve um gasto extra de água nos primeiros 20 dias. Passado esse período, as pessoas verificaram a quantidade de água presente no reservatório e constataram que o nível da coluna de água estava em 1,5 metro. Decidiram, então, fazer um racionamento de água durante os 10 dias seguintes. Considere 3 como aproximação para p.\n\nQual é a quantidade mínima de água, em litro, que cada morador, em média, deverá economizar por dia, de modo que o reservatório não fique sem água nos próximos 10 dias? A",
+  "options": [
+   {
+    "id": "a",
+    "text": "50 B"
+   },
+   {
+    "id": "b",
+    "text": "60 C"
+   },
+   {
+    "id": "c",
+    "text": "80 D"
+   },
+   {
+    "id": "d",
+    "text": "140 E"
+   },
+   {
+    "id": "e",
+    "text": "150"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 150",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-151",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Em janeiro do ano passado, a direção de uma fábrica abriu uma creche para os filhos de seus funcionários, com 10 salas, cada uma com capacidade para atender 10 crianças a cada ano. As vagas são sorteadas entre os filhos dos funcionários inscritos, enquanto os não contemplados pelo sorteio formam uma lista de espera. No ano passado, a lista de espera teve 400 nomes e, neste ano, esse número cresceu 10%.\n\nA direção da fábrica realizou uma pesquisa e constatou que a lista de espera para o próximo ano terá a mesma quantidade de nomes da lista de espera deste ano. Decidiu, então, construir, ao longo desse ano, novas salas para a creche, também com capacidade de atendimento para 10 crianças cada, de modo que o número de nomes na lista de espera no próximo ano seja 25% menor que o deste ano.\n\nO número mínimo de salas que deverão ser construídas é A",
+  "options": [
+   {
+    "id": "a",
+    "text": "10. B"
+   },
+   {
+    "id": "b",
+    "text": "11. C"
+   },
+   {
+    "id": "c",
+    "text": "13. D"
+   },
+   {
+    "id": "d",
+    "text": "30. E"
+   },
+   {
+    "id": "e",
+    "text": "33. 21 MT • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 151",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-152",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Os números figurados pentagonais provavelmente foram introduzidos pelos pitagóricos por volta do século V a.C. As figuras ilustram como obter os seis primeiros deles, sendo os demais obtidos seguindo o mesmo padrão geométrico.\n\n22\n12\n5\n1\n\n35\n51\nO oitavo número pentagonal é\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-152-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 152",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-153",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "A figura ilustra uma roda-gigante no exato instante em que a cadeira onde se encontra a pessoa P está no ponto mais alto dessa roda-gigante.\n\nP\n\nSolo\n\nCom o passar do tempo, à medida que a roda-gigante gira, com velocidade angular constante e no sentido horário, a altura da cadeira onde se encontra a pessoa P, em relação ao solo, vai se alterando.\n\n22 MT • 2º DIA • CADERNO 5 • AMARELO\n\nO gráfico que melhor representa a variação dessa altura, em função do tempo, contado a partir do instante em que a cadeira da pessoa P se encontra na posição mais alta da roda-gigante, é\n\nrelação ao solo\n\nAltura em\n\nA A\n\nTempo 0\n\nrelação ao solo\n\nAltura em\n\nB B\n\nTempo 0\n\nrelação ao solo\n\nAltura em\n\nC C\n\nTempo 0\n\nrelação ao solo\n\nAltura em\n\nD D\n\nTempo 0\n\nrelação ao solo\n\nAltura em\n\nE E\n\nTempo 0",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2023/d2-153-1.png",
+   "/enem/2023/d2-153-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 153",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-154",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um professor, para promover a aprendizagem dos estudantes em estatística, propôs uma atividade. O objetivo era verificar o percentual de estudantes com massa corporal abaixo da média e altura acima da média de um grupo de estudantes. Para isso, usando uma balança e uma fita métrica, avaliou uma amostra de dez estudantes, anotando as medidas observadas. O gráfico apresenta a massa corporal, em quilograma, e a altura, em metro, obtidas na atividade.\n\nMassa corporal e altura de estudantes Altura (m)\n\n1,8\n\n1,75\n\n1,7\n\n1,65\n\n1,6\n\n1,55\n\n1,5\n\n1,45\n20\n40\n60\n80\n100\n120\n140\n\nMassa corporal (kg) 0\n\nApós a coleta dos dados, os estudantes calcularam a média dos valores obtidos, referentes à massa corporal e à altura, obtendo, respectivamente, 80 kg e 1,65 m.\n\nQual é o percentual de estudantes dessa amostra com massa corporal abaixo da média e altura acima da média? A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-154-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 154",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-155",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um pescador tem um custo fixo diário de R$ 900,00 com combustível, iscas, manutenção de seu barco e outras pequenas despesas. Ele vende cada quilograma de peixe por R$ 5,00. Sua meta é obter um lucro mínimo de R$ 800,00 por dia. Sozinho, ele consegue, ao final de um dia de trabalho, pescar 180 kg de peixe, o que é suficiente apenas para cobrir o custo fixo diário. Portanto, precisa contratar ajudantes, pagando para cada um R$ 250,00 por dia de trabalho. Além desse valor, 4% da receita obtida pela venda de peixe é repartida igualmente entre os ajudantes. Considerando o tamanho de seu barco, ele pode contratar até 5 ajudantes. Ele sabe que com um ajudante a pesca diária é de 300 kg e que, a partir do segundo ajudante contratado, aumenta-se em 100 kg a quantidade de peixe pescada por ajudante em um dia de trabalho.\n\nA quantidade mínima de ajudantes que esse pescador precisa contratar para conseguir o lucro diário pretendido é A",
+  "options": [
+   {
+    "id": "a",
+    "text": "1. B"
+   },
+   {
+    "id": "b",
+    "text": "2. C"
+   },
+   {
+    "id": "c",
+    "text": "3. D"
+   },
+   {
+    "id": "d",
+    "text": "4. E"
+   },
+   {
+    "id": "e",
+    "text": "5."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 155",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-156",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um agricultor é informado sobre um método de proteção para sua lavoura que consiste em inserir larvas específicas, de rápida reprodução. A reprodução dessas larvas faz com que sua população multiplique-se por 10 a cada 3 dias e, para evitar eventuais desequilíbrios, é possível cessar essa reprodução aplicando-se um produto X. O agricultor decide iniciar esse método com 100 larvas e dispõe de 5 litros do produto X, cuja aplicação recomendada é de exatamente 1 litro para cada população de 200 000 larvas. A quantidade total do produto X de que ele dispõe deverá ser aplicada de uma única vez.\n\nQuantos dias após iniciado esse método o agricultor deverá aplicar o produto X?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "2 B"
+   },
+   {
+    "id": "b",
+    "text": "4 C"
+   },
+   {
+    "id": "c",
+    "text": "6 D"
+   },
+   {
+    "id": "d",
+    "text": "12 E"
+   },
+   {
+    "id": "e",
+    "text": "18"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 156",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-157",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Ao realizar o cadastro em um aplicativo de investimentos, foi solicitado ao usuário que criasse uma senha, sendo permitido o uso somente dos seguintes caracteres:\n\n• algarismos de 0 a 9;\n\n• 26 letras minúsculas do alfabeto;\n\n• 26 letras maiúsculas do alfabeto;\n\n• 6 caracteres especiais !, @, #, $, , &.\n\nTrês tipos de estruturas para senha foram apresentadas ao usuário:\n\n• tipo I: formada por quaisquer quatro caracteres distintos, escolhidos dentre os permitidos;\n\n• tipo II: formada por cinco caracteres distintos, iniciando por três letras, seguidas por um algarismo e, ao final, um caractere especial;\n\n• tipo III: formada por seis caracteres distintos, iniciando por duas letras, seguidas por dois algarismos e, ao final, dois caracteres especiais.\n\nConsidere p1, p2 e p3 as probabilidades de se descobrirem ao acaso, na primeira tentativa, as senhas dos tipos I, II e III, respectivamente.\n\nNessas condições, o tipo de senha que apresenta a\nmenor probabilidade de ser descoberta ao acaso, na\nprimeira tentativa, é o\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "tipo I, pois p1 < p2 < p3. B"
+   },
+   {
+    "id": "b",
+    "text": "tipo I, pois tem menor quantidade de caracteres. C"
+   },
+   {
+    "id": "c",
+    "text": "tipo II, pois tem maior quantidade de letras. D"
+   },
+   {
+    "id": "d",
+    "text": "tipo III, pois p3 < p2 < p1. E"
+   },
+   {
+    "id": "e",
+    "text": "tipo III, pois tem maior quantidade de caracteres. 23 MT • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 157",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-158",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Em um colégio público, a admissão no primeiro ano se dá por sorteio. Neste ano há 55 candidatos, cujas inscrições são numeradas de 01 a 55. O sorteio de cada número de inscrição será realizado em etapas, utilizando-se duas urnas. Da primeira urna será sorteada uma bola, dentre bolas numeradas de 0 a 9, que representará o algarismo das unidades do número de inscrição a ser sorteado e, em seguida, da segunda urna, será sorteada uma bola para representar o algarismo das dezenas desse número. Depois do primeiro sorteio, e antes de se sortear o algarismo das dezenas, as bolas que estarão presentes na segunda urna serão apenas aquelas cujos números formam, com o algarismo já sorteado, um número de 01 a 55.\n\nAs probabilidades de os candidatos de inscrição número 50 e 02 serem sorteados são, respectivamente,\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2023/d2-158-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 158",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-159",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "O esquema mostra como a intensidade luminosa\ndecresce com o aumento da profundidade em um rio,\nsendo L0 a intensidade na sua superfície.\n\nIntensidade luminosa Profundidade\n\n0 m L0\n\n1 m\n3\n2 L0\n\n2 m\n9\n4 L0\n\n3 m\n27\n8 L0\n\nConsidere que a intensidade luminosa diminui, a cada metro acrescido na profundidade, segundo o mesmo padrão do esquema.\n\n24 MT • 2º DIA • CADERNO 5 • AMARELO\n\nA intensidade luminosa correspondente à profundidade de 6 m é igual a\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "1 9 L 0 B"
+   },
+   {
+    "id": "b",
+    "text": "16 27 L 0 C"
+   },
+   {
+    "id": "c",
+    "text": "32 243 L 0 D"
+   },
+   {
+    "id": "d",
+    "text": "64 729 L 0 E"
+   },
+   {
+    "id": "e",
+    "text": "128 0 L 2187"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 159",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-160",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhar de real,\n\npoderia ser calculado pela expressão V x\nx\nx\n\u001b\n\n4\n10\n105,\n\nem que os valores de x representam os dias do mês, variando de 1 a 30.\n\nUm dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário V0 arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real.\n\n•\t Ótimo: V0 ≥ 24\n•\t Bom: 20 ≤ V0 < 24\n•\t Normal: 10 ≤ V0 < 20\n•\t Ruim: 4 ≤ V0 < 10\n•\t Péssimo: V0 < 4\n\nNo caso analisado, qual seria a classificação do\ndesempenho da empresa?\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ótimo. B"
+   },
+   {
+    "id": "b",
+    "text": "Bom. C"
+   },
+   {
+    "id": "c",
+    "text": "Normal. D"
+   },
+   {
+    "id": "d",
+    "text": "Ruim. E"
+   },
+   {
+    "id": "e",
+    "text": "Péssimo."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 160",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-161",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.\n\nDisponível em: http://g1.globo.com. Acesso em: 1 dez. 2018 (adaptado).\n\nNessas condições, ao final da primeira hora após a ingestão da quantidade q de álcool, a concentração C dessa substância no sangue é expressa algebricamente por\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "C = 0,9q B"
+   },
+   {
+    "id": "b",
+    "text": "C = 0,1q C"
+   },
+   {
+    "id": "c",
+    "text": "C = 1 − 0,1q D"
+   },
+   {
+    "id": "d",
+    "text": "C = 1 − 0,9q E"
+   },
+   {
+    "id": "e",
+    "text": "C = q − 10"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 161",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-162",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um investidor iniciante observou o gráfico que apresenta a evolução dos valores de duas criptomoedas A e B em relação ao tempo.\n\nCriptomoeda B (milhar de real)\n\nCriptomoeda A (milhar de real) Durante horas consecutivas, esses valores foram observados em nove instantes, representados por horas exatas.\n\nEm quantos desses instantes a criptomoeda A estava mais valorizada do que a criptomoeda B?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-162-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 162",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-163",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "A exposição a alguns níveis sonoros pode causar lesões auditivas. Por isso, em uma indústria, são adotadas medidas preventivas de acordo com a máquina que o funcionário opera e o nível N de intensidade do som, medido em decibel (dB), a que o operário é exposto, sendo N = log10I 10 − log10I 10\n\n0 , I a intensidade do som e I0 = 10−12 W/m2.\n\nDisponível em: www.sofisica.com.br. Acesso em: 8 jul. 2015 (adaptado). Quando o som é considerado baixo, ou seja, N = 48 dB ou menos, deve ser utilizada a medida preventiva I. No caso de o som ser moderado, quando N está no intervalo (48 dB, 55 dB), deve ser utilizada a medida preventiva II. Quando o som é moderado alto, que equivale a N no intervalo (55 dB, 80 dB), a medida preventiva a ser usada é a III. Se N estiver no intervalo (80 dB, 115 dB), quando o som é considerado alto, deve ser utilizada a medida preventiva IV. E se o som é considerado muito alto, com N maior que 115 dB, deve-se utilizar a medida preventiva V.\n\nUma nova máquina, com I = 8 × 10−8 W/m2, foi adquirida e será classificada de acordo com o nível de ruído que produz.\n\nConsidere 0,3 como aproximação para log102.\n\nO funcionário que operará a nova máquina deverá adotar a medida preventiva A",
+  "options": [
+   {
+    "id": "a",
+    "text": "I. B"
+   },
+   {
+    "id": "b",
+    "text": "II. C"
+   },
+   {
+    "id": "c",
+    "text": "III. D"
+   },
+   {
+    "id": "d",
+    "text": "IV. E"
+   },
+   {
+    "id": "e",
+    "text": "V. 25 MT • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 163",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-164",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um artista plástico esculpe uma escultura a partir de um bloco de madeira de lei, em etapas. Inicialmente, esculpe um cone reto com 36 cm de altura e diâmetro da base medindo 18 cm. Em seguida, remove desse cone um cone menor, cujo diâmetro da base mede 6 cm, obtendo, assim, um tronco de cone, conforme ilustrado na figura.\n\n6 cm\n\n36 cm\n\n18 cm\n\nEm seguida, perfura esse tronco de cone, removendo um cilindro reto, de diâmetro 6 cm, cujo eixo de simetria é o mesmo do cone original. Dessa forma, ao final, a escultura tem a forma de um tronco de cone com uma perfuração cilíndrica de base a base.\n\nO tipo de madeira utilizada para produzir essa escultura tem massa igual a 0,6 g por centímetro cúbico de volume. Utilize 3 como aproximação para π.\n\nQual é a massa, em grama, dessa escultura? A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-164-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 164",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-165",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Os 100 funcionários de uma empresa estão distribuídos em dois setores: Produção e Administração. Os funcionários de um mesmo setor recebem salários com valores iguais. O quadro apresenta a quantidade de funcionários por setor e seus respectivos salários.\n\nSetor Quantidade de\n\nSalário (em real)\n\nfuncionários\n\nProdução\n75\n2 000,00\n\nAdministração\n25\n7 000,00\n\nA média dos salários dos 100 funcionários dessa empresa, em real, é\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-165-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 165",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-166",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Visando atrair mais clientes, o gerente de uma loja anunciou uma promoção em que cada cliente que realizar uma compra pode ganhar um voucher para ser usado em sua próxima compra. Para ganhar seu voucher, o cliente precisa retirar, ao acaso, uma bolinha de dentro de cada uma das duas urnas A e B disponibilizadas pelo gerente, nas quais há apenas bolinhas pretas e brancas. Atualmente, a probabilidade de se escolher, ao acaso, uma bolinha preta na urna A é igual a 20% e a probabilidade de se escolher uma bolinha preta na urna B é 25%. Ganha o voucher o cliente que retirar duas bolinhas pretas, uma de cada urna.\n\nCom o passar dos dias, o gerente percebeu que, para a promoção ser viável aos negócios, era preciso alterar a probabilidade de acerto do cliente sem alterar a regra da promoção. Para isso, resolveu alterar a quantidade de bolinhas brancas na urna B de forma que a probabilidade de um cliente ganhar o voucher passasse a ser menor ou igual a 1%. Sabe-se que a urna B tem 4 bolinhas pretas e que, em ambas as urnas, todas as bolinhas têm a mesma probabilidade de serem retiradas.\n\nQual é o número mínimo de bolinhas brancas que o gerente deve adicionar à urna B?\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "20 B"
+   },
+   {
+    "id": "b",
+    "text": "60 C"
+   },
+   {
+    "id": "c",
+    "text": "64 D"
+   },
+   {
+    "id": "d",
+    "text": "68 E"
+   },
+   {
+    "id": "e",
+    "text": "80"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 166",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-167",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Estudantes trabalhando com robótica criaram uma “torneira inteligente” que automatiza sua abertura e seu fechamento durante a limpeza das mãos. A tecnologia funciona da seguinte forma: ao se colocarem as mãos sob a torneira, ela libera água durante 3 segundos para que a pessoa possa molhá-las. Em seguida, interrompe o fornecimento de água por 5 segundos, enquanto a pessoa ensaboa suas mãos, e finaliza o ciclo liberando água para o enxágue por mais 3 segundos. Considere o tempo ( t ), em segundo, contado a partir do instante em que se inicia o ciclo. A vazão de água nessa torneira é constante.\n\nUm esboço de gráfico que descreve o volume de água acumulado, em litro, liberado por essa torneira durante um ciclo de lavagem das mãos, em função do tempo ( t ), em segundo, é\n\nVolume de água (L)\n\nA A\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11 12\nt (s)\n\nVolume de água (L)\n\nB B\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11 12\n\nt (s)\n\nVolume de água (L)\n\nC C\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11 12\n\nt (s)\n\nVolume de água (L)\n\nD D\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11 12\n\nt (s)\n\nVolume de água (L)\n\nE E\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 10 11 12\nt (s)",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-167-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 167",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-168",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "As características culturais variam de povo para povo. Há notícias de um povo que possuía formas de contar diferentes das nossas, como indicado no quadrinho a seguir.\n\nSegundo o padrão de contagem indicado na figura, as representações dos numerais cinco e sete, nessa cultura, devem ser, respectivamente, A",
+  "options": [
+   {
+    "id": "a",
+    "text": "okosa urapum urapum urapum e okosa okosa urapum urapum urapum. B"
+   },
+   {
+    "id": "b",
+    "text": "okosa okosa urapum e okosa okosa okosa okosa urapum. C"
+   },
+   {
+    "id": "c",
+    "text": "okosa okosa urapum e okosa okosa okosa urapum. D"
+   },
+   {
+    "id": "d",
+    "text": "okosa urapum urapum e okosa urapum okosa urapum urapum. E"
+   },
+   {
+    "id": "e",
+    "text": "okosa okosa urapum e okosa okosa okosa okosa."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2023/d2-168-1.png"
+  ],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 168",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-169",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um tipo de semente necessita de bastante água nos dois primeiros meses após o plantio. Um produtor pretende estabelecer o melhor momento para o plantio desse tipo de semente, nos meses de outubro a março. Após consultar a previsão do índice mensal de precipitação de chuva (ImPC) da região onde ocorrerá o plantio, para o período chuvoso de 2020 - 2021, ele obteve os seguintes dados:\n\n• outubro/2020: ImPC = 250 mm;\n• novembro/2020: ImPC = 150 mm;\n• dezembro/2020: ImPC = 200 mm;\n• janeiro/2021: ImPC = 450 mm;\n• fevereiro/2021: ImPC = 100 mm;\n• março/2021: ImPC = 200 mm.\nCom base nessas previsões, ele precisa escolher\ndois meses consecutivos em que a média mensal de\nprecipitação seja a maior possível.\n\nNo início de qual desses meses o produtor deverá plantar esse tipo de semente? A",
+  "options": [
+   {
+    "id": "a",
+    "text": "Outubro. B"
+   },
+   {
+    "id": "b",
+    "text": "Novembro. C"
+   },
+   {
+    "id": "c",
+    "text": "Dezembro. D"
+   },
+   {
+    "id": "d",
+    "text": "Janeiro. E"
+   },
+   {
+    "id": "e",
+    "text": "Fevereiro. 27 MT • 2º DIA • CADERNO 5 • AMARELO"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 169",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-170",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Uma loja vende seus produtos de duas formas: à vista ou financiado em três parcelas mensais iguais. Para definir o valor dessas parcelas nas vendas financiadas, a loja aumenta em 20% o valor do produto à vista e divide esse novo valor por 3. A primeira parcela deve ser paga no ato da compra, e as duas últimas, em 30 e 60 dias após a compra.\n\nUm cliente da loja decidiu comprar, de forma financiada, um produto cujo valor à vista é R$ 1 500,00.\n\nUtilize 5,29 como aproximação para 28.\n\nA taxa mensal de juros compostos praticada nesse financiamento é de\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "6,7% B"
+   },
+   {
+    "id": "b",
+    "text": "10% C"
+   },
+   {
+    "id": "c",
+    "text": "20% D"
+   },
+   {
+    "id": "d",
+    "text": "21,5% E"
+   },
+   {
+    "id": "e",
+    "text": "23,3%"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 170",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-171",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Para concretar a laje de sua residência, uma pessoa contratou uma construtora. Tal empresa informa que o preço y do concreto bombeado é composto de duas partes: uma fixa, chamada de taxa de bombeamento, e uma variável, que depende do volume x de concreto utilizado. Sabe-se que a taxa de bombeamento custa R$ 500,00 e que o metro cúbico do concreto bombeado é de R$ 250,00.\n\nA expressão que representa o preço y em função do volume x, em metro cúbico, é\n\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": "y = 250x B"
+   },
+   {
+    "id": "b",
+    "text": "y = 500x C"
+   },
+   {
+    "id": "c",
+    "text": "y = 750x D"
+   },
+   {
+    "id": "d",
+    "text": "y = 250x + 500 E"
+   },
+   {
+    "id": "e",
+    "text": "y = 500x + 250"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 171",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-172",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Uma empresa de segurança domiciliar oferece o serviço de patrulha noturna, no qual vigilantes em motocicletas fazem o monitoramento periódico de residências. A empresa conta com uma base, de onde acompanha o trajeto realizado pelos vigilantes durante as patrulhas e orienta o deslocamento de equipes de reforço quando necessário. Numa patrulha rotineira, sem ocorrências, um vigilante conduziu sua motocicleta a uma velocidade constante durante todo o itinerário estabelecido, levando 30 minutos para conclusão. De acordo com os registros do GPS alocado na motocicleta, a distância da posição do vigilante à base, ao longo do tempo de realização do trajeto, é descrita pelo gráfico.\n\n28 MT • 2º DIA • CADERNO 5 • AMARELO\n\nDistância do vigilante em relação\n\nà base em função do tempo\n\n4\n\nDistância do vigilante\n\nà base (km)\n\n3\n\n2\n\n1\n\nTempo (min)\n0\n10\n20\n30\n\nA vista superior da trajetória realizada pelo vigilante durante a patrulha registrada no gráfico é descrita pela representação\n\nA A\n\nB B\n\nC C\n\nD D\n\nE E",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2023/d2-172-1.png",
+   "/enem/2023/d2-172-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 172",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-173",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Um supermercado conta com cinco caixas disponíveis para pagamento. Foram instaladas telas que apresentam o tempo médio gasto por cada caixa para iniciar e finalizar o atendimento de cada cliente, e o número de pessoas presentes na fila de cada caixa em tempo real. Um cliente, na hora de passar sua compra, sabendo que cada um dos cinco caixas iniciará um novo atendimento naquele momento, pretende gastar o menor tempo possível de espera na fila. Ele observa que as telas apresentavam as informações a seguir.\n\n• Caixa I: atendimento 12 minutos, 5 pessoas na fila. • Caixa II: atendimento 6 minutos, 9 pessoas na fila. • Caixa III: atendimento 5 minutos, 6 pessoas na fila. • Caixa IV: atendimento 15 minutos, 2 pessoas na fila. • Caixa V: atendimento 9 minutos, 3 pessoas na fila.\n\nPara alcançar seu objetivo, o cliente deverá escolher o caixa A",
+  "options": [
+   {
+    "id": "a",
+    "text": "I. B"
+   },
+   {
+    "id": "b",
+    "text": "II. C"
+   },
+   {
+    "id": "c",
+    "text": "III. D"
+   },
+   {
+    "id": "d",
+    "text": "IV. E"
+   },
+   {
+    "id": "e",
+    "text": "V."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 173",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-174",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "As figuras pintadas no quadro da sala de estar de uma residência representam as silhuetas de parte das torres de um castelo e, ao fundo, a de uma lua cheia. A lua foi pintada na forma de um círculo, e o telhado da torre mais alta, na forma de triângulo equilátero, foi pintado sobrepondo parte da lua. O centro da lua coincide com um dos vértices do telhado da torre mais alta.\n\nNesse quadro, a parte da lua escondida atrás da torre mais alta do castelo pode ser representada por um A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-174-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 174",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-175",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Na planta baixa de um clube, a piscina é representada por um quadrado cuja área real mede 400 m². Ao redor dessa piscina, será construída uma calçada, de largura constante igual a 5 m.\n\n5 m\n\nCalçada\n\n5 m\n\nPiscina\n\n5 m\n\n5 m\n\nQual é a medida da área, em metro quadrado, ocupada\npela calçada?\nA",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2023/d2-175-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 175",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-176",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Uma pessoa caminha por 30 minutos e utiliza um aplicativo instalado em seu celular para monitorar a variação da intensidade do sinal de internet recebido pelo aparelho durante o deslocamento. Chegando ao seu destino, o aplicativo forneceu este gráfico:\n\nIntensidade do sinal de internet\n\nTempo (min)\n0\n2\n4\n6\n8\n10 12 14\n16\n18 20\n22 24\n26 28 30\n\nPor quantos minutos, durante essa caminhada, o celular dessa pessoa ficou sem receber sinal de internet? A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2023/d2-176-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 176",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-178",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Nessa escada, pisos e espelhos têm formato retangular, e as paredes laterais têm formato de um polígono cujos lados adjacentes são perpendiculares. Pisos, espelhos e paredes laterais serão revestidos em cerâmica.\n\nA área a ser revestida em cerâmica, em metro quadrado, mede A",
+  "options": [
+   {
+    "id": "a",
+    "text": "1,20. B"
+   },
+   {
+    "id": "b",
+    "text": "1,35. C"
+   },
+   {
+    "id": "c",
+    "text": "1,65. D"
+   },
+   {
+    "id": "d",
+    "text": "1,80. E"
+   },
+   {
+    "id": "e",
+    "text": "1,95. 30 MT • 2º DIA • CADERNO 5 • AMARELO 10,0% 20,0% 30,0% 40,0% 50,0% 60,0% 70,0% 80,0% 90,0% 100,0% Época, 26 abr. 2010 (adaptado). A figura representa uma escada com três degraus, construída em concreto maciço, com suas medidas especificadas."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-178-1.png"
+  ],
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 178",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-179",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "Uma pessoa comprou um ingresso para o cinema em cuja entrada está afixado um mapa com a representação bidimensional do posicionamento das poltronas, conforme a figura. Essa pessoa, após consultar o mapa, começou a subir uma das escadas e parou na posição indicada pela estrela, direcionada para o norte. Ela conferiu seu bilhete e observou que, para encontrar sua poltrona, deveria partir do ponto onde estava, continuar subindo a escada na direção norte por mais quatro fileiras e olhar à sua direita, e sua poltrona será a terceira.\n\nJ\n\nH\n\nEscada\n\nG\n\nFileiras\n\nF\n\nE\n\nD\n\nC\n\nB\n\nA\n\nEntrada\n\nTela\n\nNesse cinema, as poltronas são identificadas por uma letra, que indica a fileira, e um número, que fornece a posição da poltrona na fileira, respectivamente.\n\nA poltrona dessa pessoa é a identificada por A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2023/d2-179-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 179",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2023-d2-180",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2023,
+  "statement": "O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.\n\nQual o preço, em real, de uma cartela de tíquetes vermelhos? A",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2023/d2-180-1.png",
+   "/enem/2023/d2-180-2.png",
+   "/enem/2023/d2-180-3.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2023",
+  "sourceRef": "2º dia, caderno azul, questão 180",
+  "status": "draft",
+  "reviewedBy": null
+ }
+]

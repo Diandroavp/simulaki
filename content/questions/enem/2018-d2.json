@@ -1,0 +1,3260 @@
+[
+ {
+  "id": "enem-2018-d2-091",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Muitos primatas, incluindo nós humanos, possuem visão tricromática: têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos em si não possuam cor, estes são conhecidos como pigmentos “azul”, “verde” e “vermelho” e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaríamos o pigmento “azul”, o pigmento “verde” seria ativado ao máximo e o “vermelho” seria ativado em aproximadamente 75%, e isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento “verde” um pouco e o “vermelho” em cerca de 75%, e isso nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente.\n\nI II\n\n“azul”\n“verde”\n“vermelho”\n\n100\n\nAtivação (%)\n\n50\n\nverde\nroxo\namarelo laranja vermelho\n400\n\n450 500\n\n550\n600\n650\n\nazul\n\nComprimento de onda (nm)\n\nDisponível em: www.comprehensivephysiology.com. Acesso em: 3 ago. 2012 (adaptado). Caso estimulássemos a retina de um indivíduo com essa característica, que não possuísse o pigmento conhecido como “verde”, com as luzes de 530 nm e 600 nm na mesma intensidade luminosa, esse indivíduo seria incapaz de",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-091-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 91",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-092",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O grafeno é uma forma alotrópica do carbono constituído por uma folha planar (arranjo bidimensional) de átomos de carbono compactados e com a espessura de apenas um átomo. Sua estrutura é hexagonal, conforme a figura.\n\nNesse arranjo, os átomos de carbono possuem hibridação",
+  "options": [
+   {
+    "id": "a",
+    "text": "sp de geometria linear."
+   },
+   {
+    "id": "b",
+    "text": "sp2 de geometria trigonal planar."
+   },
+   {
+    "id": "c",
+    "text": "sp3 alternados com carbonos com hibridação sp de geometria linear."
+   },
+   {
+    "id": "d",
+    "text": "sp3d de geometria planar."
+   },
+   {
+    "id": "e",
+    "text": "sp3d 2 com geometria hexagonal planar."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 92",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-093",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Um projetista deseja construir um brinquedo que lance um pequeno cubo ao longo de um trilho horizontal, e o dispositivo precisa oferecer a opção de mudar a velocidade de lançamento. Para isso, ele utiliza uma mola e um trilho onde o atrito pode ser desprezado, conforme a figura.\n\nPara que a velocidade de lançamento do cubo seja aumentada quatro vezes, o projetista deve",
+  "options": [
+   {
+    "id": "a",
+    "text": "manter a mesma mola e aumentar duas vezes a sua deformação."
+   },
+   {
+    "id": "b",
+    "text": "manter a mesma mola e aumentar quatro vezes a sua deformação."
+   },
+   {
+    "id": "c",
+    "text": "manter a mesma mola e aumentar dezesseis vezes a sua deformação."
+   },
+   {
+    "id": "d",
+    "text": "trocar a mola por outra de constante elástica duas vezes maior e manter a deformação."
+   },
+   {
+    "id": "e",
+    "text": "trocar a mola por outra de constante elástica quatro vezes maior e manter a deformação."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-093-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 93",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-094",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Esquema\n\ndo Gel 1\n\nalelo 1\n\nloco A alelo 2\n\nalelo 3\n\nalelo 4\n\nEsquema\n\ndo Gel 2\n\nalelo 1\n\nloco B alelo 2\n\nalelo 3\n\nalelo 4\n\nalelo 5",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-094-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 94",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-095",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Considere, em um fragmento ambiental, uma árvore matriz com frutos (M) e outras cinco que produziram flores e são apenas doadoras de pólen (DP1, DP2, DP3, DP4 e DP5). Foi excluída a capacidade de autopolinização das árvores. Os genótipos da matriz, da semente (S1) e das prováveis fontes de pólen foram obtidos pela análise de dois locos (loco A e loco B) de marcadores de DNA, conforme a figura.\n\nM\nS1\nDP1\nDP2\nDP3\nDP4\nDP5\n\nM\nS1\nDP1\nDP2\nDP3\nDP4\nDP5\n\nCOLLEVATTI, R. G.; TELLES, M. P.; SOARES, T. N. Dispersão do pólen entre pequizeiros: uma atividade para a genética do ensino superior. Genética na Escola, n. 1, 2013 (adaptado). A progênie S1 recebeu o pólen de qual doadora?\n\nEm desenhos animados é comum vermos a personagem tentando impulsionar um barco soprando ar contra a vela para compensar a falta de vento. Algumas vezes usam o próprio fôlego, foles ou ventiladores. Estudantes de um laboratório didático resolveram investigar essa possibilidade. Para isso, usaram dois pequenos carros de plástico, A e B, instalaram sobre estes pequenas ventoinhas e fixaram verticalmente uma cartolina de curvatura parabólica para desempenhar uma função análoga à vela de um barco. No carro B inverteu-se o sentido da ventoinha e manteve-se a vela, a fim de manter as características físicas do barco, massa e formato da cartolina. As figuras representam os carros produzidos. A montagem do carro A busca simular a situação dos desenhos animados, pois a ventoinha está direcionada para a vela.\n\nCarro A Carro B\n\nCom os carros orientados de acordo com as figuras, os estudantes ligaram as ventoinhas, aguardaram o fluxo de ar ficar permanente e determinaram os módulos das velocidades médias dos carros A (VA) e B (VB) para o mesmo intervalo de tempo. A respeito das intensidades das velocidades médias e do sentido de movimento do carro A, os estudantes observaram que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "VA = 0; VB > 0; o carro A não se move."
+   },
+   {
+    "id": "b",
+    "text": "0 < VA < VB; o carro A se move para a direita."
+   },
+   {
+    "id": "c",
+    "text": "0 < VA < VB; o carro A se move para a esquerda."
+   },
+   {
+    "id": "d",
+    "text": "0 < VB < VA; o carro A se move para a direita."
+   },
+   {
+    "id": "e",
+    "text": "0 < VB < VA; o carro A se move para a esquerda."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 95",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-096",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas- -operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.\n\nLE COUTEUR, P.; BURRESON, J. Os botões de Napoleão: as 17 moléculas\n\nque mudaram a história. Rio de Janeiro: Jorge Zahar, 2006 (adaptado). As moléculas dos sinalizadores químicos produzidas pelas abelhas rainha e operária possuem diferença na",
+  "options": [
+   {
+    "id": "a",
+    "text": "fórmula estrutural."
+   },
+   {
+    "id": "b",
+    "text": "fórmula molecular."
+   },
+   {
+    "id": "c",
+    "text": "identificação dos tipos de ligação."
+   },
+   {
+    "id": "d",
+    "text": "contagem do número de carbonos."
+   },
+   {
+    "id": "e",
+    "text": "identificação dos grupos funcionais."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 96",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-097",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Insetos podem apresentar três tipos de desenvolvimento. Um deles, a holometabolia (desenvolvimento completo), é constituído pelas fases de ovo, larva, pupa e adulto sexualmente maduro, que ocupam diversos hábitats. Os insetos com holometabolia pertencem às ordens mais numerosas em termos de espécies conhecidas. Esse tipo de desenvolvimento está relacionado a um maior número de espécies em razão da",
+  "options": [
+   {
+    "id": "a",
+    "text": "proteção na fase de pupa, favorecendo a sobrevivência de adultos férteis."
+   },
+   {
+    "id": "b",
+    "text": "produção de muitos ovos, larvas e pupas, aumentando o número de adultos."
+   },
+   {
+    "id": "c",
+    "text": "exploração de diferentes nichos, evitando a competição entre as fases da vida."
+   },
+   {
+    "id": "d",
+    "text": "ingestão de alimentos em todas as fases de vida, garantindo o surgimento do adulto."
+   },
+   {
+    "id": "e",
+    "text": "utilização do mesmo alimento em todas as fases, otimizando a nutrição do organismo."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 97",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-098",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Talvez você já tenha bebido suco usando dois canudinhos iguais. Entretanto, pode-se verificar que, se colocar um canudo imerso no suco e outro do lado de fora do líquido, fazendo a sucção simultaneamente em ambos, você terá dificuldade em bebê-lo. Essa dificuldade ocorre porque o(a)",
+  "options": [
+   {
+    "id": "a",
+    "text": "força necessária para a sucção do ar e do suco simultaneamente dobra de valor."
+   },
+   {
+    "id": "b",
+    "text": "densidade do ar é menor que a do suco, portanto, o volume de ar aspirado é muito maior que o volume de suco."
+   },
+   {
+    "id": "c",
+    "text": "velocidade com que o suco sobe deve ser constante nos dois canudos, o que é impossível com um dos canudos de fora."
+   },
+   {
+    "id": "d",
+    "text": "peso da coluna de suco é consideravelmente maior que o peso da coluna de ar, o que dificulta a sucção do líquido."
+   },
+   {
+    "id": "e",
+    "text": "pressão no interior da boca assume praticamente o mesmo valor daquela que atua sobre o suco."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 98",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-099",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O alemão Fritz Haber recebeu o Prêmio Nobel de química de 1918 pelo desenvolvimento de um processo viável para a síntese da amônia (NH3). Em seu discurso de premiação, Haber justificou a importância do feito dizendo que:\n\n“Desde a metade do século passado, tornou-se conhecido que um suprimento de nitrogênio é uma necessidade básica para o aumento das safras de alimentos; entretanto, também se sabia que as plantas não podem absorver o nitrogênio em sua forma simples, que é o principal constituinte da atmosfera. Elas precisam que o nitrogênio seja combinado [...] para poderem assimilá-lo.\n\nEconomias agrícolas basicamente mantêm o balanço do nitrogênio ligado. No entanto, com o advento da era industrial, os produtos do solo são levados de onde cresce a colheita para lugares distantes, onde são consumidos, fazendo com que o nitrogênio ligado não retorne à terra da qual foi retirado.\n\nIsso tem gerado a necessidade econômica mundial de abastecer o solo com nitrogênio ligado. [...] A demanda por nitrogênio, tal como a do carvão, indica quão diferente nosso modo de vida se tornou com relação ao das pessoas que, com seus próprios corpos, fertilizam o solo que cultivam.\n\nDesde a metade do último século, nós vínhamos aproveitando o suprimento de nitrogênio do salitre que a natureza tinha depositado nos desertos montanhosos do Chile. Comparando o rápido crescimento da demanda com a extensão calculada desses depósitos, ficou claro que em meados do século atual uma emergência seríssima seria inevitável, a menos que a química encontrasse uma saída.”\n\nHABER, F. The Synthesis of Ammonia from its Elements. Disponível em: www.nobelprize.org. Acesso em: 13 jul. 2013 (adaptado).\n\nDe acordo com os argumentos de Haber, qual fenômeno teria provocado o desequilíbrio no “balanço do nitrogênio ligado”?",
+  "options": [
+   {
+    "id": "a",
+    "text": "O esgotamento das reservas de salitre no Chile."
+   },
+   {
+    "id": "b",
+    "text": "O aumento da exploração de carvão vegetal e carvão mineral."
+   },
+   {
+    "id": "c",
+    "text": "A redução da fertilidade do solo nas economias agrícolas."
+   },
+   {
+    "id": "d",
+    "text": "A intensificação no fluxo de pessoas do campo para as cidades."
+   },
+   {
+    "id": "e",
+    "text": "A necessidade das plantas de absorverem sais de nitrogênio disponíveis no solo."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 99",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-100",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Em 1938 o arqueólogo alemão Wilhelm König, diretor do Museu Nacional do Iraque, encontrou um objeto estranho na coleção da instituição, que poderia ter sido usado como uma pilha, similar às utilizadas em nossos dias. A suposta pilha, datada de cerca de 200 a.C., é constituída de um pequeno vaso de barro (argila) no qual foram instalados um tubo de cobre, uma barra de ferro (aparentemente corroída por ácido) e uma tampa de betume (asfalto), conforme ilustrado. Considere os potenciais-padrão de redução: E (Fe2+|Fe) = −0,44 V; E (H+|H2) = 0,00 V; e E (Cu2+|Cu) = +0,34 V.\n\nTampa de\n\nbetume\n\nBarra de ferro\n\nTubo de cobre\n\nVestígio de ácido\n\nVaso de\n\nbarro\n\nAs pilhas de Bagdá e a acupuntura. Disponível em: http://jornalggn.com.br.\n\nAcesso em: 14 dez. 2014 (adaptado). Nessa suposta pilha, qual dos componentes atuaria como cátodo?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-100-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 100",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-101",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Anabolismo e catabolismo são processos celulares antagônicos, que são controlados principalmente pela ação hormonal. Por exemplo, no fígado a insulina atua como um hormônio com ação anabólica, enquanto o glucagon tem ação catabólica e ambos são secretados em resposta ao nível de glicose sanguínea. Em caso de um indivíduo com hipoglicemia, o hormônio citado que atua no catabolismo induzirá o organismo a",
+  "options": [
+   {
+    "id": "a",
+    "text": "realizar a fermentação lática."
+   },
+   {
+    "id": "b",
+    "text": "metabolizar aerobicamente a glicose."
+   },
+   {
+    "id": "c",
+    "text": "produzir aminoácidos a partir de ácidos graxos."
+   },
+   {
+    "id": "d",
+    "text": "transformar ácidos graxos em glicogênio."
+   },
+   {
+    "id": "e",
+    "text": "estimular a utilização do glicogênio."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 101",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-102",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Usando um densímetro cuja menor divisão da escala, isto é, a diferença entre duas marcações consecutivas, é de 5,0 × 10−2 g cm−3, um estudante realizou um teste de densidade: colocou este instrumento na água pura e observou que ele atingiu o repouso na posição mostrada.\n\nLegenda:\n\nDensímetro\n\nÁgua\n\nEm dois outros recipientes A e B contendo 2 litros de água pura, em cada um, ele adicionou 100 g e 200 g de NaCl, respectivamente.\n\nQuando o cloreto de sódio é adicionado à água pura ocorre sua dissociação formando os íons Na+ e Cl−. Considere que esses íons ocupam os espaços intermoleculares na solução. Nestes recipientes, a posição de equilíbrio do densímetro está representada em:\n\nA B\n\nA\n\nA B\n\nB\n\nA B\n\nC\n\nA B\n\nD\n\nA B\n\nE",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-102-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 102",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-103",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "RESULTADOS DOS CRUZAMENTOS\n\nPÃO DE AÇÚCAR\n\nITIRAPINA\n\nITAPEVA\n\nBERTIOGA\n\nDOADOR RECEPTOR - Polinização induzida bem-sucedida\n\nDOADOR RECEPTOR - Polinização induzida inviável ou nula\n\nMata Atlântica Cerrado\n\nEm populações de quais localidades se observa um processo de especiação evidente?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-103-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 103",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-104",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-104-1.png",
+   "/enem/2018/d2-104-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 104",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-105",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O deserto é um bioma que se localiza em regiões de pouca umidade. A fauna é, predominantemente, composta por animais roedores, aves, répteis e artrópodes. Uma adaptação, associada a esse bioma, presente nos seres vivos dos grupos citados é o(a)",
+  "options": [
+   {
+    "id": "a",
+    "text": "existência de numerosas glândulas sudoríparas na epiderme."
+   },
+   {
+    "id": "b",
+    "text": "eliminação de excretas nitrogenadas de forma concentrada."
+   },
+   {
+    "id": "c",
+    "text": "desenvolvimento do embrião no interior de ovo com casca."
+   },
+   {
+    "id": "d",
+    "text": "capacidade de controlar a temperatura corporal."
+   },
+   {
+    "id": "e",
+    "text": "respiração realizada por pulmões foliáceos."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 105",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-106",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O sulfeto de mercúrio(II) foi usado como pigmento vermelho para pinturas de quadros e murais. Esse pigmento, conhecido como vermilion, escurece com o passar dos anos, fenômeno cuja origem é alvo de pesquisas. Aventou-se a hipótese de que o vermilion seja decomposto sob a ação da luz, produzindo uma fina camada de mercúrio metálico na superfície. Essa reação seria catalisada por íon cloreto presente na umidade do ar.\n\nWOGAN, T. Mercury's Dark Influence on Art. Disponível em: www.chemistryworld.com.\n\nAcesso em: 26 abr. 2018 (adaptado).\nSegundo a hipótese proposta, o íon cloreto atua na\ndecomposição fotoquímica do vermilion",
+  "options": [
+   {
+    "id": "a",
+    "text": "reagindo como agente oxidante."
+   },
+   {
+    "id": "b",
+    "text": "deslocando o equilíbrio químico."
+   },
+   {
+    "id": "c",
+    "text": "diminuindo a energia de ativação."
+   },
+   {
+    "id": "d",
+    "text": "precipitando cloreto de mercúrio."
+   },
+   {
+    "id": "e",
+    "text": "absorvendo a energia da luz visível."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 106",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-107",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O sonorizador é um dispositivo físico implantado sobre a superfície de uma rodovia de modo que provoque uma trepidação e ruído quando da passagem de um veículo sobre ele, alertando para uma situação atípica à frente, como obras, pedágios ou travessia de pedestres. Ao passar sobre os sonorizadores, a suspensão do veículo sofre vibrações que produzem ondas sonoras, resultando em um barulho peculiar. Considere um veículo que passe com velocidade constante igual a 108 km\n\nh sobre um sonorizador cujas faixas são separadas por uma distância de 8 cm.\n\nDisponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado). A frequência da vibração do automóvel percebida pelo condutor durante a passagem nesse sonorizador é mais próxima de",
+  "options": [
+   {
+    "id": "a",
+    "text": "8,6 hertz."
+   },
+   {
+    "id": "b",
+    "text": "13,5 hertz."
+   },
+   {
+    "id": "c",
+    "text": "375 hertz."
+   },
+   {
+    "id": "d",
+    "text": "1 350 hertz."
+   },
+   {
+    "id": "e",
+    "text": "4 860 hertz."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 107",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-108",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. A figura mostra alguns exemplos desses objetos.\n\nEm qual dos objetos a força potente é maior que a força resistente?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Pinça."
+   },
+   {
+    "id": "b",
+    "text": "Alicate."
+   },
+   {
+    "id": "c",
+    "text": "Quebra-nozes."
+   },
+   {
+    "id": "d",
+    "text": "Carrinho de mão."
+   },
+   {
+    "id": "e",
+    "text": "Abridor de garrafa."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-108-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 108",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-109",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Na mitologia grega, Nióbia era a filha de Tântalo, dois personagens conhecidos pelo sofrimento. O elemento químico de número atômico (Z) igual a 41 tem propriedades químicas e físicas tão parecidas com as do elemento de número atômico 73 que chegaram a ser confundidos. Por isso, em homenagem a esses dois personagens da mitologia grega, foi conferido a esses elementos os nomes de nióbio (Z = 41) e tântalo (Z = 73). Esses dois elementos químicos adquiriram grande importância econômica na metalurgia, na produção de supercondutores e em outras aplicações na indústria de ponta, exatamente pelas propriedades químicas e físicas comuns aos dois.\n\nKEAN, S. A colher que desaparece: e outras histórias reais de loucura, amor e morte a\n\npartir dos elementos químicos. Rio de Janeiro: Zahar, 2011 (adaptado).\n\nA importância econômica e tecnológica desses elementos, pela similaridade de suas propriedades químicas e físicas, deve-se a",
+  "options": [
+   {
+    "id": "a",
+    "text": "terem elétrons no subnível f."
+   },
+   {
+    "id": "b",
+    "text": "serem elementos de transição interna."
+   },
+   {
+    "id": "c",
+    "text": "pertencerem ao mesmo grupo na tabela periódica."
+   },
+   {
+    "id": "d",
+    "text": "terem seus elétrons mais externos nos níveis 4 e 5, respectivamente."
+   },
+   {
+    "id": "e",
+    "text": "estarem localizados na família dos alcalinos terrosos e alcalinos, respectivamente."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 109",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-110",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Corante\nEletrodo de Pt\nEletrodo de TiO2\ncom corante\n\ne−\n\nS*\n\nhv\n\nMediador de\n\ncarga\n\nI3\n\nI−\n\nS/S+\n\ne− e−\n\ne−\n\ne−\n\nA reação 3 é fundamental para o contínuo funcionamento da célula solar, pois",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-110-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 110",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-111",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Qual linhagem deve ser escolhida pelo pesquisador?",
+  "options": [
+   {
+    "id": "a",
+    "text": "I"
+   },
+   {
+    "id": "b",
+    "text": "II"
+   },
+   {
+    "id": "c",
+    "text": "III"
+   },
+   {
+    "id": "d",
+    "text": "IV"
+   },
+   {
+    "id": "e",
+    "text": "V Células solares à base de TiO2 sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO2 é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO2. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas. TiO2|S + hν → TiO2|S* (1) TiO2|S* → TiO2|S+ + e− (2) TiO2|S+ + I− → TiO2|S + I3 − 3 2 1 2 (3) 1 2 I3 − + e− → I− 3 2 (4) LONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado). O nível metabólico de uma célula pode ser determinado pela taxa de síntese de RNAs e proteínas, processos dependentes de energia. Essa diferença na taxa de síntese de biomoléculas é refletida na abundância e características morfológicas dos componentes celulares. Em uma empresa de produção de hormônios proteicos a partir do cultivo de células animais, um pesquisador deseja selecionar uma linhagem com o metabolismo de síntese mais elevado, dentre as cinco esquematizadas na figura."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 111",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-112",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Ao pesquisar um resistor feito de um novo tipo\nde material, um cientista observou o comportamento\nmostrado no gráfico tensão versus corrente.\n\n120\n\n100\n\n80\n\nTensão (V)\n\n60\n\n40\n\n20\n\n0\n1\n2\n3\n4\n5\n6\n7\n\nCorrente (A) Após a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 i + i 2. O gráfico da resistência elétrica (R) do resistor em função da corrente (i) é\n\n20\n\n15\n\nR (Ω)\n\n10\n\nA\n\n00\n1\n2\n3\n4\n5\n6\n7\n\ni (A) 30\n\n25\n\nR (Ω)\n\n20\n\nB\n\n15\n\n10 0\n1\n2\n3\n4\n5\n6\n7\n\ni (A)\n\nR (Ω)\n\nC\n\n1\n0\n0\n1\n2\n3\n4\n5\n6\n7\n\ni (A)\n\n18\n\n16\n\n14\n\nR (Ω)\n\n12\n\nD\n\n10\n\n8\n0\n1\n2\n3\n4\n5\n6\n7\n\ni (A)\n\n50 60\n\n40\n\nR (Ω)\n\n30\n\nE\n\n20\n\n10\n\n0\n0\n1\n2\n3\n4\n5\n6\n7\n\ni (A)",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-112-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 112",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-113",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "A hidroxilamina (NH2OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.\n\nO\n\nO\n\nNH2\n\n+\n\nOH\n\nO\n\nO\n\nO\n\nProduto A\n\n+ NH2OH\n\nO\n\nO\n\nO\n\nAnidrido\n\nOH N\n\nacético\n\n+\n\nOH\n\nH\n\nProduto B\n\nO produto A é favorecido em relação ao B, por um fator de 105. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as móleculas numeradas de 1 a 5.\n\nHO\n\nHO N\n\nHO N\n\nO N\n\nNH2\nN\nO\n\nH\n\nH\n1\n2\n3\n\n5\n\n4\n\nDentre as moléculas testadas, qual delas apresentou menor reatividade?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-113-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 113",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-114",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Um estudante relatou que o mapeamento do DNA da cevada foi quase todo concluído e seu código genético desvendado. Chamou atenção para o número de genes que compõem esse código genético e que a semente da cevada, apesar de pequena, possui um genoma mais complexo que o humano, sendo boa parte desse código constituída de sequências repetidas. Nesse contexto, o conceito de código genético está abordado de forma equivocada. Cientificamente esse conceito é definido como",
+  "options": [
+   {
+    "id": "a",
+    "text": "trincas de nucleotídeos que codificam os aminoácidos."
+   },
+   {
+    "id": "b",
+    "text": "localização de todos os genes encontrados em um genoma."
+   },
+   {
+    "id": "c",
+    "text": "codificação de sequências repetidas presentes em um genoma."
+   },
+   {
+    "id": "d",
+    "text": "conjunto de todos os RNAs mensageiros transcritos em um organismo."
+   },
+   {
+    "id": "e",
+    "text": "todas as sequências de pares de bases presentes em um organismo."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 114",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-115",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "A polinização, que viabiliza o transporte do grão de pólen de uma planta até o estigma de outra, pode ser realizada biótica ou abioticamente. Nos processos abióticos, as plantas dependem de fatores como o vento e a água. A estratégia evolutiva que resulta em polinização mais eficiente quando esta depende do vento é o(a)",
+  "options": [
+   {
+    "id": "a",
+    "text": "diminuição do cálice."
+   },
+   {
+    "id": "b",
+    "text": "alongamento do ovário."
+   },
+   {
+    "id": "c",
+    "text": "disponibilização do néctar."
+   },
+   {
+    "id": "d",
+    "text": "intensificação da cor das pétalas."
+   },
+   {
+    "id": "e",
+    "text": "aumento do número de estames."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 115",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-116",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque. A imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque.\n\n4 kΩ 4 kΩ\n\n4 kΩ\n\n+\n\nε\n\nA\n\n-\n\n4 kΩ\n\nB\n\nQual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-116-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 116",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-117",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Companhias que fabricam jeans usam cloro para o clareamento, seguido de lavagem. Algumas estão substituindo o cloro por substâncias ambientalmente mais seguras como peróxidos, que podem ser degradados por enzimas chamadas peroxidases. Pensando nisso, pesquisadores inseriram genes codificadores de peroxidases em leveduras cultivadas nas condições de clareamento e lavagem dos jeans e selecionaram as sobreviventes para produção dessas enzimas.\n\nTORTORA, G. J.; FUNKE, B. R.; CASE, C. L. Microbiologia.\n\nRio de Janeiro: Artmed, 2016 (adaptado).\n\nNesse caso, o uso dessas leveduras modificadas objetiva",
+  "options": [
+   {
+    "id": "a",
+    "text": "reduzir a quantidade de resíduos tóxicos nos efluentes da lavagem."
+   },
+   {
+    "id": "b",
+    "text": "eliminar a necessidade de tratamento da água consumida."
+   },
+   {
+    "id": "c",
+    "text": "elevar a capacidade de clareamento dos jeans."
+   },
+   {
+    "id": "d",
+    "text": "aumentar a resistência do jeans a peróxidos."
+   },
+   {
+    "id": "e",
+    "text": "associar ação bactericida ao clareamento."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 117",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-118",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular.\n\nC6H12O6 (s) + 6 O2 (g) → 6 CO2 (g) + 6 H2O (l) ∆cH = −2 800 kJ\n\nConsidere as massas molares (em g mol−1): H = 1; C = 12; O = 16.\n\nLIMA, L. M.; FRAGA, C. A. M.; BARREIRO, E. J. Química na saúde.\n\nSão Paulo: Sociedade Brasileira de Química, 2010 (adaptado).\n\nNa oxidação de 1,0 grama de glicose, a energia obtida para atividade muscular, em quilojoule, é mais próxima de",
+  "options": [
+   {
+    "id": "a",
+    "text": "6,2."
+   },
+   {
+    "id": "b",
+    "text": "15,6."
+   },
+   {
+    "id": "c",
+    "text": "70,0."
+   },
+   {
+    "id": "d",
+    "text": "622,2."
+   },
+   {
+    "id": "e",
+    "text": "1 120,0."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 118",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-119",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Alguns peixes, como o poraquê, a enguia-elétrica da Amazônia, podem produzir uma corrente elétrica quando se encontram em perigo. Um poraquê de 1 metro de comprimento, em perigo, produz uma corrente em torno de 2 ampères e uma voltagem de 600 volts.\n\nO quadro apresenta a potência aproximada de equipamentos elétricos.\n\nEquipamento elétrico Potência aproximada (watt)\n\nExaustor 150\n\nComputador 300\n\nAspirador de pó 600\n\nChurrasqueira elétrica 1 200\n\nSecadora de roupas 3 600\n\nO equipamento elétrico que tem potência similar àquela produzida por esse peixe em perigo é o(a)",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-119-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 119",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-120",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R0) corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T1 a T4 (temperaturas crescentes).\n\nEnergia de ligação\n\nDistância interatômica\n\nR\n\n0\n\nT\n\nT\n\nT\n\nT\n\nT = 0 K\n\nO deslocamento observado na distância média revela o fenômeno da",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-120-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 120",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-121",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "A utilização de extratos de origem natural tem recebido a atenção de pesquisadores em todo o mundo, principalmente nos países em desenvolvimento que são altamente acometidos por doenças infecciosas e parasitárias. Um bom exemplo dessa utilização são os produtos de origem botânica que combatem insetos. O uso desses produtos pode auxiliar no controle da",
+  "options": [
+   {
+    "id": "a",
+    "text": "esquistossomose."
+   },
+   {
+    "id": "b",
+    "text": "leptospirose."
+   },
+   {
+    "id": "c",
+    "text": "leishmaniose."
+   },
+   {
+    "id": "d",
+    "text": "hanseníase."
+   },
+   {
+    "id": "e",
+    "text": "aids."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 121",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-122",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som mono, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida.\n\nPolaridade correta\n\nSaídas do equipamento de som\n\nD\n\nE\n\nE\n\nD\n\nCaixa de som Caixa de som\n\nPolaridade invertida\n\nSaídas do equipamento de som\n\nD\n\nE\n\nE\n\nD\n\nCaixa de som Caixa de som\n\nO que ocorre com os alto-falantes E e D se forem conectados de acordo com o segundo esquema?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-122-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 122",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-123",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Amarelo\n\nVioleta\n\nVerde\n\nAzul\n\n400\n450\n500\n550\n600\n650\n700\n750\n(nm)\n\nFace A Face B\n\nFeixe incidente\n\nPrisma\n\nObservando os pontos luminosos revelados no filme, de baixo para cima, constatam-se as seguintes cores:",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-123-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 123",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-124",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Qual a fórmula estrutural do tensoativo persistente no ambiente mencionado no texto?\n\n15\n20\nO\nOH\nD\nCl\nN+\n\nA\n\nSO3\n\nNa+\n\nB\n\nC\n\nSO3\n\nNa+\n\nA figura representa um prisma óptico, constituído de um material transparente, cujo índice de refração é crescente com a frequência da luz que sobre ele incide. Um feixe luminoso, composto por luzes vermelha, azul e verde, incide na face A, emerge na face B e, após ser refletido por um espelho, incide num filme para fotografia colorida, revelando três pontos.\n\nVermelho\n\nLaranja\n\nPerfil do filme\n\nEspelho\n\nTensoativos são compostos orgânicos que possuem comportamento anfifílico, isto é, possuem duas regiões, uma hidrofóbica e outra hidrofílica. O principal tensoativo aniônico sintético surgiu na década de 1940 e teve grande aceitação no mercado de detergentes em razão do melhor desempenho comparado ao do sabão. No entanto, o uso desse produto provocou grandes problemas ambientais, dentre eles a resistência à degradação biológica, por causa dos diversos carbonos terciários na cadeia que compõe a porção hidrofóbica desse tensoativo aniônico. As ramificações na cadeia dificultam sua degradação, levando à persistência no meio ambiente por longos períodos. Isso levou a sua substituição na maioria dos países por tensoativos biodegradáveis, ou seja, com cadeias alquílicas lineares.\n\nPENTEADO, J. C. P.; EL SEOUD, O. A.; CARVALHO, L. R. F. [...]: uma abordagem ambiental e analítica. Química Nova, n. 5, 2006 (adaptado).\n\nCl\n\nN+\n\nE",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-124-1.png",
+   "/enem/2018/d2-124-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 124",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-125",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O manejo adequado do solo possibilita a manutenção de sua fertilidade à medida que as trocas de nutrientes entre matéria orgânica, água, solo e o ar são mantidas para garantir a produção. Algumas espécies iônicas de alumínio são tóxicas, não só para a planta, mas para muitos organismos como as bactérias responsáveis pelas transformações no ciclo do nitrogênio. O alumínio danifica as membranas das células das raízes e restringe a expansão de suas paredes, com isso, a planta não cresce adequadamente. Para promover benefícios para a produção agrícola, é recomendada a remediação do solo utilizando calcário (CaCO3).\n\nBRADY, N. C.; WEIL, R. R. Elementos da natureza e propriedades dos solos.\n\nPorto Alegre: Bookman, 2013 (adaptado).\n\nEssa remediação promove no solo o(a)",
+  "options": [
+   {
+    "id": "a",
+    "text": "diminuição do pH, deixando-o fértil."
+   },
+   {
+    "id": "b",
+    "text": "solubilização do alumínio, ocorrendo sua lixiviação pela chuva."
+   },
+   {
+    "id": "c",
+    "text": "interação do íon cálcio com o íon alumínio, produzindo uma liga metálica."
+   },
+   {
+    "id": "d",
+    "text": "reação do carbonato de cálcio com os íons alumínio, formando alumínio metálico."
+   },
+   {
+    "id": "e",
+    "text": "aumento da sua alcalinidade, tornando os íons alumínio menos disponíveis."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 125",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-126",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Visando a melhoria estética de um veículo, o vendedor de uma loja sugere ao consumidor que ele troque as rodas de seu automóvel de aro 15 polegadas para aro 17 polegadas, o que corresponde a um diâmetro maior do conjunto roda e pneu.\n\nDuas consequências provocadas por essa troca de aro são:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Elevar a posição do centro de massa do veículo tornando-o mais instável e aumentar a velocidade do automóvel em relação à indicada no velocímetro."
+   },
+   {
+    "id": "b",
+    "text": "Abaixar a posição do centro de massa do veículo tornando-o mais instável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+   },
+   {
+    "id": "c",
+    "text": "Elevar a posição do centro de massa do veículo tornando-o mais estável e aumentar a velocidade do automóvel em relação à indicada no velocímetro."
+   },
+   {
+    "id": "d",
+    "text": "Abaixar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+   },
+   {
+    "id": "e",
+    "text": "Elevar a posição do centro de massa do veículo tornando-o mais estável e diminuir a velocidade do automóvel em relação à indicada no velocímetro."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 126",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-127",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "As células e os organismos precisam realizar trabalho para permanecerem vivos e se reproduzirem. A energia metabólica necessária para a realização desse trabalho é oriunda da oxidação de combustíveis, gerados no ciclo do carbono, por meio de processos capazes de interconverter diferentes formas da energia.\n\nNELSON, D. L.; COX, M. M. Lehninger: princípios de bioquímica.\n\nSão Paulo: Sarvier, 2002 (adaptado). Nesse ciclo, a formação de combustíveis está vinculada à conversão de energia",
+  "options": [
+   {
+    "id": "a",
+    "text": "térmica em cinética."
+   },
+   {
+    "id": "b",
+    "text": "química em térmica."
+   },
+   {
+    "id": "c",
+    "text": "eletroquímica em calor."
+   },
+   {
+    "id": "d",
+    "text": "cinética em eletromagnética."
+   },
+   {
+    "id": "e",
+    "text": "eletromagnética em química."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-127-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 127",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-128",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O petróleo é uma fonte de energia de baixo custo e de larga utilização como matéria-prima para uma grande variedade de produtos. É um óleo formado de várias substâncias de origem orgânica, em sua maioria hidrocarbonetos de diferentes massas molares. São utilizadas técnicas de separação para obtenção dos componentes comercializáveis do petróleo. Além disso, para aumentar a quantidade de frações comercializáveis, otimizando o produto de origem fóssil, utiliza-se o processo de craqueamento. O que ocorre nesse processo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Transformação das frações do petróleo em outras moléculas menores."
+   },
+   {
+    "id": "b",
+    "text": "Reação de óxido-redução com transferência de elétrons entre as moléculas."
+   },
+   {
+    "id": "c",
+    "text": "Solubilização das frações do petróleo com a utilização de diferentes solventes."
+   },
+   {
+    "id": "d",
+    "text": "Decantação das moléculas com diferentes massas molares pelo uso de centrífugas."
+   },
+   {
+    "id": "e",
+    "text": "Separação dos diferentes componentes do petróleo em função de suas temperaturas de ebulição."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 128",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-129",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "365 nm\n\n420 nm\n\nO fenômeno de movimento molecular, promovido pela incidência de luz, decorre do(a)",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-129-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 129",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-130",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "O quadro resume alguns dados aproximados sobre esses combustíveis.\n\nEtanol\n0,8\n−6\n\nGasolina\n0,7\n−10\n\nO volume de etanol combustível, em litro, consumido no percurso de volta é mais próximo de",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-130-1.png",
+   "/enem/2018/d2-130-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 130",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-131",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Para serem absorvidos pelas células do intestino humano, os lipídios ingeridos precisam ser primeiramente emulsificados. Nessa etapa da digestão, torna-se necessária a ação dos ácidos biliares, visto que os lipídios apresentam uma natureza apolar e são insolúveis em água. Esses ácidos atuam no processo de modo a",
+  "options": [
+   {
+    "id": "a",
+    "text": "hidrolisar os lipídios."
+   },
+   {
+    "id": "b",
+    "text": "agir como detergentes."
+   },
+   {
+    "id": "c",
+    "text": "tornar os lipídios anfifílicos."
+   },
+   {
+    "id": "d",
+    "text": "promover a secreção de lipases."
+   },
+   {
+    "id": "e",
+    "text": "estimular o trânsito intestinal dos lipídios."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 131",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-132",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "A tecnologia de comunicação da etiqueta RFID (chamada de etiqueta inteligente) é usada há anos para rastrear gado, vagões de trem, bagagem aérea e carros nos pedágios. Um modelo mais barato dessas etiquetas pode funcionar sem baterias e é constituído por três componentes: um microprocessador de silício; uma bobina de metal, feita de cobre ou de alumínio, que é enrolada em um padrão circular; e um encapsulador, que é um material de vidro ou polímero envolvendo o microprocessador e a bobina. Na presença de um campo de radiofrequência gerado pelo leitor, a etiqueta transmite sinais. A distância de leitura é determinada pelo tamanho da bobina e pela potência da onda de rádio emitida pelo leitor.\n\nDisponível em: http://eletronicos.hsw.uol.com.br. Acesso em: 27 fev. 2012 (adaptado).\n\nA etiqueta funciona sem pilhas porque o campo",
+  "options": [
+   {
+    "id": "a",
+    "text": "elétrico da onda de rádio agita elétrons da bobina."
+   },
+   {
+    "id": "b",
+    "text": "elétrico da onda de rádio cria uma tensão na bobina."
+   },
+   {
+    "id": "c",
+    "text": "magnético da onda de rádio induz corrente na bobina."
+   },
+   {
+    "id": "d",
+    "text": "magnético da onda de rádio aquece os fios da bobina."
+   },
+   {
+    "id": "e",
+    "text": "magnético da onda de rádio diminui a ressonância no interior da bobina."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 132",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-133",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "Corredores ecológicos visam mitigar os efeitos da fragmentação dos ecossistemas promovendo a ligação entre diferentes áreas, com o objetivo de proporcionar o deslocamento de animais, a dispersão de sementes e o aumento da cobertura vegetal. São instituídos com base em informações como estudos sobre o deslocamento de espécies, sua área de vida (área necessária para o suprimento de suas necessidades vitais e reprodutivas) e a distribuição de suas populações.\n\nDisponível em: www.mma.gov.br. Acesso em: 30 nov. 2017 (adaptado).\n\nNessa estratégia, a recuperação da biodiversidade é efetiva porque",
+  "options": [
+   {
+    "id": "a",
+    "text": "propicia o fluxo gênico."
+   },
+   {
+    "id": "b",
+    "text": "intensifica o manejo de espécies."
+   },
+   {
+    "id": "c",
+    "text": "amplia o processo de ocupação humana."
+   },
+   {
+    "id": "d",
+    "text": "aumenta o número de indivíduos nas populações."
+   },
+   {
+    "id": "e",
+    "text": "favorece a formação de ilhas de proteção integral."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 133",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-134",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inseridas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados.\n\nA sinalização mostrada identifica uma substância que está sendo transportada em um caminhão.\n\n268 1005\n\nGÁS TÓXICO\n\n2\n\nOs três algarismos da parte superior do painel indicam o “Número de risco”. O número 268 indica tratar-se de um gás (2), tóxico (6) e corrosivo (8). Os quatro dígitos da parte inferior correspondem ao “Número ONU”, que identifica o produto transportado.\n\nBRASIL. Resolução n. 420, de 12/02/2004, da Agência Nacional de Transportes Terrestres\n\n(ANTT)/Ministério dos Transportes (adaptado). ABNT. NBR 7500: identificação para o transporte terrestre, manuseio, movimentação e\n\narmazenamento de produtos. Rio de Janeiro, 2004 (adaptado).\n\nConsiderando a identificação apresentada no caminhão, o código 1005 corresponde à substância",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-134-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 134",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-135",
+  "stateCode": "ENEM",
+  "topic": "natureza",
+  "year": 2018,
+  "statement": "No ciclo celular atuam moléculas reguladoras. Dentre elas, a proteína p53 é ativada em resposta a mutações no DNA, evitando a progressão do ciclo até que os danos sejam reparados, ou induzindo a célula à autodestruição.\n\nALBERTS, B. et al. Fundamentos da biologia celular.\n\nPorto Alegre: Artmed, 2011 (adaptado). A ausência dessa proteína poderá favorecer a",
+  "options": [
+   {
+    "id": "a",
+    "text": "redução da síntese de DNA, acelerando o ciclo celular."
+   },
+   {
+    "id": "b",
+    "text": "saída imediata do ciclo celular, antecipando a proteção do DNA."
+   },
+   {
+    "id": "c",
+    "text": "ativação de outras proteínas reguladoras, induzindo a apoptose."
+   },
+   {
+    "id": "d",
+    "text": "manutenção da estabilidade genética, favorecendo a longevidade."
+   },
+   {
+    "id": "e",
+    "text": "proliferação celular exagerada, resultando na formação de um tumor."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 135",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-136",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Sobre um sistema cartesiano considera-se uma malha formada por circunferências de raios com medidas dadas por números naturais e por 12 semirretas com extremidades na origem, separadas por ângulos de π\n\n6\nrad,\nconforme a figura.\n\ny\n\n6\n\n5\n\n4\n\nA\n\n3\n\nB\n\n2\n\n1\n\n2\n3\n4\n5\n6\nx\n\n−5\n−6\n−4\n−3\n−2\n−1\n0\n1\n\n−1\n\n−2\n\n−3\n\n−4\n\n−5\n\n−6\n\nSuponha que os objetos se desloquem apenas pelas\nsemirretas e pelas circunferências dessa malha, não\npodendo passar pela origem (0 ; 0).\n\nConsidere o valor de π com aproximação de, pelo menos, uma casa decimal. Para realizar o percurso mais curto possível ao longo da malha, do ponto B até o ponto A, um objeto deve percorrer uma distância igual a",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-136-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 136",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-137",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um artesão possui potes cilíndricos de tinta cujas medidas externas são 4 cm de diâmetro e 6 cm de altura. Ele pretende adquirir caixas organizadoras para armazenar seus potes de tinta, empilhados verticalmente com tampas voltadas para cima, de forma que as caixas possam ser fechadas.\n\nNo mercado, existem cinco opções de caixas organizadoras, com tampa, em formato de paralelepípedo reto retângulo, vendidas pelo mesmo preço, possuindo as seguintes dimensões internas:\n\nModelo Comprimento\n\nLargura\n\nAltura\n\n(cm)\n\n(cm)\n\n(cm)\n\nI\n8\n8\n40\n\nII\n8\n20\n14\n\nIII\n18\n5\n35\n\nIV\n20\n12\n12\n\nV\n24\n8\n14\n\nQual desses modelos o artesão deve adquirir para conseguir armazenar o maior número de potes por caixa?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-137-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 137",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-138",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "A prefeitura de um pequeno município do interior decide colocar postes para iluminação ao longo de uma estrada retilínea, que inicia em uma praça central e termina numa fazenda na zona rural. Como a praça já possui iluminação, o primeiro poste será colocado a 80 metros da praça, o segundo, a 100 metros, o terceiro, a 120 metros, e assim sucessivamente, mantendo-se sempre uma distância de vinte metros entre os postes, até que o último poste seja colocado a uma distância de 1 380 metros da praça.\n\nSe a prefeitura pode pagar, no máximo, R$ 8 000,00 por poste colocado, o maior valor que poderá gastar com a colocação desses postes é",
+  "options": [
+   {
+    "id": "a",
+    "text": "R$ 512 000,00."
+   },
+   {
+    "id": "b",
+    "text": "R$ 520 000,00."
+   },
+   {
+    "id": "c",
+    "text": "R$ 528 000,00."
+   },
+   {
+    "id": "d",
+    "text": "R$ 552 000,00."
+   },
+   {
+    "id": "e",
+    "text": "R$ 584 000,00."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 138",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-139",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos. Um economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe esses valores em uma matriz A = [aij\n\n], em que 1 ≤ i ≤ 5 e 1 ≤ j ≤ 5, e o elemento aij corresponde ao total proveniente das operações feitas via TED, em milhão de real, transferidos do banco i para o banco j durante o mês. Observe que os elementos aii = 0, uma vez que TED é uma transferência entre bancos distintos. Esta é a matriz obtida para essa análise:\n\n0\n2\n2\n\n0\n0\n2\n1\n0\n1\n2\n0\n1\n1\n0\n2\n2\n0\n0\n3\n0\n1\n1\n0\n\nA =\n\nCom base nessas informações, o banco que transferiu a maior quantia via TED é o banco",
+  "options": [
+   {
+    "id": "a",
+    "text": "1."
+   },
+   {
+    "id": "b",
+    "text": "2."
+   },
+   {
+    "id": "c",
+    "text": "3."
+   },
+   {
+    "id": "d",
+    "text": "4."
+   },
+   {
+    "id": "e",
+    "text": "5."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 139",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-140",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, conceder-se-á uma redução de juros de acordo com o período de antecipação. Nesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ser paga em uma data futura. Um valor presente P submetido a juros compostos com taxa i, por um período de tempo n, produz um valor futuro V determinado pela fórmula\n\nV\nP\ni n\n=\n⋅\n+\n1\n\nEm um contrato de empréstimo com sessenta parcelas fixas mensais, de R$ 820,00, a uma taxa de juros de 1,32% ao mês, junto com a trigésima parcela será paga antecipadamente uma outra parcela, desde que o desconto seja superior a 25% do valor da parcela.\n\nUtilize 0,2877 como aproximação para In 4 3 e 0,0131 como aproximação para In (1,0132). A primeira das parcelas que poderá ser antecipada junto com a 30a é a",
+  "options": [
+   {
+    "id": "a",
+    "text": "56a"
+   },
+   {
+    "id": "b",
+    "text": "55a"
+   },
+   {
+    "id": "c",
+    "text": "52a"
+   },
+   {
+    "id": "d",
+    "text": "51a"
+   },
+   {
+    "id": "e",
+    "text": "45a"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 140",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-141",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um jogo pedagógico utiliza-se de uma interface algébrico-geométrica do seguinte modo: os alunos devem eliminar os pontos do plano cartesiano dando “tiros”, seguindo trajetórias que devem passar pelos pontos escolhidos. Para dar os tiros, o aluno deve escrever em uma janela do programa a equação cartesiana de uma reta ou de uma circunferência que passa pelos pontos e pela origem do sistema de coordenadas. Se o tiro for dado por meio da equação da circunferência, cada ponto diferente da origem que for atingido vale 2 pontos. Se o tiro for dado por meio da equação de uma reta, cada ponto diferente da origem que for atingido vale 1 ponto. Em uma situação de jogo, ainda restam os seguintes pontos para serem eliminados: A(0 ; 4), B(4 ; 4), C(4 ; 0), D(2 ; 2) e E(0 ; 2).\n\ny\n\n5\n\nA\n\nB\n\n4\n\n3\n\nD E\n\n2\n\n1\n\nx\n\nC\n\n1\n0\n6\n\n5\n\n4\n\n3\n\n2\n\nPassando pelo ponto A, qual equação forneceria a maior pontuação?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-141-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 141",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-142",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Devido ao não cumprimento das metas definidas para a campanha de vacinação contra a gripe comum e o vírus H1N1 em um ano, o Ministério da Saúde anunciou a prorrogação da campanha por mais uma semana. A tabela apresenta as quantidades de pessoas vacinadas dentre os cinco grupos de risco até a data de início da prorrogação da campanha.\n\nBalanço parcial nacional da vacinação\n\ncontra a gripe\n\nPopulação já\n\nvacinada\n\nGrupo de risco População\n\n(milhão)\n\n(milhão) (%)\n\nCrianças\n4,5\n0,9\n20\n\nProfissionais de saúde\n2,0\n1,0\n50\n\nGestantes\n2,5\n1,5\n60\n\nIndígenas\n0,5\n0,4\n80\n\nIdosos\n20,5\n8,2\n40\n\nDisponível em: http://portalsaude.saude.gov.br. Acesso em: 16 ago. 2012.\n\nQual é a porcentagem do total de pessoas desses grupos de risco já vacinadas?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-142-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 142",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-143",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Durante uma festa de colégio, um grupo de alunos organizou uma rifa. Oitenta alunos faltaram à festa e não participaram da rifa. Entre os que compareceram, alguns compraram três bilhetes, 45 compraram 2 bilhetes, e muitos compraram apenas um. O total de alunos que comprou um único bilhete era 20% do número total de bilhetes vendidos, e o total de bilhetes vendidos excedeu em 33 o número total de alunos do colégio.\n\nQuantos alunos compraram somente um bilhete?",
+  "options": [
+   {
+    "id": "a",
+    "text": "34"
+   },
+   {
+    "id": "b",
+    "text": "42"
+   },
+   {
+    "id": "c",
+    "text": "47"
+   },
+   {
+    "id": "d",
+    "text": "48"
+   },
+   {
+    "id": "e",
+    "text": "79"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 143",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-144",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura.\n\nUma artesã confecciona um quebra-cabeça como o descrito, de tal modo que a menor das peças é um triângulo retângulo isósceles cujos catetos medem 2 cm. O quebra-cabeça, quando montado, resultará em um quadrado cuja medida do lado, em centímetro, é",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-144-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 144",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-145",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em negrito uma diagonal que forma 30° com a\n\n6 cm, e ao\n\nborda inferior. O raio da base do cilindro mede π\n\nenrolar a faixa obtém-se uma linha em formato de hélice, como na figura.\n\n30°\n\nO valor da medida da altura do cilindro, em centímetro, é",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-145-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 145",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-146",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Para ganhar um prêmio, uma pessoa deverá retirar, sucessivamente e sem reposição, duas bolas pretas de uma mesma urna.\n\nInicialmente, as quantidades e cores das bolas são como descritas a seguir:\n\n•\t Urna A – Possui três bolas brancas, duas bolas\npretas e uma bola verde;\n•\t Urna B – Possui seis bolas brancas, três bolas\npretas e uma bola verde;\n•\t Urna C – Possui duas bolas pretas e duas bolas\nverdes;\n•\t Urna D – Possui três bolas brancas e três bolas\npretas.\nA pessoa deve escolher uma entre as cinco opções\napresentadas:\n\n• Opção 1 – Retirar, aleatoriamente, duas bolas da urna A; • Opção 2 – Retirar, aleatoriamente, duas bolas da urna B; • Opção 3 – Passar, aleatoriamente, uma bola da urna C para a urna A; após isso, retirar, aleatoriamente, duas bolas da urna A; • Opção 4 – Passar, aleatoriamente, uma bola da urna D para a urna C; após isso, retirar, aleatoriamente, duas bolas da urna C; • Opção 5 – Passar, aleatoriamente, uma bola da urna C para a urna D; após isso, retirar, aleatoriamente, duas bolas da urna D. Com o objetivo de obter a maior probabilidade possível de ganhar o prêmio, a pessoa deve escolher a opção",
+  "options": [
+   {
+    "id": "a",
+    "text": "1."
+   },
+   {
+    "id": "b",
+    "text": "2."
+   },
+   {
+    "id": "c",
+    "text": "3."
+   },
+   {
+    "id": "d",
+    "text": "4."
+   },
+   {
+    "id": "e",
+    "text": "5."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 146",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-147",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "A Ecofont possui design baseado na velha fonte Vera Sans. Porém, ela tem um diferencial: pequenos buraquinhos circulares congruentes, e em todo o seu corpo, presentes em cada símbolo. Esses furos proporcionam um gasto de tinta menor na hora da impressão.\n\nDisponível em: www.goo.gl. Acesso em: 2 dez. 2017 (adaptado).\n\nSuponha que a palavra ECO esteja escrita nessa fonte, com tamanho 192, e que seja composta por letras formadas por quadrados de lados x com furos circulares de raio\n\nx\n3\nr =\n. Para que a área a ser pintada seja reduzida a 1\n\n16\n\nda área inicial, pretende-se reduzir o tamanho da fonte. Sabe-se que, ao alterar o tamanho da fonte, o tamanho da letra é alterado na mesma proporção. Nessas condições, o tamanho adequado da fonte será",
+  "options": [
+   {
+    "id": "a",
+    "text": "64."
+   },
+   {
+    "id": "b",
+    "text": "48."
+   },
+   {
+    "id": "c",
+    "text": "24."
+   },
+   {
+    "id": "d",
+    "text": "21."
+   },
+   {
+    "id": "e",
+    "text": "12."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-147-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 147",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-148",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem.\n\ny\n\n15\n\n10\n\n5\n\nx\n\n0\n\n−15\n−10\n−5\n\n5\n15\n10\n\n−5\n\n−10\n\n−15\n\nPara construir tal imagem utilizando uma ferramenta\ngráfica, será necessário escrever algebricamente o\nconjunto que representa os pontos desse gráfico.\n\nEsse conjunto é dado pelos pares ordenados (x ; y) ∈  × , tais que",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-148-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 148",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-149",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Com o avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.\n\nUma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado. Em 1986, uma empresa fabricava um processador contendo 100 000 transistores distribuídos em 0,25 cm2 de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore).\n\nDisponível em: www.pocket-lint.com. Acesso em: 1 dez. 2017 (adaptado).\n\nConsidere 0,30 como aproximação para log102. Em que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?",
+  "options": [
+   {
+    "id": "a",
+    "text": "1999"
+   },
+   {
+    "id": "b",
+    "text": "2002"
+   },
+   {
+    "id": "c",
+    "text": "2022"
+   },
+   {
+    "id": "d",
+    "text": "2026"
+   },
+   {
+    "id": "e",
+    "text": "2146"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 149",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-151",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "O salto ornamental é um esporte em que cada competidor realiza seis saltos. A nota em cada salto é calculada pela soma das notas dos juízes, multiplicada pela nota de partida (o grau de dificuldade de cada salto). Fica em primeiro lugar o atleta que obtiver a maior soma das seis notas recebidas.\n\nO atleta 10 irá realizar o último salto da final. Ele observa no Quadro 1, antes de executar o salto, o recorte do quadro parcial de notas com a sua classificação e a dos três primeiros lugares até aquele momento.\n\nQuadro 1\n\nClassificação\nAtleta\n6o Salto\nTotal\n\n1o\n3\n135,0\n829,0\n\n2o\n4\n140,0\n825,2\n\n3o\n8\n140,4\n824,2\n\n6o\n10\n687,5\n\nEle precisa decidir com seu treinador qual salto deverá realizar. Os dados dos possíveis tipos de salto estão no Quadro 2.\n\nQuadro 2\n\nTipo\n\nNota\n\nEstimativa da soma das notas\n\nProbabilidade\n\nde salto\n\nde partida\n\nde obter a\n\ndos juízes\n\nnota\n\nT1\n2,2\n57\n89,76%\n\nT2\n2,4\n58\n93,74%\n\nT3\n2,6\n55\n91,88%\n\nT4\n2,8\n50\n95,38%\n\nT5\n3,0\n53\n87,34%\n\nO atleta optará pelo salto com a maior probabilidade de obter a nota estimada, de maneira que lhe permita alcançar o primeiro lugar. Considerando essas condições, o salto que o atleta deverá escolher é o de tipo",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-151-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 151",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-152",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "+\n\n+\n\n+\n\nA\n\nB\n\nC\n\nMinecraft é um jogo virtual que pode auxiliar no desenvolvimento de conhecimentos relacionados a espaço e forma. É possível criar casas, edifícios, monumentos e até naves espaciais, tudo em escala real, através do empilhamento de cubinhos.\n\nUm jogador deseja construir um cubo com dimensões 4 × 4 × 4. Ele já empilhou alguns dos cubinhos necessários, conforme a figura.\n\nOs cubinhos que ainda faltam empilhar para finalizar a construção do cubo, juntos, formam uma peça única, capaz de completar a tarefa. O formato da peça capaz de completar o cubo 4 × 4 × 4 é\n\nD\n\nE",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-152-1.png",
+   "/enem/2018/d2-152-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 152",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-153",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "A figura mostra uma praça circular que contém um chafariz em seu centro e, em seu entorno, um passeio. Os círculos que definem a praça e o chafariz são concêntricos.\n\ne\n\ns\n\ns\n\no\n\na\n\nP\n\nP\n\no\n\na\n\ns\n\ne\n\nChafariz\n\ns\n\ns\n\ne\n\ns\n\na\n\no\n\nP\n\nP\n\na\n\no\n\ns\n\ne\n\ns\n\nPraça\n\nO passeio terá seu piso revestido com ladrilhos. Sem condições de calcular os raios, pois o chafariz está cheio, um engenheiro fez a seguinte medição: esticou uma trena tangente ao chafariz, medindo a distância entre dois pontos A e B, conforme a figura. Com isso, obteve a medida do segmento de reta AB: 16 m.\n\n16 m\nA\nB\n\nDispondo apenas dessa medida, o engenheiro calculou corretamente a medida da área do passeio, em metro quadrado. A medida encontrada pelo engenheiro foi",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-153-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 153",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-154",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um designer de jogos planeja um jogo que faz uso de um tabuleiro de dimensão n × n, com n ≥ 2, no qual cada jogador, na sua vez, coloca uma peça sobre uma das casas vazias do tabuleiro. Quando uma peça é posicionada, a região formada pelas casas que estão na mesma linha ou coluna dessa peça é chamada de zona de combate dessa peça. Na figura está ilustrada a zona de combate de uma peça colocada em uma das casas de um tabuleiro de dimensão 8 × 8.\n\nO tabuleiro deve ser dimensionado de forma que a probabilidade de se posicionar a segunda peça aleatoriamente, seguindo a regra do jogo, e esta ficar\n\nsobre a zona de combate da primeira, seja inferior a 1\n\n5 .\n\nA dimensão mínima que o designer deve adotar para esse tabuleiro é",
+  "options": [
+   {
+    "id": "a",
+    "text": "4 × 4."
+   },
+   {
+    "id": "b",
+    "text": "6 × 6."
+   },
+   {
+    "id": "c",
+    "text": "9 × 9."
+   },
+   {
+    "id": "d",
+    "text": "10 × 10."
+   },
+   {
+    "id": "e",
+    "text": "11 × 11"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 154",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-155",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "20 cm\n\n1 m\n\nPortão\n\nNível da rua\n\nGaragem 2 m\n\nRampa\n\nNível da base\n\n8 m\n\nda garagem\n\nPara atender às normas técnicas do município, o nível da garagem deverá ser",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-155-1.png",
+   "/enem/2018/d2-155-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 155",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-156",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um edifício tem a numeração dos andares iniciando no térreo (T ), e continuando com primeiro, segundo, terceiro, ..., até o último andar. Uma criança entrou no elevador e, tocando no painel, seguiu uma sequência de andares, parando, abrindo e fechando a porta em diversos andares. A partir de onde entrou a criança, o elevador subiu sete andares, em seguida desceu dez, desceu mais treze, subiu nove, desceu quatro e parou no quinto andar, finalizando a sequência. Considere que, no trajeto seguido pela criança, o elevador parou uma vez no último andar do edifício. De acordo com as informações dadas, o último andar do edifício é o",
+  "options": [
+   {
+    "id": "a",
+    "text": "16o"
+   },
+   {
+    "id": "b",
+    "text": "22o"
+   },
+   {
+    "id": "c",
+    "text": "23o"
+   },
+   {
+    "id": "d",
+    "text": "25o"
+   },
+   {
+    "id": "e",
+    "text": "32o"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 156",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-157",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "O Salão do Automóvel de São Paulo é um evento no qual vários fabricantes expõem seus modelos mais recentes de veículos, mostrando, principalmente, suas inovações em design e tecnologia.\n\nDisponível em: http://g1.globo.com. Acesso em: 4 fev. 2015 (adaptado).\n\nUma montadora pretende participar desse evento com dois estandes, um na entrada e outro na região central do salão, expondo, em cada um deles, um carro compacto e uma caminhonete.\n\nPara compor os estandes, foram disponibilizados pela montadora quatro carros compactos, de modelos distintos, e seis caminhonetes de diferentes cores para serem escolhidos aqueles que serão expostos. A posição dos carros dentro de cada estande é irrelevante. Uma expressão que fornece a quantidade de maneiras diferentes que os estandes podem ser compostos é\n\n4",
+  "options": [
+   {
+    "id": "a",
+    "text": "A10 4"
+   },
+   {
+    "id": "b",
+    "text": "C10"
+   },
+   {
+    "id": "c",
+    "text": "C C 4 2 6 2 2 2 ×"
+   },
+   {
+    "id": "d",
+    "text": "A A 4 2 6 2 2 2 ×"
+   },
+   {
+    "id": "e",
+    "text": "C C 4 2 6 2 ×"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 157",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-158",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Os alunos da disciplina de estatística, em um curso universitário, realizam quatro avaliações por semestre com os pesos de 20%, 10%, 30% e 40%, respectivamente. No final do semestre, precisam obter uma média nas quatro avaliações de, no mínimo, 60 pontos para serem aprovados. Um estudante dessa disciplina obteve os seguintes pontos nas três primeiras avaliações: 46, 60 e 50, respectivamente. O mínimo de pontos que esse estudante precisa obter na quarta avaliação para ser aprovado é",
+  "options": [
+   {
+    "id": "a",
+    "text": "29,8."
+   },
+   {
+    "id": "b",
+    "text": "71,0."
+   },
+   {
+    "id": "c",
+    "text": "74,5."
+   },
+   {
+    "id": "d",
+    "text": "75,5."
+   },
+   {
+    "id": "e",
+    "text": "84,0."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 158",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-159",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "O gerente do setor de recursos humanos de uma empresa está organizando uma avaliação em que uma das etapas é um jogo de perguntas e respostas. Para essa etapa, ele classificou as perguntas, pelo nível de dificuldade, em fácil, médio e difícil, e escreveu cada pergunta em cartões para colocação em uma urna.\n\nContudo, após depositar vinte perguntas de diferentes níveis na urna, ele observou que 25% delas eram de nível fácil. Querendo que as perguntas de nível fácil sejam a maioria, o gerente decidiu acrescentar mais perguntas de nível fácil à urna, de modo que a probabilidade de o primeiro participante retirar, aleatoriamente, uma pergunta de nível fácil seja de 75%. Com essas informações, a quantidade de perguntas de nível fácil que o gerente deve acrescentar à urna é igual a",
+  "options": [
+   {
+    "id": "a",
+    "text": "10."
+   },
+   {
+    "id": "b",
+    "text": "15."
+   },
+   {
+    "id": "c",
+    "text": "35."
+   },
+   {
+    "id": "d",
+    "text": "40."
+   },
+   {
+    "id": "e",
+    "text": "45."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 159",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-160",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "De acordo com a Lei Universal da Gravitação, proposta por Isaac Newton, a intensidade da força gravitacional F que a Terra exerce sobre um satélite em órbita circular é proporcional à massa m do satélite e inversamente proporcional ao quadrado do raio r da órbita, ou seja,\n\nF km\n\nr\n=\n2\n\nNo plano cartesiano, três satélites, A, B e C, estão representados, cada um, por um ponto (m ; r) cujas coordenadas são, respectivamente, a massa do satélite e o raio da sua órbita em torno da Terra.\n\nRaio (r)\n\nC\n\nB\n\nA\n\n0\n\nMassa (m)\n\nCom base nas posições relativas dos pontos no gráfico, deseja-se comparar as intensidades FA, FB e FC da força gravitacional que a Terra exerce sobre os satélites A, B e C, respectivamente.\n\nAs intensidades FA, FB e FC expressas no gráfico satisfazem a relação",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-160-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 160",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-161",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Os tipos de prata normalmente vendidos são 975, 950 e 925. Essa classificação é feita de acordo com a sua pureza. Por exemplo, a prata 975 é a substância constituída de 975 partes de prata pura e 25 partes de cobre em 1 000 partes da substância. Já a prata 950 é constituída de 950 partes de prata pura e 50 de cobre em 1 000; e a prata 925 é constituída de 925 partes de prata pura e 75 partes de cobre em 1 000. Um ourives possui 10 gramas de prata 925 e deseja obter 40 gramas de prata 950 para produção de uma joia.\n\nNessas condições, quantos gramas de prata e de cobre, respectivamente, devem ser fundidos com os 10 gramas de prata 925?",
+  "options": [
+   {
+    "id": "a",
+    "text": "29,25 e 0,75"
+   },
+   {
+    "id": "b",
+    "text": "28,75 e 1,25"
+   },
+   {
+    "id": "c",
+    "text": "28,50 e 1,50"
+   },
+   {
+    "id": "d",
+    "text": "27,75 e 2,25"
+   },
+   {
+    "id": "e",
+    "text": "25,00 e 5,00"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 161",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-162",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Em um aeroporto, os passageiros devem submeter suas bagagens a uma das cinco máquinas de raio-X disponíveis ao adentrarem a sala de embarque. Num dado instante, o tempo gasto por essas máquinas para escanear a bagagem de cada passageiro e o número de pessoas presentes em cada fila estão apresentados em um painel, como mostrado na figura.\n\nMáquina 5\nMáquina 4\nMáquina 3\nMáquina 2\nMáquina 1\n\n35 segundos\n5 pessoas\n25 segundos\n6 pessoas\n22 segundos\n7 pessoas\n40 segundos\n4 pessoas\n20 segundos\n8 pessoas\n\nUm passageiro, ao chegar à sala de embarque desse aeroporto no instante indicado, visando esperar o menor tempo possível, deverá se dirigir à máquina",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-162-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 162",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-163",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "A Comissão Interna de Prevenção de Acidentes (CIPA) de uma empresa, observando os altos custos com os frequentes acidentes de trabalho ocorridos, fez, a pedido da diretoria, uma pesquisa do número de acidentes sofridos por funcionários. Essa pesquisa, realizada com uma amostra de 100 funcionários, norteará as ações da empresa na política de segurança no trabalho.\n\nOs resultados obtidos estão no quadro.\n\nNúmero de acidentes sofridos\n\nNúmero de trabalhadores\n\n0 50\n\n1 17\n\n2 15\n\n3 10\n\n4 6\n\n5 2 A média do número de acidentes por funcionário na amostra que a CIPA apresentará à diretoria da empresa é",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-163-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 163",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-164",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Cabo de aço\n\nViga\n\nM\n\nO\n\nM\n\nO\n\nEstágio 1\n\nO gráfico que descreve a distância do ponto M ao ponto O, em função do tempo, entre t = 0 e tf, é\n\nDistância\n\nA\n\nTempo\nt f\n0\n\nDistância\n\nB\n\nTempo\n0\nt f\n\nDistância\n\nC\n\nTempo\n0\nt f\n\nOs guindastes são fundamentais em canteiros de obras, no manejo de materiais pesados como vigas de aço. A figura ilustra uma sequência de estágios em que um guindaste iça uma viga de aço que se encontra inicialmente no solo.\n\nM\n\nO\n\nEstágio 2\n\nEstágio 3\n\nNa figura, o ponto O representa a projeção ortogonal do cabo de aço sobre o plano do chão e este se mantém na vertical durante todo o movimento de içamento da viga, que se inicia no tempo t = 0 (estágio 1) e finaliza no tempo tf (estágio 3). Uma das extremidades da viga é içada verticalmente a partir do ponto O, enquanto que a outra extremidade desliza sobre o solo em direção ao ponto O. Considere que o cabo de aço utilizado pelo guindaste para içar a viga fique sempre na posição vertical. Na figura, o ponto M representa o ponto médio do segmento que representa a viga.\n\nDistância\n\nD\n\nTempo\n0\nt f\n\nDistância\n\nE\n\nTempo\n0\nt f",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-164-1.png",
+   "/enem/2018/d2-164-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 164",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-165",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais.\n\nUma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido Oeste e o seu controlador efetua três mudanças consecutivas, a saber:\n\n• 1a mudança: 135º no sentido anti-horário;\n\n• 2a mudança: 60º no sentido horário;\n\n• 3a mudança: 45º no sentido anti-horário. Após a 3a mudança, ele é orientado a reposicionar a câmera, com a menor amplitude possível, no sentido Noroeste (NO) devido a um movimento suspeito de um cliente.\n\nQual mudança de sentido o controlador deve efetuar para reposicionar a câmera?",
+  "options": [
+   {
+    "id": "a",
+    "text": "75º no sentido horário."
+   },
+   {
+    "id": "b",
+    "text": "105º no sentido anti-horário."
+   },
+   {
+    "id": "c",
+    "text": "120º no sentido anti-horário."
+   },
+   {
+    "id": "d",
+    "text": "135º no sentido anti-horário."
+   },
+   {
+    "id": "e",
+    "text": "165º no sentido horário."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-165-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 165",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-166",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.\n\nEm uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.\n\nColocação Ranking\n\nI\nII\nIII\nIV\n\n1o\nAna\nDani\nBia\nEdu\n\n2o\nBia\nCaio\nAna\nAna\n\n3o\nCaio\nEdu\nCaio\nDani\n\n4o\nDani\nAna\nEdu\nBia\n\n5o\nEdu\nBia\nDani\nCaio\n\nRanking Frequência\n\nI 4\n\nII 9\n\nIII 7\n\nIV 5\n\nA poesia vencedora foi a de",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-166-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 166",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-167",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "De acordo com um relatório recente da Agência Internacional de Energia (AIE), o mercado de veículos elétricos atingiu um novo marco em 2016, quando foram vendidos mais de 750 mil automóveis da categoria. Com isso, o total de carros elétricos vendidos no mundo alcançou a marca de 2 milhões de unidades desde que os primeiros modelos começaram a ser comercializados em 2011.\n\nNo Brasil, a expansão das vendas também se verifica. A marca A, por exemplo, expandiu suas vendas no ano de 2016, superando em 360 unidades as vendas de 2015, conforme representado no gráfico.\n\nDisponível em: www.tecmundo.com.br. Acesso em: 5 dez. 2017.\n\nA média anual do número de carros vendidos pela marca A, nos anos representados no gráfico, foi de",
+  "options": [
+   {
+    "id": "a",
+    "text": "192."
+   },
+   {
+    "id": "b",
+    "text": "240."
+   },
+   {
+    "id": "c",
+    "text": "252."
+   },
+   {
+    "id": "d",
+    "text": "320."
+   },
+   {
+    "id": "e",
+    "text": "420."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-167-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 167",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-168",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Para apagar os focos A e B de um incêndio, que estavam a uma distância de 30 m um do outro, os bombeiros de um quartel decidiram se posicionar de modo que a distância de um bombeiro ao foco A, de temperatura mais elevada, fosse sempre o dobro da distância desse bombeiro ao foco B, de temperatura menos elevada. Nestas condições, a maior distância, em metro, que dois bombeiros poderiam ter entre eles é",
+  "options": [
+   {
+    "id": "a",
+    "text": "30."
+   },
+   {
+    "id": "b",
+    "text": "40."
+   },
+   {
+    "id": "c",
+    "text": "45."
+   },
+   {
+    "id": "d",
+    "text": "60."
+   },
+   {
+    "id": "e",
+    "text": "68."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 168",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-169",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Torneios de tênis, em geral, são disputados em sistema de eliminatória simples. Nesse sistema, são disputadas partidas entre dois competidores, com a eliminação do perdedor e promoção do vencedor para a fase seguinte. Dessa forma, se na 1a fase o torneio conta com 2n competidores, então na 2a fase restarão n competidores, e assim sucessivamente até a partida final.\n\nEm um torneio de tênis, disputado nesse sistema, participam 128 tenistas. Para se definir o campeão desse torneio, o número de partidas necessárias é dado por",
+  "options": [
+   {
+    "id": "a",
+    "text": "2 × 128"
+   },
+   {
+    "id": "b",
+    "text": "64 + 32 + 16 + 8 + 4 + 2"
+   },
+   {
+    "id": "c",
+    "text": "128 + 64 + 32 + 16 + 8 + 4 + 2 + 1"
+   },
+   {
+    "id": "d",
+    "text": "128 + 64 + 32 + 16 + 8 + 4 + 2"
+   },
+   {
+    "id": "e",
+    "text": "64 + 32 + 16 + 8 + 4 + 2 + 1"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 169",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-170",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "O artigo 33 da lei brasileira sobre drogas prevê a pena de reclusão de 5 a 15 anos para qualquer pessoa que seja condenada por tráfico ilícito ou produção não autorizada de drogas. Entretanto, caso o condenado seja réu primário, com bons antecedentes criminais, essa pena pode sofrer uma redução de um sexto a dois terços.\n\nSuponha que um réu primário, com bons antecedentes criminais, foi condenado pelo artigo 33 da lei brasileira sobre drogas. Após o benefício da redução de pena, sua pena poderá variar de",
+  "options": [
+   {
+    "id": "a",
+    "text": "1 ano e 8 meses a 12 anos e 6 meses."
+   },
+   {
+    "id": "b",
+    "text": "1 ano e 8 meses a 5 anos."
+   },
+   {
+    "id": "c",
+    "text": "3 anos e 4 meses a 10 anos."
+   },
+   {
+    "id": "d",
+    "text": "4 anos e 2 meses a 5 anos."
+   },
+   {
+    "id": "e",
+    "text": "4 anos e 2 meses a 12 anos e 6 meses."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 170",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-171",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "A raiva é uma doença viral e infecciosa, transmitida por mamíferos. A campanha nacional de vacinação antirrábica tem o objetivo de controlar a circulação do vírus da raiva canina e felina, prevenindo a raiva humana. O gráfico mostra a cobertura (porcentagem de vacinados) da campanha, em cães, nos anos de 2013, 2015 e 2017, no município de Belo Horizonte, em Minas Gerais. Os valores das coberturas dos anos de 2014 e 2016 não estão informados no gráfico e deseja-se estimá-los. Para tal, levou-se em consideração que a variação na cobertura de vacinação da campanha antirrábica, nos períodos de 2013 a 2015 e de 2015 a 2017, deu-se de forma linear.\n\n67%\n\n59% 61%\n\n2013\n\n2014\n2015\n2016\n2017\n\nDisponível em: http://pni.datasus.gov.br. Acesso em: 5 nov. 2017.\n\nQual teria sido a cobertura dessa campanha no ano de 2014?",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-171-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 171",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-172",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15 m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Todo o desenho deverá ser feito em uma escala 1 : X. Os valores possíveis para X são, apenas,",
+  "options": [
+   {
+    "id": "a",
+    "text": "X > 1 500."
+   },
+   {
+    "id": "b",
+    "text": "X < 3 000."
+   },
+   {
+    "id": "c",
+    "text": "1 500 < X < 2 250."
+   },
+   {
+    "id": "d",
+    "text": "1 500 < X < 3 000."
+   },
+   {
+    "id": "e",
+    "text": "2 250 < X < 3 000."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 172",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-173",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Em 2014 foi inaugurada a maior roda-gigante do mundo, a High Roller, situada em Las Vegas. A figura representa um esboço dessa roda-gigante, no qual o ponto A representa uma de suas cadeiras:\n\nA O\n\nSolo Solo\n\nDisponível em: http://en.wikipedia.org. Acesso em: 22 abr. 2014 (adaptado).\n\nA partir da posição indicada, em que o segmento OA se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto O. Sejam t o ângulo determinado pelo segmento OA em relação à sua posição inicial, e f a função que descreve a altura do ponto A, em relação ao solo, em função de t.\n\nApós duas voltas completas, f tem o seguinte gráfico:\n\n(metro) f\n\n168\n\n88\n\nπ\nπ\nπ\n\n0\n/2\n2\nt (radiano)\n4\n\nA expressão da função altura é dada por",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [
+   "/enem/2018/d2-173-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 173",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-174",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "O remo de assento deslizante é um esporte que faz uso de um barco e dois remos do mesmo tamanho.\n\nA figura mostra uma das posições de uma técnica chamada afastamento.\n\nDisponível em: www.remobrasil.com. Acesso em: 6 dez. 2017 (adaptado). Nessa posição, os dois remos se encontram no ponto A e suas outras extremidades estão indicadas pelos pontos B e C. Esses três pontos formam um triângulo ABC cujo ângulo BÂC tem medida de 170°. O tipo de triângulo com vértices nos pontos A, B e C, no momento em que o remador está nessa posição, é",
+  "options": [
+   {
+    "id": "a",
+    "text": "retângulo escaleno."
+   },
+   {
+    "id": "b",
+    "text": "acutângulo escaleno."
+   },
+   {
+    "id": "c",
+    "text": "acutângulo isósceles."
+   },
+   {
+    "id": "d",
+    "text": "obtusângulo escaleno."
+   },
+   {
+    "id": "e",
+    "text": "obtusângulo isósceles."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-174-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 174",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-175",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um rapaz estuda em uma escola que fica longe de sua casa, e por isso precisa utilizar o transporte público. Como é muito observador, todos os dias ele anota a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de espera. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6 h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o qual teve 21 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e que a mediana do conjunto de dados é 6 h 22 min. A probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo,",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [
+   "/enem/2018/d2-175-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 175",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-176",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um mapa é a representação reduzida e simplificada\nde uma localidade. Essa redução, que é feita com o\nuso de uma escala, mantém a proporção do espaço\nrepresentado em relação ao espaço real.\n\nCerto mapa tem escala 1 : 58 000 000.\n\nDisponível em: http://oblogdedaynabrigth.blogspot.com.br. Acesso em: 9 ago. 2012.\n\nConsidere que, nesse mapa, o segmento de reta que liga o navio à marca do tesouro meça 7,6 cm. A medida real, em quilômetro, desse segmento de reta é",
+  "options": [
+   {
+    "id": "a",
+    "text": "4 408."
+   },
+   {
+    "id": "b",
+    "text": "7 632."
+   },
+   {
+    "id": "c",
+    "text": "44 080."
+   },
+   {
+    "id": "d",
+    "text": "76 316."
+   },
+   {
+    "id": "e",
+    "text": "440 800."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [
+   "/enem/2018/d2-176-1.png"
+  ],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 176",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-177",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Um produtor de milho utiliza uma área de 160 hectares para as suas atividades agrícolas. Essa área é dividida em duas partes: uma de 40 hectares, com maior produtividade, e outra, de 120 hectares, com menor produtividade. A produtividade é dada pela razão entre a produção, em tonelada, e a área cultivada. Sabe-se que a área de 40 hectares tem produtividade igual a 2,5 vezes à da outra. Esse fazendeiro pretende aumentar sua produção total em 15%, aumentando o tamanho da sua propriedade. Para tanto, pretende comprar uma parte de uma fazenda vizinha, que possui a mesma produtividade da parte de 120 hectares de suas terras. Qual é a área mínima, em hectare, que o produtor precisará comprar?",
+  "options": [
+   {
+    "id": "a",
+    "text": "36"
+   },
+   {
+    "id": "b",
+    "text": "33"
+   },
+   {
+    "id": "c",
+    "text": "27"
+   },
+   {
+    "id": "d",
+    "text": "24"
+   },
+   {
+    "id": "e",
+    "text": "21"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 177",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-178",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Numa atividade de treinamento realizada no Exército de um determinado país, três equipes – Alpha, Beta e Gama – foram designadas a percorrer diferentes caminhos, todos com os mesmos pontos de partida e de chegada.\n\n• A equipe Alpha realizou seu percurso em 90 minutos com uma velocidade média de 6,0 km/h.\n\n•\t A equipe Beta também percorreu sua trajetória\nem 90 minutos, mas sua velocidade média foi\nde 5,0 km/h.\n\n• Com uma velocidade média de 6,5 km/h, a equipe Gama concluiu seu caminho em 60 minutos.\n\nCom base nesses dados, foram comparadas as distâncias dBeta; dAlpha e dGama percorridas pelas três equipes.\n\nA ordem das distâncias percorridas pelas equipes Alpha, Beta e Gama é\n\nd\nd\nd\nGama\nBeta\nAlpha\n<\n<\n\nA\n\nd\nd\nd\nAlpha\nBeta\nGama\n=\n<\n\nB\n\nd\nd\nd\nGama\nBeta\nAlpha\n<\n=\n\nC\n\nd\nd\nd\nBeta\nAlpha\nGama\n<\n<\n\nD\n\nd\nd\nd\nGama\nAlpha\nBeta\n<\n<\n\nE",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [
+   "/enem/2018/d2-178-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 178",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-179",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "O colesterol total de uma pessoa é obtido pela soma da taxa do seu “colesterol bom” com a taxa do seu “colesterol ruim”. Os exames periódicos, realizados em um paciente adulto, apresentaram taxa normal de “colesterol bom”, porém, taxa do “colesterol ruim” (também chamado LDL) de 280 mg/dL.\n\nO quadro apresenta uma classificação de acordo com as taxas de LDL em adultos.\n\nTaxa de LDL (mg/dL)\n\nÓtima Menor do que 100\n\nPróxima de ótima De 100 a 129\n\nLimite De 130 a 159\n\nAlta De 160 a 189\n\nMuito alta 190 ou mais\n\nDisponível em: www.minhavida.com.br. Acesso em: 15 out. 2015 (adaptado). O paciente, seguindo as recomendações médicas sobre estilo de vida e alimentação, realizou o exame logo após o primeiro mês, e a taxa de LDL reduziu 25%. No mês seguinte, realizou novo exame e constatou uma redução de mais 20% na taxa de LDL.\n\nDe acordo com o resultado do segundo exame, a classificação da taxa de LDL do paciente é",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-179-1.png",
+   "/enem/2018/d2-179-2.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 179",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "enem-2018-d2-180",
+  "stateCode": "ENEM",
+  "topic": "matematica",
+  "year": 2018,
+  "statement": "Uma empresa deseja iniciar uma campanha publicitária divulgando uma promoção para seus possíveis consumidores. Para esse tipo de campanha, os meios mais viáveis são a distribuição de panfletos na rua e anúncios na rádio local. Considera-se que a população alcançada pela distribuição de panfletos seja igual à quantidade de panfletos distribuídos, enquanto que a alcançada por um anúncio na rádio seja igual à quantidade de ouvintes desse anúncio. O custo de cada anúncio na rádio é de R$ 120,00, e a estimativa é de que seja ouvido por 1 500 pessoas. Já a produção e a distribuição dos panfletos custam R$ 180,00 cada 1 000 unidades. Considerando que cada pessoa será alcançada por um único desses meios de divulgação, a empresa pretende investir em ambas as mídias.\n\nConsidere X e Y os valores (em real) gastos em anúncios na rádio e com panfletos, respectivamente.\n\nO número de pessoas alcançadas pela campanha será dado pela expressão",
+  "options": [
+   {
+    "id": "a",
+    "text": ""
+   },
+   {
+    "id": "b",
+    "text": ""
+   },
+   {
+    "id": "c",
+    "text": ""
+   },
+   {
+    "id": "d",
+    "text": ""
+   },
+   {
+    "id": "e",
+    "text": ""
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [
+   "/enem/2018/d2-180-1.png"
+  ],
+  "optionsAsImage": true,
+  "source": "INEP - ENEM 2018",
+  "sourceRef": "2º dia, caderno azul, questão 180",
+  "status": "draft",
+  "reviewedBy": null
+ }
+]

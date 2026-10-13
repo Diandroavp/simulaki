@@ -22,7 +22,8 @@ def areas(ano, dia):
 
 def parse(pdf):
     d = pymupdf.open(pdf)
-    qs, order, cur, lang = {}, [], None, 'en'
+    qs, order, cur, lang = {}, [], None, None
+    cont = {}
     segs = {}
     for pno, page in enumerate(d):
         items = []
@@ -50,10 +51,14 @@ def parse(pdf):
                 ly = l['bbox'][1]
                 if 'opção espanhol' in t: lang = 'es'
                 if 'opção inglês' in t: lang = 'en'
-                m = re.match(r'^QUESTÃO\s+(\d+)\s*$', t.strip())
+                m = re.match(r'^QUESTÃO\s+(\d+)\s*$', t.strip(), re.I)
                 if m:
                     if cur and col in open_seg and open_seg[col]['y1'] is None: open_seg[col]['y1'] = ly - 2
-                    n = int(m.group(1)); key = (n, lang if n <= 5 else '-')
+                    n = int(m.group(1))
+                    if n > 5: lg = '-'
+                    elif lang: lg = lang
+                    else: cont[n] = cont.get(n, 0) + 1; lg = 'u%d' % cont[n]  # sem marcador de idioma: decide pelo texto
+                    key = (n, lg)
                     cur = {'n': n, 'lang': key[1], 'key': key, 'lines': [], 'opts': False, 'short': 0}
                     qs[key] = cur; order.append(key); start(key, col, ly - 4); continue
                 if cur is None: continue
@@ -81,6 +86,11 @@ def parse(pdf):
             if m and (co is None or m.group(1) > co):
                 co = m.group(1); opts[co] = [m.group(2)]; continue
             (opts[co] if co else stmt).append(t)
+        if q['lang'].startswith('u'):
+            txt = ' ' + ' '.join(stmt).lower() + ' '
+            es = sum(txt.count(w) for w in (' el ', ' los ', ' las ', ' que ', ' una ', ' por ', ' con ', ' del '))
+            en = sum(txt.count(w) for w in (' the ', ' of ', ' and ', ' to ', ' is ', ' that ', ' with ', ' for '))
+            q['lang'] = 'es' if es > en else 'en'
         q['statement'] = paragraphs(stmt)
         q['options'] = {a: re.sub(r'\s+', ' ', ' '.join(x for x in v if x != '\0')).strip() for a, v in opts.items()}
         q['segs'] = segs.get(key, [])
