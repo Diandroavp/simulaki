@@ -31,7 +31,7 @@ for (const f of readdirSync(dir).filter((x) => x.endsWith('.json')).sort()) {
       if (new Set(texts).size < texts.length) add('alternativas repetidas', q.id);
     }
     if (q.options.length === 5 && q.optionsAsImage && !imgs.length) add('alternativas em imagem sem imagem', q.id);
-    if (st.length > 60) { const k = st.slice(0, 120); if (seen.has(k) && !/-(en|es)$/.test(q.id)) add('enunciado repetido', q.id + ' = ' + seen.get(k)); seen.set(k, q.id); }
+    if (st.length > 60 && q.status !== 'archived') { const k = st.slice(0, 120); if (seen.has(k) && !/-(en|es)$/.test(q.id)) add('enunciado repetido', q.id + ' = ' + seen.get(k)); seen.set(k, q.id); }
   }
 }
 console.log(`ENEM: ${total} questões`);
