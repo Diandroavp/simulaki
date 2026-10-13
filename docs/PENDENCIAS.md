@@ -12,13 +12,15 @@
 ### Domínio e e-mail
 6. **Domínio (GoDaddy):** apontar simulaki.com para a Vercel (adicionar o domínio no projeto e criar os registros DNS).
 7. **Resend:** criar conta, verificar o domínio, gerar `RESEND_API_KEY` e `EMAIL_FROM`. Sem isso não saem e-mails de verificação nem de recuperação de senha, e o checkout exige e-mail verificado.
-8. **Vercel:** conferir que a Deployment Protection está desligada e que `APP_URL` aponta para o domínio final.
+8. **Depois de o domínio ir ao ar:** cadastrar simulaki.com no Google Search Console e enviar o sitemap (https://simulaki.com/sitemap.xml). Definir `APP_URL=https://simulaki.com` na Vercel.
+9. **Vercel:** conferir que a Deployment Protection está desligada e que `APP_URL` aponta para o domínio final.
 
 ### Financeiro (por último)
 9. **Canvi/Pix:** credenciais (você mesmo cadastra na Vercel), `PAYMENT_WEBHOOK_SECRET` e teste no sandbox. Até lá o site mostra "Pix abre em breve".
 10. **Login com Google:** criar credenciais OAuth, cadastrar a URL de retorno e testar.
 
 ## O que está feito
+- Treino por tema e caderno de erros (/treino). Guias e páginas por estado para o Google (/guia, /detran/am|sp|ba), com sitemap.
 - Banco Nacional de Questões da Senatran importado: 1.500 questões como rascunho, com fonte, ano, parte/módulo, nível e base legal exibidos ao aluno.
 - Banco nacional compartilhado por todos os estados (`content/questions/br`); questões de placa só entram na prova se a imagem existir.
 - Regras da prova: 30 questões, 60 min, 20 acertos (Res. CONTRAN 1.020/2025).

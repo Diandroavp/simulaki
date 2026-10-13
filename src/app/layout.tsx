@@ -55,7 +55,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <a key={k} href={`/api/tema?t=${k}`} aria-current={tema === k}>{n}</a>
             ))}
           </div>
-          <div><Link href="/termos">Termos de uso</Link> · <Link href="/privacidade">Privacidade</Link> · <Link href="/reembolso">Reembolso</Link></div>
+          <div><Link href="/guia">Guias</Link> · <Link href="/termos">Termos de uso</Link> · <Link href="/privacidade">Privacidade</Link> · <Link href="/reembolso">Reembolso</Link></div>
         </footer>
       </body>
     </html>

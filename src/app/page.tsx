@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
+import { GUIAS } from '@/lib/guias';
 
 export default function Home() {
   return (
@@ -33,6 +34,16 @@ export default function Home() {
             </li>
           );
         })}
+      </ul>
+
+      <h2 style={{ marginTop: 56 }}>Guias para a prova teórica</h2>
+      <ul className="simlist">
+        {GUIAS.map((g) => (
+          <li key={g.slug}>
+            <Link className="name" href={`/guia/${g.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{g.titulo}</Link>
+            <span className="desc">{g.resumo}</span>
+          </li>
+        ))}
       </ul>
 
       <h2 style={{ marginTop: 56 }}>Como funciona</h2>
