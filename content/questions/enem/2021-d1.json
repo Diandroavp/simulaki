@@ -29,7 +29,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-001en-1.png"
+   "/enem/2021/d1-001en-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -67,7 +67,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-002en-1.png"
+   "/enem/2021/d1-002en-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -105,7 +105,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-003en-1.png"
+   "/enem/2021/d1-003en-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -143,8 +143,8 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-004en-1.png",
-   "/enem/2021/d1-004en-2.png"
+   "/enem/2021/d1-004en-1.webp",
+   "/enem/2021/d1-004en-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -182,8 +182,8 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-005en-1.png",
-   "/enem/2021/d1-005en-2.png"
+   "/enem/2021/d1-005en-1.webp",
+   "/enem/2021/d1-005en-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -221,7 +221,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-001es-1.png"
+   "/enem/2021/d1-001es-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -259,7 +259,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-002es-1.png"
+   "/enem/2021/d1-002es-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -297,7 +297,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-003es-1.png"
+   "/enem/2021/d1-003es-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -335,7 +335,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-004es-1.png"
+   "/enem/2021/d1-004es-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -373,8 +373,8 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-005es-1.png",
-   "/enem/2021/d1-005es-2.png"
+   "/enem/2021/d1-005es-1.webp",
+   "/enem/2021/d1-005es-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -412,7 +412,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-006-1.png"
+   "/enem/2021/d1-006-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -450,7 +450,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-007-1.png"
+   "/enem/2021/d1-007-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -488,7 +488,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-008-1.png"
+   "/enem/2021/d1-008-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -526,7 +526,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-009-1.png"
+   "/enem/2021/d1-009-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -564,7 +564,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-010-1.png"
+   "/enem/2021/d1-010-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -602,7 +602,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-011-1.png"
+   "/enem/2021/d1-011-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -640,7 +640,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-012-1.png"
+   "/enem/2021/d1-012-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -678,8 +678,8 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-013-1.png",
-   "/enem/2021/d1-013-2.png"
+   "/enem/2021/d1-013-1.webp",
+   "/enem/2021/d1-013-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -717,7 +717,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-014-1.png"
+   "/enem/2021/d1-014-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -755,7 +755,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-015-1.png"
+   "/enem/2021/d1-015-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -793,7 +793,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-016-1.png"
+   "/enem/2021/d1-016-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -831,7 +831,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-017-1.png"
+   "/enem/2021/d1-017-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -869,7 +869,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-018-1.png"
+   "/enem/2021/d1-018-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -907,7 +907,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-019-1.png"
+   "/enem/2021/d1-019-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -945,7 +945,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-020-1.png"
+   "/enem/2021/d1-020-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -983,7 +983,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-021-1.png"
+   "/enem/2021/d1-021-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1021,7 +1021,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-022-1.png"
+   "/enem/2021/d1-022-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1059,7 +1059,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-023-1.png"
+   "/enem/2021/d1-023-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1097,7 +1097,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-024-1.png"
+   "/enem/2021/d1-024-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1135,7 +1135,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-025-1.png"
+   "/enem/2021/d1-025-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1173,7 +1173,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-026-1.png"
+   "/enem/2021/d1-026-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1211,8 +1211,8 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-027-1.png",
-   "/enem/2021/d1-027-2.png"
+   "/enem/2021/d1-027-1.webp",
+   "/enem/2021/d1-027-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1250,7 +1250,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-028-1.png"
+   "/enem/2021/d1-028-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1288,7 +1288,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-029-1.png"
+   "/enem/2021/d1-029-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1326,7 +1326,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-030-1.png"
+   "/enem/2021/d1-030-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1364,7 +1364,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-031-1.png"
+   "/enem/2021/d1-031-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1402,8 +1402,8 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-032-1.png",
-   "/enem/2021/d1-032-2.png"
+   "/enem/2021/d1-032-1.webp",
+   "/enem/2021/d1-032-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1441,7 +1441,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-033-1.png"
+   "/enem/2021/d1-033-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1479,7 +1479,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-034-1.png"
+   "/enem/2021/d1-034-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1517,7 +1517,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-035-1.png"
+   "/enem/2021/d1-035-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1555,7 +1555,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-036-1.png"
+   "/enem/2021/d1-036-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1593,8 +1593,8 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-037-1.png",
-   "/enem/2021/d1-037-2.png"
+   "/enem/2021/d1-037-1.webp",
+   "/enem/2021/d1-037-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1632,7 +1632,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-038-1.png"
+   "/enem/2021/d1-038-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1670,7 +1670,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-039-1.png"
+   "/enem/2021/d1-039-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1708,7 +1708,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-040-1.png"
+   "/enem/2021/d1-040-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1746,7 +1746,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-041-1.png"
+   "/enem/2021/d1-041-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1784,7 +1784,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-042-1.png"
+   "/enem/2021/d1-042-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1822,7 +1822,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-043-1.png"
+   "/enem/2021/d1-043-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1860,8 +1860,8 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-044-1.png",
-   "/enem/2021/d1-044-2.png"
+   "/enem/2021/d1-044-1.webp",
+   "/enem/2021/d1-044-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1899,10 +1899,10 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-045-1.png",
-   "/enem/2021/d1-045-2.png",
-   "/enem/2021/d1-045-3.png",
-   "/enem/2021/d1-045-4.png"
+   "/enem/2021/d1-045-1.webp",
+   "/enem/2021/d1-045-2.webp",
+   "/enem/2021/d1-045-3.webp",
+   "/enem/2021/d1-045-4.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1940,7 +1940,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-046-1.png"
+   "/enem/2021/d1-046-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -1978,7 +1978,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-047-1.png"
+   "/enem/2021/d1-047-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2016,8 +2016,8 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-048-1.png",
-   "/enem/2021/d1-048-2.png"
+   "/enem/2021/d1-048-1.webp",
+   "/enem/2021/d1-048-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2055,7 +2055,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-049-1.png"
+   "/enem/2021/d1-049-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2093,7 +2093,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-050-1.png"
+   "/enem/2021/d1-050-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2131,7 +2131,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-051-1.png"
+   "/enem/2021/d1-051-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2169,8 +2169,8 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-052-1.png",
-   "/enem/2021/d1-052-2.png"
+   "/enem/2021/d1-052-1.webp",
+   "/enem/2021/d1-052-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2208,7 +2208,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-053-1.png"
+   "/enem/2021/d1-053-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2246,7 +2246,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-054-1.png"
+   "/enem/2021/d1-054-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2284,7 +2284,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-055-1.png"
+   "/enem/2021/d1-055-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2322,7 +2322,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-056-1.png"
+   "/enem/2021/d1-056-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2360,7 +2360,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-057-1.png"
+   "/enem/2021/d1-057-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2398,7 +2398,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-058-1.png"
+   "/enem/2021/d1-058-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2436,7 +2436,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-059-1.png"
+   "/enem/2021/d1-059-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2474,7 +2474,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-060-1.png"
+   "/enem/2021/d1-060-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2512,7 +2512,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-061-1.png"
+   "/enem/2021/d1-061-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2550,7 +2550,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2021/d1-062-1.png"
+   "/enem/2021/d1-062-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2588,8 +2588,8 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-063-1.png",
-   "/enem/2021/d1-063-2.png"
+   "/enem/2021/d1-063-1.webp",
+   "/enem/2021/d1-063-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2627,7 +2627,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-064-1.png"
+   "/enem/2021/d1-064-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2665,7 +2665,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-065-1.png"
+   "/enem/2021/d1-065-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2703,7 +2703,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-066-1.png"
+   "/enem/2021/d1-066-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2741,7 +2741,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-067-1.png"
+   "/enem/2021/d1-067-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2779,7 +2779,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-068-1.png"
+   "/enem/2021/d1-068-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2817,7 +2817,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-069-1.png"
+   "/enem/2021/d1-069-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2855,7 +2855,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-070-1.png"
+   "/enem/2021/d1-070-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2893,7 +2893,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-071-1.png"
+   "/enem/2021/d1-071-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2931,8 +2931,8 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-072-1.png",
-   "/enem/2021/d1-072-2.png"
+   "/enem/2021/d1-072-1.webp",
+   "/enem/2021/d1-072-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -2970,7 +2970,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-073-1.png"
+   "/enem/2021/d1-073-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3008,7 +3008,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-074-1.png"
+   "/enem/2021/d1-074-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3046,7 +3046,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-075-1.png"
+   "/enem/2021/d1-075-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3084,7 +3084,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-076-1.png"
+   "/enem/2021/d1-076-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3122,8 +3122,8 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-077-1.png",
-   "/enem/2021/d1-077-2.png"
+   "/enem/2021/d1-077-1.webp",
+   "/enem/2021/d1-077-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3161,7 +3161,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-078-1.png"
+   "/enem/2021/d1-078-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3199,7 +3199,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-079-1.png"
+   "/enem/2021/d1-079-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3237,7 +3237,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2021/d1-080-1.png"
+   "/enem/2021/d1-080-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3275,7 +3275,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-081-1.png"
+   "/enem/2021/d1-081-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3313,7 +3313,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-082-1.png"
+   "/enem/2021/d1-082-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3351,7 +3351,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-083-1.png"
+   "/enem/2021/d1-083-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3389,7 +3389,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-084-1.png"
+   "/enem/2021/d1-084-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3427,7 +3427,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-085-1.png"
+   "/enem/2021/d1-085-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3465,7 +3465,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2021/d1-086-1.png"
+   "/enem/2021/d1-086-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3503,7 +3503,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-087-1.png"
+   "/enem/2021/d1-087-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3541,7 +3541,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2021/d1-088-1.png"
+   "/enem/2021/d1-088-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3579,7 +3579,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-089-1.png"
+   "/enem/2021/d1-089-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",
@@ -3617,10 +3617,10 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2021/d1-090-1.png",
-   "/enem/2021/d1-090-2.png",
-   "/enem/2021/d1-090-3.png",
-   "/enem/2021/d1-090-4.png"
+   "/enem/2021/d1-090-1.webp",
+   "/enem/2021/d1-090-2.webp",
+   "/enem/2021/d1-090-3.webp",
+   "/enem/2021/d1-090-4.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2021",

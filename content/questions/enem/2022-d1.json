@@ -99,7 +99,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2022/d1-003en-1.png"
+   "/enem/2022/d1-003en-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -207,7 +207,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2022/d1-001es-1.png"
+   "/enem/2022/d1-001es-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -350,8 +350,8 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2022/d1-005es-1.png",
-   "/enem/2022/d1-005es-2.png"
+   "/enem/2022/d1-005es-1.webp",
+   "/enem/2022/d1-005es-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -424,7 +424,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2022/d1-007-1.png"
+   "/enem/2022/d1-007-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -497,7 +497,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2022/d1-009-1.png"
+   "/enem/2022/d1-009-1.webp"
   ],
   "source": "INEP - ENEM 2022",
   "sourceRef": "1º dia, caderno azul, questão 9",
@@ -709,7 +709,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2022/d1-015-1.png"
+   "/enem/2022/d1-015-1.webp"
   ],
   "source": "INEP - ENEM 2022",
   "sourceRef": "1º dia, caderno azul, questão 15",
@@ -1131,7 +1131,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2022/d1-027-1.png"
+   "/enem/2022/d1-027-1.webp"
   ],
   "source": "INEP - ENEM 2022",
   "sourceRef": "1º dia, caderno azul, questão 27",
@@ -1518,7 +1518,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2022/d1-038-1.png"
+   "/enem/2022/d1-038-1.webp"
   ],
   "source": "INEP - ENEM 2022",
   "sourceRef": "1º dia, caderno azul, questão 38",
@@ -1555,7 +1555,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2022/d1-039-1.png"
+   "/enem/2022/d1-039-1.webp"
   ],
   "source": "INEP - ENEM 2022",
   "sourceRef": "1º dia, caderno azul, questão 39",
@@ -1592,7 +1592,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2022/d1-040-1.png"
+   "/enem/2022/d1-040-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -1735,7 +1735,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2022/d1-044-1.png"
+   "/enem/2022/d1-044-1.webp"
   ],
   "source": "INEP - ENEM 2022",
   "sourceRef": "1º dia, caderno azul, questão 44",
@@ -1912,7 +1912,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2022/d1-049-1.png"
+   "/enem/2022/d1-049-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -2160,7 +2160,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2022/d1-056-1.png"
+   "/enem/2022/d1-056-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -2478,7 +2478,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2022/d1-065-1.png"
+   "/enem/2022/d1-065-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -2586,7 +2586,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2022/d1-068-1.png"
+   "/enem/2022/d1-068-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -2659,7 +2659,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2022/d1-070-1.png"
+   "/enem/2022/d1-070-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -2802,7 +2802,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2022/d1-074-1.png"
+   "/enem/2022/d1-074-1.webp"
   ],
   "source": "INEP - ENEM 2022",
   "sourceRef": "1º dia, caderno azul, questão 74",
@@ -2944,7 +2944,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2022/d1-078-1.png"
+   "/enem/2022/d1-078-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -3087,7 +3087,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2022/d1-082-1.png"
+   "/enem/2022/d1-082-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",
@@ -3370,9 +3370,9 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2022/d1-090-1.png",
-   "/enem/2022/d1-090-2.png",
-   "/enem/2022/d1-090-3.png"
+   "/enem/2022/d1-090-1.webp",
+   "/enem/2022/d1-090-2.webp",
+   "/enem/2022/d1-090-3.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2022",

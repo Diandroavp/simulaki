@@ -29,7 +29,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2023/d1-001en-1.png"
+   "/enem/2023/d1-001en-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",
@@ -172,8 +172,8 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2023/d1-005en-1.png",
-   "/enem/2023/d1-005en-2.png"
+   "/enem/2023/d1-005en-1.webp",
+   "/enem/2023/d1-005en-2.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",
@@ -211,7 +211,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2023/d1-001es-1.png"
+   "/enem/2023/d1-001es-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",
@@ -809,7 +809,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2023/d1-018-1.png"
+   "/enem/2023/d1-018-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",
@@ -1022,7 +1022,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2023/d1-024-1.png"
+   "/enem/2023/d1-024-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 24",
@@ -1164,7 +1164,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2023/d1-028-1.png"
+   "/enem/2023/d1-028-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",
@@ -1342,7 +1342,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2023/d1-033-1.png"
+   "/enem/2023/d1-033-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 33",
@@ -1379,7 +1379,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2023/d1-034-1.png"
+   "/enem/2023/d1-034-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 34",
@@ -1731,7 +1731,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2023/d1-044-1.png"
+   "/enem/2023/d1-044-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 44",
@@ -1768,10 +1768,10 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2023/d1-045-1.png",
-   "/enem/2023/d1-045-2.png",
-   "/enem/2023/d1-045-3.png",
-   "/enem/2023/d1-045-4.png"
+   "/enem/2023/d1-045-1.webp",
+   "/enem/2023/d1-045-2.webp",
+   "/enem/2023/d1-045-3.webp",
+   "/enem/2023/d1-045-4.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",
@@ -1809,7 +1809,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2023/d1-046-1.png"
+   "/enem/2023/d1-046-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 46",
@@ -2161,7 +2161,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2023/d1-056-1.png"
+   "/enem/2023/d1-056-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 56",
@@ -2478,7 +2478,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2023/d1-065-1.png"
+   "/enem/2023/d1-065-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 65",
@@ -2725,7 +2725,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2023/d1-072-1.png"
+   "/enem/2023/d1-072-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 72",
@@ -2867,7 +2867,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2023/d1-076-1.png"
+   "/enem/2023/d1-076-1.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",
@@ -3325,7 +3325,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2023/d1-089-1.png"
+   "/enem/2023/d1-089-1.webp"
   ],
   "source": "INEP - ENEM 2023",
   "sourceRef": "1º dia, caderno azul, questão 89",
@@ -3362,10 +3362,10 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2023/d1-090-1.png",
-   "/enem/2023/d1-090-2.png",
-   "/enem/2023/d1-090-3.png",
-   "/enem/2023/d1-090-4.png"
+   "/enem/2023/d1-090-1.webp",
+   "/enem/2023/d1-090-2.webp",
+   "/enem/2023/d1-090-3.webp",
+   "/enem/2023/d1-090-4.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2023",

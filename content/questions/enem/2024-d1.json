@@ -29,7 +29,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2024/d1-001en-1.png"
+   "/enem/2024/d1-001en-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 1 (inglês)",
@@ -101,7 +101,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2024/d1-003en-1.png"
+   "/enem/2024/d1-003en-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 3 (inglês)",
@@ -173,7 +173,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2024/d1-005en-1.png"
+   "/enem/2024/d1-005en-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 5 (inglês)",
@@ -910,7 +910,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2024/d1-021-1.png"
+   "/enem/2024/d1-021-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 21",
@@ -1052,7 +1052,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2024/d1-025-1.png"
+   "/enem/2024/d1-025-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 25",
@@ -1334,7 +1334,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2024/d1-033-1.png"
+   "/enem/2024/d1-033-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 33",
@@ -1441,7 +1441,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2024/d1-036-1.png"
+   "/enem/2024/d1-036-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 36",
@@ -1688,7 +1688,7 @@
   ],
   "correctOptionId": "e",
   "images": [
-   "/enem/2024/d1-043-1.png"
+   "/enem/2024/d1-043-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 43",
@@ -2040,7 +2040,7 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2024/d1-053-1.png"
+   "/enem/2024/d1-053-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 53",
@@ -2882,7 +2882,7 @@
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2024/d1-077-1.png"
+   "/enem/2024/d1-077-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 77",
@@ -2919,7 +2919,7 @@
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2024/d1-078-1.png"
+   "/enem/2024/d1-078-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 78",
@@ -3201,7 +3201,7 @@
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2024/d1-086-1.png"
+   "/enem/2024/d1-086-1.webp"
   ],
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 86",
@@ -3343,9 +3343,9 @@
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2024/d1-090-1.png",
-   "/enem/2024/d1-090-2.png",
-   "/enem/2024/d1-090-3.png"
+   "/enem/2024/d1-090-1.webp",
+   "/enem/2024/d1-090-2.webp",
+   "/enem/2024/d1-090-3.webp"
   ],
   "optionsAsImage": true,
   "source": "INEP - ENEM 2024",
