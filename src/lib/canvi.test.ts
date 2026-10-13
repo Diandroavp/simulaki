@@ -66,8 +66,8 @@ describe('Canvi: cobrança Pix', () => {
     const { pay } = await userWithPendingPix();
     expect(pay.gatewayId).toMatch(/^500\d$/);
     expect(pay.pixCopyPaste).toBe(`000201BRCODE${pay.gatewayId}`);
-    expect(pay.amountCents).toBe(1990);
-    expect(invoices.get(pay.gatewayId!)?.valor).toBe('19.90'); // 1990 centavos viraram R$ 19,90 na API
+    expect(pay.amountCents).toBe(2990);
+    expect(invoices.get(pay.gatewayId!)?.valor).toBe('29.90'); // 2990 centavos viraram R$ 29,90 na API
     await userWithPendingPix();
     expect(logins).toBe(1); // um login só; token em cache no banco
   });
