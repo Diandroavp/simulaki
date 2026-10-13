@@ -5,6 +5,14 @@ import { handleCanviNotification, secretMatches } from '@/lib/canvi-webhook';
 
 export const dynamic = 'force-dynamic';
 
+/** Verificação de URL (GET/HEAD): confirma que o endereço existe e o segredo confere. Não altera nada. */
+export async function GET(_: Request, { params }: { params: Promise<{ secret: string }> }) {
+  const { secret } = await params;
+  if (!secretMatches(secret, process.env.CANVI_WEBHOOK_SECRET)) return NextResponse.json({ error: 'não autorizado' }, { status: 401 });
+  return NextResponse.json({ ok: true });
+}
+export const HEAD = GET;
+
 /**
  * Webhook da Canvi. Configure a URL (com o segredo no caminho) via POST /bt/configurar_webhook,
  * tipo_transacao "pixCashin", type "json". Veja scripts/canvi-setup-webhook.mjs.
