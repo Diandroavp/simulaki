@@ -76,7 +76,7 @@ export function examTopic(topic: string): string {
 
 /** Linha de fonte mostrada ao aluno: de onde vem a questão e em que ela se baseia. */
 export function sourceLine(q: Question): string {
-  if (q.source) return `Fonte: ${q.source}${q.sourceRef ? ` · ${q.sourceRef}` : ''}`;
+  if (q.source) return `Fonte: ${q.source.replace(/\s—\s/g, ' - ')}${q.sourceRef ? ` · ${q.sourceRef}` : ''}`;
   const ref = q.legalRef && !q.legalRef.includes('conferir') ? q.legalRef : null;
   if (!ref) return 'Fonte: elaborada pelo Simulaki';
   const law = /^CTB/i.test(ref) ? ' (Lei nº 9.503/1997)' : '';

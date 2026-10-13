@@ -2,57 +2,106 @@ import Link from 'next/link';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
 import { GUIAS } from '@/lib/guias';
+import { ApagadorLousa, Borracha, Lapis, Marcador, Regua } from './ilustracoes';
 
 export default function Home() {
+  const detran = SIMULATIONS.filter((s) => s.group === 'detran');
+  const outros = SIMULATIONS.filter((s) => s.group !== 'detran');
   return (
     <>
       <section className="hero">
         <div>
-          <h1>Treine no formato da prova e chegue seguro no dia.</h1>
-          <p className="lead">
-            Simulados com cronômetro e correção na hora. Cada questão tem a explicação e a base legal, e você vê em quais temas ainda erra.
-          </p>
+          <h1>Chegue seguro à <mark>prova teórica</mark> do Detran.</h1>
+          <p className="lead">Simulados com 30 questões, cronômetro e correção na hora. Cada resposta vem com a explicação e a base legal.</p>
           <div className="row">
-            <Link className="btn" href="/cadastro">Fazer o simulado grátis</Link>
+            <Link className="btn" href="/cadastro">Criar conta grátis</Link>
             <Link className="btn ghost" href="/planos">Ver planos</Link>
           </div>
-          <p className="muted" style={{ marginTop: 14 }}>1 simulado grátis por dia, sem cartão.</p>
         </div>
-        <DemoQuestion />
+        <div className="board">
+          <div className="board-frame"><div className="board-face"><DemoQuestion /></div></div>
+          <div className="board-tray" aria-hidden>
+            <Marcador cor="#2447D8" />
+            <Marcador cor="#D8453A" />
+            <ApagadorLousa />
+          </div>
+          <Lapis className="stick pencil" />
+          <Borracha className="stick eraser" />
+          <Regua className="stick ruler" />
+        </div>
       </section>
 
-      <hr className="roadline" aria-hidden />
-      <h2>Simulados</h2>
-      <ul className="simlist">
-        {SIMULATIONS.map((s) => {
+      <section aria-label="Como é a prova">
+        <div className="facts">
+          <div><b>30</b><span>questões</span></div>
+          <div><b>60</b><span>minutos</span></div>
+          <div><b>20</b><span>acertos para passar</span></div>
+        </div>
+        <p className="facts-note">Regras da Resolução Contran 1.020/2025. 1 simulado grátis por dia, sem cartão.</p>
+      </section>
+
+      <h2>Escolha o seu simulado</h2>
+      <div className="sims">
+        {detran.map((s, i) => {
           const on = isAvailable(s);
-          return (
-            <li key={s.slug} className={on ? '' : 'off'}>
-              <span className="name">{s.name}</span>
-              <span className={`badge ${on ? 'on' : ''}`}>{on ? 'Disponível' : 'Em breve'}</span>
-              <span className="desc">{s.description}</span>
-            </li>
+          const cls = `sim ${i === 0 ? 'big' : ''} ${on ? '' : 'off'}`;
+          const body = (
+            <>
+              <span className="nm">{s.name}</span>
+              <span className="muted">{s.description}</span>
+              {on ? <span className="go">Fazer simulado</span> : <span className="badge" style={{ alignSelf: 'flex-start' }}>Em breve</span>}
+            </>
           );
+          return on ? <Link key={s.slug} href={`/simulado/${s.slug}`} className={cls}>{body}</Link> : <div key={s.slug} className={cls}>{body}</div>;
         })}
-      </ul>
-
-      <h2 style={{ marginTop: 56 }}>Guias para a prova teórica</h2>
-      <ul className="simlist">
-        {GUIAS.map((g) => (
-          <li key={g.slug}>
-            <Link className="name" href={`/guia/${g.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{g.titulo}</Link>
-            <span className="desc">{g.resumo}</span>
-          </li>
+      </div>
+      <div className="sims two">
+        {outros.map((s) => (
+          <div key={s.slug} className="sim off">
+            <span className="nm">{s.name}</span>
+            <span className="muted">{s.description}</span>
+            <span className="badge" style={{ alignSelf: 'flex-start' }}>Em breve</span>
+          </div>
         ))}
-      </ul>
+      </div>
 
-      <h2 style={{ marginTop: 56 }}>Como funciona</h2>
-      <ol className="steps">
-        <li><strong>Escolha o simulado</strong><span className="muted">Mesmo número de questões e tempo da prova do seu estado.</span></li>
-        <li><strong>Responda no tempo</strong><span className="muted">Cronômetro e navegação entre as questões, como na prova.</span></li>
-        <li><strong>Aprenda com os erros</strong><span className="muted">Cada questão tem explicação e referência legal.</span></li>
-        <li><strong>Acompanhe a evolução</strong><span className="muted">Histórico, acertos por simulado e por tema.</span></li>
-      </ol>
+      <section className="paper" style={{ marginTop: 72 }}>
+        <h2>Do primeiro simulado à aprovação</h2>
+        <ol className="steps">
+          <li><strong>Escolha o simulado</strong><span className="muted">Mesmo número de questões e tempo da prova do seu estado.</span></li>
+          <li><strong>Responda no tempo</strong><span className="muted">Cronômetro e navegação entre as questões, como na prova.</span></li>
+          <li><strong>Aprenda com os erros</strong><span className="muted">Cada questão tem explicação e referência legal.</span></li>
+          <li><strong>Acompanhe a evolução</strong><span className="muted">Histórico, acertos por simulado e por tema.</span></li>
+        </ol>
+      </section>
+
+      <h2>Treine o que você mais erra</h2>
+      <div className="treino">
+        <div className="tile a">
+          <h3>Treino por tema</h3>
+          <p style={{ margin: 0 }}>Sessões de 10 questões com correção na hora, no tema que você escolher.</p>
+          <div className="pills"><span>Legislação</span><span>Sinalização</span><span>Direção defensiva</span><span>Mecânica</span><span>Primeiros socorros</span><span>Meio ambiente</span></div>
+        </div>
+        <div className="tile b">
+          <h3>Caderno de erros</h3>
+          <p style={{ margin: 0 }}>As questões que você errou ficam guardadas para refazer até acertar.</p>
+        </div>
+      </div>
+
+      <h2>Guias para a prova teórica</h2>
+      <div className="guias">
+        {GUIAS.map((g) => (
+          <Link key={g.slug} className="guia" href={`/guia/${g.slug}`}>
+            <b>{g.titulo}</b>
+            <span>{g.resumo}</span>
+          </Link>
+        ))}
+      </div>
+
+      <section className="final">
+        <h2>Faça o primeiro simulado hoje.</h2>
+        <Link className="btn" href="/cadastro">Criar conta grátis</Link>
+      </section>
     </>
   );
 }

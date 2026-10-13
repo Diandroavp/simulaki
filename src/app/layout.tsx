@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { cookies } from 'next/headers';
 import { logoutAction } from './actions';
 import { getCurrentUser } from '@/lib/auth';
+import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource-variable/geist';
+import '@fontsource-variable/caveat';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -14,15 +16,8 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const user = await getCurrentUser();
-  const t = (await cookies()).get('tema')?.value;
-  const tema = t === 'placa' || t === 'painel' ? t : 'cartao';
   return (
-    <html lang="pt-BR" data-tema={tema}>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Hanken+Grotesk:wght@400;500;600;700&family=Archivo:wght@400;600;800&family=Archivo+Black&family=Chakra+Petch:wght@500;600;700&family=Figtree:wght@400;500;700&display=swap" />
-      </head>
+    <html lang="pt-BR">
       <body>
         {process.env.BETA === '1' && <div className="beta">Versão beta: o conteúdo ainda está em revisão e pode conter erros. Confira sempre a legislação oficial.</div>}
         <header className="top">
@@ -47,15 +42,17 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </div>
         </header>
         <main>{children}</main>
-        <footer className="muted wrap" style={{ paddingBottom: 32 }}>
-          Plataforma independente de simulados. Não é um serviço oficial do Detran, do INEP, da UFAM nem da UEA.
-          <div className="tema" aria-label="Aparência do site">
-            Aparência:
-            {([['cartao', 'Cartão-resposta'], ['placa', 'Placa'], ['painel', 'Painel']] as const).map(([k, n]) => (
-              <a key={k} href={`/api/tema?t=${k}`} aria-current={tema === k}>{n}</a>
-            ))}
+        <footer className="foot">
+          <div className="wrap">
+            <p className="muted" style={{ margin: 0 }}>Plataforma independente de simulados. Não é um serviço oficial do Detran, do INEP, da UFAM nem da UEA.</p>
+            <nav>
+              <Link href="/guia">Guias</Link>
+              <Link href="/planos">Planos</Link>
+              <Link href="/termos">Termos de uso</Link>
+              <Link href="/privacidade">Privacidade</Link>
+              <Link href="/reembolso">Reembolso</Link>
+            </nav>
           </div>
-          <div><Link href="/guia">Guias</Link> · <Link href="/termos">Termos de uso</Link> · <Link href="/privacidade">Privacidade</Link> · <Link href="/reembolso">Reembolso</Link></div>
         </footer>
       </body>
     </html>
