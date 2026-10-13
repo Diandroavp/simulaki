@@ -1,37 +1,44 @@
-# Pendências do Simulaki (atualizado em 11/10/2026)
+# Pendências do Simulaki (atualizado em 13/10/2026)
 
-## O que depende do Diandro
+## No ar
+Domínio https://www.simulaki.com, e-mails (Resend, com cópia oculta para diandroavp@gmail.com), Pix pela Canvi, painel admin, treino por tema, simulado personalizado (plano pago), banco do Detran e banco do ENEM (2009 a 2025, em rascunho).
 
-### Antes de abrir para o público
-1. **Revisão das questões.** Planilhas `simulaki-revisao-sem-placas.csv` (1.340) e `simulaki-revisao-com-placas.csv` (226). O revisor marca ok / corrigir / descartar e confere o tema de cada questão. Depois: `node scripts/review.mjs publish "Nome" ids...`. Sem isso, nada vai para produção quando `ALLOW_DRAFT_QUESTIONS` for desligado.
-2. **Direito de uso do Banco Nacional de Questões.** A Resolução CONTRAN 1.020/2025 (art. 33 §6º) diz que o banco é público, mas não há termo de reuso explícito. Pedir parecer aos advogados e escrever à Senatran (Fale Conosco do Ministério dos Transportes): link oficial do PDF e autorização para uso comercial.
-3. **Dados legais (`LEGAL_*` na Vercel):** razão social, CNPJ, endereço, e-mail do encarregado de dados. Depois de revisão jurídica dos Termos/Privacidade/Reembolso, definir `LEGAL_REVIEWED=1`.
-4. **Imagens das placas.** 86 placas faltam (R-1 e R-2 já existem). Baixar do Wikimedia Commons ("Road signs of Brazil", arquivos "Brasil R-37.svg") ou do Manual Brasileiro de Sinalização de Trânsito (CONTRAN), colocar numa pasta do Google Drive e passar o link. Lista: `npm run placas:faltando`.
-5. **Confirmar com o Detran-AM** a distribuição de questões por tema (hoje: 12 legislação, 10 direção defensiva, 3 primeiros socorros, 3 meio ambiente, 2 mecânica, não confirmada) e se o estado já usa o banco nacional.
+## Planos (13/10/2026)
+Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 79,90 (os dois últimos funcionam como âncora). Preços mudam no banco (tabela `plans`); o seed só cria planos novos.
 
-### Domínio e e-mail
-6. **Domínio (GoDaddy):** apontar simulaki.com para a Vercel (adicionar o domínio no projeto e criar os registros DNS).
-7. **Resend:** criar conta, verificar o domínio, gerar `RESEND_API_KEY` e `EMAIL_FROM`. Sem isso não saem e-mails de verificação nem de recuperação de senha, e o checkout exige e-mail verificado.
-8. **Depois de o domínio ir ao ar:** cadastrar simulaki.com no Google Search Console e enviar o sitemap (https://simulaki.com/sitemap.xml). Definir `APP_URL=https://simulaki.com` na Vercel.
-9. **Vercel:** conferir que a Deployment Protection está desligada e que `APP_URL` aponta para o domínio final.
+## Provas: o que falta
 
-### Financeiro (por último)
-9. **Canvi/Pix:** credenciais (você mesmo cadastra na Vercel), `PAYMENT_WEBHOOK_SECRET` e teste no sandbox. Até lá o site mostra "Pix abre em breve".
-10. **Login com Google:** criar credenciais OAuth, cadastrar a URL de retorno e testar.
+### ENEM
+- **Revisão humana** das ~2.760 questões (tudo está `draft`; produção só mostra `published`). Falta decidir o fluxo (tela em /admin/questoes em lote, ou publicar só 2022 a 2025 depois de amostragem).
+- **Faltam:** gabaritos de 2010 e do 2º dia de 2017 (baixar no site do INEP); ano 2010 inteiro; 1998 a 2008 (importador próprio, um dia só).
+- 2020 e 2021: PDFs sem texto, cada questão é uma imagem inteira.
+- Questões anuladas ficaram de fora (sem gabarito oficial).
+- Explicações da resolução: nenhuma ainda (o ENEM oficial só traz enunciado e gabarito).
 
-## O que está feito
-- Treino por tema e caderno de erros (/treino). Guias e páginas por estado para o Google (/guia, /detran/am|sp|ba), com sitemap.
-- Banco Nacional de Questões da Senatran importado: 1.500 questões como rascunho, com fonte, ano, parte/módulo, nível e base legal exibidos ao aluno.
-- Banco nacional compartilhado por todos os estados (`content/questions/br`); questões de placa só entram na prova se a imagem existir.
-- Regras da prova: 30 questões, 60 min, 20 acertos (Res. CONTRAN 1.020/2025).
-- Design: faixa de pista como marca, botões e cartões menos uniformes.
-- Verificação de e-mail, LGPD (exportar/excluir conta), cupons, planos, painel admin, 65 testes automatizados.
+### PSC (UFAM)
+- Fonte oficial: repositório `edoc.ufam.edu.br` (coleção "Documentos Compec", handle 123456789/552). Mapeadas **14 provas com gabarito definitivo**: PSC 1 e 2 de 2019 a 2023, PSC 3 de 2020 a 2023.
+- **Pendente do Diandro:** apertar Salvar nos 28 PDFs (14,7 MB) quando o Claude refizer a fila de downloads. Os arquivos vão para `Downloads/simulaki-enem` com nome `psc_<ano>_et<etapa>_prova|gab.pdf`.
+- 2024 a 2026: só gabarito preliminar no repositório; conferir contra "Respostas aos Recursos" antes de usar.
+- Depois: adaptar `scripts/import-enem.py` ao formato das provas do PSC (etapas 1, 2 e 3; categoria "PSC 1/2/3").
 
-## Limitações conhecidas
-- Não consegui testar o cadastro e o simulado no site publicado (o ambiente não abre a Vercel e o acesso da ferramenta à conta foi negado). Testei tudo em ambiente local.
-- Temas das questões do banco nacional atribuídos por palavras-chave; sujeitos a conferência.
-- Questões de placa: 226 fora das provas até as imagens entrarem.
+### SIS (UEA)
+- A prova é aplicada e publicada pela **Vunesp** (páginas `vunesp.com.br/UEAM25xx` e `UEAM26xx`). Ainda não abri essas páginas nem baixei nada.
+- **Direitos:** pedir autorização à Vunesp e à UEA antes de publicar questões do SIS, ou ter parecer jurídico. Mesmo cuidado com o PSC (UFAM) e a OAB (FGV).
 
+### OAB (FGV)
+- Plano mais alto (premium). Precisa de autorização da FGV/análise jurídica antes de qualquer questão.
+
+## O que depende do Diandro (do documento anterior, ainda abertas)
+1. **Revisão das questões do Detran** (planilhas de revisão e `scripts/review.mjs publish`).
+2. **Direito de uso do Banco Nacional de Questões** (Senatran): pedir parecer e autorização.
+3. **Dados legais (`LEGAL_*` na Vercel):** razão social, CNPJ, endereço, foro, encarregado; revisão jurídica dos Termos/Privacidade/Reembolso e `LEGAL_REVIEWED=1`.
+4. **86 imagens de placas** (`npm run placas:faltando`).
+5. **Confirmar com o Detran-AM** a distribuição de questões por tema.
+6. **Google Search Console:** propriedade de domínio simulaki.com, sitemap https://www.simulaki.com/sitemap.xml.
+7. **Segurança:** trocar a chave privada de produção da Canvi e o segredo do webhook (foram expostos em conversa), atualizar a Vercel e a URL de callback na Canvi e refazer um pagamento de teste.
+8. **Login com Google:** credenciais OAuth e URL de retorno no domínio www.
+9. **Reembolso:** definir o processo.
+10. Aplicar o visual novo aos painéis admin e parceiro.
 
 ## E-mail oficial
-- `simulakioficial@gmail.com` é o e-mail de suporte e do encarregado (LGPD) enquanto não houver e-mail no domínio. Os advogados devem confirmar quem consta como encarregado nos textos. Usar também como dono do Google Search Console, da conta Resend e do projeto Google (login).
+`simulakioficial@gmail.com` é o e-mail de suporte e do encarregado (LGPD).
