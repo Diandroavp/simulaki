@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
 import { GUIAS } from '@/lib/guias';
-import { ApagadorLousa, Borracha, Fita, Lapis, Marcador, Regua } from './ilustracoes';
+import { ApagadorLousa, Borracha, Cena, CronometroSolto, Lapis, Livros, Marcador } from './ilustracoes';
 
 export default function Home() {
   const detran = SIMULATIONS.filter((s) => s.group === 'detran');
@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <>
       <div className="herowrap bleed">
-        <Fita className="fita" />
         <section className="hero">
           <span className="deco x" aria-hidden>xxxx</span>
           <span className="deco o" aria-hidden><i /><i /><i /><i /><i /><i /></span>
@@ -31,7 +30,8 @@ export default function Home() {
             </div>
             <Lapis className="stick pencil" />
             <Borracha className="stick eraser" />
-            <Regua className="stick ruler" />
+            <Livros className="stick books" />
+            <CronometroSolto className="stick timer" />
           </div>
         </section>
         <svg className="wave" viewBox="0 0 1440 84" preserveAspectRatio="none" aria-hidden><path d="M0 46C220 96 440 6 720 38S1200 90 1440 26V84H0Z" /></svg>
@@ -105,7 +105,7 @@ export default function Home() {
       </div>
 
       <section className="final">
-        <Fita className="fita" />
+        <Cena className="cena" />
         <h2>Faça o primeiro simulado <em>hoje</em>.</h2>
         <Link className="btn" href="/cadastro">Criar conta grátis <span aria-hidden>→</span></Link>
       </section>

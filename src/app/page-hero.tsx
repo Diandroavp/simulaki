@@ -1,11 +1,11 @@
 import type { ReactNode } from 'react';
-import { Fita } from './ilustracoes';
+import { Cena } from './ilustracoes';
 
-/** Faixa de título das páginas internas: bloco verde com a fita colorida e borda em onda. */
+/** Faixa de título das páginas internas: bloco verde com a cena de estudo e borda em onda. */
 export function PageHero({ title, lead, compact }: { title: ReactNode; lead?: ReactNode; compact?: boolean }) {
   return (
     <div className={`phero bleed ${compact ? 'compact' : ''}`}>
-      <Fita className="fita" />
+      <Cena className="cena" />
       <div className="phero-in">
         <h1>{title}</h1>
         {lead && <p className="lead">{lead}</p>}
@@ -20,7 +20,7 @@ export function AuthShell({ title, lead, children }: { title: ReactNode; lead: s
   return (
     <div className="auth">
       <aside className="auth-side">
-        <Fita className="fita" />
+        <Cena className="cena" />
         <div style={{ position: 'relative' }}>
           <h2>{title}</h2>
           <p>{lead}</p>
