@@ -31,3 +31,7 @@
 - Não consegui testar o cadastro e o simulado no site publicado (o ambiente não abre a Vercel e o acesso da ferramenta à conta foi negado). Testei tudo em ambiente local.
 - Temas das questões do banco nacional atribuídos por palavras-chave; sujeitos a conferência.
 - Questões de placa: 226 fora das provas até as imagens entrarem.
+
+
+## E-mail oficial
+- `simulakioficial@gmail.com` é o e-mail de suporte e do encarregado (LGPD) enquanto não houver e-mail no domínio. Os advogados devem confirmar quem consta como encarregado nos textos. Usar também como dono do Google Search Console, da conta Resend e do projeto Google (login).
