@@ -7,6 +7,13 @@ export type Mail = { to: string; subject: string; text: string };
 
 export const outbox: Mail[] = []; // usado nos testes
 
+/** Cópia oculta (Cco) de todo e-mail enviado pelo site. EMAIL_BCC=vazio desliga; vários separados por vírgula. */
+const BCC_PADRAO = 'diandroavp@gmail.com';
+export function bccFor(to: string): string[] {
+  const raw = process.env.EMAIL_BCC ?? BCC_PADRAO;
+  return raw.split(',').map((e) => e.trim()).filter((e) => e && e.toLowerCase() !== to.toLowerCase());
+}
+
 export async function sendEmail(mail: Mail): Promise<boolean> {
   const key = process.env.RESEND_API_KEY;
   if (!key) {
@@ -21,7 +28,7 @@ export async function sendEmail(mail: Mail): Promise<boolean> {
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' },
-    body: JSON.stringify({ from: process.env.EMAIL_FROM ?? 'Simulaki <nao-responda@simulaki.com>', to: mail.to, subject: mail.subject, text: mail.text }),
+    body: JSON.stringify({ from: process.env.EMAIL_FROM ?? 'Simulaki <nao-responda@simulaki.com>', to: mail.to, ...(bccFor(mail.to).length ? { bcc: bccFor(mail.to) } : {}), subject: mail.subject, text: mail.text }),
   });
   if (!res.ok) console.error('Falha ao enviar e-mail:', res.status);
   return res.ok;
