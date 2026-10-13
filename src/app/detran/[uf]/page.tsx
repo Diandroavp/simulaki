@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { PageHero } from '../../page-hero';
 import { notFound } from 'next/navigation';
 import { ESTADOS, FONTE_RESOLUCAO, GUIAS } from '@/lib/guias';
 import { isAvailable, getSimulation } from '@/lib/simulations';
@@ -23,11 +24,9 @@ export default async function Page({ params }: { params: Promise<{ uf: string }>
   const sim = getSimulation(e.slug);
   const on = sim ? isAvailable(sim) : false;
   return (
+    <>
+    <PageHero title={<>Simulado <em>Detran {e.sigla}</em></>} lead={`Treine para a prova teórica da primeira habilitação em ${e.nome}, no formato definido pela Resolução CONTRAN 1.020/2025.`} />
     <article className="legal">
-      <h1>Simulado Detran {e.sigla}</h1>
-      <p className="lead" style={{ fontSize: '1.15rem' }}>
-        Treine para a prova teórica da primeira habilitação em {e.nome}, no formato definido pela Resolução CONTRAN 1.020/2025.
-      </p>
       <div className="card">
         <h3 style={{ marginTop: 0 }}>Regras da prova</h3>
         <ul>
@@ -49,5 +48,6 @@ export default async function Page({ params }: { params: Promise<{ uf: string }>
       </ul>
       <p className="muted" style={{ fontSize: '.85rem' }}>O Simulaki é uma plataforma independente e não é um serviço oficial do Detran.</p>
     </article>
+    </>
   );
 }

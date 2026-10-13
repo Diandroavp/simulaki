@@ -1,23 +1,24 @@
 import Link from 'next/link';
 import { signupAction } from '../actions';
+import { AuthShell } from '../page-hero';
 
 export default async function Cadastro({ searchParams }: { searchParams: Promise<{ erro?: string }> }) {
   const { erro } = await searchParams;
   const google = !!process.env.GOOGLE_CLIENT_ID;
   return (
-    <div className="card" style={{ maxWidth: 420, margin: '24px auto' }}>
-      <h1 style={{ marginTop: 0 }}>Criar conta grátis</h1>
+    <AuthShell title={<>Seu primeiro simulado é <em>grátis</em></>} lead="1 simulado por dia, sem cartão. Cada questão vem com explicação e base legal.">
+      <h1>Criar conta grátis</h1>
       {erro && <p className="err" role="alert">{erro}</p>}
       {google && <><a className="btn ghost" style={{ display: 'block', textAlign: 'center' }} href="/api/auth/google">Continuar com Google</a><p className="muted" style={{ textAlign: 'center' }}>ou</p></>}
       <form action={signupAction}>
         <label>Nome<input name="name" required autoComplete="name" /></label>
         <label>E-mail<input name="email" type="email" required autoComplete="email" /></label>
         <label>Senha (mínimo 8 caracteres)<input name="password" type="password" required minLength={8} autoComplete="new-password" /></label>
-        <label className="check"><input type="checkbox" name="terms" required /> Li e aceito os <Link href="/termos" target="_blank">termos de uso</Link> e a <Link href="/privacidade" target="_blank">política de privacidade</Link>.</label>
-        <label className="check"><input type="checkbox" name="marketing" /> Quero receber dicas e novidades por e-mail (opcional).</label>
+        <label className="check"><input type="checkbox" name="terms" required /><span>Li e aceito os <Link href="/termos" target="_blank">termos de uso</Link> e a <Link href="/privacidade" target="_blank">política de privacidade</Link>.</span></label>
+        <label className="check"><input type="checkbox" name="marketing" /><span>Quero receber dicas e novidades por e-mail (opcional).</span></label>
         <div className="row"><button className="btn">Criar conta</button></div>
       </form>
       <p className="muted">Já tem conta? <Link href="/entrar">Entrar</Link></p>
-    </div>
+    </AuthShell>
   );
 }

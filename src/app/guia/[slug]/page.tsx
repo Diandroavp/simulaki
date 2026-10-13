@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { PageHero } from '../../page-hero';
 import { notFound } from 'next/navigation';
 import { FONTE_RESOLUCAO, getGuia, GUIAS } from '@/lib/guias';
 
@@ -33,11 +34,11 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     },
   ];
   return (
+    <>
+    <PageHero title={g.titulo} lead={g.intro} />
     <article className="legal">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld).replace(/</g, '\\u003c') }} />
-      <p className="muted" style={{ marginBottom: 4 }}><Link href="/guia">Guias</Link></p>
-      <h1>{g.titulo}</h1>
-      <p className="lead" style={{ fontSize: '1.15rem' }}>{g.intro}</p>
+      <p className="muted"><Link href="/guia">Todos os guias</Link></p>
       {g.blocos.map((b, i) => (
         <section key={i}>
           {b.h && <h2>{b.h}</h2>}
@@ -55,12 +56,13 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       <div className="card" style={{ marginTop: 28 }}>
         <h3 style={{ marginTop: 0 }}>Treine no formato da prova</h3>
         <p className="muted" style={{ marginTop: 0 }}>30 questões, correção na hora, explicação e fonte em cada uma. 1 simulado grátis por dia.</p>
-        <Link className="btn" href="/cadastro">Fazer o simulado grátis</Link>
+        <Link className="btn" href="/cadastro">Criar conta grátis</Link>
       </div>
       <p className="muted" style={{ fontSize: '.85rem', marginTop: 24 }}>
         Fonte: <a href={FONTE_RESOLUCAO.url} rel="noopener noreferrer">{FONTE_RESOLUCAO.nome}</a>. Atualizado em {new Date(g.atualizado + 'T12:00:00').toLocaleDateString('pt-BR')}.
         O Simulaki é independente e não é um serviço oficial. Confirme as regras no Detran do seu estado.
       </p>
     </article>
+    </>
   );
 }

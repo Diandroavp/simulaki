@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { GUIAS } from '@/lib/guias';
+import { PageHero } from '../page-hero';
 
 export const metadata = {
   title: 'Guias para a prova teórica da CNH',
@@ -9,17 +10,16 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <div className="legal">
-      <h1>Guias para a prova teórica</h1>
-      <p className="muted">Informações conferidas nas normas oficiais, com a fonte em cada página.</p>
-      <ul className="simlist">
+    <>
+      <PageHero title={<>Guias para a <em>prova teórica</em></>} lead="Informações conferidas nas normas oficiais, com a fonte em cada página." />
+      <div className="guias">
         {GUIAS.map((g) => (
-          <li key={g.slug}>
-            <Link className="name" href={`/guia/${g.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>{g.titulo}</Link>
-            <span className="desc">{g.resumo}</span>
-          </li>
+          <Link key={g.slug} className="guia" href={`/guia/${g.slug}`}>
+            <b>{g.titulo}</b>
+            <span>{g.resumo}</span>
+          </Link>
         ))}
-      </ul>
-    </div>
+      </div>
+    </>
   );
 }

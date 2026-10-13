@@ -8,6 +8,7 @@ import { acceptInviteAction, declineInviteAction, leavePartnerAction } from '../
 import { partnersOf, pendingInvitesFor } from '@/lib/partners';
 import { getSimulation, isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { resumoErros } from '@/lib/treino';
+import { PageHero } from '../page-hero';
 
 export const dynamic = 'force-dynamic';
 const TOPICS: Record<string, string> = {
@@ -28,7 +29,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
 
   return (
     <>
-      <h1>Olá, {user.name.split(' ')[0]}</h1>
+      <PageHero compact title={<>Olá, <em>{user.name.split(' ')[0]}</em></>} />
       {verificado === '1' && <p className="okmsg">E-mail confirmado. Obrigado!</p>}
       {!user.emailVerified && (
         <div className="card" style={{ marginBottom: 12 }}>

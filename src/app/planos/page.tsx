@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { and, asc, eq } from 'drizzle-orm';
 import { getDb, schema } from '@/db';
+import { PageHero } from '../page-hero';
 
 export const dynamic = 'force-dynamic';
 const brl = (c: number) => (c / 100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
@@ -12,8 +13,7 @@ export default async function Planos() {
   const bestId = plans.length > 1 ? best?.id : undefined;
   return (
     <>
-      <h1>Planos</h1>
-      <p>Pague por Pix. Acesso liberado assim que o pagamento é confirmado.</p>
+      <PageHero title={<>Escolha o seu <em>plano</em></>} lead="Pague por Pix. Acesso liberado assim que o pagamento é confirmado." />
       <div className="grid">
         <div className="card plan">
           <h3>Grátis</h3>
