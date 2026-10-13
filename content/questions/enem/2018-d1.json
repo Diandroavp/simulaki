@@ -858,27 +858,31 @@
   "options": [
    {
     "id": "a",
-    "text": "conflito com os interesses de poder."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "silêncio em nome do equilíbrio familiar."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "medo instaurado pelas ameaças de punição."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "choque imposto pela distância entre as gerações."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "apego aos protocolos de conduta segundo os gêneros. BRANCO, A. Disponível em: www.oesquema.com.br. Acesso em: 30 jun. 2015 (adaptado). A internet proporcionou o surgimento de novos paradigmas sociais e impulsionou a modificação de outros já estabelecidos nas esferas da comunicação e da informação. A principal consequência criticada na tirinha sobre esse processo é a Vó Clarissa deixou cair os talheres no prato, fazendo a porcelana estalar. Joaquim, meu primo, continuava com o queixo suspenso, batendo com o garfo nos lábios, esperando a resposta. Beatriz ecoou a palavra como pergunta, “o que é lésbica?”. Eu fiquei muda. Joaquim sabia sobre mim e me entregaria para a vó e, mais tarde, para toda a família. Senti um calor letal subir pelo meu pescoço e me doer atrás das orelhas. Previ a cena: vó, a senhora é lésbica? Porque a Joana é. A vergonha estava na minha cara e me denunciava antes mesmo da delação. Apertei os olhos e contraí o peito, esperando o tiro. [...] [...] Pensei na naturalidade com que Taís e eu levávamos a nossa história. Pensei na minha insegurança de contar isso à minha família, pensei em todos os colegas e professores que já sabiam, fechei os olhos e vi a boca da minha vó e a boca da tia Carolina se tocando, apesar de todos os impedimentos. Eu quis saber mais, eu quis saber tudo, mas não consegui perguntar. POLESSO, N. B. Vó, a senhora é lésbica? Amora. Porto Alegre: Não Editora, 2015 (fragmento)."
+    "text": ""
    }
   ],
   "correctOptionId": "b",
-  "images": [],
+  "images": [
+   "/enem/2018/d1-020-1.webp",
+   "/enem/2018/d1-020-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2018",
   "sourceRef": "1º dia, caderno azul, questão 20",
   "status": "draft",
@@ -1749,29 +1753,33 @@
   "options": [
    {
     "id": "a",
-    "text": "deslocamento das tecnologias de suas funções habituais."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "perspectiva de funcionamento do dispositivo de GPS."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "ato de guiar sua bicicleta pelas ruas da cidade."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "análise dos problemas de mobilidade urbana."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "foco na promoção cultural da sua cidade. PEPE ESCOBAR. A silenciosa ditadura do algoritmo. Disponível em: http://outraspalavras.net. Acesso em: 5 jun. 2017 (adaptado). TEXTO IV INSTRUÇÕES PARA A REDAÇÃO 1. O rascunho da redação deve ser feito no espaço apropriado. 2. O texto definitivo deve ser escrito à tinta, na folha própria, em até 30 linhas. 3. A redação que apresentar cópia dos textos da Proposta de Redação ou do Caderno de Questões terá o número de linhas copiadas desconsiderado para efeito de correção. 4. Receberá nota zero, em qualquer das situações expressas a seguir, a redação que: 4.1. tiver até 7 (sete) linhas escritas, sendo considerada “texto insuficiente”. 4.2. fugir ao tema ou que não atender ao tipo dissertativo-argumentativo. 4.3. apresentar parte do texto deliberadamente desconectada do tema proposto. TEXTOS MOTIVADORES TEXTO I Às segundas-feiras pela manhã, os usuários de um serviço de música digital recebem uma lista personalizada de músicas que lhes permite descobrir novidades. Assim como os sistemas de outros aplicativos e redes sociais, este cérebro artificial consegue traçar um retrato automatizado do gosto de seus assinantes e constrói uma máquina de sugestões que não costuma falhar. O sistema se baseia em um algoritmo cuja evolução e usos aplicados ao consumo cultural são infinitos. De fato, plataformas de transmissão de vídeo on-line começam a desenhar suas séries de sucesso rastreando o banco de dados gerado por todos os movimentos dos usuários para analisar o que os satisfaz. O algoritmo constrói assim um universo cultural adequado e complacente com o gosto do consumidor, que pode avançar até chegar sempre a lugares reconhecíveis. Dessa forma, a filtragem de informação feita pelas redes sociais ou pelos sistemas de busca pode moldar nossa maneira de pensar. E esse é o problema principal: a ilusão de liberdade de escolha que muitas vezes é gerada pelos algoritmos. VERDÚ, Daniel. O gosto na era do algoritmo. Disponível em: https://brasil.elpais.com. Acesso em: 11 jun. 2018 (adaptado). TEXTO II Nos sistemas dos gigantes da internet, a filtragem de dados é transferida para um exército de moderadores em empresas localizadas do Oriente Médio ao Sul da Ásia, que têm um papel importante no controle daquilo que deve ser eliminado da rede social, a partir de sinalizações dos usuários. Mas a informação é então processada por um algoritmo, que tem a decisão final. Os algoritmos são literais. Em poucas palavras, são uma opinião embrulhada em código. E estamos caminhando para um estágio em que é a máquina que decide qual notícia deve ou não ser lida. TEXTO III Utilização da Internet 64,7% das pessoas de 10 anos ou mais de idade utilizaram a internet. 63,8% 65,5% Cerca de 85% dos jovens de 18 a 24 anos de idade e 25% das pessoas de 60 anos ou mais de idade utilizaram a internet. Finalidade do acesso à Internet (%) 94,2 76,4 Assistir a vídeos, inclusive programas, séries e filmes Enviar ou receber mensagens de texto, voz ou imagens por aplicativos diferentes de e-mail 69,3 @ Enviar ou receber e-mails (correio eletrônico) Conversar por chamada de voz ou vídeo 73,3 Internet no Brasil em 2016. Disponível em: www.ibge.gov.br. Acesso em: 18 jun. 2018 (adaptado). Mudanças sutis nas informações às quais somos expostos podem transformar nosso comportamento. As redes têm selecionado as notícias sob títulos chamativos como “trending topics” ou critérios como “relevância”. Mas nós praticamente não sabemos como isso tudo é filtrado. Quanto mais informações relevantes tivermos nas pontas dos dedos, melhor equipados estamos para tomar decisões. No entanto, surgem algumas tensões fundamentais: entre a conveniência e a deliberação; entre o que o usuário deseja e o que é melhor para ele; entre a transparência e o lado comercial. Quanto mais os sistemas souberem sobre você em comparação ao que você sabe sobre eles, há mais riscos de suas escolhas se tornarem apenas uma série de reações a “cutucadas” invisíveis. O que está em jogo não é tanto a questão “homem versus máquina”, mas sim a disputa “decisão informada versus obediência influenciada”. CHATFIELD, Tom. Como a internet influencia secretamente nossas escolhas. Disponível em: www.bbc.com. Acesso em: 3 jun. 2017 (adaptado). PROPOSTA DE REDAÇÃO A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija um texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema “Manipulação do comportamento do usuário pelo controle de dados na internet”, apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista."
+    "text": ""
    }
   ],
   "correctOptionId": "a",
   "images": [
-   "/enem/2018/d1-045-1.webp"
+   "/enem/2018/d1-045-1.webp",
+   "/enem/2018/d1-045-2.webp",
+   "/enem/2018/d1-045-3.webp",
+   "/enem/2018/d1-045-4.webp"
   ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2018",
   "sourceRef": "1º dia, caderno azul, questão 45",
   "status": "draft",

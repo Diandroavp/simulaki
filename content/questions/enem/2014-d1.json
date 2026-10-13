@@ -2412,27 +2412,31 @@
   "options": [
    {
     "id": "a",
-    "text": "Mudou de sentido."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "Sofreu reflexão total."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "Atingiu o valor do ângulo limite."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "Direcionou-se para a superfície de separação."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "Aproximou-se da normal à superfície de separação. Para entender os movimentos dos corpos, Galileu discutiu o movimento de uma esfera de metal em dois planos inclinados sem atritos e com a possibilidade de se alterarem os ângulos de inclinação, conforme mostra a figura. Na descrição do experimento, quando a esfera de metal é abandonada para descer um plano inclinado de um determinado nível, ela sempre atinge, no plano ascendente, no máximo, um nível igual àquele em que foi abandonada. Nível de abandono da esfera Galileu e o plano inclinado. Disponível em: www.fisica.ufpb.br. Acesso em: 21 ago. 2012 (adaptado). Uma proposta de dispositivo capaz de indicar a qualidade da gasolina vendida em postos e, consequentemente, evitar fraudes, poderia utilizar o conceito de refração luminosa. Nesse sentido, a gasolina não adulterada, na temperatura ambiente, apresenta razão entre os senos dos raios incidente e refratado igual a 1,4. Desse modo, fazendo incidir o feixe de luz proveniente do ar com um ângulo fixo e maior que zero, qualquer modificação no ângulo do feixe refratado indicará adulteração no combustível."
+    "text": ""
    }
   ],
   "correctOptionId": "e",
-  "images": [],
+  "images": [
+   "/enem/2014/d1-068-1.webp",
+   "/enem/2014/d1-068-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2014",
   "sourceRef": "1º dia, caderno azul, questão 68",
   "status": "draft",

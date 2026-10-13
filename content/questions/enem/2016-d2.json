@@ -2423,23 +2423,23 @@
   "options": [
    {
     "id": "a",
-    "text": "125%"
+    "text": ""
    },
    {
     "id": "b",
-    "text": "231%"
+    "text": ""
    },
    {
     "id": "c",
-    "text": "331%"
+    "text": ""
    },
    {
     "id": "d",
-    "text": "700%"
+    "text": ""
    },
    {
     "id": "e",
-    "text": "800% Ao iniciar suas atividades, um ascensorista registra tanto o número de pessoas que entram quanto o número de pessoas que saem do elevador em cada um dos andares do edifício onde ele trabalha. O quadro apresenta os registros do ascensorista durante a primeira subida do térreo, de onde partem ele e mais três pessoas, ao quinto andar do edifício. Número de pessoas Térreo 1o andar 2o andar 3o andar 4o andar 5o andar que entram no elevador 4 4 1 2 2 2 que saem do elevador 0 3 1 2 0 6 Com base no quadro, qual é a moda do número de pessoas no elevador durante a subida do térreo ao quinto andar? A 2 B 3 C 4 D 5 E 6 O censo demográfico é um levantamento estatístico que permite a coleta de várias informações. A tabela apresenta os dados obtidos pelo censo demográfico brasileiro nos anos de 1940 e 2000, referentes à concentração da população total, na capital e no interior, nas cinco grandes regiões. População residente, na capital e interior segundo as Grandes Regiões 1940/2000 População residente Total Capital Interior 1940 2000 1940 2000 1940 2000 Norte 1 632 917 12 900 704 368 528 3 895 400 1 264 389 9 005 304 Nordeste 14 434 080 47 741 711 1 270 729 10 162 346 13 163 351 37 579 365 Sudeste 18 278 837 72 412 411 3 346 991 18 822 986 14 931 846 53 589 425 Sul 5 735 305 25 107 616 459 659 3 290 220 5 275 646 21 817 396 Centro-Oeste 1 088 182 11 636 728 152 189 4 291 120 935 993 7 345 608 Fonte: IBGE, Censo Demográfico 1940/2000. O valor mais próximo do percentual que descreve o aumento da população nas capitais da Região Nordeste é"
+    "text": ""
    }
   ],
   "correctOptionId": "d",
@@ -2448,6 +2448,7 @@
    "/enem/2016/d2-151-2.webp",
    "/enem/2016/d2-151-3.webp"
   ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2016",
   "sourceRef": "2º dia, caderno azul, questão 151",
   "status": "draft",

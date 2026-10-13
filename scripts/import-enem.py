@@ -165,7 +165,9 @@ def main():
         n = q['n']
         # Tabelas e diagramas vetoriais não viram texto confiável: usa a imagem inteira da questão.
         complexa = q['short'] >= 6 or any(sg.get('vec') for sg in q['segs'])
-        as_img = len(q['options']) < 5 or complexa
+        # Alternativa enorme = texto de outra questão grudado (colunas misturadas); repetida = leitura quebrada.
+        misturada = any(len(v) > 450 for v in q['options'].values()) or len(set(q['options'].values())) < len(q['options'])
+        as_img = len(q['options']) < 5 or complexa or misturada
         imgs, i = [], 0
         for sg in q['segs']:
             y1 = sg['y1'] if sg['y1'] is not None else 748

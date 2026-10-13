@@ -597,27 +597,31 @@
   "options": [
    {
     "id": "a",
-    "text": "fitoestabilização, ficando o mercúrio disponível sob a superfície das raízes das plantas."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "fitovolatilização, permitindo a retirada do mercúrio por plantas e a sua transferência para uma forma volátil."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "fitodegradação, com a degradação do mercúrio promovida por enzimas, contidas nas raízes, formando espécies menos tóxicas."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "fitoestimulação, com a remoção do mercúrio pela ação de microrganismos presentes nas raízes que absorvem e imobilizam o metal."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "fitoextração, em que as plantas que acumulam o mercúrio são cultivadas nesses locais, e a biomassa rica no metal A bauxita contém alumina (Al2O3), que é a matéria-prima para produção do alumínio (Al). De forma geral, são necessários 50 kg de bauxita para produzir 10 kg de alumínio. O Brasil fechou 2020 como um dos principais líderes mundiais em reciclagem de latas de alumínio. De acordo com levantamento da Associação Brasileira dos Fabricantes de Latas de Alumínio (Abralatas), o país obteve um índice de reciclagem de 97,4%, de um total de 4,0 × 105 toneladas de latas vendidas. Considere que a lata é constituída de alumínio puro. Disponível em: https://agenciabrasil.ebc.com.br. Acesso em: 30 nov. 2021 (adaptado). Levando em conta apenas a reciclagem de latas, qual é o valor mais próximo da massa de bauxita, em tonelada, que deixou de ser extraída da natureza em 2020 no Brasil? A 1,0 × 104 ton B 3,9 × 105 ton C 5,0 × 105 ton D 1,9 × 106 ton E 2,0 × 107 ton"
+    "text": ""
    }
   ],
   "correctOptionId": "d",
-  "images": [],
+  "images": [
+   "/enem/2024/d2-108-1.webp",
+   "/enem/2024/d2-108-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2024",
   "sourceRef": "2º dia, caderno azul, questão 108",
   "status": "draft",
@@ -2017,27 +2021,30 @@
   "options": [
    {
     "id": "a",
-    "text": "hexágono regular, pois a área do jardim, em metro quadrado, será k 2 3"
+    "text": ""
    },
    {
     "id": "b",
-    "text": "hexágono regular, pois a área do jardim, em metro quadrado, será 3 3 2"
+    "text": ""
    },
    {
     "id": "c",
-    "text": "quadrado, pois a área do jardim, em metro quadrado, será k 2"
+    "text": ""
    },
    {
     "id": "d",
-    "text": "triângulo equilátero, pois a área do jardim, em metro quadrado, será k 2 3"
+    "text": ""
    },
    {
     "id": "e",
-    "text": "triângulo equilátero, pois a área do jardim, em metro quadrado, será k 2 3"
+    "text": ""
    }
   ],
   "correctOptionId": "a",
-  "images": [],
+  "images": [
+   "/enem/2024/d2-147-1.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2024",
   "sourceRef": "2º dia, caderno azul, questão 147",
   "status": "draft",
@@ -2129,27 +2136,31 @@
   "options": [
    {
     "id": "a",
-    "text": "5,4."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "6,2."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "7,6."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "8,2."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "8,4. A criptografia refere-se à construção e análise de protocolos que impedem terceiros de lerem mensagens privadas. Júlio César, imperador romano, utilizava um código para proteger as mensagens enviadas a seus generais. Assim, se a mensagem caísse em mãos inimigas, a informação não poderia ser compreendida. Nesse código, cada letra do alfabeto era substituída pela letra três posições à frente, ou seja, o “A” era substituído pelo “D”, o “B” pelo “E”, o “C” pelo “F”, e assim sucessivamente. A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A B C Letra do texto codifi cado A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Letra do texto original Disponível em: www.codifica.ibict.br. Acesso em: 15 out. 2019. Qualquer código que tenha um padrão de substituição de letras como o descrito é considerado uma Cifra de César ou um Código de César. Note que, para decifrar uma Cifra de César, basta descobrir por qual letra o “A” foi substituído, pois isso define todas as demais substituições a serem feitas. Uma mensagem, em um alfabeto de 26 letras, foi codificada usando uma Cifra de César. Considere a probabilidade de se descobrir, aleatoriamente, o padrão utilizado nessa codificação, e que uma tentativa frustrada deverá ser eliminada nas tentativas seguintes. Em uma região com grande incidência de terremotos, observou-se que dois terremotos ocorridos apresentaram magnitudes M1 e M2, medidos segundo a escala Richter, e liberaram energias iguais a E1 e E2, respectivamente. Entre os estudiosos do assunto, é conhecida uma expressão algébrica relacionando esses valores dada por \u0019 \u0018 log Estudos mais abrangentes observaram que o primeiro terremoto apresentou a magnitude M1 = 6,9 e a energia liberada foi um décimo da observada no segundo terremoto."
+    "text": ""
    }
   ],
   "correctOptionId": "c",
-  "images": [],
+  "images": [
+   "/enem/2024/d2-150-1.webp",
+   "/enem/2024/d2-150-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2024",
   "sourceRef": "2º dia, caderno azul, questão 150",
   "status": "draft",

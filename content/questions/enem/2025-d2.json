@@ -2374,27 +2374,31 @@
   "options": [
    {
     "id": "a",
-    "text": "1"
+    "text": ""
    },
    {
     "id": "b",
-    "text": "2"
+    "text": ""
    },
    {
     "id": "c",
-    "text": "8"
+    "text": ""
    },
    {
     "id": "d",
-    "text": "9"
+    "text": ""
    },
    {
     "id": "e",
-    "text": "15 Em um estudo clínico, 55 mulheres foram distribuídas, aleatoriamente, em 5 grupos de 11 pessoas. Para testar uma nova medicação, será escolhido um grupo no qual a maioria das mulheres tenham idades entre 20 e 30 anos. Os demais grupos tomarão placebo ou medicações já existentes no mercado. O quadro, parcialmente preenchido, informa alguns dados relativos às idades das mulheres desses grupos. Grupos Menor idade Maior idade Média Mediana Moda Desvio padrão 1 25 10 2 25 9 4 25 1 Mesmo com o quadro incompleto, foi possível selecionar um desses grupos porque, apenas com os dados apresentados no quadro, foi identificado um grupo que, certamente, atendia ao critério de escolha. Pace é um termo usado por um corredor para denominar o seu ritmo médio em uma corrida. Representa o tempo médio, em segundo, que esse corredor leva para percorrer 1 km. O esquema apresenta o tempo, em segundo, que um corredor levou para cruzar as marcas que definem os quatro primeiros trechos de 1 km, em uma corrida de 5 km, e o tempo gasto para percorrer cada trecho de 1 km. Para que consiga repetir nessa corrida seu melhor pace em corridas de 5 km, seu tempo, no 5º trecho, deve ser quantos segundos menor do que o que ele gastou para percorrer o 4º trecho?"
+    "text": ""
    }
   ],
   "correctOptionId": "e",
-  "images": [],
+  "images": [
+   "/enem/2025/d2-158-1.webp",
+   "/enem/2025/d2-158-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2025",
   "sourceRef": "2º dia, caderno azul, questão 158",
   "status": "draft",
@@ -2806,27 +2810,30 @@
   "options": [
    {
     "id": "a",
-    "text": "cd m2"
+    "text": ""
    },
    {
     "id": "b",
-    "text": "m cd"
+    "text": ""
    },
    {
     "id": "c",
-    "text": "cd m"
+    "text": ""
    },
    {
     "id": "d",
-    "text": "m cd"
+    "text": ""
    },
    {
     "id": "e",
-    "text": "m cd2"
+    "text": ""
    }
   ],
   "correctOptionId": "a",
-  "images": [],
+  "images": [
+   "/enem/2025/d2-170-1.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2025",
   "sourceRef": "2º dia, caderno azul, questão 170",
   "status": "draft",

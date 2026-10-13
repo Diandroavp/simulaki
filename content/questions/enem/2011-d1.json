@@ -188,27 +188,31 @@
   "options": [
    {
     "id": "a",
-    "text": "industrialização voltada para o setor de base."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "economia da borracha no sul da Amazônia."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "fronteira agropecuária que degradou parte do cerrado."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "exploração mineral na Chapada dos Guimarães."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "extrativismo na região pantaneira. TEIXEIRA, W. et al. Decifrando a Terra. São Paulo: Nacional, 2009 (adaptado). O gráfico relaciona diversas variáveis ao processo de formação de solos. A interpretação dos dados mostra que a água é um dos importantes fatores de pedogênese, pois nas áreas A de clima temperado ocorrem alta pluviosidade e grande profundidade de solos. B tropicais ocorre menor pluviosidade, o que se relaciona com a menor profundidade das rochas inalteradas. C de latitudes em torno de 30° ocorrem as maiores profundidades de solo, visto que há maior umidade. D tropicais a profundidade do solo é menor, o que evidencia menor intemperismo químico da água sobre as rochas. E de menor latitude ocorrem as maiores precipitações, assim como a maior profundidade dos solos."
+    "text": ""
    }
   ],
   "correctOptionId": "e",
-  "images": [],
+  "images": [
+   "/enem/2011/d1-006-1.webp",
+   "/enem/2011/d1-006-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2011",
   "sourceRef": "1º dia, caderno azul, questão 6",
   "status": "draft",
@@ -2176,23 +2180,23 @@
   "options": [
    {
     "id": "a",
-    "text": "C."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "N."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "P."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "CO2."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "PO4 3-. A eutrofização é um processo em que rios, lagos e mares adquirem níveis altos de nutrientes, especialmente fosfatos e nitratos, provocando posterior acúmulo de matéria orgânica em decomposição. Os nutrientes são assimilados pelos produtores primários e o crescimento desses é controlado pelo nutriente limítrofe, que é o elemento menos disponível em relação à abundância necessária à sobrevivência dos organismos vivos. O ciclo representado na figura seguinte reflete a dinâmica dos nutrientes em um lago. SPIRO, T. G.; STIGLIANI, W. M. Química Ambiental. São Paulo: Pearson Education do Brasil, 2008 (adaptado). A análise da água de um lago que recebe a descarga de águas residuais provenientes de lavouras adubadas revelou as concentrações dos elementos carbono (21,2 mol/L), nitrogênio (1,2 mol/L) e fósforo (0,2 mol/L). Nessas condições, o nutriente limítrofe é o"
+    "text": ""
    }
   ],
   "correctOptionId": "b",
@@ -2200,6 +2204,7 @@
    "/enem/2011/d1-062-1.webp",
    "/enem/2011/d1-062-2.webp"
   ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2011",
   "sourceRef": "1º dia, caderno azul, questão 62",
   "status": "draft",

@@ -1420,29 +1420,31 @@
   "options": [
    {
     "id": "a",
-    "text": "valorização da arte antiga por artistas contemporâneos."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "resistência da arte escultórica aos avanços tecnológicos."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "simplificação da forma em razão do tipo de material utilizado."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "persistência de padrões estéticos em diferentes épocas e culturas."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "ausência de detalhes como traço distintivo da arte tradicional popular. — Eu lhe juro, Aurélia. Estes lábios nunca tocaram a face de outra mulher, que não fosse minha mãe. Meu primeiro beijo de amor, guardei-o para minha esposa, para ti... [...] — Ou de outra mais rica! — disse ela, retraindo-se para fugir ao beijo do marido, e afastando-o com a ponta dos dedos. A voz da moça tomara o timbre cristalino, eco da rispidez e aspereza do sentimento que lhe sublevava o seio, e que parecia ringir-lhe nos lábios como aço. — Aurélia! Que significa isto? — Representamos uma comédia, na qual ambos desempenhamos o nosso papel com perícia consumada. Podemos ter este orgulho, que os melhores atores não nos excederiam. Mas é tempo de pôr termo a esta cruel mistificação, com que nos estamos escarnecendo mutuamente, senhor. Entremos na realidade por mais triste que ela seja; e resigne-se cada um ao que é, eu, uma mulher traída; o senhor, um homem vendido. — Vendido! — exclamou Seixas ferido dentro d’alma. — Vendido, sim: não tem outro nome. Sou rica, muito rica; sou milionária; precisava de um marido, traste indispensável às mulheres honestas. O senhor estava no mercado; comprei-o. Custou-me cem contos de réis, foi barato; não se fez valer. Eu daria o dobro, o triplo, toda a minha riqueza por este momento. ALENCAR, J. Senhora. Rio de Janeiro: Tecnoprint, 2003. MODIGLIANI, A. Cabeça de mulher. Circa 1910-1911. Escultura em calcário, 68,3 × 15,9 × 24,1 cm. National Gallery of Art, Washington. WOLKOFF, J. These 5,000-Year-Old Sculptures Look Shockingly Similar to Modern Art. Disponível em: www.artsy.net. Acesso em: 19 jun. 2019."
+    "text": ""
    }
   ],
   "correctOptionId": "d",
   "images": [
-   "/enem/2024/d1-036-1.webp"
+   "/enem/2024/d1-036-1.webp",
+   "/enem/2024/d1-036-2.webp"
   ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 36",
   "status": "draft",
@@ -1739,27 +1741,33 @@
   "options": [
    {
     "id": "a",
-    "text": "falta de fiscalização no uso de aplicativos de mensagens por crianças."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "divulgação de informação manipulada em postagens virtuais."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "utilização de ferramentas digitais no trabalho educacional."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "exploração de conteúdos humorísticos nas mídias sociais."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "propagação de mensagens com objetivos políticos. TEXTO I Herança – o legado de crenças, conhecimentos, técnicas, costumes, tradições, transmitido por um grupo social de geração para geração; cultura. HOUAISS, A.; VILLAR, M. S. Dicionário Houaiss da língua portuguesa. Rio de Janeiro: Objetiva, 2009 (adaptado). TEXTO II As culturas africanas e afro-brasileiras foram relegadas ao campo do folclore com o propósito de confiná-las ao gueto fossilizado da memória. Folclorizar, nesse caso, é reduzir uma cultura a um conjunto de representações estereotipadas, via de regra, alheias ao contexto que produziu essa cultura. OLIVEIRA, E. D. A epistemologia da ancestralidade. Entrelugares: revista de sociopoética e abordagens afins, 2009. TEXTO III PAULINO, R. Ainda a lamentar. In: GONÇALVES, A. M. Um defeito de cor: romance. Rio de Janeiro: Record, 2024 (adaptado). TEXTO IV História afro-brasileira nas escolas: professoras comentam avanços e dificuldades As aulas sobre escravidão eram motivo de vergonha para uma professora quando ela estudava em uma escola municipal na zona sul de São Paulo. “Era o meu pior momento na escola”, lembra a ex-aluna. Naquela época, a história da população negra no Brasil era reduzida ao horror do período escravocrata. Não se falava na escola sobre temas como a história e a cultura afro-brasileira, muito menos sobre as grandes personalidades negras do país, como Luiz Gama e Carolina Maria de Jesus. A pedagoga, que é negra, tem orgulho de oferecer uma experiência diferente da que viveu em sala de aula para seus alunos. Agora os livros infantis levados para as turmas têm protagonistas pretos. Temas como a beleza do cabelo crespo e o combate ao racismo fazem parte do dia a dia da escola. Disponível em: https://jornal.unesp.br. Acesso em: 3 jun. 2024 (adaptado). TEXTO V Histórias para ninar gente grande G.R.E.S. Estação Primeira de Mangueira (samba-enredo de 2019) Brasil, meu nego Deixa eu te contar A história que a história não conta O avesso do mesmo lugar Na luta é que a gente se encontra Brasil, meu dengo A Mangueira chegou Com versos que o livro apagou Desde 1500 tem mais invasão do que descobrimento Tem sangue retinto pisado Atrás do herói emoldurado Mulheres, tamoios, mulatos Eu quero um país que não está no retrato Brasil, o teu nome é Dandara E a tua cara é de cariri Não veio do céu Nem das mãos de Isabel A liberdade é um dragão no mar de Aracati Salve os caboclos de julho Quem foi de aço nos anos de chumbo Brasil, chegou a vez De ouvir as Marias, Mahins, Marielles, malês Disponível em: www.mangueira.com.br. Acesso em: 30 maio 2024 (fragmento). TEXTO VI Alunos de escola municipal conhecem pontos do Rio que retratam relação com a África Foto: Brenno Carvalho / O Globo Alunos admiram grafite de Zumbi dos Palmares na Pedra do Sal. Disponível em: www.oglobo.com. Acesso em: 29 maio 2024 (adaptado). PROPOSTA DE REDAÇÃO A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema “Desafios para a valorização da herança africana no Brasil”, apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista."
+    "text": ""
    }
   ],
   "correctOptionId": "b",
-  "images": [],
+  "images": [
+   "/enem/2024/d1-045-1.webp",
+   "/enem/2024/d1-045-2.webp",
+   "/enem/2024/d1-045-3.webp",
+   "/enem/2024/d1-045-4.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 45",
   "status": "draft",
@@ -2935,27 +2943,31 @@
   "options": [
    {
     "id": "a",
-    "text": "planejamento familiar."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "segregação territorial."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "homogeneização cultural."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "diferenciação étnico-racial."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "integração socioeconômica. VIEIRA, A. P. L. O Departamento de Imprensa e Propaganda e a política editorial do Estado Novo (1937-1945). Rio de Janeiro: Unirio, 2019. O que as capas da revista Travel in Brazil, publicadas entre 1941 e 1944 pelo Departamento de Imprensa e Propaganda (DIP), evidenciam? A regra de ouro, popularmente conhecida pelo provérbio “Trate os outros como gostaria de ser tratado”, é um dos princípios morais mais onipresentes. A noção subjacente, que apela para o senso ético mais básico, se expressa de uma forma ou de outra em praticamente todas as tradições religiosas, e poucos filósofos morais deixaram de invocar a regra ou pelo menos de tecer comentários a respeito da relação com seus próprios princípios. DUPRÉ, B. 50 grandes ideias da humanidade. São Paulo: Planeta do Brasil, 2016. O princípio ético apresentado no texto, como elemento estruturante da vida em sociedade, se traduz pela seguinte formulação teórica: O que alicerça, portanto, o acolhimento de refugiados pelos Estados gira em torno da fronteira erguida entre inclusão e exclusão, admissão e rejeição, desejáveis e indesejáveis; ao mesmo tempo, enseja vulnerabilidade, indefinição e incerteza a esses migrantes internacionais forçados. MOREIRA, J. B. Refugiados no Brasil. REMHU, n. 43, jul.-dez. 2014."
+    "text": ""
    }
   ],
   "correctOptionId": "e",
-  "images": [],
+  "images": [
+   "/enem/2024/d1-079-1.webp",
+   "/enem/2024/d1-079-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2024",
   "sourceRef": "1º dia, caderno azul, questão 79",
   "status": "draft",

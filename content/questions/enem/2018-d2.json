@@ -734,27 +734,31 @@
   "options": [
    {
     "id": "a",
-    "text": "I"
+    "text": ""
    },
    {
     "id": "b",
-    "text": "II"
+    "text": ""
    },
    {
     "id": "c",
-    "text": "III"
+    "text": ""
    },
    {
     "id": "d",
-    "text": "IV"
+    "text": ""
    },
    {
     "id": "e",
-    "text": "V Células solares à base de TiO2 sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO2 é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO2. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas. TiO2|S + hν → TiO2|S* (1) TiO2|S* → TiO2|S+ + e− (2) TiO2|S+ + I− → TiO2|S + I3 − 3 2 1 2 (3) 1 2 I3 − + e− → I− 3 2 (4) LONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado). O nível metabólico de uma célula pode ser determinado pela taxa de síntese de RNAs e proteínas, processos dependentes de energia. Essa diferença na taxa de síntese de biomoléculas é refletida na abundância e características morfológicas dos componentes celulares. Em uma empresa de produção de hormônios proteicos a partir do cultivo de células animais, um pesquisador deseja selecionar uma linhagem com o metabolismo de síntese mais elevado, dentre as cinco esquematizadas na figura."
+    "text": ""
    }
   ],
   "correctOptionId": "d",
-  "images": [],
+  "images": [
+   "/enem/2018/d2-111-1.webp",
+   "/enem/2018/d2-111-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2018",
   "sourceRef": "2º dia, caderno azul, questão 111",
   "status": "draft",

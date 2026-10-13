@@ -399,27 +399,31 @@
   "options": [
    {
     "id": "a",
-    "text": "carência de matérias-primas."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "degradação da rede rodoviária."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "aumento do crescimento vegetativo."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "centralização do poder político."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "realocação da atividade industrial. Calendário medieval, século XV. Disponível em: www.ac-grenoble.fr. Acesso em: 10 maio 2012. Os calendários são fontes históricas importantes, na medida em que expressam a concepção de tempo das sociedades. Essas imagens compõem um calendário medieval (1460-1475) e cada uma delas representa um mês, de janeiro a dezembro. Com base na análise do calendário, apreende-se uma concepção de tempo O processo de concentração urbana no Brasil em determinados locais teve momentos de maior intensidade e, ao que tudo indica, atualmente passa por uma desaceleração no ritmo de crescimento populacional nos grandes centros urbanos. BAENINGER, R. Cidades e metrópoles: a desaceleração no crescimento populacional e novos arranjos regionais. Disponível em: www.sbsociologia.com.br. Acesso em: 12 dez. 2012 (adaptado)."
+    "text": ""
    }
   ],
   "correctOptionId": "e",
-  "images": [],
+  "images": [
+   "/enem/2015/d1-012-1.webp",
+   "/enem/2015/d1-012-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2015",
   "sourceRef": "1º dia, caderno azul, questão 12",
   "status": "draft",
@@ -1284,27 +1288,31 @@
   "options": [
    {
     "id": "a",
-    "text": "apoio dado pela Igreja ao trabalho abstrato."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "relação entre desenvolvimento urbano e divisão do trabalho."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "importância organizacional das corporações de ofício."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "progressiva expansão da educação escolar."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "acúmulo de trabalho dos professores e eruditos. SCHWARCZ, L. M. As barbas do imperador: D. Pedro II, um monarca nos trópicos. São Paulo: Cia. das Letras, 1998 (adaptado). Essas imagens de D. Pedro II foram feitas no início dos anos de 1850, pouco mais de uma década após o Golpe da Maioridade. Considerando o contexto histórico em que foram produzidas e os elementos simbólicos destacados, essas imagens representavam um No início foram as cidades. O intelectual da Idade Média — no Ocidente — nasceu com elas. Foi com o desenvolvimento urbano ligado às funções comercial e industrial — digamos modestamente artesanal — que ele apareceu, como um desses homens de ofício que se instalavam nas cidades nas quais se impôs a divisão do trabalho. Um homem cujo ofício é escrever ou ensinar, e de preferência as duas coisas a um só tempo, um homem que, profissionalmente, tem uma atividade de professor e erudito, em resumo, um intelectual — esse homem só aparecerá com as cidades. LE GOFF, J. Os intelectuais na Idade Média. Rio de Janeiro: José Olympio, 2010."
+    "text": ""
    }
   ],
   "correctOptionId": "b",
-  "images": [],
+  "images": [
+   "/enem/2015/d1-037-1.webp",
+   "/enem/2015/d1-037-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2015",
   "sourceRef": "1º dia, caderno azul, questão 37",
   "status": "draft",

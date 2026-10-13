@@ -117,27 +117,32 @@
   "options": [
    {
     "id": "a",
-    "text": "coragem, pela superação."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "vergonha, pelo retraimento."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "compreensão, pela aceitação."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "superioridade, pela arrogância."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "resignação, pela submissão. J. K. Rowling to pen first novel for adults Author J. K. Rowling has announced plans to publish her first novel for adults, which will be “very different” from the Harry Potter books she is famous for. The book will be published worldwide although no date or title has yet been released. “The freedom to explore new territory is a gift that Harry’s sucess has brought me,” Rowling said. All the Potter books were published by Bloomsbury, but Rowling has chosen a new publisher for her debut into adult fiction. “Although I’ve enjoyed writing it every bit as much, my next book will be very different to the Harry Potter series, which has been published so brilliantly by Bloomsbury and my other publishers around the world,” she said, in a statement. “I’m delighted to have a second publishing home in Little, Brown, and a publishing team that will be a great partner in this new phase of my writing life.” Disponível em: www.bbc.co.uk. Acesso em: 24 fev. 2012 (adaptado). J. K. Rowling tornou-se famosa por seus livros sobre o bruxo Harry Potter e suas aventuras, adaptados para o cinema. Esse texto, que aborda a trajetória da escritora britânica, tem por objetivo A informar que a famosa série Harry Potter será adaptada para o público adulto. B divulgar a publicação do romance por J. K. Rowling inteiramente para adultos. C promover a nova editora que irá publicar os próximos livros de J. K. Rowling. D informar que a autora de Harry Potter agora pretende escrever para adultos. E anunciar um novo livro da série Harry Potter publicado por editora diferente."
+    "text": ""
    }
   ],
   "correctOptionId": "a",
-  "images": [],
+  "images": [
+   "/enem/2012/d2-094en-1.webp",
+   "/enem/2012/d2-094en-2.webp",
+   "/enem/2012/d2-094en-3.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2012",
   "sourceRef": "2º dia, caderno azul, questão 94 (inglês)",
   "status": "draft",
@@ -292,23 +297,23 @@
   "options": [
    {
     "id": "a",
-    "text": "a descolonização das ilhas em disputa está contemplada na lei comum britânica."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "as Nações Unidas estão desacreditadas devido à ambiguidade das suas resoluções."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "o princípio de autodeterminação carece de aplicabilidade no caso das Ilhas Malvinas."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "a população inglesa compreende a reivindicação nacionalista da administração argentina."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "os cidadãos de origem britânica assentados nas ilhas seriam repatriados para a Inglaterra. AH, SEGÚN VOS, UNA MOMENTITO!...UNA COSA ES LA MUJEREZ MUJER QUE TENGA COCINERA, LAVANDERA, Y OTRA EL STATUS MUCAMA Y DEMÁS, ES POCO MUJER? QUINO.Disponível em: http://mafalda.dreamers.com. Acesso em: 27 fev. 2012. A personagem Susanita, no último quadro, inventa o vocábulo mujerez, utilizando-se de um recurso de formação de palavra existente na língua espanhola. Na concepção da personagem, o sentido do vocábulo mujerez remete à Las Malvinas son nuestras Sí, las islas son nuestras. Esta afirmación no se basa en sentimientos nacionalistas, sino en normas y principios del derecho internacional que, si bien pueden suscitar interpretaciones en contrario por parte de los británicos, tienen la fuerza suficiente para imponerse. Los británicos optaron por sostener el derecho de autodeterminación de los habitantes de las islas, invocando la resolución 1514 de las Naciones Unidas, que acordó a los pueblos coloniales el derecho de independizarse de los Estados colonialistas. Pero esta tesitura es también indefendible. La citada resolución se aplica a los casos de pueblos sojuzgados por una potencia extranjera, que no es el caso de Malvinas, donde Gran Bretaña procedió a expulsar a los argentinos que residían en las islas, reemplazándolos por súbditos de la corona que pasaron a ser kelpers y luego ciudadanos británicos. Además, según surge de la misma resolución, el principio de autodeterminación no es de aplicación cuando afecta la integridad territorial de un país. Finalmente, en cuanto a qué haría la Argentina con los habitantes británicos de las islas en caso de ser recuperadas, la respuesta se encuentra en la cláusula transitoria primera de la Constitución Nacional sancionada por la reforma de 1994, que impone respetar el modo de vida de los isleños, lo que además significa respetar sus intereses. MENEM, E. Disponível em: www.lanacion.com.ar. Acesso em: 18 fev. 2012 (adaptado). O texto apresenta uma opinião em relação à disputa entre e a Argentina e o Reino Unido pela soberania sobre as Ilhas Malvinas, ocupadas pelo Reino Unido em 1833. O autor dessa opinião apoia a reclamação argentina desse arquipélago, argumentando que"
+    "text": ""
    }
   ],
   "correctOptionId": "c",
@@ -316,6 +321,7 @@
    "/enem/2012/d2-095es-1.webp",
    "/enem/2012/d2-095es-2.webp"
   ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2012",
   "sourceRef": "2º dia, caderno azul, questão 95 (espanhol)",
   "status": "archived",
@@ -472,29 +478,31 @@
   "options": [
    {
     "id": "a",
-    "text": "definição e hierarquia."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "exemplificação e comparação."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "causa e consequência."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "finalidade e meios."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "autoridade e modelo. LAERTE. Disponível em: http://blog.educacional.com.br. Acesso em: 8 set. 2011. Não somos tão especiais Todas as características tidas como exclusivas dos humanos são compartilhadas por outros animais, ainda que em menor grau. INTELIGÊNCIA A ideia de que somos os únicos animais racionais tem sido destruída desde os anos 40. A maioria das aves e mamíferos tem algum tipo de raciocínio. AMOR O amor, tido como o mais elevado dos sentimentos, é parecido em várias espécies, como os corvos, que também criam laços duradouros, se preocupam com o ente querido e ficam de luto depois de sua morte. CONSCIÊNCIA Chimpanzés se reconhecem no espelho. Orangotangos observam e enganam humanos distraídos. Sinais de que sabem quem são e se distinguem dos outros. Ou seja, são conscientes. CULTURA O primatologista Frans de Waal juntou vários exemplos de cetáceos e primatas que são capazes de aprender novos hábitos e de transmiti-los para as gerações seguintes. O que é cultura se não isso? BURGIERMAN, D. Superinteressante, n. 190, jul. 2003. O título do texto traz o ponto de vista do autor sobre a suposta supremacia dos humanos em relação aos outros animais. As estratégias argumentativas utilizadas para sustentar esse ponto de vista são"
+    "text": ""
    }
   ],
   "correctOptionId": "b",
   "images": [
-   "/enem/2012/d2-100-1.webp"
+   "/enem/2012/d2-100-1.webp",
+   "/enem/2012/d2-100-2.webp"
   ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2012",
   "sourceRef": "2º dia, caderno azul, questão 100",
   "status": "draft",
@@ -969,29 +977,31 @@
   "options": [
    {
     "id": "a",
-    "text": "apresentarem um retrato realista, evidenciado pelo unicórnio presente na pintura e pelos adjetivos usados no poema."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "valorizarem o excesso de enfeites na apresentação pessoal e na variação de atitudes da mulher, evidenciadas pelos adjetivos do poema."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "apresentarem um retrato ideal de mulher marcado pela sobriedade e o equilíbrio, evidenciados pela postura, expressão e vestimenta da moça e os adjetivos usados no poema."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "desprezarem o conceito medieval da idealização da mulher como base da produção artística, evidenciado pelos adjetivos usados no poema."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "apresentarem um retrato ideal de mulher marcado pela emotividade e o conflito interior, evidenciados pela expressão da moça e pelos adjetivos do poema. Antigamente Antigamente, os pirralhos dobravam a língua diante dos pais e se um se esquecia de arear os dentes antes de cair nos braços de Morfeu, era capaz de entrar no couro. Não devia também se esquecer de lavar os pés, sem tugir nem mugir. Nada de bater na cacunda do padrinho, nem de debicar os mais velhos, pois levava tunda. Ainda cedinho, aguava as plantas, ia ao corte e logo voltava aos penates. Não ficava mangando na rua, nem escapulia do mestre, mesmo que não entendesse patavina da instrução moral e cívica. O verdadeiro smart calçava botina de botões para comparecer todo liró ao copo d’água, se bem que no convescote apenas lambiscasse, para evitar flatos. Os bilontras é que eram um precipício, jogando com pau de dois bicos, pelo que carecia muita cautela e caldo de galinha. O melhor era pôr as barbas de molho diante de um treteiro de topete, depois de fintar e engambelar os coiós, e antes que se pusesse tudo em pratos limpos, ele abria o arco. ANDRADE, C. D. Poesia e prosa. Rio de Janeiro: Nova Aguilar, 1983 (fragmento). TEXTO II Palavras do arco da velha Expressão Significado Cair nos braços de Morfeu Dormir Debicar Zombar, ridicularizar Tunda Surra Mangar Escarnecer, caçoar Tugir Murmurar Liró Bem-vestido Copo d’água Lanche oferecido pelos amigos Convescote Piquenique Bilontra Velhaco Treteiro de topete Tratante atrevido Abrir o arco Fugir FIORIN, J. L. As línguas mudam. In: Revista Língua Portuguesa, n. 24, out. 2007 (adaptado). Na leitura do fragmento do texto Antigamente constata-se, pelo emprego de palavras obsoletas, que itens lexicais outrora produtivos não mais o são no português brasileiro atual. Esse fenômeno revela que A a língua portuguesa de antigamente carecia de termos para se referir a fatos e coisas do cotidiano. B o português brasileiro se constitui evitando a ampliação do léxico proveniente do português europeu. C a heterogeneidade do português leva a uma estabilidade do seu léxico no eixo temporal. D o português brasileiro apoia-se no léxico inglês para ser reconhecido como língua independente. E o léxico do português representa uma realidade linguística variável e diversificada."
+    "text": ""
    }
   ],
   "correctOptionId": "c",
   "images": [
-   "/enem/2012/d2-114-1.webp"
+   "/enem/2012/d2-114-1.webp",
+   "/enem/2012/d2-114-2.webp"
   ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2012",
   "sourceRef": "2º dia, caderno azul, questão 114",
   "status": "draft",
@@ -1149,27 +1159,31 @@
   "options": [
    {
     "id": "a",
-    "text": "estilo simples e marcado pela interlocução com o receptor, típico da comunicação radiofônica."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "lirismo na abordagem do problema, o que o afasta de uma possível situação real de comunicação radiofônica."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "marcação rítmica dos versos, o que evidencia o fato de o texto pertencer a uma modalidade de comunicação diferente da radiofônica."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "direcionamento do texto a um ouvinte específico, divergindo da finalidade de comunicação do rádio, que é atingir as massas."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "objetividade na linguagem caracterizada pela ocorrência rara de adjetivos, de modo a diminuir as marcas de subjetividade do locutor. Todo o sentido da vida principia a vossa porta: o mel do amor cristaliza seu perfume em vossa rosa; sois o sonho e sois a audácia, calúnia, fúria, derrota... A liberdade das almas, ai! Com letras se elabora... E dos venenos humanos sois a mais fina retorta: frágil, frágil, como o vidro e mais que o aço poderosa! Reis, impérios, povos, tempos, pelo vosso impulso rodam... MEIRELES, C. Obra poética. Rio de Janeiro: Nova Aguilar, 1985 (fragmento). O fragmento destacado foi transcrito do Romanceiro da Inconfidência, de Cecília Meireles. Centralizada no episódio histórico da Inconfidência Mineira, a obra, no entanto, elabora uma reflexão mais ampla sobre a seguinte relação entre o homem e a linguagem: A A força e a resistência humanas superam os danos provocados pelo poder corrosivo das palavras. B As relações humanas, em suas múltiplas esferas, têm seu equilíbrio vinculado ao significado das palavras. C O significado dos nomes não expressa de forma justa e completa a grandeza da luta do homem pela vida. D Renovando o significado das palavras, o tempo permite às gerações perpetuar seus valores e suas crenças. E Como produto da criatividade humana, a linguagem tem seu alcance limitado pelas intenções e gestos."
+    "text": ""
    }
   ],
   "correctOptionId": "a",
-  "images": [],
+  "images": [
+   "/enem/2012/d2-120-1.webp",
+   "/enem/2012/d2-120-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2012",
   "sourceRef": "2º dia, caderno azul, questão 120",
   "status": "draft",

@@ -1749,27 +1749,33 @@
   "options": [
    {
     "id": "a",
-    "text": "uso recorrente de pronomes."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "variedade popular da língua portuguesa."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "referência ao conjunto da fauna nordestina."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "exploração de instrumentos musicais eruditos."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "predomínio de regionalismos lexicais nordestinos. TEXTO III TEXTO IV Disponível em: www.meioemensagem.com. Acesso em: 12 jun. 2019 (adaptado). INSTRUÇÕES PARA A REDAÇÃO 1. O rascunho da redação deve ser feito no espaço apropriado. 2. O texto definitivo deve ser escrito à tinta preta, na folha própria, em até 30 linhas. 3. A redação que apresentar cópia dos textos da Proposta de Redação ou do Caderno de Questões terá o número de linhas copiadas desconsiderado para a contagem de linhas. 4. Receberá nota zero, em qualquer das situações expressas a seguir, a redação que: 4.1. tiver até 7 (sete) linhas escritas, sendo considerada “texto insuficiente”. 4.2. fugir ao tema ou que não atender ao tipo dissertativo-argumentativo. 4.3. apresentar parte do texto deliberadamente desconectada do tema proposto. 4.4. apresentar nome, assinatura, rubrica ou outras formas de identificação no espaço destinado ao texto. TEXTOS MOTIVADORES TEXTO I No dia da primeira exibição pública de cinema — 28 de dezembro de 1895, em Paris —, um homem de teatro que trabalhava com mágicas, Georges Mélies, foi falar com Lumière, um dos inventores do cinema; queria adquirir um aparelho, e Lumière desencorajou-o, disse-lhe que o “Cinematógrapho” não tinha o menor futuro como espetáculo, era um instrumento científico para reproduzir o movimento e só poderia servir para pesquisas. Mesmo que o público, no início, se divertisse com ele, seria uma novidade de vida breve, logo cansaria. Lumière enganou-se. Como essa estranha máquina de austeros cientistas virou uma máquina de contar estórias para enormes plateias, de geração em geração, durante já quase um século? BERNARDET, Jean-Claude. O que é Cinema. In BERNARDET, Jean-Claude; ROSSI, Clóvis. O que é Jornalismo, O que é Editora, O que é Cinema. São Paulo: Brasiliense, 1993. TEXTO II Edgar Morin define o cinema como uma máquina que registra a existência e a restitui como tal, porém levando em consideração o indivíduo, ou seja, o cinema seria um meio de transpor para a tela o universo pessoal, solicitando a participação do espectador. GUTFREIND, C. F. O filme e a representação do real. E-Compós, v. 6, 11, 2006 (adaptado). O Brasil já teve um parque exibidor vigoroso e descentralizado: quase 3 300 salas em 1975, uma para cada 30 000 habitantes, 80% em cidades do interior. Desde então, o país mudou. Quase 120 milhões de pessoas a mais passaram a viver nas cidades. A urbanização acelerada, a falta de investimentos em infraestrutura urbana, a baixa capitalização das empresas exibidoras, as mudanças tecnológicas, entre outros fatores, alteraram a geografia do cinema. Em 1997, chegamos a pouco mais de 1 000 salas. Com a expansão dos shopping centers, a atividade de exibição se reorganizou. O número de cinemas duplicou, até chegar às atuais 2 200 salas. Esse crescimento, porém, além de insuficiente (o Brasil é apenas o 60º país na relação habitantes por sala), ocorreu de forma concentrada. Foram privilegiadas as áreas de renda mais alta das grandes cidades. Populações inteiras foram excluídas do universo do cinema ou continuam mal atendidas: o Norte e o Nordeste, as periferias urbanas, as cidades pequenas e médias do interior. Disponível em: https://cinemapertodevoce.ancine.gov.br. Acesso em: 13 jun. 2019 (fragmento). PROPOSTA DE REDAÇÃO A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema “Democratização do acesso ao cinema no Brasil”, apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista. E SUAS TECNOLOGIAS"
+    "text": ""
    }
   ],
   "correctOptionId": "b",
-  "images": [],
+  "images": [
+   "/enem/2019/d1-045-1.webp",
+   "/enem/2019/d1-045-2.webp",
+   "/enem/2019/d1-045-3.webp",
+   "/enem/2019/d1-045-4.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2019",
   "sourceRef": "1º dia, caderno azul, questão 45",
   "status": "draft",
@@ -2284,27 +2290,31 @@
   "options": [
    {
     "id": "a",
-    "text": "emancipação do poder hegemônico da realeza."
+    "text": ""
    },
    {
     "id": "b",
-    "text": "aceitação das práticas usurárias dos religiosos."
+    "text": ""
    },
    {
     "id": "c",
-    "text": "independência da produção alimentar dos campos."
+    "text": ""
    },
    {
     "id": "d",
-    "text": "superação do ordenamento corporativo dos ofícios."
+    "text": ""
    },
    {
     "id": "e",
-    "text": "permanência dos elementos arquitetônicos de proteção. Disponível em: https://hypescience.com. Acesso em: 1 dez. 2018 (adaptado). A divisão política do mundo como apresentada na imagem seria possível caso o planeta fosse marcado pela estabilidade do(a) A cidade medieval é, antes de mais nada, uma sociedade da abundância, concentrada num pequeno espaço em meio a vastas regiões pouco povoadas. Em seguida, é um lugar de produção e de trocas, onde se articulam o artesanato e o comércio, sustentados por uma economia monetária. É também o centro de um sistema de valores particular, do qual emerge a prática laboriosa e criativa do trabalho, o gosto pelo negócio e pelo dinheiro, a inclinação para o luxo, o senso da beleza. É ainda um sistema de organização de um espaço fechado com muralhas, onde se penetra por portas e se caminha por ruas e praças e que é guarnecido por torres. LE GOFF, J.; SCHMITT, J.-C. Dicionário temático do Ocidente Medieval. Bauru: Edusc, 2006."
+    "text": ""
    }
   ],
   "correctOptionId": "e",
-  "images": [],
+  "images": [
+   "/enem/2019/d1-060-1.webp",
+   "/enem/2019/d1-060-2.webp"
+  ],
+  "optionsAsImage": true,
   "source": "INEP - ENEM 2019",
   "sourceRef": "1º dia, caderno azul, questão 60",
   "status": "draft",
