@@ -14,16 +14,16 @@ export default async function Admin() {
   const day = new Date(Date.now() - 86_400_000);
   const month = new Date(Date.now() - 30 * 86_400_000);
 
-  const [users] = await db.select({ total: sql<number>`count(*)::int`, novos: sql<number>`count(*) filter (where ${schema.users.createdAt} > ${month})::int` }).from(schema.users);
+  const [users] = await db.select({ total: sql<number>`count(*)::int`, novos: sql<number>`count(*) filter (where ${schema.users.createdAt} > ${month.toISOString()}::timestamptz)::int` }).from(schema.users);
   const [subs] = await db.select({ ativas: sql<number>`count(distinct ${schema.subscriptions.ownerUserId}) filter (where ${schema.subscriptions.status} = 'active' and ${schema.subscriptions.endsAt} > now())::int` }).from(schema.subscriptions);
   const [rev] = await db
     .select({
       total: sql<number>`coalesce(sum(${schema.payments.amountCents}) filter (where ${schema.payments.status} = 'paid'),0)::int`,
-      mes: sql<number>`coalesce(sum(${schema.payments.amountCents}) filter (where ${schema.payments.status} = 'paid' and ${schema.payments.paidAt} > ${month}),0)::int`,
+      mes: sql<number>`coalesce(sum(${schema.payments.amountCents}) filter (where ${schema.payments.status} = 'paid' and ${schema.payments.paidAt} > ${month.toISOString()}::timestamptz),0)::int`,
       pendentes: sql<number>`count(*) filter (where ${schema.payments.status} = 'pending')::int`,
     })
     .from(schema.payments);
-  const [att] = await db.select({ hoje: sql<number>`count(*) filter (where ${schema.attempts.startedAt} > ${day})::int`, total: sql<number>`count(*)::int` }).from(schema.attempts);
+  const [att] = await db.select({ hoje: sql<number>`count(*) filter (where ${schema.attempts.startedAt} > ${day.toISOString()}::timestamptz)::int`, total: sql<number>`count(*)::int` }).from(schema.attempts);
   const [wl] = await db.select({ n: sql<number>`count(*)::int` }).from(schema.waitlist);
   const recent = await db
     .select({ id: schema.payments.id, amount: schema.payments.amountCents, status: schema.payments.status, at: schema.payments.createdAt, email: schema.users.email, plan: schema.plans.name })
