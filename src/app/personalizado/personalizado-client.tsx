@@ -8,10 +8,10 @@ import TreinoClient from '../treino/treino-client';
 type Banco = {
   slug: string; nome: string; bank: string; total: number;
   temas: { id: string; nome: string; total: number }[];
-  anos: number[]; minutosPorQuestao: number; distribuicao: Record<string, number> | null; metaPct: number;
+  anos: number[]; cadernos: { id: string; ano: number; dia: number; total: number }[]; minutosPorQuestao: number; distribuicao: Record<string, number> | null; metaPct: number;
 };
 type Modo = 'prova' | 'treino';
-type Spec = { bank: string; modo: Modo; itens: Record<string, number>; minutos?: number; novas: boolean; erradas: boolean; anos?: number[] };
+type Spec = { bank: string; modo: Modo; itens: Record<string, number>; minutos?: number; novas: boolean; erradas: boolean; anos?: number[]; caderno?: string };
 type Sessao = { attemptId: string; tema: string; questions: never[]; faltou?: number };
 
 export default function PersonalizadoClient({ bancos, liberado, retomar, limites }: {
@@ -51,6 +51,12 @@ export default function PersonalizadoClient({ bancos, liberado, retomar, limites
     setItens(novo); setMinutosManual(null);
   };
 
+  async function refazer(caderno: string) {
+    setErro('');
+    const spec: Spec = { bank: banco!.bank, modo: 'prova', itens: {}, novas: false, erradas: false, caderno };
+    setProva(spec);
+  }
+
   async function comecar() {
     setErro('');
     if (total === 0) { setErro('Escolha ao menos uma questão.'); return; }
@@ -85,6 +91,27 @@ export default function PersonalizadoClient({ bancos, liberado, retomar, limites
               </button>
             ))}
           </div>
+        </div>
+      )}
+
+      {banco.cadernos.length > 0 && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <h3 style={{ marginTop: 0 }}>Refazer uma prova do ENEM</h3>
+          <p className="muted" style={{ marginTop: 0 }}>A prova de um dia inteiro, com as questões na ordem real e o tempo oficial (dia 1: 5h30; dia 2: 5h). Se faltar alguma questão, o tempo é ajustado.</p>
+          <ul className="pers-list">
+            {[...new Set(banco.cadernos.map((c) => c.ano))].map((ano) => (
+              <li key={ano}>
+                <strong>ENEM {ano}</strong>
+                <div className="row" style={{ gap: 6 }}>
+                  {banco.cadernos.filter((c) => c.ano === ano).map((c) => (
+                    <button key={c.id} className="btn ghost" style={{ padding: '4px 12px' }} disabled={!liberado} onClick={() => refazer(c.id)}>
+                      Dia {c.dia} <span style={{ opacity: .7, fontWeight: 400 }}>· {c.total} questões</span>
+                    </button>
+                  ))}
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
       )}
 

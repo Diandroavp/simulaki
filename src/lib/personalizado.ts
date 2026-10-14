@@ -27,13 +27,21 @@ export type CustomSpec = {
   erradas?: boolean; // só as que o aluno errou e ainda não acertou
   anos?: number[]; // filtra por ano da prova (ENEM)
   resume?: boolean; // retoma a prova personalizada em andamento
+  caderno?: string; // refaz uma prova oficial inteira, na ordem real (ENEM: '2024-d1')
 };
+
+/** Duração oficial do dia de prova do ENEM, em minutos (dia 1: 5h30 com redação; dia 2: 5h). */
+export const ENEM_MINUTOS_DIA: Record<string, number> = { '1': 330, '2': 300 };
+const reCaderno = /^enem-(\d{4})-d([12])-\d+$/;
+const cadernoId = (id: string) => { const m = reCaderno.exec(id); return m ? `${m[1]}-d${m[2]}` : null; };
 
 export type CatalogoBanco = {
   slug: string; nome: string; bank: string; total: number;
   temas: { id: string; nome: string; total: number }[];
   anos: number[];
   minutosPorQuestao: number;
+  /** Provas oficiais que dá para refazer inteiras (só ENEM): ano, dia e quantas questões estão no ar. */
+  cadernos: { id: string; ano: number; dia: number; total: number }[];
   distribuicao: Record<string, number> | null;
   metaPct: number;
 };
@@ -51,10 +59,13 @@ export function catalogo(): CatalogoBanco[] {
     const cont = new Map<string, number>();
     for (const q of pool) cont.set(q.topic, (cont.get(q.topic) ?? 0) + 1);
     const anos = [...new Set(pool.map((q) => q.year).filter((y): y is number => !!y))].sort((a, b) => b - a);
+    const cads = new Map<string, number>();
+    for (const q of pool) { const c = cadernoId(q.id); if (c) cads.set(c, (cads.get(c) ?? 0) + 1); }
     out.push({
       slug: s.slug, nome: s.name, bank: s.stateCode, total: pool.length,
       temas: [...cont].map(([id, total]) => ({ id, nome: TREINO_TEMAS[id] ?? id, total })).sort((a, b) => b.total - a.total),
       anos,
+      cadernos: [...cads].map(([id, total]) => ({ id, ano: Number(id.slice(0, 4)), dia: Number(id.slice(-1)), total })).sort((a, b) => b.ano - a.ano || a.dia - b.dia),
       minutosPorQuestao: Math.max(1, Math.round((cfg.durationMinutes / cfg.questionCount) * 10) / 10),
       distribuicao: cfg.topicDistribution ?? null,
       metaPct: Math.round((cfg.minCorrect / cfg.questionCount) * 100),
@@ -80,6 +91,20 @@ export async function validar(userId: string, raw: unknown): Promise<Validada> {
   const { full } = await userHasAccess(userId);
   if (!full) return { ok: false, code: 'plano', reason: 'O simulado personalizado faz parte do plano pago.' };
 
+  // Prova oficial inteira: os itens e o tempo vêm do próprio caderno.
+  const cad = typeof r.caderno === 'string' ? banco.cadernos.find((c) => c.id === r.caderno) : undefined;
+  if (r.caderno && !cad) return { ok: false, code: 'invalido', reason: 'Essa prova não está disponível.' };
+  const poolAll = loadQuestions(bank);
+  if (cad) {
+    const itensCad: Record<string, number> = {};
+    for (const q of poolAll) if (cadernoId(q.id) === cad.id) itensCad[q.topic] = (itensCad[q.topic] ?? 0) + 1;
+    const n = Math.min(cad.total, PERSONALIZADO_MAX);
+    return {
+      ok: true,
+      spec: { bank, modo: r.modo === 'treino' ? 'treino' : 'prova', itens: itensCad, caderno: cad.id, minutos: Math.max(PERSONALIZADO_MIN_MINUTOS, Math.round((ENEM_MINUTOS_DIA[String(cad.dia)] ?? 300) * n / 90)) },
+      pool: poolAll,
+    };
+  }
   const itens: Record<string, number> = {};
   let total = 0;
   for (const [tema, v] of Object.entries(r.itens ?? {})) {
@@ -103,6 +128,10 @@ export async function validar(userId: string, raw: unknown): Promise<Validada> {
 
 /** Sorteia as questões da especificação. `faltou` é quantas o filtro não conseguiu entregar. */
 export async function selecionar(userId: string, spec: CustomSpec, pool: Question[]): Promise<{ picked: Question[]; faltou: number }> {
+  if (spec.caderno) {
+    const ordem = pool.filter((q) => cadernoId(q.id) === spec.caderno).sort((a, b) => a.id.localeCompare(b.id)).slice(0, PERSONALIZADO_MAX);
+    return { picked: ordem, faltou: 0 };
+  }
   let base = pool;
   if (spec.anos?.length) base = base.filter((q) => q.year !== undefined && spec.anos!.includes(q.year));
   if (spec.erradas) { const e = new Set(await questoesErradas(userId)); base = base.filter((q) => e.has(q.id)); }

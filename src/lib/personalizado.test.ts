@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { catalogo } from './personalizado';
+import { catalogo, selecionar } from './personalizado';
+import { loadQuestions } from './questions';
 import { nomeTipo } from './simulations';
 
 describe('simulado personalizado', () => {
@@ -17,5 +18,16 @@ describe('simulado personalizado', () => {
     expect(nomeTipo('custom:ENEM')).toBe('Personalizado · ENEM');
     expect(nomeTipo('treino:custom:AM')).toBe('Personalizado · Detran AM');
     expect(nomeTipo('detran-am')).toBe('Detran AM');
+  });
+  it('lista as provas oficiais do ENEM e refaz um dia inteiro na ordem real', async () => {
+    const enem = catalogo().find((b) => b.bank === 'ENEM')!;
+    expect(enem.cadernos.length).toBeGreaterThan(10);
+    const c = enem.cadernos.find((x) => x.id === '2024-d1')!;
+    expect(c.total).toBeGreaterThan(80);
+    const { picked, faltou } = await selecionar('u', { bank: 'ENEM', modo: 'prova', itens: {}, caderno: '2024-d1' }, loadQuestions('ENEM'));
+    expect(faltou).toBe(0);
+    expect(picked).toHaveLength(c.total);
+    expect(picked.every((q) => q.id.startsWith('enem-2024-d1-'))).toBe(true);
+    expect(picked.map((q) => q.id)).toEqual([...picked.map((q) => q.id)].sort());
   });
 });
