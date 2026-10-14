@@ -33,6 +33,22 @@ export function sequencia(dias: DiaAtividade[]): number {
   return n;
 }
 
+/** "AAAA-MM-DD" -> data da prova (meio-dia de Manaus). Só aceita datas de amanhã até 2 anos à frente. */
+export function parseDataProva(raw: string, hoje = new Date()): Date | null {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(raw)) return null;
+  const d = new Date(`${raw}T12:00:00-04:00`);
+  if (Number.isNaN(d.getTime())) return null;
+  const dias = diasAte(d, hoje);
+  return dias >= 1 && dias <= 730 ? d : null;
+}
+
+/** Dias corridos (no fuso de Manaus) de hoje até `data`. */
+export function diasAte(data: Date, hoje = new Date()): number {
+  const a = Date.parse(`${diaManaus(hoje)}T00:00:00Z`);
+  const b = Date.parse(`${diaManaus(data)}T00:00:00Z`);
+  return Math.round((b - a) / 86_400_000);
+}
+
 export type Tema = { banco: 'enem' | 'detran'; topic: string; respondidas: number; acertos: number; pct: number };
 
 export async function desempenho(userId: string, hoje = new Date()) {
@@ -67,7 +83,15 @@ export async function desempenho(userId: string, hoje = new Date()) {
     .sort((a, b) => a.pct - b.pct);
   const total = temas.reduce((a, t) => a + t.respondidas, 0);
   const acertos = temas.reduce((a, t) => a + t.acertos, 0);
+  const [u] = await db.select({ examDate: schema.users.examDate }).from(schema.users).where(eq(schema.users.id, userId)).limit(1);
+  const diasProva = u?.examDate ? diasAte(u.examDate, hoje) : null;
+  const media14 = dias.reduce((a, x) => a + x.respondidas, 0) / dias.length;
   return {
+    dataProva: u?.examDate ?? null,
+    diasProva: diasProva !== null && diasProva >= 0 ? diasProva : null,
+    // Projeção simples: se mantiver a média dos últimos 14 dias até a prova.
+    projecao: diasProva !== null && diasProva > 0 ? Math.round(media14 * diasProva) : null,
+    media14: Math.round(media14 * 10) / 10,
     dias, sequencia: sequencia(dias), hoje: dias[dias.length - 1]!.respondidas, meta: META_DIARIA,
     total, pct: total ? Math.round((acertos / total) * 100) : null, temas,
   };

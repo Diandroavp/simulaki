@@ -91,3 +91,31 @@ describe('treino por tema', () => {
     expect(r.ok).toBe(false);
   });
 });
+
+describe('revisão espaçada', async () => {
+  const { calcularRevisao } = await import('./treino');
+  const DIA = 86_400_000;
+  const t0 = new Date('2026-10-01T12:00:00Z');
+  const h = (id: string, ok: boolean, dias: number) => ({ id, ok, quando: new Date(t0.getTime() + dias * DIA) });
+
+  it('erro: volta já; 1 acerto: em 3 dias; 2 acertos: em 7 dias; 3 acertos: dominada', () => {
+    const agora = (d: number) => new Date(t0.getTime() + d * DIA);
+    expect(calcularRevisao([h('a', false, 0)], agora(0)).devidas).toEqual(['a']);
+    const um = [h('a', false, 0), h('a', true, 1)];
+    expect(calcularRevisao(um, agora(3)).devidas).toEqual([]);
+    expect(calcularRevisao(um, agora(3)).agendadas[0]?.em).toEqual(agora(4));
+    expect(calcularRevisao(um, agora(4)).devidas).toEqual(['a']);
+    const dois = [...um, h('a', true, 4)];
+    expect(calcularRevisao(dois, agora(10)).devidas).toEqual([]);
+    expect(calcularRevisao(dois, agora(11)).devidas).toEqual(['a']);
+    const tres = [...dois, h('a', true, 11)];
+    const r = calcularRevisao(tres, agora(100));
+    expect(r.dominadas).toEqual(['a']);
+    expect(r.devidas).toEqual([]);
+  });
+  it('errar de novo reinicia o ciclo e quem nunca errou não entra', () => {
+    const hist = [h('a', false, 0), h('a', true, 1), h('a', true, 4), h('a', false, 11)];
+    expect(calcularRevisao(hist, new Date(t0.getTime() + 11 * DIA)).devidas).toEqual(['a']);
+    expect(calcularRevisao([h('b', true, 0)], new Date(t0.getTime() + 50 * DIA))).toEqual({ devidas: [], agendadas: [], dominadas: [] });
+  });
+});

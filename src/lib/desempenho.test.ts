@@ -19,3 +19,20 @@ describe('desempenho', () => {
     expect(sequencia(mk([1, 1, 0, 0]))).toBe(0);
   });
 });
+
+import { diasAte, parseDataProva } from './desempenho';
+describe('data da prova', () => {
+  const hoje = new Date('2026-10-14T15:00:00Z');
+  it('conta os dias até a prova no fuso de Manaus', () => {
+    expect(diasAte(new Date('2026-11-14T16:00:00Z'), hoje)).toBe(31);
+    expect(diasAte(new Date('2026-10-14T16:00:00Z'), hoje)).toBe(0);
+  });
+  it('só aceita datas futuras em até 2 anos, no formato AAAA-MM-DD', () => {
+    expect(parseDataProva('2026-11-08', hoje)).toBeInstanceOf(Date);
+    expect(parseDataProva('2026-10-14', hoje)).toBeNull();
+    expect(parseDataProva('2026-10-01', hoje)).toBeNull();
+    expect(parseDataProva('2029-01-01', hoje)).toBeNull();
+    expect(parseDataProva('08/11/2026', hoje)).toBeNull();
+    expect(parseDataProva('2026-02-31', hoje)).toBeNull();
+  });
+});

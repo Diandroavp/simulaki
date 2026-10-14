@@ -50,7 +50,8 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - **/desempenho**: meta diária (10), dias seguidos, 14 dias, temas mais fracos.
 - **Lembretes por e-mail** (saudade aos 3 dias, só para quem aceitou novidades; fim do plano 3 dias antes): prontos e **desligados**. Para ligar, na Vercel: `REMINDERS_ENABLED=1` e `CRON_SECRET` (16+ caracteres aleatórios). O cron diário está em `vercel.json` (12h UTC = 8h de Manaus). Todo e-mail leva link para sair da lista.
 - **Deixado para depois (decisão do Diandro, 14/10):** correção de redação com IA (precisa de chave de API em produção e definição de preço/plano).
-- **Ainda não feito:** explicações das questões do ENEM (gerar rascunhos e passar pela revisão), correção de redação com IA, revisão espaçada do caderno de erros.
+- **Caderno de erros com revisão espaçada** (volta logo, em 3 e em 7 dias; 3 acertos seguidos = dominada) e **data da prova** com contagem regressiva em /desempenho.
+- **Ainda não feito:** explicações das questões do ENEM (gerar rascunhos e passar pela revisão), correção de redação com IA.
 
 ## E-mail oficial
 `simulakioficial@gmail.com` é o e-mail de suporte e do encarregado (LGPD).

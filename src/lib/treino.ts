@@ -34,6 +34,48 @@ export async function questoesErradas(userId: string): Promise<string[]> {
   return [...ultima].filter(([id, ok]) => !ok && live.has(id)).map(([id]) => id);
 }
 
+/**
+ * Revisão espaçada do caderno de erros. Uma questão entra quando é errada e volta em intervalos
+ * crescentes: logo depois do erro, 3 dias após o 1º acerto, 7 dias após o 2º. Com 3 acertos seguidos
+ * ela sai do caderno (dominada). Errar de novo reinicia o ciclo.
+ */
+export const REVISAO_INTERVALOS_DIAS = [0, 3, 7];
+const DIA_MS = 86_400_000;
+
+export function calcularRevisao(rows: { id: string; ok: boolean; quando: Date }[], now: Date) {
+  const por = new Map<string, { ok: boolean; quando: Date }[]>();
+  for (const r of rows) por.set(r.id, [...(por.get(r.id) ?? []), r]);
+  const devidas: string[] = [];
+  const agendadas: { id: string; em: Date }[] = [];
+  const dominadas: string[] = [];
+  for (const [id, hist] of por) {
+    hist.sort((a, b) => a.quando.getTime() - b.quando.getTime());
+    let ultimoErro = -1;
+    hist.forEach((h, i) => { if (!h.ok) ultimoErro = i; });
+    if (ultimoErro < 0) continue; // nunca errou
+    const acertosDepois = hist.length - 1 - ultimoErro;
+    if (acertosDepois >= REVISAO_INTERVALOS_DIAS.length) { dominadas.push(id); continue; }
+    const em = new Date(hist[hist.length - 1]!.quando.getTime() + REVISAO_INTERVALOS_DIAS[acertosDepois]! * DIA_MS);
+    if (em.getTime() <= now.getTime()) devidas.push(id); else agendadas.push({ id, em });
+  }
+  return { devidas, agendadas, dominadas };
+}
+
+export async function revisaoDoDia(userId: string, now = new Date()) {
+  const db = await getDb();
+  const rows = await db
+    .select({ id: schema.attemptAnswers.questionId, ok: schema.attemptAnswers.isCorrect, quando: schema.attempts.startedAt })
+    .from(schema.attemptAnswers)
+    .innerJoin(schema.attempts, eq(schema.attempts.id, schema.attemptAnswers.attemptId))
+    .where(eq(schema.attempts.userId, userId));
+  await ensureOverrides();
+  const live = new Set([...loadQuestions(ESTADO), ...loadQuestions('ENEM')].map((q) => q.id));
+  const r = calcularRevisao(rows, now);
+  const agendadas = r.agendadas.filter((a) => live.has(a.id));
+  const proxima = agendadas.reduce<Date | null>((m, a) => (!m || a.em < m ? a.em : m), null);
+  return { devidas: r.devidas.filter((id) => live.has(id)), agendadas: agendadas.length, proxima };
+}
+
 async function jaRespondidas(userId: string): Promise<Set<string>> {
   const db = await getDb();
   const rows = await db
@@ -70,8 +112,8 @@ export async function startTreino(userId: string, tema: string): Promise<StartTr
   const pool = loadQuestions(ESTADO);
   let picked;
   if (erros) {
-    const ids = new Set(await questoesErradas(userId));
-    picked = embaralha(pool.filter((q) => ids.has(q.id))).slice(0, TREINO_TAMANHO);
+    const ids = new Set((await revisaoDoDia(userId)).devidas);
+    picked = embaralha([...pool, ...loadQuestions('ENEM')].filter((q) => ids.has(q.id))).slice(0, TREINO_TAMANHO);
   } else {
     const vistas = await jaRespondidas(userId);
     const doTema = pool.filter((q) => q.topic === tema);
@@ -79,7 +121,7 @@ export async function startTreino(userId: string, tema: string): Promise<StartTr
     picked = [...embaralha(doTema.filter((q) => !vistas.has(q.id))), ...embaralha(doTema.filter((q) => vistas.has(q.id)))].slice(0, TREINO_TAMANHO);
   }
   if (picked.length === 0) {
-    return { ok: false, code: 'vazio', reason: erros ? 'Você não tem questões erradas para refazer. Continue treinando.' : 'Este tema ainda não tem questões liberadas.' };
+    return { ok: false, code: 'vazio', reason: erros ? 'Sua revisão está em dia: nenhuma questão para revisar agora. As erradas voltam aqui nos próximos dias.' : 'Este tema ainda não tem questões liberadas.' };
   }
   const [a] = await db
     .insert(schema.attempts)
@@ -141,8 +183,9 @@ export async function answerTreino(userId: string, attemptId: string, questionId
   };
 }
 
+/** Quantas questões do caderno de erros estão para revisar hoje. */
 export async function resumoErros(userId: string): Promise<number> {
-  return (await questoesErradas(userId)).length;
+  return (await revisaoDoDia(userId)).devidas.length;
 }
 
 export async function ultimosTreinos(userId: string, n = 5) {

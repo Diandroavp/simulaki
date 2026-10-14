@@ -82,7 +82,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
 
       <div className="card" style={{ marginBottom: 16 }}>
         <h3 style={{ marginTop: 0 }}>Treino por tema</h3>
-        <p className="muted" style={{ marginTop: 0 }}>Sessões de 10 questões com correção na hora{errosPendentes > 0 ? `, e o caderno de erros com ${errosPendentes} ${errosPendentes === 1 ? 'questão' : 'questões'} para refazer` : ''}.</p>
+        <p className="muted" style={{ marginTop: 0 }}>Sessões de 10 questões com correção na hora{errosPendentes > 0 ? `, e o caderno de erros com ${errosPendentes} ${errosPendentes === 1 ? 'questão' : 'questões'} para revisar hoje` : ''}.</p>
         <Link className="btn" href="/treino">Treinar agora</Link>
       </div>
 

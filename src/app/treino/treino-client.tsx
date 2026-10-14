@@ -11,7 +11,7 @@ type Tema = { id: string; nome: string; total: number };
 
 type Sessao = { attemptId: string; tema: string; questions: PQ[] };
 
-export default function TreinoClient({ temas, erros, tamanho, gratis, sessaoInicial, onSair }: { temas: Tema[]; erros: number; tamanho: number; gratis: number | null; sessaoInicial?: Sessao; onSair?: () => void }) {
+export default function TreinoClient({ temas, erros, agendadas = 0, tamanho, gratis, sessaoInicial, onSair }: { temas: Tema[]; erros: number; agendadas?: number; tamanho: number; gratis: number | null; sessaoInicial?: Sessao; onSair?: () => void }) {
   const [sessao, setSessao] = useState<Sessao | null>(sessaoInicial ?? null);
   const [idx, setIdx] = useState(0);
   const [picked, setPicked] = useState<Record<string, string>>({});
@@ -52,8 +52,14 @@ export default function TreinoClient({ temas, erros, tamanho, gratis, sessaoInic
           {erros > 0 && (
             <div className="card">
               <h3 style={{ marginTop: 0 }}>Caderno de erros</h3>
-              <p className="muted">{erros} {erros === 1 ? 'questão que você errou' : 'questões que você errou'} e ainda não acertou depois.</p>
-              <button className="btn" disabled={busy} onClick={() => iniciar('erros')}>Refazer meus erros</button>
+              <p className="muted">{erros} {erros === 1 ? 'questão para revisar hoje' : 'questões para revisar hoje'}. Cada uma volta em intervalos maiores (3 e 7 dias) até você dominar.{agendadas > 0 ? ` Outras ${agendadas} já estão agendadas.` : ''}</p>
+              <button className="btn" disabled={busy} onClick={() => iniciar('erros')}>Revisar agora</button>
+            </div>
+          )}
+          {erros === 0 && agendadas > 0 && (
+            <div className="card">
+              <h3 style={{ marginTop: 0 }}>Caderno de erros</h3>
+              <p className="muted" style={{ marginBottom: 0 }}>Revisão em dia. {agendadas} {agendadas === 1 ? 'questão volta' : 'questões voltam'} nos próximos dias.</p>
             </div>
           )}
           {temas.map((t) => (
