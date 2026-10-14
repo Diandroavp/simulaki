@@ -86,6 +86,12 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
         <Link className="btn" href="/treino">Treinar agora</Link>
       </div>
 
+      <div className="card" style={{ marginBottom: 16 }}>
+        <h3 style={{ marginTop: 0 }}>Meu desempenho</h3>
+        <p className="muted" style={{ marginTop: 0 }}>Meta diária, dias seguidos, evolução e os temas em que você mais erra.</p>
+        <Link className="btn ghost" href="/desempenho">Ver desempenho</Link>
+      </div>
+
       <h2>Por simulado</h2>
       <div className="grid">
         {SIMULATIONS.filter((sim) => isAvailable(sim)).map((sim) => {
