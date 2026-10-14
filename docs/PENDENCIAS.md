@@ -45,5 +45,11 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 9. **Reembolso:** definir o processo.
 10. Aplicar o visual novo aos painéis admin e parceiro.
 
+## Novidades de produto (14/10/2026)
+- **Refazer prova do ENEM** (ano + dia, ordem real, tempo oficial) em /personalizado: aparece quando houver caderno publicado.
+- **/desempenho**: meta diária (10), dias seguidos, 14 dias, temas mais fracos.
+- **Lembretes por e-mail** (saudade aos 3 dias, só para quem aceitou novidades; fim do plano 3 dias antes): prontos e **desligados**. Para ligar, na Vercel: `REMINDERS_ENABLED=1` e `CRON_SECRET` (16+ caracteres aleatórios). O cron diário está em `vercel.json` (12h UTC = 8h de Manaus). Todo e-mail leva link para sair da lista.
+- **Ainda não feito:** explicações das questões do ENEM (gerar rascunhos e passar pela revisão), correção de redação com IA, revisão espaçada do caderno de erros.
+
 ## E-mail oficial
 `simulakioficial@gmail.com` é o e-mail de suporte e do encarregado (LGPD).
