@@ -28,9 +28,9 @@ export default async function Page() {
     <>
       <PageHero compact title={<>Checklist de <em>estudos</em></>} />
       <div className="card" style={{ marginBottom: 16 }}>
-        <strong>{dominados} de {total} assuntos dominados</strong>
+        <strong>🎓 {dominados} de {total} assuntos dominados</strong>
         <div className="meter" style={{ margin: '8px 0' }}><i style={{ width: `${total ? Math.round((dominados / total) * 100) : 0}%` }} /></div>
-        <p className="muted" style={{ margin: 0 }}>O status muda sozinho conforme você responde (dominado: 10 respostas ou mais com 80% de acertos). Se preferir, marque você mesmo: sua marcação vale mais.</p>
+        <p className="muted" style={{ margin: 0 }}>Fique tranquilo: o status se atualiza sozinho conforme você responde (dominado = 10 respostas ou mais com 80% de acertos). Se preferir, marque você mesmo, sua palavra vale mais! Um assunto de cada vez. 😉</p>
       </div>
       {blocos.map(({ a, itens }) => (
         <div className="card" key={a.key} style={{ marginBottom: 16 }}>
@@ -41,7 +41,7 @@ export default async function Page() {
                 <div>
                   <strong>{p.label}</strong>
                   <div className="muted">
-                    {p.respondidas > 0 ? `${p.acertos}/${p.respondidas} acertos` : 'nenhuma resposta ainda'}
+                    {p.respondidas > 0 ? `${p.acertos}/${p.respondidas} acertos` : 'ainda não praticou, bora começar?'}
                     {qtd[p.key] ? ` · ${qtd[p.key]} questões no banco` : ''}
                     {manual ? ' · marcado por você' : ''}
                   </div>

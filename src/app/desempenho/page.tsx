@@ -58,24 +58,24 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
 
           {temEnem && (
             <div className="card" style={{ marginBottom: 16 }}>
-              <h3 style={{ marginTop: 0 }}>Seu radar do ENEM</h3>
+              <h3 style={{ marginTop: 0 }}>Seu radar do ENEM 🎯</h3>
               <p className="muted" style={{ marginTop: 0 }}>Percentual de acertos em cada área. Quanto mais o desenho se aproxima da borda, melhor você está.</p>
               <Radar titulo="Acertos por área do ENEM" pontos={perfil.areas} />
               {(perfil.fortes.length > 0 || perfil.fracos.length > 0) && (
                 <div className="apt" style={{ marginTop: 16 }}>
                   {perfil.fortes.length > 0 && (
-                    <div><h4>Seus pontos fortes</h4><ul className="pers-list">
+                    <div><h4>Você está mandando bem em 💪</h4><ul className="pers-list">
                       {perfil.fortes.map((p) => <li key={p.key}><span>{p.label}</span><span><strong>{p.pct}%</strong> <span className="muted">({p.acertos}/{p.respondidas})</span></span></li>)}
                     </ul></div>
                   )}
                   {perfil.fracos.length > 0 && (
-                    <div><h4>Onde melhorar</h4><ul className="pers-list">
+                    <div><h4>Vale dar uma forcinha em 🌱</h4><ul className="pers-list">
                       {perfil.fracos.map((p) => <li key={p.key}><span>{p.label}</span><span><strong>{p.pct}%</strong> <span className="muted">({p.acertos}/{p.respondidas})</span></span></li>)}
-                    </ul><Link className="btn ghost" style={{ padding: '4px 12px' }} href="/personalizado">Treinar agora</Link></div>
+                    </ul><Link className="btn ghost" style={{ padding: '4px 12px' }} href="/personalizado">Bora treinar</Link></div>
                   )}
                 </div>
               )}
-              <p className="muted" style={{ marginBottom: 0 }}>Eixos em cinza têm menos de 3 respostas. Os pontos fortes e fracos aparecem a partir de 5 respostas no assunto. <Link href="/checklist">Ver checklist de estudos</Link></p>
+              <p className="muted" style={{ marginBottom: 0 }}>Quanto mais o desenho chega perto da borda, melhor! Os eixos em cinza ainda precisam de umas questões (mínimo 3) pra aparecer. Os destaques surgem a partir de 5 respostas no assunto. <Link href="/checklist">Ver checklist de estudos</Link></p>
             </div>
           )}
           {temEnem && AREAS.map((a) => {
