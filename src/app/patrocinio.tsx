@@ -1,12 +1,13 @@
 import { userHasAccess } from '@/lib/billing';
+import { ADSENSE_CLIENT, ADSENSE_SLOT } from '@/lib/adsense';
 import { AdSlot } from './ad-slot';
 import { carregarPatrocinadores, escolherPatrocinador, type Tela } from '@/lib/patrocinio';
 
 /** Banner "oferecido por": só para quem não tem plano, nunca em simulado/treino. Sem rastreamento. */
 export async function Patrocinio({ userId, tela, mundo }: { userId: string; tela: Tela; mundo?: string }) {
   const lista = carregarPatrocinadores();
-  const client = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
-  const slot = process.env.NEXT_PUBLIC_ADSENSE_SLOT;
+  const client = ADSENSE_CLIENT;
+  const slot = ADSENSE_SLOT;
   if (!lista.length && !(client && slot)) return null;
   const { full } = await userHasAccess(userId);
   const p = escolherPatrocinador(lista, { tela, mundo, pago: full });

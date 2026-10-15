@@ -1,3 +1,4 @@
+import { ADSENSE_CLIENT, ADSENSE_SLOT } from '@/lib/adsense';
 import { legal } from '@/lib/legal';
 import { ReviewNotice } from '../legal-notice';
 
@@ -27,7 +28,7 @@ export default function Privacidade() {
       <p><strong>Por quanto tempo guardamos.</strong> Enquanto sua conta estiver ativa e, depois, pelo prazo necessário para cumprir obrigações legais e defender direitos. Você pode pedir a exclusão da conta.</p>
       <p><strong>Seus direitos.</strong> Pela LGPD você pode pedir confirmação do tratamento, acesso, correção, anonimização ou eliminação de dados desnecessários, portabilidade, informação sobre compartilhamento e a revogação do consentimento. Escreva para {l.encarregado}.</p>
       <p><strong>Segurança.</strong> Usamos medidas técnicas e organizacionais para proteger os dados, como conexão criptografada, senhas armazenadas com hash e controle de acesso.</p>
-      <p><strong>Cookies.</strong> Usamos apenas um cookie necessário para manter você conectado. {process.env.NEXT_PUBLIC_ADSENSE_CLIENT ? 'Na versão gratuita, e somente se você aceitar, exibimos anúncios não personalizados do Google AdSense, que podem usar cookies do Google. Quem tem plano pago não vê anúncios. Você pode recusar, e não mostramos anúncios durante simulados e treinos.' : 'Não usamos cookies de publicidade.'}</p>
+      <p><strong>Cookies.</strong> Usamos apenas um cookie necessário para manter você conectado. {ADSENSE_CLIENT && ADSENSE_SLOT ? 'Na versão gratuita, e somente se você aceitar, exibimos anúncios não personalizados do Google AdSense, que podem usar cookies do Google. Quem tem plano pago não vê anúncios. Você pode recusar, e não mostramos anúncios durante simulados e treinos.' : 'Não usamos cookies de publicidade.'}</p>
       <p><strong>Menores de 18 anos.</strong> O serviço é voltado a maiores de 18 anos. O tratamento de dados de menores exige o consentimento de um responsável.</p>
       <p><strong>Mudanças.</strong> Esta política pode ser atualizada; avisaremos sobre mudanças relevantes.</p>
     </article>
