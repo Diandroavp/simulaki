@@ -2,6 +2,7 @@ import { inArray } from 'drizzle-orm';
 import { getDb, schema } from '@/db';
 import { loadAllRaw, type Question } from './questions';
 import { ensureOverrides, overrideOf } from './question-overrides';
+import { openFeedback } from './feedback';
 
 /** Revisão em lote das provas de banco próprio (ENEM): resumo por caderno e aplicação das decisões. */
 
@@ -32,10 +33,20 @@ export async function resumo(bank = 'ENEM'): Promise<ResumoCaderno[]> {
   return [...m.values()].sort((a, b) => b.caderno.localeCompare(a.caderno));
 }
 
-export async function pagina(caderno: string, filtro: Decisao | 'todas', p: number, bank = 'ENEM') {
+/** Avisos de erro em aberto dos alunos, por questão (id -> quantidade). */
+export async function avisosAbertos(): Promise<Map<string, number>> {
+  const m = new Map<string, number>();
+  for (const f of await openFeedback()) m.set(f.questionId, (m.get(f.questionId) ?? 0) + 1);
+  return m;
+}
+
+export type Filtro = Decisao | 'todas' | 'avisos';
+
+export async function pagina(caderno: string, filtro: Filtro, p: number, bank = 'ENEM', soId?: string) {
   await ensureOverrides();
   const all = loadAllRaw(bank).filter((q) => cadernoDe(q.id) === caderno).sort((a, b) => a.id.localeCompare(b.id));
-  const lista = filtro === 'todas' ? all : all.filter((q) => statusEfetivo(q) === filtro);
+  const avisos = filtro === 'avisos' ? await avisosAbertos() : null;
+  const lista = soId ? all.filter((q) => q.id === soId) : avisos ? all.filter((q) => avisos.has(q.id)) : filtro === 'todas' ? all : all.filter((q) => statusEfetivo(q) === filtro);
   const paginas = Math.max(1, Math.ceil(lista.length / PAGE_SIZE));
   const atual = Math.min(Math.max(1, p), paginas);
   return { itens: lista.slice((atual - 1) * PAGE_SIZE, atual * PAGE_SIZE), total: lista.length, paginas, atual };

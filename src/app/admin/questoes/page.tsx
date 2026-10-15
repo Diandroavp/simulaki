@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { requireAdmin } from '@/lib/auth';
 import { hardestQuestions, openFeedback } from '@/lib/feedback';
-import { loadQuestions } from '@/lib/questions';
+import { loadAllRaw } from '@/lib/questions';
+import { cadernoDe } from '@/lib/enem-review';
 import { resolveFeedbackAction } from '../actions';
 
 export const dynamic = 'force-dynamic';
@@ -10,7 +11,7 @@ export const dynamic = 'force-dynamic';
 export default async function AdminQuestoes() {
   if (!(await requireAdmin())) redirect('/');
   const [feedback, hard] = await Promise.all([openFeedback(), hardestQuestions()]);
-  const byId = new Map(loadQuestions('AM').map((q) => [q.id, q]));
+  const byId = new Map([...loadAllRaw('AM'), ...loadAllRaw('ENEM')].map((q) => [q.id, q]));
   const line = (id: string) => byId.get(id)?.statement ?? '(questão não encontrada)';
   return (
     <>
@@ -20,7 +21,7 @@ export default async function AdminQuestoes() {
       {feedback.length === 0 && <p className="muted">Nenhum aviso aberto.</p>}
       {feedback.map((f) => (
         <div className="card" key={f.id} style={{ marginBottom: 12 }}>
-          <p style={{ marginTop: 0 }}><strong>{f.questionId}</strong>: {line(f.questionId)}</p>
+          <p style={{ marginTop: 0 }}><strong>{f.questionId}</strong>: {line(f.questionId).slice(0, 300)}{f.questionId.startsWith('enem-') && <> · <Link href={`/admin/enem?c=${cadernoDe(f.questionId)}&q=${f.questionId}&f=todas`}>Abrir na revisão do ENEM</Link></>}</p>
           <p>{f.reason}</p>
           <form action={resolveFeedbackAction}><input type="hidden" name="id" value={f.id} /><button className="btn ghost">Marcar como resolvido</button></form>
         </div>

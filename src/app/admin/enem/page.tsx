@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { requireAdmin } from '@/lib/auth';
-import { pagina, resumo, statusEfetivo, type Decisao } from '@/lib/enem-review';
+import { avisosAbertos, pagina, resumo, statusEfetivo, type Filtro } from '@/lib/enem-review';
 import { TREINO_TEMAS } from '@/lib/treino';
 import { Statement, optionText } from '../../question-body';
 import { pendenteEnemAction, publicarEnemAction, rejeitarEnemAction, revisarEnemAction } from '../actions';
@@ -9,17 +9,17 @@ import { pendenteEnemAction, publicarEnemAction, rejeitarEnemAction, revisarEnem
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'Revisão do ENEM' };
 
-const FILTROS: { id: Decisao | 'todas'; nome: string }[] = [
-  { id: 'pending', nome: 'Pendentes' }, { id: 'published', nome: 'Publicadas' }, { id: 'archived', nome: 'Rejeitadas' }, { id: 'todas', nome: 'Todas' },
+const FILTROS: { id: Filtro; nome: string }[] = [
+  { id: 'pending', nome: 'Pendentes' }, { id: 'published', nome: 'Publicadas' }, { id: 'archived', nome: 'Rejeitadas' }, { id: 'avisos', nome: 'Com aviso de aluno' }, { id: 'todas', nome: 'Todas' },
 ];
 const ROTULO = { published: 'Publicada', archived: 'Rejeitada', pending: 'Pendente' } as const;
 
-export default async function AdminEnem({ searchParams }: { searchParams: Promise<{ c?: string; f?: string; p?: string; ok?: string; erro?: string }> }) {
+export default async function AdminEnem({ searchParams }: { searchParams: Promise<{ c?: string; f?: string; p?: string; q?: string; ok?: string; erro?: string }> }) {
   if (!(await requireAdmin())) redirect('/');
   const sp = await searchParams;
   const cads = await resumo();
   const caderno = /^\d{4}-d\d$/.test(sp.c ?? '') ? sp.c! : null;
-  const filtro = (FILTROS.find((f) => f.id === sp.f)?.id ?? 'pending') as Decisao | 'todas';
+  const filtro = (FILTROS.find((f) => f.id === sp.f)?.id ?? 'pending') as Filtro;
   const tot = cads.reduce((a, c) => ({ total: a.total + c.total, published: a.published + c.published, archived: a.archived + c.archived }), { total: 0, published: 0, archived: 0 });
 
   return (
@@ -43,14 +43,14 @@ export default async function AdminEnem({ searchParams }: { searchParams: Promis
           </tbody>
         </table>
       ) : (
-        <Caderno caderno={caderno} filtro={filtro} p={Number(sp.p) || 1} resumoCad={cads.find((c) => c.caderno === caderno)} />
+        <Caderno caderno={caderno} filtro={filtro} p={Number(sp.p) || 1} soId={sp.q} resumoCad={cads.find((c) => c.caderno === caderno)} />
       )}
     </>
   );
 }
 
-async function Caderno({ caderno, filtro, p, resumoCad }: { caderno: string; filtro: Decisao | 'todas'; p: number; resumoCad?: { total: number; published: number; archived: number; pending: number } }) {
-  const pg = await pagina(caderno, filtro, p);
+async function Caderno({ caderno, filtro, p, soId, resumoCad }: { caderno: string; filtro: Filtro; p: number; soId?: string; resumoCad?: { total: number; published: number; archived: number; pending: number } }) {
+  const [pg, avisos] = await Promise.all([pagina(caderno, filtro, p, 'ENEM', soId), avisosAbertos()]);
   const volta = `/admin/enem?c=${caderno}&f=${filtro}&p=${pg.atual}`;
   const href = (f: string, n = 1) => `/admin/enem?c=${caderno}&f=${f}&p=${n}`;
   return (
@@ -62,6 +62,7 @@ async function Caderno({ caderno, filtro, p, resumoCad }: { caderno: string; fil
         {FILTROS.map((f) => <Link key={f.id} className={f.id === filtro ? 'btn' : 'btn ghost'} style={{ padding: '6px 14px' }} href={href(f.id)}>{f.nome}</Link>)}
       </p>
 
+      {soId && <p className="note">Mostrando só a questão {soId}. <Link href={`/admin/enem?c=${caderno}&f=todas`}>Ver o caderno inteiro</Link></p>}
       {pg.itens.length === 0 ? <p className="muted">Nenhuma questão neste filtro.</p> : (
         <form action={publicarEnemAction}>
           <input type="hidden" name="caderno" value={caderno} />
@@ -73,7 +74,7 @@ async function Caderno({ caderno, filtro, p, resumoCad }: { caderno: string; fil
               <div className="card" key={q.id} style={{ marginBottom: 12 }}>
                 <label className="chk" style={{ fontWeight: 600 }}>
                   <input type="checkbox" name="id" value={q.id} defaultChecked />
-                  <span>{q.id} · {TREINO_TEMAS[q.topic] ?? q.topic} · <em>{ROTULO[st]}</em></span>
+                  <span>{q.id} · {TREINO_TEMAS[q.topic] ?? q.topic} · <em>{ROTULO[st]}</em>{avisos.has(q.id) ? <> · <strong style={{ color: 'var(--err, #b3261e)' }}>{avisos.get(q.id)} {avisos.get(q.id) === 1 ? 'aviso' : 'avisos'} de aluno</strong></> : null}</span>
                 </label>
                 <Statement text={q.statement} images={q.images} hideText={q.optionsAsImage && !!q.images?.length && q.statement.length < 4} />
                 {!q.optionsAsImage && (
