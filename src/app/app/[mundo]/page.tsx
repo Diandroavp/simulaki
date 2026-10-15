@@ -11,6 +11,9 @@ import { getSimulation, nomeTipo } from '@/lib/simulations';
 import { resumoErros } from '@/lib/treino';
 import { ensureOverrides } from '@/lib/question-overrides';
 import { PageHero } from '../../page-hero';
+import { perfilEnem } from '@/lib/enem-perfil';
+import { marcasManuais } from '@/lib/enem-checklist';
+import { montarPlano } from '@/lib/enem-plano';
 
 export const dynamic = 'force-dynamic';
 
@@ -34,10 +37,31 @@ export default async function Hub({ params }: { params: Promise<{ mundo: string 
   const hist = history.filter((h) => mundoDeTipo(h.simulationType) === m.slug);
   const emAndamento = open && mundoDeTipo(open.simulationType) === m.slug ? open : null;
   const enem = m.slug === 'enem';
+  const reta = enem && d.diasProva !== null && d.diasProva >= 0 && d.diasProva <= 30;
+  const focoReta = reta
+    ? montarPlano(await perfilEnem(user.id), await marcasManuais(user.id), d.diasProva).dias.filter((x) => x.assunto).slice(0, 3)
+    : [];
   return (
     <>
       <PageHero compact title={<>{m.emoji} <em>{m.nome}</em></>} />
       {emAndamento && <p className="note">Você tem um simulado em andamento. <Link href={emAndamento.simulationType.startsWith('custom:') ? `/personalizado?mundo=${m.slug}&retomar=1` : `/simulado/${emAndamento.simulationType}`}>Continuar</Link></p>}
+      {reta && (
+        <div className="card" style={{ marginTop: 16, background: 'var(--brand-soft)' }}>
+          <h3 style={{ marginTop: 0 }}>🏁 Reta final: {d.diasProva === 0 ? 'a prova é hoje!' : `faltam ${d.diasProva} ${d.diasProva === 1 ? 'dia' : 'dias'}`}</h3>
+          <p className="muted" style={{ marginTop: 0 }}>
+            {d.diasProva! <= 7 ? 'Agora é revisar o que já viu, descansar bem e manter o ritmo. Evite assunto novo.' : 'Foque onde cada acerto vale mais. Treinos curtos todo dia somam muito.'}
+          </p>
+          {focoReta.length > 0 && (
+            <div className="row" style={{ marginBottom: 8 }}>
+              {focoReta.map((x) => <Link key={x.assunto} className="btn" href={`/treino?mundo=enem&tema=${x.assunto}`}>{x.titulo}</Link>)}
+            </div>
+          )}
+          <div className="row">
+            {erros > 0 && <Link className="btn ghost" href="/treino?mundo=enem">Revisar {erros} {erros === 1 ? 'erro' : 'erros'}</Link>}
+            <Link className="btn ghost" href="/plano">Ver plano</Link>
+          </div>
+        </div>
+      )}
       <div className="grid" style={{ marginBlock: 16 }}>
         <div className="card"><div className="muted">Questões resolvidas</div><div className="price">{d.total}</div></div>
         <div className="card"><div className="muted">Acertos</div><div className="price">{d.pct === null ? '-' : `${d.pct}%`}</div></div>

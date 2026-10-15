@@ -70,3 +70,6 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - `/nota`: estimativa linear grosseira (350 + 5×%acerto por área, ±40; redação digitada pelo aluno, padrão 600). NÃO é TRI e está avisado na tela.
 - Nota de corte do curso é digitada pelo aluno (link para o Sisu); nenhum corte do SISU embutido por não termos fonte verificada.
 - Opcional: lista curada de cortes por curso/UFAM se o Diandro fornecer/aprovar a fonte.
+
+## Reta final (ENEM)
+- Card "🏁 Reta final" no topo de /app/enem quando faltam ≤30 dias para a data informada em Meu desempenho: contagem regressiva, 3 assuntos prioritários (do plano) com atalho de treino, revisão de erros. Nos últimos 7 dias sugere revisar, sem assunto novo.
