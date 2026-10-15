@@ -34,7 +34,8 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - **SIS 2024, 2023, 2020** têm páginas equivalentes no Estratégia e no Vestibulando Web (a conferir).
 - **SIS 2026**: provas aplicadas; gabaritos previstos para 14/10/2026 às 20h (Manaus). Ainda sem PDF público.
 - **Direitos:** pedir autorização à Vunesp e à UEA antes de publicar questões do SIS, ou ter parecer jurídico. Mesmo cuidado com o PSC (UFAM) e a OAB (FGV).
-- **Baixados (15/10/2026):** os 6 PDFs do SIS 2025 estão em Downloads como `sis_2025_acomp<1|2|3>_prova|gab.pdf`. Outros anos ainda não.
+- **Baixados (15/10/2026):** os 6 PDFs do SIS 2025 estão em Downloads como `sis_2025_acomp<1|2|3>_prova|gab.pdf`. Outros anos ainda não. Acompanhamento I = 1ª série, II = 2ª, III = 3ª (confirmado na capa).
+- **Importado (15/10/2026):** `scripts/import-sis.py ANO SÉRIE prova.pdf gab.pdf` gerou 123 rascunhos em `content/questions/sis/2025-s<1|2|3>.json` (só texto; 57 questões com figura/tabela ficaram de fora). A área (linguagens/humanas/natureza/matemática) é por faixa de número, aproximada nas divisas. Ainda NÃO ligado ao produto (sem mundo SIS).
 
 ### OAB (FGV)
 - Plano mais alto (premium). Precisa de autorização da FGV/análise jurídica antes de qualquer questão.
