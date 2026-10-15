@@ -75,7 +75,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
                   )}
                 </div>
               )}
-              <p className="muted" style={{ marginBottom: 0 }}>Quanto mais o desenho chega perto da borda, melhor! Os eixos em cinza ainda precisam de umas questões (mínimo 3) pra aparecer. Os destaques surgem a partir de 5 respostas no assunto. <Link href="/checklist">Ver checklist de estudos</Link></p>
+              <p className="muted" style={{ marginBottom: 0 }}>Quanto mais o desenho chega perto da borda, melhor! Os eixos em cinza ainda precisam de umas questões (mínimo 3) pra aparecer. Os destaques surgem a partir de 5 respostas no assunto. <Link href="/checklist">Ver checklist de estudos</Link> · <Link href="/plano">Ver plano da semana</Link></p>
             </div>
           )}
           {temEnem && AREAS.map((a) => {

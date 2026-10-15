@@ -315,3 +315,7 @@ a.sim:hover{transform:translateY(-3px);border-color:var(--muted);box-shadow:var(
 .chk.on.chk-estudando{background:var(--blue-soft);color:var(--blue);border-color:var(--blue)}
 .chk.on.chk-dominado{background:var(--ok);color:#fff;border-color:var(--ok)}
 .chk.auto{border-style:dashed}
+.plano{list-style:none;margin:0 0 16px;padding:0;display:grid;gap:10px}
+.plano li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:14px 18px}
+.plano li>div{flex:1 1 220px}
+.plano-dia{font-family:var(--display);font-weight:700;color:var(--brand);min-width:78px}
