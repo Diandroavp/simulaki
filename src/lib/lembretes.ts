@@ -34,7 +34,7 @@ const rodape = (appUrl: string, userId: string) => `\n\n--\nNão quer mais receb
 export function emailSaudade(nome: string, appUrl: string, userId: string) {
   return {
     subject: 'Que tal um treino rápido hoje?',
-    text: `Olá, ${nome}.\n\nFaz alguns dias que você não treina no Simulaki. Dez questões já ajudam a manter o ritmo:\n${appUrl}/treino\n\nVeja também seu desempenho e onde focar: ${appUrl}/desempenho${rodape(appUrl, userId)}`,
+    text: `Olá, ${nome}.\n\nFaz alguns dias que você não treina no Simulaki. Dez questões já ajudam a manter o ritmo:\n${appUrl}/app\n\nEscolha o seu mundo (Detran, ENEM…) e faça 5, 10 ou 20 questões, só o que der hoje.${rodape(appUrl, userId)}`,
   };
 }
 

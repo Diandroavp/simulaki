@@ -1,5 +1,6 @@
 import { and, eq, sql } from 'drizzle-orm';
 import { getDb, schema } from '@/db';
+import type { Mundo } from './mundos';
 
 /** Painel de desempenho: tudo que o aluno respondeu (provas, treinos e personalizados). */
 
@@ -51,8 +52,9 @@ export function diasAte(data: Date, hoje = new Date()): number {
 
 export type Tema = { banco: 'enem' | 'detran'; topic: string; respondidas: number; acertos: number; pct: number };
 
-export async function desempenho(userId: string, hoje = new Date()) {
+export async function desempenho(userId: string, mundo?: Mundo, hoje = new Date()) {
   const db = await getDb();
+  const doMundo = mundo === 'enem' ? sql`${schema.attemptAnswers.questionId} like 'enem-%'` : mundo === 'detran' ? sql`${schema.attemptAnswers.questionId} not like 'enem-%'` : sql`true`;
   const diaExpr = sql<string>`to_char(${schema.attempts.startedAt} at time zone 'America/Manaus', 'YYYY-MM-DD')`;
   const porDia = await db
     .select({
@@ -62,7 +64,7 @@ export async function desempenho(userId: string, hoje = new Date()) {
     })
     .from(schema.attemptAnswers)
     .innerJoin(schema.attempts, eq(schema.attempts.id, schema.attemptAnswers.attemptId))
-    .where(and(eq(schema.attempts.userId, userId), sql`${schema.attempts.startedAt} > now() - interval '60 days'`))
+    .where(and(eq(schema.attempts.userId, userId), doMundo, sql`${schema.attempts.startedAt} > now() - interval '60 days'`))
     .groupBy(diaExpr);
 
   const porTema = await db
@@ -74,7 +76,7 @@ export async function desempenho(userId: string, hoje = new Date()) {
     })
     .from(schema.attemptAnswers)
     .innerJoin(schema.attempts, eq(schema.attempts.id, schema.attemptAnswers.attemptId))
-    .where(eq(schema.attempts.userId, userId))
+    .where(and(eq(schema.attempts.userId, userId), doMundo))
     .groupBy(sql`${schema.attemptAnswers.questionId} like 'enem-%'`, schema.attemptAnswers.topic);
 
   const dias = ultimosDias(porDia, hoje, 14);

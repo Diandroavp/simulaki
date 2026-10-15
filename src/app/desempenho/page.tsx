@@ -7,6 +7,7 @@ import { AREAS } from '@/lib/assuntos';
 import { Radar } from '../radar';
 import { TREINO_TEMAS } from '@/lib/treino';
 import { PageHero } from '../page-hero';
+import { mundoPorSlug } from '@/lib/mundos';
 import { salvarDataProvaAction } from './actions';
 
 export const dynamic = 'force-dynamic';
@@ -15,18 +16,20 @@ export const metadata = { title: 'Meu desempenho' };
 const NOME: Record<string, string> = { ...TREINO_TEMAS, linguagens: 'Linguagens', humanas: 'Ciências Humanas', natureza: 'Ciências da Natureza', matematica: 'Matemática' };
 const dm = (d: string) => `${d.slice(8, 10)}/${d.slice(5, 7)}`;
 
-export default async function Page({ searchParams }: { searchParams: Promise<{ erro?: string }> }) {
-  const { erro } = await searchParams;
+export default async function Page({ searchParams }: { searchParams: Promise<{ erro?: string; mundo?: string }> }) {
+  const { erro, mundo } = await searchParams;
+  const m = mundoPorSlug(mundo);
+  if (!m) redirect('/app');
   const user = await getCurrentUser();
   if (!user) redirect(`/entrar?erro=${encodeURIComponent('Entre para ver seu desempenho.')}`);
-  const d = await desempenho(user.id);
+  const d = await desempenho(user.id, m.slug);
   const perfil = await perfilEnem(user.id);
-  const temEnem = perfil.areas.some((a) => a.respondidas > 0);
+  const temEnem = m.slug === 'enem' && perfil.areas.some((a) => a.respondidas > 0);
   const max = Math.max(d.meta, ...d.dias.map((x) => x.respondidas));
   const fracos = d.temas.filter((t) => t.respondidas >= 3).slice(0, 3);
   return (
     <>
-      <PageHero compact title={<>Meu <em>desempenho</em></>} />
+      <PageHero compact title={<>Meu desempenho <em>{m.nome}</em></>} />
       {erro && <p className="err" role="alert">{erro}</p>}
       <div className="card" style={{ marginTop: 16 }}>
         {d.diasProva !== null ? (
@@ -38,6 +41,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
           <p style={{ marginTop: 0 }}><strong>Quando é a sua prova?</strong> <span className="muted">Informe a data e acompanhe a contagem regressiva.</span></p>
         )}
         <form action={salvarDataProvaAction} className="row" style={{ gap: 8 }}>
+          <input type="hidden" name="mundo" value={m.slug} />
           <input type="date" name="data" aria-label="Data da prova" defaultValue={d.dataProva ? d.dataProva.toISOString().slice(0, 10) : ''} style={{ maxWidth: 190 }} />
           <button className="btn ghost" style={{ padding: '6px 16px' }}>{d.dataProva ? 'Atualizar data' : 'Salvar data'}</button>
         </form>
@@ -45,7 +49,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
       {d.total === 0 ? (
         <div className="card">
           <p style={{ marginTop: 0 }}>Você ainda não respondeu questões. Faça um simulado ou um treino e seu painel aparece aqui.</p>
-          <Link className="btn" href="/app">Ir para minha área</Link>
+          <Link className="btn" href={`/app/${m.slug}`}>Ir para {m.nome}</Link>
         </div>
       ) : (
         <>
@@ -71,7 +75,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
                   {perfil.fracos.length > 0 && (
                     <div><h4>Vale dar uma forcinha em 🌱</h4><ul className="pers-list">
                       {perfil.fracos.map((p) => <li key={p.key}><span>{p.label}</span><span><strong>{p.pct}%</strong> <span className="muted">({p.acertos}/{p.respondidas})</span></span></li>)}
-                    </ul><Link className="btn ghost" style={{ padding: '4px 12px' }} href="/personalizado">Bora treinar</Link></div>
+                    </ul><Link className="btn ghost" style={{ padding: '4px 12px' }} href={`/treino?mundo=enem${perfil.fracos[0] ? `&tema=${perfil.fracos[0].key}` : ""}`}>Bora treinar</Link></div>
                   )}
                 </div>
               )}
@@ -109,10 +113,10 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
               <ul className="pers-list">
                 {fracos.map((t) => (
                   <li key={`${t.banco}-${t.topic}`}>
-                    <div><strong>{NOME[t.topic] ?? t.topic}</strong> <span className="muted">· {t.banco === 'enem' ? 'ENEM' : 'Detran'}</span></div>
+                    <div><strong>{NOME[t.topic] ?? t.topic}</strong></div>
                     <div className="row" style={{ gap: 12 }}>
                       <span>{t.pct}% <span className="muted">({t.acertos}/{t.respondidas})</span></span>
-                      <Link className="btn ghost" style={{ padding: '4px 12px' }} href={t.banco === 'enem' ? '/personalizado' : '/treino'}>Treinar</Link>
+                      <Link className="btn ghost" style={{ padding: '4px 12px' }} href={`/treino?mundo=${m.slug}&tema=${t.topic}`}>Treinar</Link>
                     </div>
                   </li>
                 ))}
@@ -126,7 +130,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
               {[...d.temas].sort((a, b) => b.respondidas - a.respondidas).map((t) => (
                 <li key={`${t.banco}-${t.topic}`}>
                   <div style={{ flex: 1, minWidth: 180 }}>
-                    <strong>{NOME[t.topic] ?? t.topic}</strong> <span className="muted">· {t.banco === 'enem' ? 'ENEM' : 'Detran'}</span>
+                    <strong>{NOME[t.topic] ?? t.topic}</strong>
                     <div className="meter" aria-hidden style={{ marginTop: 6 }}><i style={{ width: `${t.pct}%` }} /></div>
                   </div>
                   <span>{t.pct}% <span className="muted">({t.acertos}/{t.respondidas})</span></span>
@@ -136,7 +140,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
           </div>
         </>
       )}
-      <p className="muted"><Link href="/app">Voltar para minha área</Link></p>
+      <p className="muted"><Link href={`/app/${m.slug}`}>Voltar para {m.nome}</Link></p>
     </>
   );
 }

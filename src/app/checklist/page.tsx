@@ -58,7 +58,7 @@ export default async function Page() {
           </ul>
         </div>
       ))}
-      <p><Link href="/desempenho">Voltar ao desempenho</Link></p>
+      <p><Link href="/app/enem">Voltar para o ENEM</Link></p>
     </>
   );
 }

@@ -14,8 +14,8 @@ type Modo = 'prova' | 'treino';
 type Spec = { bank: string; modo: Modo; itens: Record<string, number>; minutos?: number; novas: boolean; erradas: boolean; anos?: number[]; caderno?: string };
 type Sessao = { attemptId: string; tema: string; questions: never[]; faltou?: number };
 
-export default function PersonalizadoClient({ bancos, liberado, retomar, limites }: {
-  bancos: Banco[]; liberado: boolean; retomar: boolean; limites: { maxQuestoes: number; minMinutos: number; maxMinutos: number };
+export default function PersonalizadoClient({ mundo, bancos, liberado, retomar, limites }: {
+  mundo: string; bancos: Banco[]; liberado: boolean; retomar: boolean; limites: { maxQuestoes: number; minMinutos: number; maxMinutos: number };
 }) {
   const [bankId, setBankId] = useState(bancos[0]?.bank ?? '');
   const banco = bancos.find((b) => b.bank === bankId);
@@ -35,7 +35,7 @@ export default function PersonalizadoClient({ bancos, liberado, retomar, limites
   const minutos = minutosManual ?? minutosAuto;
 
   if (prova) return <SimuladoClient slug="personalizado" name="Simulado personalizado" custom={prova as Record<string, unknown>} />;
-  if (treino) return <TreinoClient temas={[]} erros={0} tamanho={0} gratis={null} sessaoInicial={treino as never} onSair={() => setTreino(null)} />;
+  if (treino) return <TreinoClient mundo={mundo} mundoNome={mundo} grupos={[]} erros={0} tamanhos={[]} tamanhoPadrao={0} minutosPorQuestao={1} gratis={null} sessaoInicial={treino as never} onSair={() => setTreino(null)} />;
   if (!banco) return <><h1>Simulado personalizado</h1><p className="muted">Ainda não há bancos de questões liberados.</p></>;
 
   const setQtd = (id: string, max: number, v: number) => setItens((m) => {
@@ -76,6 +76,7 @@ export default function PersonalizadoClient({ bancos, liberado, retomar, limites
       <h1>Monte seu simulado</h1>
       <p className="lead muted" style={{ maxWidth: '38em' }}>
         Escolha as matérias e quantas questões quer de cada. Faça como uma prova, com relógio e resultado no final, ou como treino, com a correção logo depois de cada resposta.
+        {' '}Quer só um treino curtinho? Use o <Link href={`/treino?mundo=${mundo}`}>treino rápido</Link>.
       </p>
       {!liberado && (
         <p className="note">O simulado personalizado faz parte do plano pago. <Link href="/planos">Ver planos</Link></p>
@@ -184,7 +185,7 @@ export default function PersonalizadoClient({ bancos, liberado, retomar, limites
         <button className="btn" disabled={busy || total === 0 || !liberado} onClick={comecar}>{modo === 'prova' ? 'Começar a prova' : 'Começar o treino'}</button>
       </div>
       {erro && <p role="alert" className="err">{erro}</p>}
-      <p className="muted"><Link href="/app">Voltar para minha área</Link></p>
+      <p className="muted"><Link href={`/app/${mundo}`}>Voltar</Link></p>
     </>
   );
 }

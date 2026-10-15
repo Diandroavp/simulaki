@@ -119,3 +119,41 @@ describe('revisão espaçada', async () => {
     expect(calcularRevisao([h('b', true, 0)], new Date(t0.getTime() + 50 * DIA))).toEqual({ devidas: [], agendadas: [], dominadas: [] });
   });
 });
+
+describe('treino rápido por mundo', () => {
+  it('ENEM: aleatório, por área e por assunto, com tamanho escolhido; Detran não mistura', async () => {
+    const uid = await user();
+    const a = await startTreino(await user(), 'aleatorio', { mundo: 'enem', tamanho: 5 });
+    expect(a.ok).toBe(true);
+    if (!a.ok) return;
+    expect(a.questions).toHaveLength(5);
+    expect(a.questions.every((q) => q.id.startsWith('enem-'))).toBe(true);
+
+    const m = await startTreino(await user(), 'matematica', { mundo: 'enem', tamanho: 5 });
+    expect(m.ok && m.questions.every((q) => q.topic === 'matematica')).toBe(true);
+
+    const g = await startTreino(await user(), 'geometria-plana', { mundo: 'enem', tamanho: 5 });
+    expect(g.ok).toBe(true);
+
+    const d = await startTreino(await user(), 'aleatorio', { mundo: 'detran', tamanho: 5 });
+    expect(d.ok && d.questions.every((q) => !q.id.startsWith('enem-'))).toBe(true);
+    // tema do Detran não vale no ENEM e vice-versa
+    expect((await startTreino(uid, 'legislacao', { mundo: 'enem' })).ok).toBe(false);
+    expect((await startTreino(uid, 'geometria-plana', { mundo: 'detran' })).ok).toBe(false);
+  });
+
+  it('responde questão do ENEM e o caderno de erros fica só no mundo certo', async () => {
+    const uid = await user();
+    const r = await startTreino(uid, 'aleatorio', { mundo: 'enem', tamanho: 3 });
+    if (!r.ok) throw new Error('não iniciou');
+    const q = r.questions[0]!;
+    const errada = q.options.find((o) => o.id !== 'a') ?? q.options[0]!;
+    const res = await answerTreino(uid, r.attemptId, q.id, errada.id);
+    expect(res.ok).toBe(true);
+    const { revisaoDoDia } = await import('./treino');
+    const enem = await revisaoDoDia(uid, 'enem');
+    const detran = await revisaoDoDia(uid, 'detran');
+    expect(detran.devidas).not.toContain(q.id);
+    if (!res.ok || !res.correct) expect(enem.devidas).toContain(q.id);
+  });
+});

@@ -8,6 +8,10 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 
 ## Provas: o que falta
 
+### Mundos (Detran x ENEM)
+- Cada prova é um "mundo" (`src/lib/mundos.ts`): área própria em `/app/detran` e `/app/enem`, com desempenho, caderno de erros, treino e histórico separados (nada se mistura). Novos mundos (PSC, SIS, OAB) entram em `MUNDOS` quando tiverem banco.
+- **Treino rápido** (`/treino?mundo=`): 5/10/20 questões, aleatório ou por matéria (ENEM: por área ou assunto), correção na hora. Grátis: 2 treinos/dia. Os botões "Treinar" do radar e do plano abrem direto o assunto.
+
 ### ENEM
 - **Plano da semana** (`/plano`): 5 dias de foco nos assuntos mais fracos/novos, sábado mini-simulado, domingo leve; ritmo 10/15/20 questões por dia conforme a data da prova (≤45 e ≤14 dias). Botões "Treinar" levam ao simulado personalizado (ainda sem pré-selecionar o assunto).
 - **Radar de aptidão e checklist de estudos** (`/desempenho`, `/checklist`): o assunto de cada questão vem de `src/lib/enem-assuntos.json`, gerado por `node scripts/monta-assuntos.mjs` a partir da classificação manual em `scripts/assuntos-revisados/*.txt` (uma letra por questão; `-` = sem assunto). Feita pelo Claude, pode ter erros: revise/ajuste o `.txt` e rode o script. ~120 questões de 2021 (e algumas sem texto) ficam sem assunto e contam só na área. Espanhol não aparece no banco atual.

@@ -3,7 +3,9 @@ import { getDb, schema } from '@/db';
 import { startOfDayManaus } from './attempts';
 import { userHasAccess } from './billing';
 import { ensureOverrides } from './question-overrides';
-import { loadQuestions, sourceLine, toPublic, type PublicQuestion } from './questions';
+import { loadQuestions, sourceLine, toPublic, type PublicQuestion, type Question } from './questions';
+import { assuntoDe, ASSUNTO_AREA, AREA_POR_CHAVE } from './assuntos';
+import { mundoDeQuestao, type Mundo } from './mundos';
 
 /** Treino por tema: respostas corrigidas na hora, sem relógio. Cada sessão é um "attempt" com tipo `treino:<tema>`. */
 export const TREINO_TEMAS: Record<string, string> = {
@@ -11,6 +13,24 @@ export const TREINO_TEMAS: Record<string, string> = {
   linguagens: 'Linguagens', humanas: 'Ciências Humanas', natureza: 'Ciências da Natureza', matematica: 'Matemática', mecanica: 'Mecânica', primeiros_socorros: 'Primeiros socorros', meio_ambiente_cidadania: 'Meio ambiente e cidadania',
 };
 export const TREINO_TAMANHO = 10;
+export const TREINO_TAMANHOS = [5, 10, 20];
+const clampTamanho = (n: number | undefined) => (n && Number.isFinite(n) ? Math.max(3, Math.min(30, Math.floor(n))) : TREINO_TAMANHO);
+
+/** Questões no ar de um mundo. O banco nacional do Detran vale para todos os estados. */
+export function poolDoMundo(mundo: Mundo): Question[] {
+  return mundo === 'enem' ? loadQuestions('ENEM') : loadQuestions(ESTADO);
+}
+
+/** Filtra as questões de um mundo por matéria: Detran por tema; ENEM por área ou por assunto. 'aleatorio' = tudo. */
+export function filtrarPorTema(pool: Question[], mundo: Mundo, tema: string): Question[] {
+  if (tema === 'aleatorio') return pool;
+  if (mundo === 'enem') {
+    if (tema in AREA_POR_CHAVE) return pool.filter((q) => q.topic === tema);
+    if (tema in ASSUNTO_AREA) return pool.filter((q) => assuntoDe(q.id) === tema);
+    return [];
+  }
+  return pool.filter((q) => q.topic === tema);
+}
 export const FREE_TREINOS_POR_DIA = 2;
 const ESTADO = 'AM'; // o banco nacional vale para todos; o estado só soma questões próprias
 
@@ -61,7 +81,7 @@ export function calcularRevisao(rows: { id: string; ok: boolean; quando: Date }[
   return { devidas, agendadas, dominadas };
 }
 
-export async function revisaoDoDia(userId: string, now = new Date()) {
+export async function revisaoDoDia(userId: string, mundo?: Mundo, now = new Date()) {
   const db = await getDb();
   const rows = await db
     .select({ id: schema.attemptAnswers.questionId, ok: schema.attemptAnswers.isCorrect, quando: schema.attempts.startedAt })
@@ -70,7 +90,7 @@ export async function revisaoDoDia(userId: string, now = new Date()) {
     .where(eq(schema.attempts.userId, userId));
   await ensureOverrides();
   const live = new Set([...loadQuestions(ESTADO), ...loadQuestions('ENEM')].map((q) => q.id));
-  const r = calcularRevisao(rows, now);
+  const r = calcularRevisao(mundo ? rows.filter((x) => mundoDeQuestao(x.id) === mundo) : rows, now);
   const agendadas = r.agendadas.filter((a) => live.has(a.id));
   const proxima = agendadas.reduce<Date | null>((m, a) => (!m || a.em < m ? a.em : m), null);
   return { devidas: r.devidas.filter((id) => live.has(id)), agendadas: agendadas.length, proxima };
@@ -92,9 +112,13 @@ function embaralha<T>(xs: T[]): T[] {
   return a;
 }
 
-export async function startTreino(userId: string, tema: string): Promise<StartTreino> {
+export async function startTreino(userId: string, tema: string, opts: { mundo?: Mundo; tamanho?: number } = {}): Promise<StartTreino> {
+  const mundo: Mundo = opts.mundo ?? 'detran';
+  const tamanho = clampTamanho(opts.tamanho);
   const erros = tema === 'erros';
-  if (!erros && !TREINO_TEMAS[tema]) return { ok: false, code: 'tema', reason: 'Tema desconhecido.' };
+  const aleatorio = tema === 'aleatorio';
+  const temaOk = erros || aleatorio || (mundo === 'enem' ? tema in AREA_POR_CHAVE || tema in ASSUNTO_AREA : !!TREINO_TEMAS[tema]);
+  if (!temaOk) return { ok: false, code: 'tema', reason: 'Tema desconhecido.' };
   const db = await getDb();
 
   const { full } = await userHasAccess(userId);
@@ -109,23 +133,23 @@ export async function startTreino(userId: string, tema: string): Promise<StartTr
   }
 
   await ensureOverrides();
-  const pool = loadQuestions(ESTADO);
+  const pool = poolDoMundo(mundo);
   let picked;
   if (erros) {
-    const ids = new Set((await revisaoDoDia(userId)).devidas);
-    picked = embaralha([...pool, ...loadQuestions('ENEM')].filter((q) => ids.has(q.id))).slice(0, TREINO_TAMANHO);
+    const ids = new Set((await revisaoDoDia(userId, mundo)).devidas);
+    picked = embaralha(pool.filter((q) => ids.has(q.id))).slice(0, tamanho);
   } else {
     const vistas = await jaRespondidas(userId);
-    const doTema = pool.filter((q) => q.topic === tema);
+    const doTema = filtrarPorTema(pool, mundo, tema);
     // Prioriza o que o aluno ainda não viu, depois completa com o resto.
-    picked = [...embaralha(doTema.filter((q) => !vistas.has(q.id))), ...embaralha(doTema.filter((q) => vistas.has(q.id)))].slice(0, TREINO_TAMANHO);
+    picked = [...embaralha(doTema.filter((q) => !vistas.has(q.id))), ...embaralha(doTema.filter((q) => vistas.has(q.id)))].slice(0, tamanho);
   }
   if (picked.length === 0) {
     return { ok: false, code: 'vazio', reason: erros ? 'Sua revisão está em dia: nenhuma questão para revisar agora. As erradas voltam aqui nos próximos dias.' : 'Este tema ainda não tem questões liberadas.' };
   }
   const [a] = await db
     .insert(schema.attempts)
-    .values({ userId, simulationType: `treino:${tema}`, totalCount: picked.length, questionIds: picked.map((q) => q.id), draftAnswers: {} })
+    .values({ userId, simulationType: mundo === 'enem' ? `treino:enem:${tema}` : `treino:${tema}`, totalCount: picked.length, questionIds: picked.map((q) => q.id), draftAnswers: {} })
     .returning({ id: schema.attempts.id });
   return { ok: true, attemptId: a!.id, tema, questions: picked.map(toPublic) };
 }
@@ -145,7 +169,7 @@ export async function answerTreino(userId: string, attemptId: string, questionId
   if (!at || !at.simulationType.startsWith('treino:')) return { ok: false, reason: 'Treino não encontrado.' };
   if (!at.questionIds?.includes(questionId)) return { ok: false, reason: 'Questão fora deste treino.' };
   // treino:custom:<banco> (simulado personalizado) sorteia do banco escolhido; os demais usam o banco do Detran.
-  const banco = at.simulationType.startsWith('treino:custom:') ? at.simulationType.slice('treino:custom:'.length) : ESTADO;
+  const banco = at.simulationType.startsWith('treino:custom:') ? at.simulationType.slice('treino:custom:'.length) : at.simulationType.startsWith('treino:enem:') ? 'ENEM' : ESTADO;
   await ensureOverrides();
   const q = loadQuestions(banco).find((x) => x.id === questionId);
   if (!q || !q.options.some((o) => o.id === optionId)) return { ok: false, reason: 'Resposta inválida.' };
@@ -184,8 +208,8 @@ export async function answerTreino(userId: string, attemptId: string, questionId
 }
 
 /** Quantas questões do caderno de erros estão para revisar hoje. */
-export async function resumoErros(userId: string): Promise<number> {
-  return (await revisaoDoDia(userId)).devidas.length;
+export async function resumoErros(userId: string, mundo?: Mundo): Promise<number> {
+  return (await revisaoDoDia(userId, mundo)).devidas.length;
 }
 
 export async function ultimosTreinos(userId: string, n = 5) {
