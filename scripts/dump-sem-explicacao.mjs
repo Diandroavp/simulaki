@@ -6,5 +6,7 @@ const a = JSON.parse(fs.readFileSync(`content/questions/enem/${cad}.json`, 'utf8
   .filter((q) => !q.images?.length && !q.optionsAsImage && !ex[q.id]);
 console.log(`(${a.length} restantes)`);
 for (const q of a.slice(+ini, +ini + +qtd)) {
-  console.log(`\n## ${q.id} gab=${q.correctOptionId}\n${q.statement.replace(/\s+/g, ' ')}\n${q.options.map((o) => `${o.id}) ${o.text.replace(/\s+/g, ' ')}`).join('\n')}`);
+  const st = q.statement.replace(/\s+/g, ' ');
+  const enun = st.length > 1100 ? `${st.slice(0, 500)} […] ${st.slice(-550)}` : st;
+  console.log(`\n## ${q.id} gab=${q.correctOptionId}\n${enun}\n${q.options.map((o) => `${o.id}) ${o.text.replace(/\s+/g, ' ')}`).join('\n')}`);
 }
