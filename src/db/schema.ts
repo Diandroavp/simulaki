@@ -419,3 +419,16 @@ export const referrals = pgTable(
   },
   (t) => [uniqueIndex('referrals_referred_uq').on(t.referredId), index('referrals_referrer_idx').on(t.referrerId)],
 );
+
+/** Checklist de estudos do ENEM: marcação manual do aluno por assunto (sem linha = automático pelos acertos). */
+export const enemChecklist = pgTable(
+  'enem_checklist',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    userId: uuid('user_id').notNull().references(() => users.id),
+    assuntoKey: text('assunto_key').notNull(),
+    status: text('status').notNull(), // 'nao_vi' | 'estudando' | 'dominado'
+    updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [uniqueIndex('enem_checklist_uq').on(t.userId, t.assuntoKey)],
+);

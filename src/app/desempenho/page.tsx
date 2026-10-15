@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
 import { desempenho } from '@/lib/desempenho';
+import { perfilEnem } from '@/lib/enem-perfil';
+import { AREAS } from '@/lib/assuntos';
+import { Radar } from '../radar';
 import { TREINO_TEMAS } from '@/lib/treino';
 import { PageHero } from '../page-hero';
 import { salvarDataProvaAction } from './actions';
@@ -17,6 +20,8 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
   const user = await getCurrentUser();
   if (!user) redirect(`/entrar?erro=${encodeURIComponent('Entre para ver seu desempenho.')}`);
   const d = await desempenho(user.id);
+  const perfil = await perfilEnem(user.id);
+  const temEnem = perfil.areas.some((a) => a.respondidas > 0);
   const max = Math.max(d.meta, ...d.dias.map((x) => x.respondidas));
   const fracos = d.temas.filter((t) => t.respondidas >= 3).slice(0, 3);
   return (
@@ -50,6 +55,39 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
             <div className="card"><div className="muted">Dias seguidos</div><div className="price">{d.sequencia}</div></div>
             <div className="card"><div className="muted">Acertos no geral</div><div className="price">{d.pct}%</div><div className="muted">{d.total} questões</div></div>
           </div>
+
+          {temEnem && (
+            <div className="card" style={{ marginBottom: 16 }}>
+              <h3 style={{ marginTop: 0 }}>Seu radar do ENEM</h3>
+              <p className="muted" style={{ marginTop: 0 }}>Percentual de acertos em cada área. Quanto mais o desenho se aproxima da borda, melhor você está.</p>
+              <Radar titulo="Acertos por área do ENEM" pontos={perfil.areas} />
+              {(perfil.fortes.length > 0 || perfil.fracos.length > 0) && (
+                <div className="apt" style={{ marginTop: 16 }}>
+                  {perfil.fortes.length > 0 && (
+                    <div><h4>Seus pontos fortes</h4><ul className="pers-list">
+                      {perfil.fortes.map((p) => <li key={p.key}><span>{p.label}</span><span><strong>{p.pct}%</strong> <span className="muted">({p.acertos}/{p.respondidas})</span></span></li>)}
+                    </ul></div>
+                  )}
+                  {perfil.fracos.length > 0 && (
+                    <div><h4>Onde melhorar</h4><ul className="pers-list">
+                      {perfil.fracos.map((p) => <li key={p.key}><span>{p.label}</span><span><strong>{p.pct}%</strong> <span className="muted">({p.acertos}/{p.respondidas})</span></span></li>)}
+                    </ul><Link className="btn ghost" style={{ padding: '4px 12px' }} href="/personalizado">Treinar agora</Link></div>
+                  )}
+                </div>
+              )}
+              <p className="muted" style={{ marginBottom: 0 }}>Eixos em cinza têm menos de 3 respostas. Os pontos fortes e fracos aparecem a partir de 5 respostas no assunto. <Link href="/checklist">Ver checklist de estudos</Link></p>
+            </div>
+          )}
+          {temEnem && AREAS.map((a) => {
+            const pts = perfil.assuntos[a.key];
+            if (!pts.some((p) => p.pct !== null)) return null;
+            return (
+              <div className="card" style={{ marginBottom: 16 }} key={a.key}>
+                <h3 style={{ marginTop: 0 }}>{a.label}: por assunto</h3>
+                {pts.length >= 3 ? <Radar titulo={`Acertos por assunto em ${a.label}`} pontos={pts} tamanho={400} /> : null}
+              </div>
+            );
+          })}
 
           <div className="card" style={{ marginBottom: 16 }}>
             <h3 style={{ marginTop: 0 }}>Últimos 14 dias</h3>

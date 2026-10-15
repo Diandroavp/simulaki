@@ -9,6 +9,7 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 ## Provas: o que falta
 
 ### ENEM
+- **Radar de aptidão e checklist de estudos** (`/desempenho`, `/checklist`): o assunto de cada questão vem de `src/lib/enem-assuntos.json`, gerado por `node scripts/monta-assuntos.mjs` a partir da classificação manual em `scripts/assuntos-revisados/*.txt` (uma letra por questão; `-` = sem assunto). Feita pelo Claude, pode ter erros: revise/ajuste o `.txt` e rode o script. ~120 questões de 2021 (e algumas sem texto) ficam sem assunto e contam só na área. Espanhol não aparece no banco atual.
 - **Revisão humana** das ~2.760 questões: tela pronta em `/admin/enem` (por caderno: publicar/rejeitar marcadas, filtros, e "publicar todas as pendentes" com confirmação). Produção só mostra as publicadas; a decisão fica na tabela `question_reviews`. Falta o Diandro revisar por amostragem e publicar (sugestão: 2022 a 2025 primeiro). As 75 "rejeitadas" iniciais são as variantes de idioma (inglês/espanhol) arquivadas pelo importador.
 - **Faltam:** gabaritos de 2010 e do 2º dia de 2017 (baixar no site do INEP); ano 2010 inteiro; 1998 a 2008 (importador próprio, um dia só).
 - 2020 e 2021: PDFs sem texto, cada questão é uma imagem inteira.
