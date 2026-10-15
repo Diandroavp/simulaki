@@ -76,9 +76,9 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 
 ## Explicações do ENEM (2018–2025)
 - Arquivo `content/explicacoes/enem.json` (id -> texto), mesclado em `loadAllRaw` quando a questão não tem explicação; aparece no treino e no gabarito do simulado com aviso de que foi preparada com IA.
-- Geradas 1308 explicações (2011 a 2017, 2018 dia 1 e 2019 a 2025; 2020 e 2021 não têm questões só em texto no banco), só questões em texto. Puladas: as que dependem de texto-base/figura ausente e contas não verificáveis. 1.425 das 2.852 questões têm figura (não tratadas: precisam de leitura das imagens).
+- Geradas 1345 explicações (2011 a 2017, 2018 dia 1 e 2019 a 2025; 2020 e 2021 não têm questões só em texto no banco), só questões em texto. Puladas: as que dependem de texto-base/figura ausente e contas não verificáveis. 1.425 das 2.852 questões têm figura (não tratadas: precisam de leitura das imagens).
 - Pendente: o Diandro conferir uma amostra da qualidade; só depois fazer as questões com imagem e o 2018 dia 2 (gabarito a conferir).
 - Scripts: `scripts/dump-sem-explicacao.mjs` e `scripts/merge-explicacoes.mjs`.
 
 ## ENEM 2018 dia 2: corrigido (15/10/2026)
-- O JSON misturava texto do caderno CD6 (cinza) com o gabarito do caderno 5 (amarelo). Reimportado do `2018_PV_impresso_D2_CD5.pdf` (amarelo) com o gabarito amarelo oficial: 89 questões (d2-150 anulada/ausente), gabaritos inalterados, enunciados e figuras agora do caderno correto. Continua rascunho (revisão humana em /admin/enem). Explicações de 2018-d2 ainda por gerar.
+- O JSON misturava texto do caderno CD6 (cinza) com o gabarito do caderno 5 (amarelo). Reimportado do `2018_PV_impresso_D2_CD5.pdf` (amarelo) com o gabarito amarelo oficial: 89 questões (d2-150 anulada/ausente), gabaritos inalterados, enunciados e figuras agora do caderno correto. Continua rascunho (revisão humana em /admin/enem). Explicações de 2018-d2 geradas (36). Sem explicação por texto corrompido na importação: d2-131 (enunciado misturado com outra questão), d2-161 e d2-164 (fórmula/matriz ilegíveis); revisar à mão em /admin/enem.
