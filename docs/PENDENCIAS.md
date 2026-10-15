@@ -65,3 +65,8 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 
 ## E-mail oficial
 `simulakioficial@gmail.com` é o e-mail de suporte e do encarregado (LGPD).
+
+## Nota estimada (ENEM)
+- `/nota`: estimativa linear grosseira (350 + 5×%acerto por área, ±40; redação digitada pelo aluno, padrão 600). NÃO é TRI e está avisado na tela.
+- Nota de corte do curso é digitada pelo aluno (link para o Sisu); nenhum corte do SISU embutido por não termos fonte verificada.
+- Opcional: lista curada de cortes por curso/UFAM se o Diandro fornecer/aprovar a fonte.

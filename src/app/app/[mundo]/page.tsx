@@ -58,6 +58,7 @@ export default async function Hub({ params }: { params: Promise<{ mundo: string 
         <div className="grid" style={{ marginBottom: 16 }}>
           <div className="card"><h3 style={{ marginTop: 0 }}>🎯 Meu radar</h3><p className="muted">Veja no que você é bom e onde melhorar, por área e assunto.</p><Link className="btn ghost" href="/desempenho?mundo=enem">Ver radar</Link></div>
           <div className="card"><h3 style={{ marginTop: 0 }}>✅ Checklist</h3><p className="muted">Marque o que já viu, está estudando ou domina.</p><Link className="btn ghost" href="/checklist">Abrir checklist</Link></div>
+          <div className="card"><h3 style={{ marginTop: 0 }}>📈 Nota estimada</h3><p className="muted">Uma ideia de onde você está e quanto falta para o curso que você quer.</p><Link className="btn ghost" href="/nota">Ver minha nota</Link></div>
           <div className="card"><h3 style={{ marginTop: 0 }}>📅 Plano da semana</h3><p className="muted">Um roteiro leve, do seu tamanho, com o que mais rende nota.</p><Link className="btn ghost" href="/plano">Ver plano</Link></div>
         </div>
       )}
