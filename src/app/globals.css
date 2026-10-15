@@ -319,3 +319,28 @@ a.sim:hover{transform:translateY(-3px);border-color:var(--muted);box-shadow:var(
 .plano li{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding:14px 18px}
 .plano li>div{flex:1 1 220px}
 .plano-dia{font-family:var(--display);font-weight:700;color:var(--brand);min-width:78px}
+
+/* Celular: menu hambúrguer, barra de abas embaixo e ajustes gerais */
+.menu-mob,.tabbar{display:none}
+.menu-btn{font:inherit;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:8px 16px;cursor:pointer}
+.menu-painel{position:absolute;left:0;right:0;top:100%;display:grid;gap:4px;padding:12px 16px 16px;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+.menu-painel a:not(.btn){padding:12px 8px;border-radius:10px;font-size:1.05rem}
+.menu-painel a:not(.btn):active{background:var(--tint)}
+.menu-painel .btn{text-align:center}
+.top .wrap{position:relative}
+@media (max-width:640px){
+  .nav-desk{display:none!important}
+  .menu-mob{display:block}
+  main{padding:24px 16px 96px}
+  .tabbar{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--bg);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));box-shadow:0 -6px 20px -12px rgba(23,27,38,.25)}
+  .tabbar a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;border-radius:12px;font-size:.74rem;font-weight:600;color:var(--muted);text-decoration:none}
+  .tabbar a span{font-size:1.3rem;line-height:1}
+  .tabbar a.on{color:var(--brand);background:var(--brand-soft)}
+  .foot{padding-bottom:84px}
+  .btn{min-height:44px}
+  .opt{padding:14px}
+  .phero h1{max-width:none}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .plano li,.chk-list li{align-items:flex-start}
+}
+.row .btn{max-width:100%;white-space:normal;text-align:left}

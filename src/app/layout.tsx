@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { logoutAction } from './actions';
 import { getCurrentUser } from '@/lib/auth';
+import { MenuMobile, TabBar } from './menu-mobile';
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/geist';
 import '@fontsource-variable/caveat';
@@ -18,6 +19,13 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const user = await getCurrentUser();
+  const links = user
+    ? [
+        { href: '/app', label: 'Minha área' }, { href: '/planos', label: 'Planos' },
+        ...(user.role === 'partner_admin' ? [{ href: '/parceiro', label: 'Meu parceiro' }] : []),
+        ...(user.role === 'admin' || user.role === 'staff' ? [{ href: '/admin', label: 'Gestão' }, { href: '/admin/parceiros', label: 'Parceiros' }] : []),
+      ]
+    : [{ href: '/planos', label: 'Planos' }, { href: '/entrar', label: 'Entrar' }, { href: '/cadastro', label: 'Criar conta grátis', destaque: true }];
   return (
     <html lang="pt-BR">
       <body>
@@ -25,7 +33,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <header className="top">
           <div className="wrap">
             <Link href="/" className="logo">Simulaki</Link>
-            <nav>
+            <nav className="nav-desk">
               <Link href="/planos">Planos</Link>
               {user ? (
                 <>
@@ -41,9 +49,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                 </>
               )}
             </nav>
+            <MenuMobile links={links}>
+              {user && <form action={logoutAction}><button className="btn ghost">Sair</button></form>}
+            </MenuMobile>
           </div>
         </header>
         <main>{children}</main>
+        {user && <TabBar />}
         <footer className="foot">
           <div className="wrap">
             <p className="muted" style={{ margin: 0 }}>Plataforma independente de simulados. Não é um serviço oficial do Detran, do INEP, da UFAM nem da UEA.</p>
