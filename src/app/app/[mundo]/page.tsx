@@ -11,6 +11,7 @@ import { getSimulation, nomeTipo } from '@/lib/simulations';
 import { resumoErros } from '@/lib/treino';
 import { ensureOverrides } from '@/lib/question-overrides';
 import { PageHero } from '../../page-hero';
+import { Patrocinio } from '../../patrocinio';
 import { perfilEnem } from '@/lib/enem-perfil';
 import { marcasManuais } from '@/lib/enem-checklist';
 import { montarPlano } from '@/lib/enem-plano';
@@ -44,6 +45,7 @@ export default async function Hub({ params }: { params: Promise<{ mundo: string 
   return (
     <>
       <PageHero compact title={<>{m.emoji} <em>{m.nome}</em></>} />
+      <Patrocinio userId={user.id} tela="hub" mundo={m.slug} />
       {emAndamento && <p className="note">Você tem um simulado em andamento. <Link href={emAndamento.simulationType.startsWith('custom:') ? `/personalizado?mundo=${m.slug}&retomar=1` : `/simulado/${emAndamento.simulationType}`}>Continuar</Link></p>}
       {reta && (
         <div className="card" style={{ marginTop: 16, background: 'var(--brand-soft)' }}>

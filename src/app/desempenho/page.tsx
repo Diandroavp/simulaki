@@ -7,6 +7,7 @@ import { AREAS } from '@/lib/assuntos';
 import { Radar } from '../radar';
 import { TREINO_TEMAS } from '@/lib/treino';
 import { PageHero } from '../page-hero';
+import { Patrocinio } from '../patrocinio';
 import { mundoPorSlug } from '@/lib/mundos';
 import { salvarDataProvaAction } from './actions';
 
@@ -30,6 +31,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
   return (
     <>
       <PageHero compact title={<>Meu desempenho <em>{m.nome}</em></>} />
+      <Patrocinio userId={user.id} tela="desempenho" mundo={m.slug} />
       {erro && <p className="err" role="alert">{erro}</p>}
       <div className="card" style={{ marginTop: 16 }}>
         {d.diasProva !== null ? (
