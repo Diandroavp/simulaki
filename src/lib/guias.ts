@@ -13,12 +13,18 @@ export type Guia = {
   blocos: Bloco[];
   faq: { q: string; a: string }[];
   atualizado: string; // AAAA-MM-DD
+  /** Padrão: detran. */
+  tema?: 'detran' | 'enem';
+  /** Fonte mostrada no rodapé; padrão: a Resolução do CONTRAN. */
+  fonte?: { nome: string; url: string };
 };
 
 export const FONTE_RESOLUCAO = {
   nome: 'Resolução CONTRAN nº 1.020/2025',
   url: 'https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao10202025.pdf',
 };
+
+import { GUIAS_ENEM } from './guias-enem';
 
 export const GUIAS: Guia[] = [
   {
@@ -147,6 +153,7 @@ export const GUIAS: Guia[] = [
       { q: 'Vale a pena decorar as respostas?', a: 'Não. As questões variam. Entender a regra e a explicação de cada resposta funciona melhor.' },
     ],
   },
+  ...GUIAS_ENEM,
 ];
 
 export function getGuia(slug: string): Guia | undefined {

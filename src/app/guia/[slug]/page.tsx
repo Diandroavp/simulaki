@@ -55,12 +55,12 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       ))}
       <div className="card" style={{ marginTop: 28 }}>
         <h3 style={{ marginTop: 0 }}>Treine no formato da prova</h3>
-        <p className="muted" style={{ marginTop: 0 }}>30 questões, correção na hora, explicação e fonte em cada uma. 1 simulado grátis por dia.</p>
+        <p className="muted" style={{ marginTop: 0 }}>{g.tema === 'enem' ? 'Questões das provas oficiais do INEP, correção na hora e acompanhamento por área.' : '30 questões, correção na hora, explicação e fonte em cada uma. 1 simulado grátis por dia.'}</p>
         <Link className="btn" href="/cadastro">Criar conta grátis</Link>
       </div>
       <p className="muted" style={{ fontSize: '.85rem', marginTop: 24 }}>
-        Fonte: <a href={FONTE_RESOLUCAO.url} rel="noopener noreferrer">{FONTE_RESOLUCAO.nome}</a>. Atualizado em {new Date(g.atualizado + 'T12:00:00').toLocaleDateString('pt-BR')}.
-        O Simulaki é independente e não é um serviço oficial. Confirme as regras no Detran do seu estado.
+        Fonte: <a href={(g.fonte ?? FONTE_RESOLUCAO).url} rel="noopener noreferrer">{(g.fonte ?? FONTE_RESOLUCAO).nome}</a>. Atualizado em {new Date(g.atualizado + 'T12:00:00').toLocaleDateString('pt-BR')}.
+        O Simulaki é independente e não é um serviço oficial. {g.tema === 'enem' ? 'Confirme datas e regras no edital do INEP.' : 'Confirme as regras no Detran do seu estado.'}
       </p>
     </article>
     </>
