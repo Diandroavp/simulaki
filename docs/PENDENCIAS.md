@@ -83,3 +83,9 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 
 ## ENEM 2018 dia 2: corrigido (15/10/2026)
 - O JSON misturava texto do caderno CD6 (cinza) com o gabarito do caderno 5 (amarelo). Reimportado do `2018_PV_impresso_D2_CD5.pdf` (amarelo) com o gabarito amarelo oficial: 89 questões (d2-150 anulada/ausente), gabaritos inalterados, enunciados e figuras agora do caderno correto. Continua rascunho (revisão humana em /admin/enem). Explicações de 2018-d2 geradas (36). Sem explicação por texto corrompido na importação: d2-131 (enunciado misturado com outra questão), d2-161 e d2-164 (fórmula/matriz ilegíveis); revisar à mão em /admin/enem.
+
+## Monetização com anúncios (ideia aprovada em 15/10/2026, ainda não implementada)
+- Direção: começar por **patrocínio direto** (banner fixo "oferecido por", sem rastreamento) de cursinhos/faculdades/editoras; anúncio automático (AdSense etc.) só se o tráfego justificar.
+- Regras: só no plano gratuito; nunca durante simulado ou treino; sem anúncio para quem paga. Telas possíveis: resultado, desempenho, caderno de erros, home.
+- Cuidados: LGPD com adolescentes (sem anúncio personalizado, consentimento), e o uso comercial das questões pesa na autorização de UFAM/Vunesp/FGV: resolver antes de ligar anúncios em PSC/SIS/OAB.
+- Pendente: decidir plano/preço de PSC e SIS (decisão do Diandro) e se haverá patrocinadores.
