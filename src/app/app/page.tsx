@@ -10,6 +10,7 @@ import { partnersOf, pendingInvitesFor } from '@/lib/partners';
 import { MUNDOS, mundoDeTipo } from '@/lib/mundos';
 import { ensureOverrides } from '@/lib/question-overrides';
 import { PageHero } from '../page-hero';
+import { Patrocinio } from '../patrocinio';
 import { CopiarLink } from '../copiar-link';
 import { codigoDe, resumoIndicacoes, REWARD_DAYS } from '@/lib/indicacao';
 
@@ -57,6 +58,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
       ) : (
         <p className="note">Plano grátis: {FREE_PER_DAY} simulado por dia. <Link href="/planos">Assinar para fazer ilimitados</Link></p>
       )}
+      <Patrocinio userId={user.id} tela="app" />
 
       {myPartners.map((p) => (
         <form action={leavePartnerAction} key={p.orgId} className="muted">

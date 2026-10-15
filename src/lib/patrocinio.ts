@@ -5,7 +5,7 @@ import path from 'node:path';
  * Patrocínio direto ("oferecido por"): banner simples só para quem não paga, fora de simulado e treino.
  * Sem rastreamento nem cookies de terceiros. Os patrocinadores ficam em content/patrocinio.json.
  */
-export type Tela = 'hub' | 'desempenho';
+export type Tela = 'app' | 'hub' | 'desempenho';
 export type Patrocinador = {
   id: string;
   nome: string;
