@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.APP_URL ?? 'http://localhost:3000'),
   title: { default: 'Simulaki | Simulados para a prova do Detran', template: '%s | Simulaki' },
   description: 'Treine no formato da prova teórica do Detran com cronômetro, correção na hora e explicação de cada questão com a base legal.',
+  ...(process.env.NEXT_PUBLIC_ADSENSE_CLIENT ? { other: { 'google-adsense-account': process.env.NEXT_PUBLIC_ADSENSE_CLIENT } } : {}),
   openGraph: { type: 'website', locale: 'pt_BR', siteName: 'Simulaki', title: 'Simulaki | Simulados para a prova do Detran', description: 'Simulados com cronômetro, correção na hora e explicação com a base legal.' },
 };
 
