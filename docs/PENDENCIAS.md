@@ -73,3 +73,8 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 
 ## Reta final (ENEM)
 - Card "🏁 Reta final" no topo de /app/enem quando faltam ≤30 dias para a data informada em Meu desempenho: contagem regressiva, 3 assuntos prioritários (do plano) com atalho de treino, revisão de erros. Nos últimos 7 dias sugere revisar, sem assunto novo.
+
+## Explicações do ENEM (piloto)
+- Arquivo `content/explicacoes/enem.json` (id -> texto), mesclado em `loadAllRaw` quando a questão não tem explicação; aparece no treino e no gabarito do simulado com aviso de que foi preparada com IA.
+- Piloto: 8 questões de 2023-d2. 1.425 das 2.852 questões têm figura (não tratadas: precisam de leitura das imagens).
+- Antes de escalar: o Diandro avalia o piloto; depois geramos em lotes por caderno e revisamos por amostragem.

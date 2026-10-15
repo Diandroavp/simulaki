@@ -53,6 +53,12 @@ function allowedStatuses(): Question['status'][] {
 /** Provas de vestibular/concurso têm banco próprio e não misturam com o banco nacional do Detran. */
 const BANCOS_PROPRIOS = new Set(['ENEM', 'PSC', 'SIS', 'OAB']);
 
+/** Explicações comentadas, em arquivo à parte: content/explicacoes/<banco>.json (id -> texto). */
+function explicacoesDo(banco: string): Record<string, string> {
+  const f = path.join(process.cwd(), 'content', 'explicacoes', `${banco.toLowerCase()}.json`);
+  return existsSync(f) ? (JSON.parse(readFileSync(f, 'utf8')) as Record<string, string>) : {};
+}
+
 let cache: Record<string, Question[]> = {};
 
 /** Todas as questões do banco como estão nos arquivos (sem filtro de status nem revisão). */
@@ -71,6 +77,8 @@ export function loadAllRaw(stateCode: string): Question[] {
       out.push(...(JSON.parse(readFileSync(path.join(dir, f), 'utf8')) as Question[]));
     }
   }
+  const ex = explicacoesDo(state);
+  for (const q of out) if (!q.explanation && ex[q.id]) q.explanation = `${ex[q.id]} (Resolução comentada preparada com IA; em caso de dúvida, confirme com seu professor.)`;
   rawCache[state] = out;
   return out;
 }
