@@ -23,7 +23,7 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 
 ### PSC (UFAM)
 - Fonte oficial: repositório `edoc.ufam.edu.br` (coleção "Documentos Compec", handle 123456789/552). Mapeadas **14 provas com gabarito definitivo**: PSC 1 e 2 de 2019 a 2023, PSC 3 de 2020 a 2023.
-- **Pendente do Diandro:** apertar Salvar nos 28 PDFs (14,7 MB) quando o Claude refizer a fila de downloads. Os arquivos vão para `Downloads/simulaki-enem` com nome `psc_<ano>_et<etapa>_prova|gab.pdf`.
+- **Baixados (15/10/2026):** os 28 PDFs estão na pasta Downloads do Diandro (não em `simulaki-enem`), com nome `psc_<ano>_et<etapa>_prova|gab.pdf`. Falta importar (o container não alcança a pasta; usar `device_stage_files`).
 - 2024 a 2026: só gabarito preliminar no repositório; conferir contra "Respostas aos Recursos" antes de usar.
 - Depois: adaptar `scripts/import-enem.py` ao formato das provas do PSC (etapas 1, 2 e 3; categoria "PSC 1/2/3").
 
@@ -34,7 +34,7 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - **SIS 2024, 2023, 2020** têm páginas equivalentes no Estratégia e no Vestibulando Web (a conferir).
 - **SIS 2026**: provas aplicadas; gabaritos previstos para 14/10/2026 às 20h (Manaus). Ainda sem PDF público.
 - **Direitos:** pedir autorização à Vunesp e à UEA antes de publicar questões do SIS, ou ter parecer jurídico. Mesmo cuidado com o PSC (UFAM) e a OAB (FGV).
-- **Pendente do Diandro:** liberar o download dos 6 PDFs do SIS 2025 (e depois dos outros anos) quando puder salvar.
+- **Baixados (15/10/2026):** os 6 PDFs do SIS 2025 estão em Downloads como `sis_2025_acomp<1|2|3>_prova|gab.pdf`. Outros anos ainda não.
 
 ### OAB (FGV)
 - Plano mais alto (premium). Precisa de autorização da FGV/análise jurídica antes de qualquer questão.
@@ -80,5 +80,5 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Pendente: o Diandro conferir uma amostra da qualidade; só depois fazer as questões com imagem e o 2018 dia 2 (gabarito a conferir).
 - Scripts: `scripts/dump-sem-explicacao.mjs` e `scripts/merge-explicacoes.mjs`.
 
-## ATENÇÃO: gabarito do ENEM 2018 dia 2 parece errado
-- Em `content/questions/enem/2018-d2.json` várias respostas marcadas não batem com a resolução (ex.: enem-2018-d2-107, som de sonorizador a 108 km/h e 8 cm = 375 Hz, mas o gabarito aponta 8,6 Hz; d2-138, 66 postes x R$ 8.000 = R$ 528.000, gabarito aponta R$ 512.000; d2-098, canudinho, gabarito aponta alternativa que não é a correta). Provável mistura de gabaritos de cadernos de cores diferentes. Conferir contra o gabarito oficial do INEP antes de publicar; não geradas explicações para 2018-d2 até corrigir.
+## ATENÇÃO: ENEM 2018 dia 2 mistura cadernos
+- Conferido em 15/10/2026: `content/questions/enem/2018-d2.json` bate 89/89 com o gabarito oficial do **caderno 5 (amarelo)**, mas o texto das questões vem do caderno **CD6** (`2018_PV_impresso_D2_CD6.pdf`), cuja ordem é diferente. Por isso as respostas não conferem com as contas (d2-107, d2-138, d2-098). Correção: reimportar a prova do caderno 5 (`2018_PV_impresso_D2_CD5.pdf`) ou obter o gabarito do caderno 6. Sem explicações para 2018-d2 até corrigir.
