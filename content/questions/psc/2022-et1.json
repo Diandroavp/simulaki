@@ -1,0 +1,1612 @@
+[
+ {
+  "id": "psc-2022-e1-01",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Nas frases a seguir, o termo destacado em negrito tem a classe de palavra à qual pertence registrada entre parênteses: I. Na cota para o presente do chefe, qual o tanto que devo dar? (substantivo) II. Do meu novo livro, darei para a biblioteca da UFAM quantos exemplares a direção solicitar. (pronome indefinido) III. Posso lhe pedir para não faltar à reunião, por tudo quanto lhe é mais sagrado? (adjetivo interrogativo) IV. Quanta gente compareceu à programação cultural da Prefeitura! (pronome indefinido) V. O novo cantor recebeu tantos aplausos que teve de bisar a última música. (pronome indefinido) VI. Nunca houve tantas mentiras na política como as que se divulgam agora – daí a minha descrença nas pessoas. (pronome relativo) Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as alternativas I, II e IV são verdadeiras."
+   },
+   {
+    "id": "b",
+    "text": "Somente as alternativas I, II, IV e V são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as alternativas I, III, V e VI são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as alternativas II, V e VI são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as alternativas III, V e VI são verdadeiras."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 01",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-02",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Leia o poema intitulado “Língua Portuguesa”, de autoria de Olavo Bilac: 01 Última flor do Lácio, inculta e bela, És, a um tempo, esplendor e sepultura: Ouro nativo que, na ganga impura, 04 A bruta mina entre os cascalhos vela. Amo-te assim, desconhecida e obscura, Tuba de alto clangor, lira singela, Que tens o trom e o silvo da procela, 08 E o arrolo da saudade e da ternura! Amo o teu viço agreste e o teu aroma De virgens selvas e de oceano largo! 11 Amo-te, ó rude e doloroso idioma, Em que da voz materna ouvi: “meu filho!” E em que Camões chorou, no exílio amargo, 14 O gênio sem ventura e o amor sem brilho! Sobre o poema, leia agora as afirmativas a seguir: I. O Lácio (verso 01) é a região da península Ibérica onde a língua portuguesa nasceu, antes de ser trazida para o Brasil. II. Pode-se entender a referência ao “oceano largo” (verso 10) como a expansão marítima de Portugal. III. Apesar de não ser uma língua admirável, por ser contraditória (como se vê nos versos 07 e 08 – “silvo da procela” e “ternura”), o poeta a ama. IV. Ao dizer que a língua portuguesa é “esplendor e sepultura” (verso 02), o poeta se refere, respectivamente, ao desenvolvimento de nosso idioma e ao latim. Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as afirmativas I, II e IV são verdadeiras."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I e III são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I, III e IV são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II e III são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas II e IV são verdadeiras."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 02",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-03",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Em relação ao poema da questão anterior, fazem-se as seguintes afirmativas sobre aspectos linguísticos do texto. Assinale a alternativa INCORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Em “saudade”, “ouro” e “chorou” observa-se a presença de ditongos."
+   },
+   {
+    "id": "b",
+    "text": "Existem dígrafos em palavras como “cascalhos”, “clangor” e “ventura”."
+   },
+   {
+    "id": "c",
+    "text": "Em “oceano”, “exílio” e “gênio” observa-se a presença de hiatos."
+   },
+   {
+    "id": "d",
+    "text": "“A bruta mina” é o sujeito da última oração do primeiro período."
+   },
+   {
+    "id": "e",
+    "text": "“Materna” é um adjetivo derivado, pois tem origem em outro vocábulo."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 03",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-04",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Complete as lacunas das frases com o pronome demonstrativo adequado: I. ________ camisa que estou usando não saiu nada barata. II. Gosto de João e de Rafael, mas ________ é mais amigo do que este. III. Os nossos políticos estão longe de ser ________ que pede a ética social. IV. ________ menino que você carrega é seu filho? V. Os assuntos da reunião serão ________: férias e pedido de aumento. Assinale a alternativa que preenche CORRETAMENTE as lacunas das frases:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Esta – aquele – aquilo – Esse – estes"
+   },
+   {
+    "id": "b",
+    "text": "Essa – esse – isso – Este – esses"
+   },
+   {
+    "id": "c",
+    "text": "Esta – esse – aquilo – Aquele – esses"
+   },
+   {
+    "id": "d",
+    "text": "Essa – aquele – aquilo – Este – esses"
+   },
+   {
+    "id": "e",
+    "text": "Esta – aquele – isso – Aquele – estes"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 04",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-05",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Tratando da reconquista da península Ibérica pelos cristãos, episódio fundamental no estudo da história do idioma português, Evanildo Bechara (na Gramática escolar da língua portuguesa, Rio de Janeiro: Lucerna, 2002, p. 689), escreveu o trecho a seguir transcrito: O processo de reconquista propagou um falar comum à Galiza e ao território portugalense, em direção ao sul, sobrepondo-se aos dialetos dos moçárabes aí correntes. Já com a ajuda de cruzados ingleses, alemães, franceses e flamengos, e sob a bandeira portuguesa, prosseguiu a reconquista de novas cidades do sul, tomadas aos muçulmanos. Verifica-se no texto a palavra “moçárabes”, que deve ser necessariamente entendida por quem estuda o processo de formação de nossa língua. Assinale a alternativa que faz o registro CORRETO de seu significado:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Muçulmanos que divulgavam sua fé entre os cristãos."
+   },
+   {
+    "id": "b",
+    "text": "Bárbaros vindos do norte, cujas línguas se misturaram à portuguesa."
+   },
+   {
+    "id": "c",
+    "text": "Cristãos que viviam entre os mouros durante o domínio árabe."
+   },
+   {
+    "id": "d",
+    "text": "Visigodos e vândalos que vieram ajudar os cristãos na reconquista."
+   },
+   {
+    "id": "e",
+    "text": "Muçulmanos em fase de mudança de religião, convertendo-se ao Cristianismo."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 05",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-06",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Assinale a alternativa na qual o emprego do hífen está INCORRETO:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Durante o Festival, os barcos no sentido Manaus- Parintins viajam sempre lotados."
+   },
+   {
+    "id": "b",
+    "text": "Muitos acidentes e assassinatos ainda continuam mal-explicados pela polícia."
+   },
+   {
+    "id": "c",
+    "text": "O time fechou-se na defesa, jogando apenas em contra-ataque."
+   },
+   {
+    "id": "d",
+    "text": "O para-quedas não abriu e, por isso, consumou-se a tragédia."
+   },
+   {
+    "id": "e",
+    "text": "O enredo da escola de samba para 2023 é “Bahia de Todos-os-Santos”."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 06",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-07",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Leia as frases a seguir, atentando para o coletivo que, entre parênteses, corresponde ao termo destacado em negrito: I. Apesar da educação obrigatória, o mundo continua cheio de desordeiros. (malta) II. Não tremi, apesar de os examinadores serem severos. (banca) III. O clímax da comemoração foi o show dos aviões. (esquadrilha) IV. Os soldados, apesar de muitos, não conseguiram vencer a batalha. (falange) V. As religiões cristãs ensinam que há muitos anjos no céu. (falange) VI. Findo o curso, os estudantes sentirão saudades uns dos outros. (turma) Assinale a alternativa que registra os coletivos CORRETAMENTE expressos:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente os coletivos constantes de I, II, IV e VI estão corretos."
+   },
+   {
+    "id": "b",
+    "text": "Somente os coletivos constantes de I, III, V e VI estão corretos."
+   },
+   {
+    "id": "c",
+    "text": "Somente os coletivos constantes de II, III, V e VI estão corretos."
+   },
+   {
+    "id": "d",
+    "text": "Somente os coletivos constantes de III, IV e V estão corretos."
+   },
+   {
+    "id": "e",
+    "text": "Todos os coletivos estão corretos."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 07",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-08",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Leia as frases a seguir, atentando para a conjugação do verbo destacado em negrito: I. Você quer mesmo que nós damos a notícia à esposa do falecido? II. Ele manteu os seus propósitos mesmo diante das adversidades. III. Espero que, mesmo com o acidente, não bloqueem as estradas. IV. Peço outra vez: averiguem como vai estar o tempo hoje à tarde. V. O professor interveio na briga dos alunos e levou todos para a diretoria. Assinale a alternativa que registra os verbos CORRETAMENTE conjugados:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente nas frases IV e V."
+   },
+   {
+    "id": "b",
+    "text": "Somente nas frases II e III."
+   },
+   {
+    "id": "c",
+    "text": "Somente nas frases I, II e V."
+   },
+   {
+    "id": "d",
+    "text": "Somente nas frases II, IV e V."
+   },
+   {
+    "id": "e",
+    "text": "Somente nas frases I, III e IV."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 08",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-09",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Assinale a alternativa em que a acentuação das palavras se encontra CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Não costumo assinar por extenso, colocando apenas minha rúbrica."
+   },
+   {
+    "id": "b",
+    "text": "Apesar de não acreditar no além-túmulo, fez uma visita a uma médium famosa."
+   },
+   {
+    "id": "c",
+    "text": "Os poetas românticos, pela aversão à sociedade, eram misântropos contumazes."
+   },
+   {
+    "id": "d",
+    "text": "O catéter é um tubo flexível de grande eficácia medicinal."
+   },
+   {
+    "id": "e",
+    "text": "Há dez anos moramos próximo ao Parque do Mindú, no Parque 10."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 09",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-10",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2022,
+  "statement": "Assinale a alternativa INCORRETA quanto ao conceito emitido sobre a variação linguística:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A variação linguística não trabalha com a noção de erro, entendendo os desvios da norma culta como diferenças entre os falantes do mesmo idioma."
+   },
+   {
+    "id": "b",
+    "text": "A gíria, um tipo de variação linguística, é normalmente associada a grupos de jovens e a atletas, como os skatistas."
+   },
+   {
+    "id": "c",
+    "text": "O jargão é uma variação linguística que se verifica entre grupos profissionais, como o dos médicos, dos advogados, dos engenheiros."
+   },
+   {
+    "id": "d",
+    "text": "A variação linguística se estabelece principalmente no plano social, já que tem o propósito de melhorar o nível de fala da população inculta."
+   },
+   {
+    "id": "e",
+    "text": "Uma variação linguística muito comum no falar e mesmo na escrita é quanto à colocação dos pronomes, como se observa, por exemplo, em “eu vi ela”."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 10",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-11",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2022,
+  "statement": "Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A literatura pode ser descrita como algo que estuda formas textuais, escolas literárias, figuras de linguagem a partir de um texto ficcional, demarcado pelo tempo em que foi elaborado."
+   },
+   {
+    "id": "b",
+    "text": "A representação do mundo em um texto ficcional permite que se possa perceber aspectos da realidade, ampliando a percepção sobre o entorno sócio-histórico-econômico."
+   },
+   {
+    "id": "c",
+    "text": "Entende-se literatura como um trabalho com a linguagem, sem outra preocupação a não ser com a estética, vinculada ao gênio do autor."
+   },
+   {
+    "id": "d",
+    "text": "Deve-se entender a literatura como a manifestação artística em si mesma, desvinculada de ideologia e representações sociais; se houver isso, não é literatura."
+   },
+   {
+    "id": "e",
+    "text": "A tentativa de representar a realidade em um texto ficcional não é adequada, pois literatura é ficção e trabalho com a linguagem."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 11",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-12",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2022,
+  "statement": "Sobre as cartas dos viajantes, é INCORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "As cartas, independentemente de sua finalidade informativa, pelo seu caráter narrativo, superavam o caráter utilitário de mero “relatório”, apresentando cuidados estilísticos com a linguagem."
+   },
+   {
+    "id": "b",
+    "text": "As cartas trazem minuciosos relatos sobre aspectos históricos, geográficos e econômicos, gerando um panorama sobre o funcionamento da colônia."
+   },
+   {
+    "id": "c",
+    "text": "As cartas não apresentam preocupações estilísticas e de linguagem, pois eram produzidas por viajantes ou padres cuja preocupação era informar ao rei sobre o novo território."
+   },
+   {
+    "id": "d",
+    "text": "Mesmo pretendendo-se informativas, as cartas apresentam traços imaginativos e descrição de aventuras, como a Carta de Hans Staden ou mesmo algumas peripécias envolvendo o Padre José de Anchieta."
+   },
+   {
+    "id": "e",
+    "text": "As cartas permitiram o conhecimento de fatos históricos, documentando vários aspectos de um Brasil em formação."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 12",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-13",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2022,
+  "statement": "Leia o poema a seguir, de Gregório de Matos: Anjo no nome, Angélica na cara! Isso é ser flor, e Anjo juntamente: Ser Angélica flor, e Anjo florente, Em quem, senão em vós, se uniformara: Quem vira uma tal flor, que a não cortara, De verde pé, da rama fluorescente; E quem um Anjo vira tão luzente, Que por seu Deus o não idolatrara? Se pois como Anjo sois dos meus altares, Fôreis o meu Custódio, e a minha guarda, Livrara eu de diabólicos azares. Mas vejo, que por bela, e por galharda, Posto que os Anjos nunca dão pesares, Sois Anjo, que me tenta, e não me guarda. Considere as seguintes afirmativas: I. O poema cria uma imagem de mulher divinizada, idealizada e distante da realidade, ao mesmo tempo, porém, revela o desejo que essa imagem desperta no eu-lírico. II. A construção do poema à base de oposições (antíteses e paradoxos) é típica do Barroco, que tem como característica fundamental o dualismo. III. A representação dessa mulher idealizada contrasta com imagens criadas pelo poeta em outros poemas que trazem figuras de mulheres escravizadas, como objetos de desejo carnal e servis, apresentadas de maneira pejorativa e satírica. Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente a afirmativa I é verdadeira."
+   },
+   {
+    "id": "b",
+    "text": "Somente a afirmativa II é verdadeira."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I e II são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II e III são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Todas as afirmativas são verdadeiras."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 13",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-14",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2022,
+  "statement": "Considere as seguintes afirmativas: I. O Barroco traz situações da colônia sob uma perspectiva pessoal de Gregório de Matos, por exemplo, não como um projeto literário orgânico. II. O Barroco é um movimento estético restrito à poesia de Gregório de Matos, Bento Teixeira, e alguns sermões de Vieira. III. Pelo fato de o Barroco ser um movimento europeu, no Brasil não houve manifestações estéticas efetivamente barrocas. Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente a afirmativa I é verdadeira."
+   },
+   {
+    "id": "b",
+    "text": "Somente a afirmativa II é verdadeira."
+   },
+   {
+    "id": "c",
+    "text": "Somente a afirmativa III é verdadeira."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas I e III são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas II e III são verdadeiras."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 14",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-15",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2022,
+  "statement": "Sobre a obra O Uraguai, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "pela presença do indígena, pode-se afirmar que mostra a cordial relação entre colonizadores e povos originários."
+   },
+   {
+    "id": "b",
+    "text": "apesar de épico, o poema apresenta aspectos românticos em sua composição."
+   },
+   {
+    "id": "c",
+    "text": "o teor crítico do poema pode ser notado quando os indígenas e os soldados portugueses se unem para salvar a aldeia do incêndio."
+   },
+   {
+    "id": "d",
+    "text": "seu tema é o ataque às missões jesuíticas dos Sete Povos, construído em homenagem ao Marquês de Pombal."
+   },
+   {
+    "id": "e",
+    "text": "por ser um poema épico, reúne o divino, o cósmico e o político de maneira articulada e crítica em sua composição."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 15",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-16",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2022,
+  "statement": "Sobre o Arcadismo, podemos afirmar que: I. As produções da poética colonial resultam de uma representação da realidade que circunda o poeta, antecipando características do Romantismo, como a cor local e o nativismo. II. Apesar de ser uma produção ainda vinculada à metrópole, passou a apresentar características singulares, trazendo elementos típicos do novo mundo, como o indígena. III. A perspectiva épica, a produção lírica e o viés satírico abrangem a produção do período árcade brasileiro, trazendo uma certa complexidade às produções, mais que a mera representação da natureza. Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente a afirmativa II é verdadeira."
+   },
+   {
+    "id": "b",
+    "text": "Somente a afirmativa III é verdadeira."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I e III são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II e III são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Todas as afirmativas são verdadeiras."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 16",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-17",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2022,
+  "statement": "\"Fundamentalmente nós fazemos um tipo de conhecimento que incide sobre a produção da maneira como as pessoas pensam, sentem, agem, ou seja, incidimos diretamente sobre valores. Por isso, a história é um saber que tem a ver com a dimensão ética e política, isto é, a história está sempre remetendo à ética, à discussão de valores e à política, remetendo às nossas formas de perceber o mundo, de se comportar, de se colocar diante do outro, de se colocar em relação à sociedade em que nós estamos vivendo.\" ALBUQUERQUE JÚNIOR, Durval Muniz de. História: métier e prazer. Revista Espacialidades. 2008, vol. 1, no.0. Disponível em: https://periodicos.ufrn.br/espacialidades/article/view/17592/11469. Acesso em: 07/09/2022. No texto, o historiador Durval Muniz alerta-nos para a questão ética e política como elementos fundamentais do ofício do historiador no cenário contemporâneo. Nesse sentido, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "os historiadores podem recorrer à imaginação para poderem criar fatos que deem suporte às suas pesquisas."
+   },
+   {
+    "id": "b",
+    "text": "ao interpretar as vivências humanas, os historiadores só devem utilizar como documentos as fontes escritas."
+   },
+   {
+    "id": "c",
+    "text": "os historiadores interpretam as experiências humanas ao longo do tempo. Logo, a leitura do passado ou a produção de uma interpretação específica dos acontecimentos é construída com base em vestígios, fontes e documentos."
+   },
+   {
+    "id": "d",
+    "text": "ao pesquisar e escrever sobre a trajetória da humanidade, o historiador é capaz de reconstituir fielmente o passado."
+   },
+   {
+    "id": "e",
+    "text": "os historiadores investigam a vida pública e privada em seus múltiplos aspectos (econômicos, políticos, etc.) e, a partir de então, estabelecem verdades absolutas e definitivas sobre os fatos pesquisados."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 17",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-18",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2022,
+  "statement": "Cotidianamente, diversos pesquisadores e pesquisadoras da humanidade têm problematizado que se deve ter em mente as limitações do termo \"Pré- história\". Essa ideia está ligada à noção, difundida na segunda metade do século XIX, de que a História não pode ser feita sem documentos, não se reconhecendo a importância dos registros ágrafos (não escritos). Sobre a crítica ao uso desse termo, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "a Pré-história, por ter um marco inicial bem definido, abrange diversas culturas."
+   },
+   {
+    "id": "b",
+    "text": "as conquistas da humanidade anteriores à escrita, tais como a invenção da roda, o domínio do fogo e a prática da agricultura, não têm relevância para o estudo das sociedades posteriores."
+   },
+   {
+    "id": "c",
+    "text": "as pinturas e gravuras rupestres do neolítico não podem ser consideradas documentos, pois apenas expressavam o cotidiano dos grupos humanos desse período."
+   },
+   {
+    "id": "d",
+    "text": "existe apenas uma forma de se registrar o passado humano, e esse registro se dá pela escrita."
+   },
+   {
+    "id": "e",
+    "text": "o ser humano, desde seu surgimento, é um ser histórico, ainda que não faça uso da escrita."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 18",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-20",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2022,
+  "statement": "A civilização grega (ou helênica) desenvolveu características que produziram importantes influências nas civilizações contemporâneas ocidentais. Nesse sentido, a construção que representa esse esplendor cultural grego, além de ser reconhecidamente uma das maiores obras arquitetônicas da humanidade, é o(a):",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ateneu Romeno, inaugurado em 1888."
+   },
+   {
+    "id": "b",
+    "text": "Muralha da China, que começou a ser construída em 220 a.C.."
+   },
+   {
+    "id": "c",
+    "text": "Farol de Alexandria, construído pelo Reino Ptolomaico entre 280 e 247 a.C.."
+   },
+   {
+    "id": "d",
+    "text": "Partenon, templo do século V a.C., localizado em Atenas."
+   },
+   {
+    "id": "e",
+    "text": "Muralha de Lima, que começou a ser construída no século XVII."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 20",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-21",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2022,
+  "statement": "No Império Bizantino predominava o grande interesse por questões religiosas, onde a Igreja funcionava em estreita ligação com o poder imperial. No entanto, uma série de conflitos teológicos e políticos entre os partidários dos imperadores bizantinos e o comando cristão papal, sediado em Roma, levaram à divisão do mundo cristão em duas igrejas, a Igreja Católica do Oriente e a Igreja Católica do Ocidente. É CORRETO afirmar que tais conflitos culminaram no(a):",
+  "options": [
+   {
+    "id": "a",
+    "text": "Grande Cisma do Oriente, em 1054."
+   },
+   {
+    "id": "b",
+    "text": "Teocentrismo cultural."
+   },
+   {
+    "id": "c",
+    "text": "Batalha de Hastings, em 1066."
+   },
+   {
+    "id": "d",
+    "text": "Guerra dos Cem Anos, iniciada em 1337."
+   },
+   {
+    "id": "e",
+    "text": "Revolução de Avis, 1383-1385."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 21",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-22",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2022,
+  "statement": "\"(...) o Renascimento não foi, nem poderia ser, um simples retorno à Antiguidade. Afinal, nenhuma cultura renasce fora de seu tempo, e quase todos os grandes renascentistas estavam profundamente marcados pelo cristianismo, ainda que desejassem transformá-lo. Isso se torna claro quando observamos o fundo cristão que persiste nas obras artísticas desse período. Além disso, houve uma renovação no tratamento de várias questões culturais, a partir de uma perspectiva humanista que, em boa medida, superou as ideias medievais com novas perguntas e novas possibilidades de ação.\" Adaptado de: COTRIM, Gilberto. História global 1. 3a. ed. São Paulo: Saraiva, 2016. p.194. A partir da leitura do texto, é CORRETO afirmar que os dois fatores essenciais que possibilitaram a divulgação do trabalho de artistas e intelectuais renascentistas foram:",
+  "options": [
+   {
+    "id": "a",
+    "text": "o fortalecimento da nobreza feudal e a crise da burguesia."
+   },
+   {
+    "id": "b",
+    "text": "a Igreja cristã, que patrocinou o trabalho de artistas e intelectuais renascentistas, e a ação dos senhores feudais."
+   },
+   {
+    "id": "c",
+    "text": "o desenvolvimento da imprensa e a ação dos mecenas."
+   },
+   {
+    "id": "d",
+    "text": "a crise das monarquias nacionais e o crescente poder e prestígio da Igreja entre os artistas e intelectuais renascentistas."
+   },
+   {
+    "id": "e",
+    "text": "o fortalecimento do feudalismo e o surgimento do capitalismo."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 22",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-24",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2022,
+  "statement": "Em relação à Hidrovia Tocantins-Araguaia, é CORRETO afirmar que é:",
+  "options": [
+   {
+    "id": "a",
+    "text": "a principal hidrovia da região centro-norte do Brasil."
+   },
+   {
+    "id": "b",
+    "text": "importante via de ligação entre as regiões Centro- Oeste e Centro-Sul do Brasil."
+   },
+   {
+    "id": "c",
+    "text": "a principal hidrovia do Mercosul."
+   },
+   {
+    "id": "d",
+    "text": "o eixo fluvial mais extenso da América do Sul, abrangendo, além do Brasil, o Paraguai, a Argentina, o Uruguai e a Bolívia."
+   },
+   {
+    "id": "e",
+    "text": "a via mais econômica de ligação entre o Centro- Sul e o Nordeste do Brasil."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 24",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-25",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2022,
+  "statement": "Com o tema Unindo o mundo para enfrentar as mudanças climáticas, a Conferência das Nações Unidas sobre as Mudanças Climáticas (COP26), realizada em Glasgow (Reino Unido), em novembro de 2021, reuniu representantes de cerca de 200 governos com o objetivo de acelerar a ação climática para cumprir o Acordo de Paris. De acordo com documento que contém as diretrizes de ação política acordadas por todos os países presentes, o pacto inclui os seguintes acordos, EXCETO:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acelerar a transição para veículos não poluentes até 2040 e em mercados líderes até 2035."
+   },
+   {
+    "id": "b",
+    "text": "Eliminar o uso de carvão mineral entre as décadas de 2030 e 2040."
+   },
+   {
+    "id": "c",
+    "text": "Reduzir as emissões de gás metano."
+   },
+   {
+    "id": "d",
+    "text": "Reduzir em 2030 as emissões de dióxido nitroso em 45%, em relação aos níveis de 2010, e chegar a zero emissões líquidas em 2050."
+   },
+   {
+    "id": "e",
+    "text": "Zerar o desmatamento global até 2030."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 25",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-26",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2022,
+  "statement": "Sobre os fusos horários nacionais, é INCORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "a existência de quatro fusos no país associa-se às ilhas oceânicas como Fernando de Noronha."
+   },
+   {
+    "id": "b",
+    "text": "apenas o fuso GMT −2 do arquipélago de Trindade é atrasado em relação a Greenwich; todos os outros são adiantados."
+   },
+   {
+    "id": "c",
+    "text": "as diferenças estabelecidas na demarcação do horário devem-se, sobretudo, à extensão no sentido Leste-Oeste do Brasil."
+   },
+   {
+    "id": "d",
+    "text": "as ilhas oceânicas – Trindade e Martin Vaz (ES), Fernando de Noronha e São Pedro e São Paulo (PE) e Atol das Rocas (RN) – adotam o horário GMT −2."
+   },
+   {
+    "id": "e",
+    "text": "no Brasil existem os fusos horários GMT −2, GMT −3, GMT −4 e GMT −5."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 26",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-27",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2022,
+  "statement": "Sobre os focos de desmatamentos na Amazônia pode-se afirmar que: I. A cadeia produtiva dos frigoríficos para o comércio da carne é um dos principais motores desse processo. II. O Greenpeace não conseguiu identificar os crimes ambientais provocados por esse setor comercial. III. Há mais de uma década os frigoríficos comprometeram-se em reduzir os danos ambientais da pecuária, porém nada foi feito. IV. Os frigoríficos locais cumprem rigorosamente todos os Termos de Ajustamento de Conduta, para evitar o avanço das queimadas. V. A pecuária é uma atividade que responde por cerca de 50% de todas as emissões brasileiras de gases do efeito estufa. Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as afirmativas I, II e V são verdadeiras."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I, III e IV são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I, III e V são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II, III e IV são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas II, IV e V são verdadeiras."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 27",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-29",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2022,
+  "statement": "Com relação à classificação do tecido histológico indicado pela seta preta, podemos afirmar que se trata de tecido:",
+  "options": [
+   {
+    "id": "a",
+    "text": "adiposo."
+   },
+   {
+    "id": "b",
+    "text": "cartilaginoso."
+   },
+   {
+    "id": "c",
+    "text": "conjuntivo propriamente dito denso modelado."
+   },
+   {
+    "id": "d",
+    "text": "epitelial cilíndrico simples."
+   },
+   {
+    "id": "e",
+    "text": "muscular estriado esquelético."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 29",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-30",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2022,
+  "statement": "Sobre a classificação do tecido histológico indicado pela seta branca, podemos afirmar que se trata de tecido:",
+  "options": [
+   {
+    "id": "a",
+    "text": "cartilaginoso."
+   },
+   {
+    "id": "b",
+    "text": "conjuntivo frouxo."
+   },
+   {
+    "id": "c",
+    "text": "epitelial pavimentoso simples."
+   },
+   {
+    "id": "d",
+    "text": "nervoso."
+   },
+   {
+    "id": "e",
+    "text": "ósseo."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 30",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-31",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2022,
+  "statement": "Considerando o principal tipo celular encontrado no tecido histológico indicado pela seta preta, assinale a alternativa que contém as mais importantes especializações de membrana localizadas na região da célula:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Hemidesmossomos"
+   },
+   {
+    "id": "b",
+    "text": "Junções comunicantes"
+   },
+   {
+    "id": "c",
+    "text": "Lâmina basal"
+   },
+   {
+    "id": "d",
+    "text": "Microvilosidades"
+   },
+   {
+    "id": "e",
+    "text": "Porina"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 31",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-32",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2022,
+  "statement": "Sobre a respiração celular, é INCORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "na fermentação lática, tem-se como saldo energético apenas duas moléculas ATP por molécula de glicose oxidada."
+   },
+   {
+    "id": "b",
+    "text": "a via glicolítica tem como saldo energético apenas duas moléculas ATP por molécula de glicose oxidada."
+   },
+   {
+    "id": "c",
+    "text": "nos mamíferos, as hemácias não possuem mitocôndrias."
+   },
+   {
+    "id": "d",
+    "text": "na fermentação alcoólica há liberação de duas moléculas de CO2 e formação de etanol."
+   },
+   {
+    "id": "e",
+    "text": "as células vegetais não respiram, apenas realizam fotossíntese."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 32",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-33",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2022,
+  "statement": "Considere as seguintes afirmativas sobre o código genético: I. O código genético possui três características importantes: especificidade, universalidade e degenerado/redundância. II. O códon iniciador corresponde à sequência UUU que fornece o quadro de leitura em que o RNA mensageiro será traduzido. III. Entende-se por código genético a relação entre as bases nitrogenadas e os aminoácidos. IV. O anticódon corresponde ao grupo de três nucleotídeos do RNA transportador que se liga ao códon correspondente no RNA mensageiro através do pareamento de bases. V. O códon iniciador corresponde ao aminoácido triptofano carregado para o interior do ribossomo por um RNA transportador iniciador especial. Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as afirmativas I e II são verdadeiras."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I, II e III são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I, III e IV são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II, III e IV são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas IV e V são verdadeiras."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 33",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-34",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2022,
+  "statement": "As deficiências de vitaminas podem provocar várias enfermidades. Considere os seguintes sintomas causados por carência de vitaminas: I. Anemia perniciosa. II. Deficiência na coagulação sanguínea. III. Raquitismo na infância. IV. Escorbuto. Assinale a alternativa que relaciona CORRETAMENTE os sintomas que estão associados às carências de vitaminas:",
+  "options": [
+   {
+    "id": "a",
+    "text": "I: vitamina B12; II: vitamina K; III: vitamina D; IV: vitamina C"
+   },
+   {
+    "id": "b",
+    "text": "I: vitamina B3; II: vitamina K; III: vitamina B7; IV: vitamina A"
+   },
+   {
+    "id": "c",
+    "text": "I: vitamina B1; II: vitamina A; III: vitamina B2; IV: vitamina C"
+   },
+   {
+    "id": "d",
+    "text": "I: vitamina C; II: vitamina D; III: vitamina A; IV: vitamina B6"
+   },
+   {
+    "id": "e",
+    "text": "I: vitamina A; II: vitamina C; III: biotina; IV: vitamina K"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 34",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-35",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2022,
+  "statement": "O petróleo cru, ou bruto, é levado para as refinarias, a fim de ser separado em vários componentes, que serão transformados em produtos derivados do petróleo. O petróleo bruto é separado em seus componentes por:",
+  "options": [
+   {
+    "id": "a",
+    "text": "destilação fracionada."
+   },
+   {
+    "id": "b",
+    "text": "destilação simples."
+   },
+   {
+    "id": "c",
+    "text": "diferença de densidade."
+   },
+   {
+    "id": "d",
+    "text": "floculação."
+   },
+   {
+    "id": "e",
+    "text": "reação química."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 35",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-36",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2022,
+  "statement": "Isótopos são átomos de um mesmo elemento químico que apresentam o mesmo valor do número atômico, mas se diferem no número da massa. No caso do elemento hidrogênio são conhecidos três isótopos, a saber:",
+  "options": [
+   {
+    "id": "a",
+    "text": "prótio, dicério e tricério."
+   },
+   {
+    "id": "b",
+    "text": "pródio, deutério e hélio."
+   },
+   {
+    "id": "c",
+    "text": "prótio, heparina e hélio."
+   },
+   {
+    "id": "d",
+    "text": "pródio, dicério e trítio."
+   },
+   {
+    "id": "e",
+    "text": "prótio, deutério e trítio."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 36",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-37",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2022,
+  "statement": "Na Tabela Periódica de Mendeleev, foram deixadas lacunas para os elementos a serem descobertos posteriormente. Assinale a alternativa que indica o elemento que posteriormente encontrou lugar em uma das lacunas da Tabela Periódica:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Cloro"
+   },
+   {
+    "id": "b",
+    "text": "Germânio"
+   },
+   {
+    "id": "c",
+    "text": "Oxigênio"
+   },
+   {
+    "id": "d",
+    "text": "Prata"
+   },
+   {
+    "id": "e",
+    "text": "Silício"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 37",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-38",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2022,
+  "statement": "Considere os seguintes compostos: I. NH3 II. BF3 III. SCl2 IV. H2O V. CO2 VI. CH4 Assinale a alternativa que indica os compostos que têm a mesma geometria molecular:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente os compostos I e II."
+   },
+   {
+    "id": "b",
+    "text": "Somente os compostos I e VI."
+   },
+   {
+    "id": "c",
+    "text": "Somente os compostos III e IV."
+   },
+   {
+    "id": "d",
+    "text": "Somente os compostos III e V."
+   },
+   {
+    "id": "e",
+    "text": "Somente os compostos III, IV e V."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 38",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-40",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2022,
+  "statement": "Na reação de duplo deslocamento entre iodeto de potássio aquoso e nitrato de chumbo aquoso, forma- se um precipitado amarelo de iodeto de chumbo. Ao realizar uma atividade, se o nitrato de chumbo não estiver disponível, qual das seguintes substâncias pode ser usada no lugar do nitrato de chumbo?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Acetato de chumbo"
+   },
+   {
+    "id": "b",
+    "text": "Sulfato de potássio"
+   },
+   {
+    "id": "c",
+    "text": "Nitrato de amônio"
+   },
+   {
+    "id": "d",
+    "text": "Sulfato de chumbo (insolúvel)"
+   },
+   {
+    "id": "e",
+    "text": "Nitrato de potássio"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 40",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-41",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2022,
+  "statement": "Frequentemente usado para expressar distâncias astronômicas, o ano-luz é definido como a distância percorrida pela luz no vácuo em um ano. Considerando a velocidade da luz no vácuo igual a 300000 kms ⁄ , podemos afirmar que a ordem de grandeza de um ano-luz, em metros, é:",
+  "options": [
+   {
+    "id": "a",
+    "text": "1012"
+   },
+   {
+    "id": "b",
+    "text": "1013"
+   },
+   {
+    "id": "c",
+    "text": "1015"
+   },
+   {
+    "id": "d",
+    "text": "1016"
+   },
+   {
+    "id": "e",
+    "text": "1018"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 41",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-42",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2022,
+  "statement": "A expressão “navegar é preciso, viver não é preciso” é conhecida por conta do poeta português Fernando Pessoa (1888 – 1935). Navegar é o processo que permite uma embarcação ou aeronave alcançar um local específico. Assim, a correta orientação de uma embarcação é fator essencial quando se deseja atravessar um rio com correnteza. Dependendo da direção e sentido do movimento da embarcação, a correnteza irá desviá-la de sua trajetória num efeito conhecido como deriva. Considere a situação, típica da região amazônica, na qual uma canoa, equipada com um motor do tipo “rabeta”, atravessa um trecho de rio com velocidade, em relação ao rio, de 4ms ⁄ numa direção perpendicular à correnteza. Se a largura do rio é de 800m e a velocidade da correnteza neste trecho é de 3ms ⁄ , podemos afirmar que o tempo de travessia e o deslocamento de deriva da canoa, em relação ao ponto oposto ao de partida na outra margem do rio, valem, respectivamente:",
+  "options": [
+   {
+    "id": "a",
+    "text": "3min20s e 400m."
+   },
+   {
+    "id": "b",
+    "text": "4min20s e 300m."
+   },
+   {
+    "id": "c",
+    "text": "3min20s e 300m."
+   },
+   {
+    "id": "d",
+    "text": "4min20s e 600m."
+   },
+   {
+    "id": "e",
+    "text": "3min20s e 600m."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 42",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-43",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2022,
+  "statement": "Considere a situação na qual o goleiro, ao bater o tiro de meta, chuta a bola imprimindo-lhe uma velocidade inicial v⃗0, com vetor velocidade inicial formando com a horizontal um ângulo 30° < θ< 45°. Considerando a bola como uma partícula e desprezando quaisquer efeitos de resistência do ar, podemos afirmar que no ponto mais alto da trajetória da bola: I. o vetor velocidade se anula. II. o valor da aceleração se anula. III. o componente horizontal do vetor velocidade da bola possui o mesmo valor que o componente horizontal do vetor velocidade inicial v⃗0. Assinale a alternativa CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente a afirmativa I é verdadeira."
+   },
+   {
+    "id": "b",
+    "text": "Somente a afirmativa II é verdadeira."
+   },
+   {
+    "id": "c",
+    "text": "Somente a afirmativa III é verdadeira."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas I e II são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas II e III são verdadeiras."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 43",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-45",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2022,
+  "statement": "Somente cinco planetas do sistema solar podem ser observados sem o auxílio de instrumentos. Esses planetas eram considerados por muitas culturas antigas como divinos ou emissários de deuses. Dos cinco planetas, Saturno é o mais distante da Terra, pertencendo ao grupo dos gigantes gasosos. Saturno possui cerca de 95 massas terrestres e orbita o Sol a uma distância média de 9,5 U.A., em que 1 U.A. (unidade astronômica) corresponde a distância média da Terra ao Sol. Aproximando esses valores, de modo que iremos considerar que Saturno tenha massa 100 vezes maior que a da Terra e que descreva uma órbita em torno do Sol a uma distância média de 10 U.A., podemos afirmar que a razão entre a intensidade da força gravitacional com que o Sol atrai Saturno e a intensidade da força gravitacional com que o Sol atrai a Terra é igual a:",
+  "options": [
+   {
+    "id": "a",
+    "text": "0,01."
+   },
+   {
+    "id": "b",
+    "text": "0,1."
+   },
+   {
+    "id": "c",
+    "text": "1."
+   },
+   {
+    "id": "d",
+    "text": "10."
+   },
+   {
+    "id": "e",
+    "text": "100."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 45",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-46",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2022,
+  "statement": "Num experimento realizado no Laboratório de Física, um objeto de 500g foi liberado a partir do repouso, quando estava totalmente imerso em um líquido. Antes de liberar o objeto, os alunos determinaram a massa do líquido deslocado pelo objeto, obtendo o valor de 300g. A partir dessas informações e considerando que o arrasto exercido pelo líquido sobre o objeto foi desprezível, podemos afirmar que a distância que o objeto percorreu 200ms após ser liberado do repouso foi de I no sentido vertical para II . Assinale a alternativa que preenche, CORRETAMENTE, as lacunas do texto:",
+  "options": [
+   {
+    "id": "a",
+    "text": "I: 8,0cm; II: baixo"
+   },
+   {
+    "id": "b",
+    "text": "I: 8,0cm; II: cima"
+   },
+   {
+    "id": "c",
+    "text": "I: 4,0cm; II: baixo"
+   },
+   {
+    "id": "d",
+    "text": "I: 16cm; II: cima"
+   },
+   {
+    "id": "e",
+    "text": "I: 16cm; II: baixo"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 46",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-47",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2022,
+  "statement": "Seja a função f: ℝ→ℝ, definida por f(x) = x2 − 6x+ n, onde n∈ℝ. Sabendo que f(5) = 2, então o valor de f(3) deve ser igual a:",
+  "options": [
+   {
+    "id": "a",
+    "text": "−4"
+   },
+   {
+    "id": "b",
+    "text": "−2"
+   },
+   {
+    "id": "c",
+    "text": "2"
+   },
+   {
+    "id": "d",
+    "text": "3"
+   },
+   {
+    "id": "e",
+    "text": "4"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 47",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-48",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2022,
+  "statement": "Uma empresa de publicidade planeja alocar R$ 329.000,00 entre pesquisa e propaganda, de modo que a razão entre as quantias seja 3 ∶4. Logo, os valores alocados para pesquisa e propaganda deverão ser, respectivamente:",
+  "options": [
+   {
+    "id": "a",
+    "text": "R$ 129.000,00 e R$ 200.000,00"
+   },
+   {
+    "id": "b",
+    "text": "R$ 163.000,00 e R$ 166.000,00"
+   },
+   {
+    "id": "c",
+    "text": "R$ 134.000,00 e R$ 195.000,00"
+   },
+   {
+    "id": "d",
+    "text": "R$ 141.000,00 e R$ 188.000,00"
+   },
+   {
+    "id": "e",
+    "text": "R$ 152.000,00 e R$ 177.000,00"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 48",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-49",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2022,
+  "statement": "O domínio da função f(x) = log(x−5)(x+ 3) é o conjunto:",
+  "options": [
+   {
+    "id": "a",
+    "text": "D(f) = {x∈ℝ | x≥3 e x≠−3}"
+   },
+   {
+    "id": "b",
+    "text": "D(f) = {x∈ℝ | x> 5 e x≠6}"
+   },
+   {
+    "id": "c",
+    "text": "D(f) = {x∈ℝ | x≥5 e x≠6}"
+   },
+   {
+    "id": "d",
+    "text": "D(f) = {x∈ℝ | x> 5 e x= −3}"
+   },
+   {
+    "id": "e",
+    "text": "D(f) = {x∈ℝ | x> 3 e x≠6}"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 49",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-52",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2022,
+  "statement": "O número de refeições servidas ao mês por determinado restaurante, em certo ano, pode ser descrito aproximadamente pela função f(x) = 3000 ∙ (1,2)x−2, em que x representa o mês do ano (para janeiro, por exemplo, x= 1). A quantidade de refeições, aproximadamente, que foram servidas por esse restaurante em abril, foi de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "2840 refeições."
+   },
+   {
+    "id": "b",
+    "text": "3280 refeições."
+   },
+   {
+    "id": "c",
+    "text": "4320 refeições."
+   },
+   {
+    "id": "d",
+    "text": "5430 refeições."
+   },
+   {
+    "id": "e",
+    "text": "6360 refeições."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 52",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2022-e1-53",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2022,
+  "statement": "Durante a pandemia da Covid-19, uma fábrica resolveu investir no aumento da produção de máscaras de proteção respiratória. Quando a produção tinha 12 empregados, o total de máscaras produzidas diariamente era de 320.000 máscaras. Com o objetivo de atingir uma produção de 800.000 máscaras diárias, a quantidade necessária de empregados que deverão ser contratados será igual a:",
+  "options": [
+   {
+    "id": "a",
+    "text": "18"
+   },
+   {
+    "id": "b",
+    "text": "20"
+   },
+   {
+    "id": "c",
+    "text": "28"
+   },
+   {
+    "id": "d",
+    "text": "30"
+   },
+   {
+    "id": "e",
+    "text": "40"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2022",
+  "sourceRef": "1ª etapa, questão 53",
+  "status": "draft",
+  "reviewedBy": null
+ }
+]

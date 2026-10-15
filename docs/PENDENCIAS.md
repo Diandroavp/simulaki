@@ -25,7 +25,7 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Fonte oficial: repositório `edoc.ufam.edu.br` (coleção "Documentos Compec", handle 123456789/552). Mapeadas **14 provas com gabarito definitivo**: PSC 1 e 2 de 2019 a 2023, PSC 3 de 2020 a 2023.
 - **Baixados (15/10/2026):** os 28 PDFs estão na pasta Downloads do Diandro (não em `simulaki-enem`), com nome `psc_<ano>_et<etapa>_prova|gab.pdf`. Falta importar (o container não alcança a pasta; usar `device_stage_files`).
 - 2024 a 2026: só gabarito preliminar no repositório; conferir contra "Respostas aos Recursos" antes de usar.
-- Depois: adaptar `scripts/import-enem.py` ao formato das provas do PSC (etapas 1, 2 e 3; categoria "PSC 1/2/3").
+- **Importado (15/10/2026):** `scripts/import-psc.py ANO ETAPA prova.pdf gab.pdf` gerou 599 rascunhos em `content/questions/psc/<ano>-et<etapa>.json` (14 provas, só questões em texto; ~165 ficaram de fora por figura/tabela/alternativas incompletas/anuladas). Ainda NÃO está ligado ao produto (sem mundo PSC em `MUNDOS`, sem tela de revisão): é só banco bruto. Revisar o texto (poemas perdem quebras de linha; bases de texto vão coladas no enunciado) antes de publicar, e resolver os direitos (UFAM/Compec).
 
 ### SIS (UEA)
 - A prova é aplicada e publicada pela **Vunesp**. A "Área do candidato" da Vunesp (Provas e Gabaritos, Vista de prova) **exige login**: não entramos lá. Os PDFs públicos estão espelhados no portal Estratégia Vestibulares (mesma prova, mesmo gabarito).

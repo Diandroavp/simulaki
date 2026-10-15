@@ -1,0 +1,1682 @@
+[
+ {
+  "id": "psc-2019-e2-01",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Leia os versos a seguir, início do poema “Não me deixes!”, de Gonçalves Dias: Debruçada nas águas dum regato, A flor dizia em vão À corrente onde bela se mirava: Ai, não me deixes, não! Comigo fica ou leva-me contigo Dos mares à amplidão, Límpido ou turvo, te amarei constante Mas não me deixes, não! Assinale a alternativa da qual consta a figura de linguagem predominante nos versos:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Metonímia"
+   },
+   {
+    "id": "b",
+    "text": "Sinestesia"
+   },
+   {
+    "id": "c",
+    "text": "Metáfora"
+   },
+   {
+    "id": "d",
+    "text": "Catacrese"
+   },
+   {
+    "id": "e",
+    "text": "Prosopopeia"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 01",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-02",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Leia agora este outro texto (adaptado), início da crônica “A Secretária”, de Rubem Braga: Procuro um documento de que preciso com urgência. Não o encontro e me demoro a decifrar minha própria letra nas notas de um caderno esquecido que os misteriosos movimentos da papelada pelas minhas gavetas fizeram vir à tona. Isso é que dá encanto ao costume da gente ter tudo desarrumado. Tenho uma secretária que é um gênio nesse sentido. Perdeu, outro dia, cinquenta páginas de uma tradução. Tem um extraordinário e translúcido senso divinatório, que a leva a mergulhar no fundo do baú do quarto da empregada os papéis muito urgentes, rasga apenas o que é estritamente necessário guardar, mas conserva com rigoroso carinho o recibo da prestação de um aparelho de rádio que comprei em São Paulo em 1941 – coisa que o tempo já deixou fluir, de tão antiga. Sobre o texto, afirma-se: I. No final, o verbo “fluir” não está corretamente empregado e deveria ser substituído pelo parônimo “fruir”. II. O trecho “mas conserva com rigor” apresenta um erro, já que a palavra inicial, por ser advérbio, deveria ser escrita “mais”. III. A figura de linguagem predominante é a ironia. IV. O pronome oblíquo “o”, em “Não o encontro”, refere-se ao sujeito da oração subordinada do período anterior. V. No primeiro período do segundo parágrafo, o vocábulo “translúcido” poderia ser substituído, sem perda de sentido, por “diáfano”. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as afirmativas I, II e IV estão corretas."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I, III e V estão corretas."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas II, III e IV estão corretas."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II e V estão corretas."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas III e V estão corretas."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 02",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-03",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Assinale a alternativa em que a oração NÃO possui sujeito:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Teria acontecido algum fato imprevisível?"
+   },
+   {
+    "id": "b",
+    "text": "Maior desaforo não poderia haver."
+   },
+   {
+    "id": "c",
+    "text": "Deu agora mesmo uma hora e meia no relógio da sala."
+   },
+   {
+    "id": "d",
+    "text": "Acabe-se de vez com a corrupção no Brasil!"
+   },
+   {
+    "id": "e",
+    "text": "Construir-se-á aqui um novo edifício comercial."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 03",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-04",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Leia o poema a seguir, de autoria de Hilda Hilst, constante do livro Cantares: 1. E batalhamos. 2. Dois tigres colados 3. De um só deleite 4. Estilhaçando suas armaduras 5. Amor e fúria 6. Carícia, garra 7. Tua luz 8. E a centelha rara 9. De um corpo e duas batalhas. Assinale a alternativa que faz um enunciado INCORRETO a respeito do poema:",
+  "options": [
+   {
+    "id": "a",
+    "text": "O verso 2 e o verso 4 apresentam metáforas."
+   },
+   {
+    "id": "b",
+    "text": "“Suas armaduras” (verso 4) exerce a função de objeto direto."
+   },
+   {
+    "id": "c",
+    "text": "O verso 5 e o verso 6, pelo sentido do poema, apresentam antíteses."
+   },
+   {
+    "id": "d",
+    "text": "O verso 7, pelo sentido do poema, apresenta uma hipérbole."
+   },
+   {
+    "id": "e",
+    "text": "O vocábulo “centelha” (verso 8) é sinônimo de clarão."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 04",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-05",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Assinale a alternativa em que uma forma verbal NÃO está correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Faça ao depoente perguntas capciosas; se ele se contradisser, melhor para a vítima."
+   },
+   {
+    "id": "b",
+    "text": "Se a testemunha manter seu depoimento, então o caso estará perdido."
+   },
+   {
+    "id": "c",
+    "text": "Nessa época, abstinha-me de todo tipo de carne e só comia vegetais."
+   },
+   {
+    "id": "d",
+    "text": "Gostaria de conversar com Ronaldo; se você o vir, dê-lhe meu recado."
+   },
+   {
+    "id": "e",
+    "text": "Estudando, eu sempre comprouve aos meus pais."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 05",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-06",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Leia o texto a seguir, tirado (e adaptado) do livro A Dança do Universo, de Marcelo Gleiser: Galileu descobriu que havia um número muito maior de estrelas além daquelas visíveis a olho nu. Apontando seu telescópio, chave de suas descobertas, para a constelação de Órion, ele contou pelo menos oitenta delas em torno das três famosas estrelas que são associadas ao cinto do guerreiro. A Via Láctea – ele escreveu – era um denso aglomerado de estrelas. A Lua estava longe de ser uma esfera perfeita, sendo pontuada por montanhas e vales, parecendo-se dessa forma bastante com a Terra. Coloque, dentro dos parênteses, V (se a afirmativa for verdadeira) ou F (se for falsa): ( ) O segundo período do texto é formado por três orações: uma principal, uma reduzida de gerúndio e uma subordinada adjetiva restritiva. ( ) Ainda no segundo período, observa-se a existência de uma expressão conotativa. ( ) O fonema /w/, representado pela letra u, aparece em palavras como “Galileu”, “contou” e “Lua”. ( ) Apresentam encontros consonantais perfeitos, dentre outros, os seguintes vocábulos: “Láctea”, “descobertas” e “montanhas”. ( ) A oração principal do penúltimo período do texto apresenta predicado nominal. Assinale a alternativa que apresenta a sequência CORRETA de cima para baixo:",
+  "options": [
+   {
+    "id": "a",
+    "text": "V – F – F – V – V"
+   },
+   {
+    "id": "b",
+    "text": "V – F – V – F – F"
+   },
+   {
+    "id": "c",
+    "text": "V – V – F – F – V"
+   },
+   {
+    "id": "d",
+    "text": "F – F – V – V – F"
+   },
+   {
+    "id": "e",
+    "text": "F – V – F – V – F"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 06",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-07",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Se dizemos a expressão “neste exato momento”, queremos dizer “agora”. Com base nessa informação, assinale a alternativa em que a correspondência entre a expressão e o advérbio equivalente está INCORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "em outro lugar = alhures"
+   },
+   {
+    "id": "b",
+    "text": "em alguma parte = algures"
+   },
+   {
+    "id": "c",
+    "text": "algumas vezes = temporariamente"
+   },
+   {
+    "id": "d",
+    "text": "em tempo algum = nunca"
+   },
+   {
+    "id": "e",
+    "text": "muitas vezes = frequentemente"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 07",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-08",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Para os termos destacados nas frases a seguir, coloque, dentro dos parênteses, ADN (para adjunto adnominal), ADV (para adjunto adverbial), AP (para aposto) e V (para vocativo): ( ) Sejam sinceros comigo, amigos, e digam-me a verdade. ( ) Aquele rapaz promete ser um grande jornalista. ( ) O gestor da escola perdoou aos dois: a professora e o aluno. ( ) Joaquim é muito bom aluno de Física e Química. ( ) As regiões do Brasil, norte, nordeste, sul, sudeste e centro-oeste, formam um país de grande diversidade. Assinale a alternativa que apresenta a sequência CORRETA de cima para baixo:",
+  "options": [
+   {
+    "id": "a",
+    "text": "V – ADN – AP – ADV – AP"
+   },
+   {
+    "id": "b",
+    "text": "V – ADV – AP – ADN – ADV"
+   },
+   {
+    "id": "c",
+    "text": "AP – ADN – V – ADV – AP"
+   },
+   {
+    "id": "d",
+    "text": "AP – ADV – V – ADN – ADV"
+   },
+   {
+    "id": "e",
+    "text": "AP – ADV – AP – ADN – V"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 08",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-09",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Leia as frases a seguir: I. Nosso amigo, com estar muito doente, não reclamou de ir ao hospital. II. A lista dos classificados foi divulgada por ordem alfabética. III. Mesmo em dificuldades financeiras, viajei a pedido da família. IV. Antes da versão definitiva, gosto de escrever a lápis. V. Para organizar meus livros, comprei duas estantes de madeira. Assinale a alternativa que contém, respectivamente, o valor semântico das preposições sublinhadas:",
+  "options": [
+   {
+    "id": "a",
+    "text": "referência, assunto, companhia, modo, matéria"
+   },
+   {
+    "id": "b",
+    "text": "referência, modo, companhia, instrumento, posse"
+   },
+   {
+    "id": "c",
+    "text": "concessão, modo, causa, instrumento, matéria"
+   },
+   {
+    "id": "d",
+    "text": "companhia, modo, causa, matéria, instrumento"
+   },
+   {
+    "id": "e",
+    "text": "companhia, assunto, referência, modo, instrumento"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 09",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-10",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2019,
+  "statement": "Assinale a alternativa em que a colocação do pronome átono NÃO está correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Vou-lhe fazer apenas duas breves observações sobre sua monografia."
+   },
+   {
+    "id": "b",
+    "text": "Nada a incomodou tanto como a sua não aprovação no concurso."
+   },
+   {
+    "id": "c",
+    "text": "Não devo revelar-lhe agora minhas intenções."
+   },
+   {
+    "id": "d",
+    "text": "Pediria-lhe apenas que prestasse atenção as suas despesas."
+   },
+   {
+    "id": "e",
+    "text": "Jamais devemos calar-nos diante do desrespeito aos nossos direitos."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 10",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-11",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2019,
+  "statement": "Faça a correspondência entre os trechos de obras literárias dos principais autores da prosa romântica e as características desse novo estilo: (A) Verdes mares bravios de minha terra natal, onde canta a jandaia nas frondes da carnaúba; Verdes mares que brilhais como líquida esmeralda aos raios do Sol nascente, perlongando as alvas praias ensombradas de coqueiros. Serenai verdes mares, e alisai docemente a vaga impetuosa, para que o barco aventureiro manso resvale à flor das águas. (Iracema, de José de Alencar) (B) Era no tempo do rei. Uma das quatro esquinas que formam as ruas do Ouvidor e da Quitanda, cortando-se mutuamente, chamava-se nesse tempo — O canto dos meirinhos —; e bem lhe assentava o nome, porque era aí o lugar de encontro favorito de todos os indivíduos dessa classe (que gozava então de não pequena consideração). (Memórias de um Sargento de Milícias, de Manuel Antonio de Almeida) (C) Há anos raiou no céu fluminense uma nova estrela. Desde o momento de sua ascensão ninguém lhe disputou o cetro; foi proclamada a rainha dos salões. Tornou-se deusa dos bailes; a musa dos poetas e o ídolo dos noivos em disponibilidade. Era rica e famosa. Duas opulências, que se realçavam como a flor em vaso de alabastro; dois esplendores que se refletem, como o raio de sol no prisma do diamante. Quem não se recorda de Aurélia Camargo, que atravessou o firmamento da corte como brilhante meteoro, e apagou-se de repente no meio do deslumbramento que produzira seu fulgor? (Senhora, de José de Alencar) (D) Cirino, em pouco mais de uma hora, transpôs a distância da povoação ao rio. Também, na légua e quarto que ate lá media, só há de ruim o trecho em que fica a floresta que borda as margens da majestosa corrente. Nessa mata, trazem os troncos das árvores vestígio das grandes enchentes; o terreno é lodacento e enatado; centro de putrefação vegetal donde irradiam os miasmas que, por ocasião da retirada das águas, se formam em dias de calor abrasador e sufocante. (Inocência, de Visconde de Taunay) ( ) Romance de Costume ( ) Romance Sertanista ( ) Identidade Nacional ( ) Romance Urbano Assinale a sequência correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A – C – D – B"
+   },
+   {
+    "id": "b",
+    "text": "B – D – C – A"
+   },
+   {
+    "id": "c",
+    "text": "B – D – A – C"
+   },
+   {
+    "id": "d",
+    "text": "C – D – A – B"
+   },
+   {
+    "id": "e",
+    "text": "D – B – C – A"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 11",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-12",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2019,
+  "statement": "Desde que a febre de possuir se apoderou dele totalmente, todos os seus atos, todos, fosse o mais simples, visavam um interesse pecuniário. Só tinha uma preocupação: aumentar os bens. Das suas hortas recolhia para si e para a companheira os piores legumes, aqueles que, por maus, ninguém compraria; as suas galinhas produziam muito e ele não comia um ovo, do que no entanto gostava imenso; vendia-os todos e contentava-se com os restos da comida dos trabalhadores. Aquilo já não era ambição, era uma moléstia nervosa, uma loucura, um desespero de acumular; de reduzir tudo a moeda. (O Cortiço, Aluísio Azevedo) Sobre O Cortiço e o romance realista/naturalista brasileiro, é CORRETO afirmar:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Enfatiza a natureza; flora e fauna brasileira."
+   },
+   {
+    "id": "b",
+    "text": "O romance realista/naturalista explora os aspectos patológicos do ser humano."
+   },
+   {
+    "id": "c",
+    "text": "As ações de João Romão, ao tirar de si para alimentar seus trabalhadores, eleva-o a herói do romance."
+   },
+   {
+    "id": "d",
+    "text": "Ocorre, nas figuras de João Romão e Bertoleza, um processo de autoflagelação com o objetivo de ascensão espiritual."
+   },
+   {
+    "id": "e",
+    "text": "O projeto ambicioso de João Romão de obter progresso financeiro é infrutífero, uma vez que perde tudo no incêndio. As questões 13 e 14 tratam sobre a prosa de Machado de Assis."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 12",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-13",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2019,
+  "statement": "Há em Machado de Assis uma acentuada tendência para o aforismo acabado, para o adágio ou máxima – com características proverbiais [...]. Ele é um escritor sentencioso a quem arrepia a prolixidade. Admira a frase concisa e penetrante [...]. Essa preocupação caracteriza-o como um ironista, isto é, um escritor voltado para a ironia como meio de investigação ética. Suas sentenças, com qualquer frase desse tipo, banalizam-se um pouco quando isoladas do contexto. Mas não tanto que não possam ser admiradas separadamente. (TEIXEIRA, Ivan, Apresentação de Machado de Assis, p. 63). Assinale a alternativa que não configura um desses provérbios elaborados por Machado de Assis:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Não te irrites se te pagarem mal um benefício: antes cair das nuvens que de um terceiro andar. (Memórias Póstumas de Brás Cubas)"
+   },
+   {
+    "id": "b",
+    "text": "A dissimulação é um dever quando a sinceridade é um perigo. (Helena)"
+   },
+   {
+    "id": "c",
+    "text": "A arte de viver consiste em tirar o maior bem do maior mal. (Iaiá Garcia)"
+   },
+   {
+    "id": "d",
+    "text": "Não se perde nada em parecer mau: ganha-se quase tanto como em sê-lo. (Memorial de Aires)"
+   },
+   {
+    "id": "e",
+    "text": "Há mais coisas no céu e na terra do que sonha a nossa filosofia. (A Cartomante)"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 13",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-14",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2019,
+  "statement": "Monsenhor Caldas fez um gesto de assentimento, sem perder de vista a bengala que José Maria conservava atravessada sobre as pernas. Este preparou vagarosamente um cigarro. Era um homem de trinta e poucos anos, pálido, com um olhar ora mole e apagado, ora inquieto e centelhante. Apareceu ali, tinha o padre acabado de almoçar, e pediu-lhe uma entrevista para negócio grave e urgente. Monsenhor fê-lo entrar e sentar-se; no fim de dez minutos, viu que estava com um lunático. Perdoava-lhe a incoerência das idéias ou o assombroso das invenções; pode ser até que lhe servissem de estudo. Mas o desconhecido teve um assomo de raiva, que meteu medo ao pacato clérigo. Que podiam fazer ele e o preto, ambos velhos, contra qualquer agressão de um homem forte e louco? Enquanto esperava o auxilio policial, monsenhor Caldas desfazia-se em sorrisos e assentimentos de cabeça, espantava-se com ele, alegrava-se com ele, política útil com os loucos, as mulheres e os potentados. (ASSIS, Machado, 50 Contos de Machado de Assis selecionados por John Gledson, 2007, p. 273) No trecho do conto “A Segunda Vida”, de Machado de Assis, podemos identificar as marcas da sua obra, relacionadas a seguir: I. Machado de Assis, em suas narrativas, abandona as descrições da natureza, voltando-se para a exploração psicológica das personagens. II. Um dos dispositivos técnicos mais modernos da narrativa machadiana é a invenção do leitor incluso, ou seja, o narrador se dirige ao um interlocutor que não faz parte da narrativa. III. As narrativas machadianas são formulações de psicologia aplicada ou instrumentos de problematização da existência. O autor reinventa nelas aquilo que observava nas pessoas, procurando explorar, em profundidade, os componentes essenciais da ética, da moral e da psicologia. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente a afirmativa I está correta."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I e II estão corretas."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I e III estão corretas"
+   },
+   {
+    "id": "d",
+    "text": "Somente a afirmativa III está correta."
+   },
+   {
+    "id": "e",
+    "text": "Todas as afirmativas estão corretas."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 14",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-15",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2019,
+  "statement": "Acrobata da Dor (Cruz e Sousa) Gargalha, ri, num riso de tormenta, como um palhaço, que, desengonçado, nervoso, ri, num riso absurdo, inflado de uma ironia e de uma dor violenta. Da gargalhada atroz, sanguinolenta, agita os guizos, e convulsionado salta, gavroche, salta clown, varado pelo estertor dessa agonia lenta... Pedem-se bis e um bis não se despreza! Vamos! retesa os músculos, retesa nessas macabras piruetas d'aço... E embora caias sobre o chão, fremente, afogado em teu sangue estuoso e quente, ri! Coração, tristíssimo palhaço. (In MOISÉS, Massaud, Literatura Brasileira através dos textos, 2000, p.312) I. “Coração, tristíssimo palhaço”, metonímia do ser humano, resulta da visão pessimista do eu-lírico em relação à vida. II. O poema reproduz o cotidiano alegre de um palhaço. III. O poema de Cruz e Sousa é um dos mais representativos do Romantismo brasileiro. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente a afirmativa I está correta."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I e II estão corretas."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I e III estão corretas."
+   },
+   {
+    "id": "d",
+    "text": "Somente a afirmativa III está correta."
+   },
+   {
+    "id": "e",
+    "text": "Todas as afirmativas estão corretas."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 15",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-16",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2019,
+  "statement": "Alfredo Bosi, em História concisa da literatura brasileira, de 1970, situa Os Sertões no momento que denominou como Pré-Modernismo, afirmando que “o grosso da literatura anterior à ‘Semana’ foi, como é sabido, pouco inovador”, e classifica como “ensaísmo social” a obra euclidiana (BOSI, 2006, p. 306). Porém, para o crítico, “É preciso ler Os Sertões sem a obsessão de enquadrá-lo em um determinado gênero literário, o que implicaria em prejuízo paralisante. Ao contrário, a abertura a mais de uma perspectiva é o modo próprio de enfrentá-lo” (BOSI, 2006, p. 309). Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A afirmação de Bosi franqueia ao leitor situar Os Sertões no Romantismo brasileiro."
+   },
+   {
+    "id": "b",
+    "text": "O “ensaísmo social” na obra euclidiana, ao qual se refere Bosi, está no conflito de Antonio Conselheiro com os seus seguidores."
+   },
+   {
+    "id": "c",
+    "text": "Os Sertões, de Euclides da Cunha, ao lado do conto de Monteiro Lobato, configuram o que há de melhor na Semana de Arte Moderna."
+   },
+   {
+    "id": "d",
+    "text": "Os Sertões, de Euclides da Cunha, é considerada a obra maior do pré-modernismo brasileiro."
+   },
+   {
+    "id": "e",
+    "text": "Enquanto gênero literário, Os Sertões, de Euclides da Cunha, deve ser compreendido como romance policial."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 16",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-17",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2019,
+  "statement": "A introdução da lei do Diretório dos índios (1757- 1798) produziu mudanças significativas no cotidiano das populações indígenas que habitavam a Amazônia Portuguesa. Com 95 parágrafos, a lei apresentava uma série de dispositivos legais que tornava possível a inserção do indígena na sociedade colonial, inserindo-o na economia mercantil. Sobre as características do Diretório dos índios (1757), examine as afirmativas a seguir: I. Favorecia a instalação das missões religiosas na Amazônia Portuguesa. II. Reunia mão de obra indígena para o trabalho agrícola em Portugal. III. Disseminava o trabalho agrícola na Amazônia Portuguesa com o objetivo de exploração do trabalho dos povos indígenas. IV. Preservava e reconhecia as práticas religiosas das populações locais. V. Impunha a obrigatoriedade do aprendizado da língua portuguesa, em detrimento das línguas nativas. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as afirmativas I, II e V estão corretas."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I, III e IV estão corretas."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I e IV estão corretas."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II, IV e V estão corretas."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas III e V estão corretas."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 17",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-18",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2019,
+  "statement": "“Contornando lentamente a costa africana, aprendendo a navegar em mares onde nenhum homem havia estado antes, com novas embarcações, novos instrumentos de navegação e conhecimentos, os portugueses foram os pioneiros entre os europeus no contato com os povos da África ocidental e central. Além de chegar ao ouro e encontrar o caminho para as Índias, ainda queriam cumprir sua missão de propagadores do cristianismo” (SOUZA, Marina de Mello e. África e o Brasil africano. 3ª Edição, São Paulo: Editora Ática, 2012, p. 50). No texto destacado acima, a historiadora Marina de Mello e Souza apresenta as principais características das primeiras viagens dos portugueses ao continente africano. Em 1483, a expedição portuguesa comandada por Diogo Cão chegou à bacia do Rio Congo, localizado no litoral atlântico da África Central (atual norte de Angola), estabelecendo os primeiros contatos com os povos da região. Assinale a alternativa CORRETA quanto às consequências posteriores ao processo de aproximação com as populações locais na região visitada por Diogo Cão:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Formação do Império Mali e Songai."
+   },
+   {
+    "id": "b",
+    "text": "Chegada dos holandeses em Luanda, em 1641."
+   },
+   {
+    "id": "c",
+    "text": "Construção da mesquita de Tombuctu, na África Ocidental."
+   },
+   {
+    "id": "d",
+    "text": "Realização da Conferência de Berlim (1884- 1885)."
+   },
+   {
+    "id": "e",
+    "text": "Adoção do cristianismo português como religião oficial por Afonso I (1509-1540)."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 18",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-19",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2019,
+  "statement": "Na década de 80 do século XIX, o movimento abolicionista brasileiro envolveu diversos segmentos da sociedade brasileira e revelou grupos sociais favoráveis e contrários à manutenção da utilização do trabalho escravo. Naquele contexto, a intensificação da pressão social de diversos setores da sociedade resultou na promulgação da Lei Áurea, em 13 de maio de 1888, marcando o fim da escravidão no Brasil. Sobre as leis que contribuíram para o desmonte do sistema escravista, assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Lei Eusébio de Queirós (1850) e Lei Moret (1870)"
+   },
+   {
+    "id": "b",
+    "text": "Lei Eusébio de Queirós (1850) e Lei do Ventre Livre (1871)"
+   },
+   {
+    "id": "c",
+    "text": "Lei dos sexagenários (1885) e Código Comercial do Império do Brasil (1850)"
+   },
+   {
+    "id": "d",
+    "text": "Lei de Terras (1850) e Tratado de Methuen (1810)"
+   },
+   {
+    "id": "e",
+    "text": "Constituição de 1891 e Lei do Ventre Livre (1871)"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 19",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-20",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2019,
+  "statement": "A Revolução Industrial que teve início na Inglaterra, na segunda metade do século XVIII, se propagou pela Europa nas décadas seguintes e alterou profundamente o modo de se produzir mercadorias. Além disso, provocou diversas transformações nas relações de trabalho, no crescimento das populações e das cidades. Assinale a alternativa CORRETA quanto às transformações ocorridas nas relações de trabalho:",
+  "options": [
+   {
+    "id": "a",
+    "text": "O operário moderno perdeu o controle do conjunto da produção; no entanto, a especialização do trabalho lhe garantiu a redução da jornada de trabalho."
+   },
+   {
+    "id": "b",
+    "text": "Eliminou-se a antiga organização corporativa da produção utilizada pelos artesões e impôs aos trabalhadores uma intensa divisão do trabalho, na qual o trabalhador perdeu a visão global do processo de produção."
+   },
+   {
+    "id": "c",
+    "text": "Nas fábricas, os operários atuavam apenas em uma etapa da produção; essa divisão do trabalho era mais produtiva e garantia aos trabalhadores uma série de direitos trabalhistas."
+   },
+   {
+    "id": "d",
+    "text": "Ocorreu uma especialização do trabalho, fator que garantiu aos trabalhadores o controle do processo produtivo."
+   },
+   {
+    "id": "e",
+    "text": "Os operários se submeteram a longas jornadas de trabalho, fato que lhes proporcionou maiores lucros."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 20",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-21",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2019,
+  "statement": "“A revolução estourou em Minas Gerais e no Rio Grande do Sul na data de outubro de 1930. Em São Paulo, o PD (Partido Democrático) esteve praticamente à margem das articulações revolucionárias e a situação não se alterou. Em Minas houve alguma resistência. No Nordeste o movimento foi desfechado na madrugada do dia 04, sob o comando de Juarez Távora, tendo a Paraíba como centro de operações. Para garantir o êxito da revolução em Pernambuco, Juarez contou com o apoio da população de Recife. O povo ocupou prédios federais e um depósito de armas, enquanto os ferroviários da Gret Western entraram em greve” (FAUSTO, Boris, História concisa do Brasil. São Paulo: EDUSP, 2011, p. 180) O trecho anterior se refere a um dos episódios da História do Brasil conhecido como Revolução de 1930. Este movimento pôs fim à Primeira República e iniciou uma nova etapa na história do nosso país, na qual o comando coube a Getúlio Vargas. Assinale a alternativa CORRETA quanto aos motivos que propiciaram a Revolução de 1930:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A crise de 1929, que reduziu os preços do café que o Brasil exportava (ocasionando a falência de cafeicultores); e a ruptura entre as oligarquias tradicionais de São Paulo e Minas Gerais favoreceram a criação da Aliança Liberal, a qual lançou a candidatura de Vargas à presidência."
+   },
+   {
+    "id": "b",
+    "text": "A aliança entre a ANL (Aliança Nacional Libertadora) e a AIB (Ação Integralista Brasileira), juntamente com a crise de 1929, criaram um cenário favorável aos grupos políticos insatisfeitos com o governo de Washington Luís."
+   },
+   {
+    "id": "c",
+    "text": "O rompimento entre as oligarquias do Rio Grande do Sul e de Minas Gerais e o movimento tenentista favoreceram a ascensão de Vargas ao governo."
+   },
+   {
+    "id": "d",
+    "text": "O estabelecimento de alianças políticas entre os tenentes e Júlio Prestes, bem como a ascensão do café brasileiro no mercado internacional, culminaram na Revolução de 1930."
+   },
+   {
+    "id": "e",
+    "text": "O apoio de Luís Carlos Prestes a Getúlio Vargas e o agravamento de tensões políticas ao longo da década de 1920."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 21",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-22",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2019,
+  "statement": "A Idade Moderna foi o período no qual ocorreu o fortalecimento gradual dos governos das monarquias nacionais em grande parte da Europa. Esse processo gerou outra característica do Antigo Regime, que foi o absolutismo monárquico. Com as monarquias absolutistas, o rei se constitui na fonte suprema dos poderes do Estado. Nesse período, vários teóricos elaboraram argumentos para justificar o poder absoluto dos reis. Assinale a alternativa CORRETA quanto aos teóricos que fizeram a defesa do absolutismo:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Thomas Hobbes defendia o poder absoluto como condição necessária para a paz e o progresso; Jacques Bossuet defendia o poder absoluto do rei como um direito divino."
+   },
+   {
+    "id": "b",
+    "text": "Barão de Montesquieu afirmava que quando os poderes Legislativo e Executivo ficavam reunidos numa mesma pessoa ou instituição do Estado, a liberdade florescia; John Locke acreditava que a liberdade natural do homem consistia em se submeter a um poder superior."
+   },
+   {
+    "id": "c",
+    "text": "Voltaire defendia que o soberano tinha de ser esclarecido; Jean-Jacques Rousseau afirmava que o soberano deveria conduzir o Estado de acordo com seus princípios."
+   },
+   {
+    "id": "d",
+    "text": "Adam Smith defendia que um Estado só pode ser verdadeiramente poderoso e rico se tiver um monarca absolutista no poder; Denis Diderot acreditava que a dependência do povo ao monarca absoluto seria a única alternativa para o progresso humano."
+   },
+   {
+    "id": "e",
+    "text": "Thomas More defendeu os valores da monarquia absoluta e seus luxos; Charles Fourier propunha que a sociedade se organizasse em comunidades chamadas falanstérios, espécie de edifícios-cidade onde as pessoas trabalhassem apenas no que quisessem."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 22",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-23",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2019,
+  "statement": "O Brasil é o segundo país que mais cultiva variedades geneticamente modificadas de grãos e fibras do mundo, ficando atrás apenas dos Estados Unidos. A biotecnologia na agricultura brasileira é aplicada principalmente nas culturas de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "batata, soja e café."
+   },
+   {
+    "id": "b",
+    "text": "canola, milho e alfafa."
+   },
+   {
+    "id": "c",
+    "text": "soja, milho e algodão."
+   },
+   {
+    "id": "d",
+    "text": "café, soja e cana-de-açúcar"
+   },
+   {
+    "id": "e",
+    "text": "beterraba, algodão e mamão."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 23",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-24",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2019,
+  "statement": "Do início da colonização até os dias atuais, o Brasil teve quatro sistemas de organização político- administrativa. No sistema de governo-geral, de 1573 a 1578, a administração da colônia foi dividida:",
+  "options": [
+   {
+    "id": "a",
+    "text": "em capitanias gerais e capitanias subordinadas."
+   },
+   {
+    "id": "b",
+    "text": "no Estado do Maranhão e Grão-Pará e nas capitanias de São Vicente e Pernambuco."
+   },
+   {
+    "id": "c",
+    "text": "no Governo do Norte, com sede em Porto Seguro, e no Governo do Sul, com sede em Santos."
+   },
+   {
+    "id": "d",
+    "text": "no Estado do Maranhão, com sede em São Luís, e no Estado do Brasil, com sede em Salvador."
+   },
+   {
+    "id": "e",
+    "text": "no Governo do Norte, com sede em Salvador, e no Governo do Sul, com sede em São Sebastião do Rio de Janeiro."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 24",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-25",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2019,
+  "statement": "No período colonial, além da agroindústria açucareira na Zona da Mata, o espaço geográfico nordestino era ocupado por outras atividades, dentre as quais se destacavam:",
+  "options": [
+   {
+    "id": "a",
+    "text": "as drogas do sertão e a mineração."
+   },
+   {
+    "id": "b",
+    "text": "o cultivo do algodão e da mandioca."
+   },
+   {
+    "id": "c",
+    "text": "a cafeicultura e o cultivo do algodão."
+   },
+   {
+    "id": "d",
+    "text": "a pecuária e o cultivo do fumo."
+   },
+   {
+    "id": "e",
+    "text": "o cultivo de cacau e a criação de gado."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 25",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-26",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2019,
+  "statement": "A população brasileira atravessa uma fase de transição demográfica. Com referência a este aspecto, qual das alternativas está CORRETA sobre a tendência da população no Brasil?",
+  "options": [
+   {
+    "id": "a",
+    "text": "A taxa de fecundidade da mulher brasileira é de 4,6 filhos; se mantido esse número de nascimentos, a população será de jovens daqui a 25 anos."
+   },
+   {
+    "id": "b",
+    "text": "As pesquisas demográficas do Instituto Brasileiro de Geografia e Estatística (IBGE) indicam continuidade no aumento de nascimentos e acelerada elevação na taxa de mortalidade dos mais idosos."
+   },
+   {
+    "id": "c",
+    "text": "A partir de 2030, a população estará muito envelhecida. A taxa de idosos que em 1992 correspondia a um percentual de 7,9%, nos dias atuais representa 10,6%."
+   },
+   {
+    "id": "d",
+    "text": "Em um período de 20 anos na distribuição por faixa etária da população brasileira, indicou-se que a maior concentração de pessoas apresentava idade entre 05 e 10 anos."
+   },
+   {
+    "id": "e",
+    "text": "O Instituto de Pesquisa Econômica desenvolveu um estudo que demonstrou o acelerado aumento das taxas de natalidade na última década."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 26",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-27",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2019,
+  "statement": "Sobre o processo industrial brasileiro é INCORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "as mudanças estabelecidas no governo Getúlio Vargas apresentavam como principais metas o desenvolvimento da indústria do aço e da siderurgia, inicialmente na região Sudeste do Brasil."
+   },
+   {
+    "id": "b",
+    "text": "durante o governo do presidente Juscelino Kubitschek, o processo industrial brasileiro se estabeleceu sobre os segmentos da produção de automóveis, na abertura de rodovias e na construção de usinas hidrelétricas."
+   },
+   {
+    "id": "c",
+    "text": "o principal marco da mudança na indústria brasileira só viria a ocorrer na segunda metade da década de 1980, quando o governo conseguiu romper com a oligarquia agrária e promoveu a modernização do país."
+   },
+   {
+    "id": "d",
+    "text": "até a década de 1970, as atividades da indústria brasileira se concentraram na região Sudeste; posteriormente, incentivos fiscais oferecidos pelo governo proporcionaram às indústrias a oportunidade de instalação em outras localidades do território nacional."
+   },
+   {
+    "id": "e",
+    "text": "mesmo que, nos últimos anos, a atividade industrial no Brasil tenha se expandido para outras regiões, ainda se verifica uma concentração de indústrias nas regiões Sudeste e Sul do Brasil."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 27",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-28",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2019,
+  "statement": "“Sai do meu país” – esta frase foi direcionada ao sírio Mohamed Ali enquanto trabalhava em Copacabana, Rio de Janeiro. Leia com atenção as alternativas e escolha a que melhor reflete o contexto dessa situação:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Uma hostilidade contra imigrantes sem maiores repercussões legais."
+   },
+   {
+    "id": "b",
+    "text": "Na justiça brasileira não existem registros de xenofobia."
+   },
+   {
+    "id": "c",
+    "text": "A fama de \"cordial\" do povo brasileiro impede as denúncias de xenofobia."
+   },
+   {
+    "id": "d",
+    "text": "As principais vítimas da xenofobia no Brasil são os asiáticos."
+   },
+   {
+    "id": "e",
+    "text": "Um tipo de crime estabelecido na Lei 9.459, elaborada em 1997."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 28",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-29",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2019,
+  "statement": "O estômago geralmente é uma estrutura simples, mas em aves e em crocodilos é dividido em duas unidades:",
+  "options": [
+   {
+    "id": "a",
+    "text": "uma anterior, chamada de rúmem, e uma posterior, chamada de coagulador."
+   },
+   {
+    "id": "b",
+    "text": "uma anterior, chamada de omaso, e uma posterior, chamada de abomaso."
+   },
+   {
+    "id": "c",
+    "text": "uma anterior, chamada de retículo, e uma posterior, chamada de pança."
+   },
+   {
+    "id": "d",
+    "text": "uma anterior, chamada de estômago mecânico ou moela, e uma posterior, chamada de estômago químico."
+   },
+   {
+    "id": "e",
+    "text": "uma anterior, chamada de folhoso, e uma posterior, chamada de barrete."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 29",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-30",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2019,
+  "statement": "Assinale a alternativa que apresenta qual órgão do sistema nervoso central é responsável pelo controle do ritmo respiratório:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Ponte"
+   },
+   {
+    "id": "b",
+    "text": "Medula"
+   },
+   {
+    "id": "c",
+    "text": "Bulbo"
+   },
+   {
+    "id": "d",
+    "text": "Cerebelo"
+   },
+   {
+    "id": "e",
+    "text": "Mesencéfalo"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 30",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-31",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2019,
+  "statement": "Assinale a alternativa que apresenta sequencialmente os períodos da espermatogênese:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Período de diferenciação, período germinativo, período de crescimento, período de maturação."
+   },
+   {
+    "id": "b",
+    "text": "Período de maturação, período de diferenciação, período de crescimento, período germinativo."
+   },
+   {
+    "id": "c",
+    "text": "Período de crescimento, período de diferenciação, período germinativo, período de maturação."
+   },
+   {
+    "id": "d",
+    "text": "Período germinativo, período de crescimento, período de maturação e período de diferenciação."
+   },
+   {
+    "id": "e",
+    "text": "Período germinativo, período de crescimento, período de diferenciação, período de maturação."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 31",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-32",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2019,
+  "statement": "Um pesquisador encontra um ovo na natureza e observa as seguintes características: vitelo ocupando praticamente toda a célula, não se misturando ao citoplasma e reduzido a uma pequena região na periferia da célula, junto ao núcleo celular. Ao terminar suas observações, o pesquisador conclui que se trata de um ovo de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "ave"
+   },
+   {
+    "id": "b",
+    "text": "inseto"
+   },
+   {
+    "id": "c",
+    "text": "anfíbio"
+   },
+   {
+    "id": "d",
+    "text": "mamífero"
+   },
+   {
+    "id": "e",
+    "text": "equinodermo"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 32",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-35",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2019,
+  "statement": "Um recipiente cheio de gás cloro e gás neônio tem uma pressão total de 9 atm. Há 50g de cloro gasoso no recipiente que exercem uma pressão de 5 atm. Com base nisso, qual a massa de neônio no recipiente?",
+  "options": [
+   {
+    "id": "a",
+    "text": "7,6 g"
+   },
+   {
+    "id": "b",
+    "text": "11,5 g"
+   },
+   {
+    "id": "c",
+    "text": "15,9 g"
+   },
+   {
+    "id": "d",
+    "text": "26,6 g"
+   },
+   {
+    "id": "e",
+    "text": "30,0 g"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 35",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-36",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2019,
+  "statement": "Qual das alternativas a seguir levará a um aumento na solubilidade do Na2SO4 (dissolução exotérmica) em água?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Diminuindo a pressão da solução"
+   },
+   {
+    "id": "b",
+    "text": "Diminuindo a pressão e a temperatura da solução"
+   },
+   {
+    "id": "c",
+    "text": "Diminuindo a temperatura da solução"
+   },
+   {
+    "id": "d",
+    "text": "Aumentando a temperatura da solução"
+   },
+   {
+    "id": "e",
+    "text": "Adicionando outros solutos com as mesmas propriedades químicas"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 36",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-37",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2019,
+  "statement": "Das alternativas a seguir, indique qual expressão poderia ser usada para calcular uma variação de entalpia de combustão aproximada para o etoximetano (CH4CH5 – O – CH4) e qual o valor dessa variação, a partir dos valores de entalpia de ligação padrão (E(C −H)<é>?@ = 413 kJ∙moℓIJ, E(C − O)<é>?@ = 358 kJ∙moℓIJ, E(O = O) como em O2 = 498 kJ∙moℓIJ, E(OH) como em H2O = 464 kJ∙moℓIJ e E(C = O) como em CO2 = 805 kJ∙moℓIJ. Considere ′E′ como a entalpia de ligação.",
+  "options": [
+   {
+    "id": "a",
+    "text": "8E(C −H) + 2E(C −O) + (9 2 ⁄ )E(O = O) − 6E(C = O) −8E(O −H) = −2281kJ∙moℓIJ"
+   },
+   {
+    "id": "b",
+    "text": "6E(C −H) + 2E(C −O) −6E(O −H) −4E(C = O) = −2281kJ∙moℓIJ"
+   },
+   {
+    "id": "c",
+    "text": "8E(O −H) + 4E(C = O) −(9 2 ⁄ )E(C −H) − 6E(C −O) −8E(O = O) = −2281kJ∙moℓIJ"
+   },
+   {
+    "id": "d",
+    "text": "3E(O −H) + 4E(C = O) −6E(C −H) −2E(C − O) −(3 2 ⁄ )E(O = O) = −1316kJ∙moℓIJ"
+   },
+   {
+    "id": "e",
+    "text": "8E(C −H) + 2E(C −O) + (9 2 ⁄ )E(O = 0) − 6E(O −H) −8E(C −O) = +2281kJ∙moℓIJ"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 37",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-38",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2019,
+  "statement": "A reação a seguir atinge o equilíbrio em um ambiente fechado: CaCO4(s) →CaO(s) + CO5(g) ∆H = +177,5kJ ∙moℓIJ Assinale a alternativa que expressa a dependência da constante de equilíbrio para esta reação:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A quantidade de equilíbrio de CO5(g)"
+   },
+   {
+    "id": "b",
+    "text": "A quantidade inicial de CO5(g)"
+   },
+   {
+    "id": "c",
+    "text": "A quantidade inicial de CaCO4(s)"
+   },
+   {
+    "id": "d",
+    "text": "As quantidades iniciais de CaCO4(s), CaO(s) e CO5(g)"
+   },
+   {
+    "id": "e",
+    "text": "As quantidades de equilíbrio de CaCO4(s), CaO(s) e CO5(g)"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 38",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-41",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2019,
+  "statement": "Num experimento realizado no laboratório de Física, dois objetos A e B, de alumínio e cilíndricos, inicialmente à mesma temperatura, foram colocados numa estufa de forma a receberem a mesma quantidade de calor. Após alguns minutos, os objetos foram retirados do forno e suas temperaturas foram medidas. Observou-se que a variação de temperatura do objeto A é a metade da variação de temperatura do objeto B. A partir dessas informações, podemos afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "o calor específico de A é o dobro do calor específico de B."
+   },
+   {
+    "id": "b",
+    "text": "os dois objetos possuem coeficiente de dilatação térmica diferentes."
+   },
+   {
+    "id": "c",
+    "text": "o calor específico de B é o dobro do calor específico de A."
+   },
+   {
+    "id": "d",
+    "text": "a capacidade térmica de B é o dobro da capacidade térmica de A."
+   },
+   {
+    "id": "e",
+    "text": "a capacidade térmica de B é a metade da capacidade térmica de A."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 41",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-43",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2019,
+  "statement": "De acordo com as leis da termodinâmica, o corpo humano pode ser comparado a uma máquina térmica. A energia que utilizamos é obtida a partir das reações de oxidação. Durante os diferentes tipos de oxidação, há liberação de energia, cuja quantidade depende da reação em particular. Considerando a situação na qual, em um dia, determinada pessoa consome 2400kcaℓ de energia e dissipa, através da respiração e da pele, 480kcaℓ para o ambiente, podemos afirmar que o rendimento dessa “máquina humana” foi de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "20%"
+   },
+   {
+    "id": "b",
+    "text": "40%"
+   },
+   {
+    "id": "c",
+    "text": "67%"
+   },
+   {
+    "id": "d",
+    "text": "80%"
+   },
+   {
+    "id": "e",
+    "text": "83%"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 43",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-44",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2019,
+  "statement": "Dois operários de uma siderúrgica se postam, um em cada extremidade, diante de um trilho de aço com 170m de comprimento. Um deles bate com um martelo numa das extremidades do trilho, enquanto o outro ouve dois sons da pancada, com um intervalo de (7 15 ⁄ )s. A partir dessas informações, podemos afirmar que a velocidade do som no trilho de aço é de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "364 ms ⁄"
+   },
+   {
+    "id": "b",
+    "text": "1700 ms ⁄"
+   },
+   {
+    "id": "c",
+    "text": "3100 ms ⁄"
+   },
+   {
+    "id": "d",
+    "text": "3400 ms ⁄"
+   },
+   {
+    "id": "e",
+    "text": "5100 ms ⁄"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 44",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-45",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2019,
+  "statement": "Numa aula realizada no laboratório de ótica, um grupo de alunos dispunha dos seguintes materiais: um objeto luminoso com 10cm de altura, um espalho côncavo e um espelho convexo. Eles seguiram os seguintes procedimentos: (1) colocaram o objeto frontalmente a 30cm diante do vértice do espelho côncavo e observaram que a imagem formada era cinco vezes menor que o objeto; (2) trocaram o espelho côncavo pelo convexo e, sem alterar a posição do objeto em relação ao vértice do espelho, observaram que a imagem formada permanecia cinco vezes menor. A partir destas informações, é possível afirmar que: I. O espelho côncavo tem distância focal igual a 5,0cm. II. O espelho convexo tem distância focal igual a −7,5cm. III. A imagem formada pelo espelho côncavo é invertida e pode ser projetada numa tela. IV. A imagem formada pelo espelho convexo é virtual e direita. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as afirmativas I e III são verdadeiras."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I, II e IV são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas II, III e IV são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II e IV são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Todas as afirmativas são verdadeiras."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 45",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-46",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2019,
+  "statement": "Numa brincadeira que parece mágica, uma moeda é colocada no centro do fundo de um recipiente de plástico, não transparente, vazio e que se encontra sobre uma mesa. Inicialmente, um observador sentado consegue ver a moeda. Sem que o observador mexa com a cabeça e a direção de seus olhos, o recipiente é afastado até que a moeda deixa de ser vista. A seguir, com cuidado para não mover a moeda, coloca-se água no recipiente e o observador volta a ver a moeda. Na realidade, o que o observador vê é a imagem:",
+  "options": [
+   {
+    "id": "a",
+    "text": "virtual, acima da posição da moeda, formada pela refração dos raios luminosos que partem da moeda."
+   },
+   {
+    "id": "b",
+    "text": "real, acima da posição da moeda, formada pela refração dos raios luminosos que partem da moeda."
+   },
+   {
+    "id": "c",
+    "text": "virtual, acima da posição da moeda, formada pela reflexão dos raios luminosos que partem da moeda."
+   },
+   {
+    "id": "d",
+    "text": "real, acima da posição da moeda, formada pela reflexão dos raios luminosos que partem da moeda."
+   },
+   {
+    "id": "e",
+    "text": "virtual, ao lado da moeda, formada pela difração dos raios luminosos que partem da moeda."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 46",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-47",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2019,
+  "statement": "Considere a matriz: A= e 0 2 −1 0f Então o determinante da matriz B= (A+ AIJ)5 é igual a:",
+  "options": [
+   {
+    "id": "a",
+    "text": "1 4 ⁄"
+   },
+   {
+    "id": "b",
+    "text": "−1 4 ⁄"
+   },
+   {
+    "id": "c",
+    "text": "1 2 ⁄"
+   },
+   {
+    "id": "d",
+    "text": "−1 2 ⁄"
+   },
+   {
+    "id": "e",
+    "text": "1 8 ⁄"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 47",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-48",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2019,
+  "statement": "Uma moeda é lançada oito vezes. Quantas são as sequências possíveis de caras e coroas, com quatro caras e quatro coroas?",
+  "options": [
+   {
+    "id": "a",
+    "text": "35"
+   },
+   {
+    "id": "b",
+    "text": "40"
+   },
+   {
+    "id": "c",
+    "text": "60"
+   },
+   {
+    "id": "d",
+    "text": "70"
+   },
+   {
+    "id": "e",
+    "text": "80"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 48",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-49",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2019,
+  "statement": "Considere as afirmações: I. Um ponto e uma reta que não contém o ponto determinam um único plano. II. Quatro pontos distintos e não pertencentes a um mesmo plano determinam três planos. III. Sejam A, B pontos, r uma reta e α um plano, tais que A ∈α, A ∉r, B ∉ α e r ⊂α. Então existe um plano β com r ⊂β e a reta AB⃖ pppp⃗ ⊂β. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente a afirmativa I é verdadeira."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I e II são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I e III são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II e III são verdadeiras"
+   },
+   {
+    "id": "e",
+    "text": "Todas as afirmativas são verdadeiras."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 49",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-51",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2019,
+  "statement": "Considere o sistema de equações: 6x+ 3y+ 3z= n 4x+ 2y+ 2z= 2 mx+ y+ 2 = 0 y Podemos afirmar que o sistema:",
+  "options": [
+   {
+    "id": "a",
+    "text": "é impossível para todo m∈ℝ e n≠3."
+   },
+   {
+    "id": "b",
+    "text": "é impossível para todos m, n∈ℝ."
+   },
+   {
+    "id": "c",
+    "text": "é indeterminado para todos m, n∈ℝ."
+   },
+   {
+    "id": "d",
+    "text": "é indeterminado se m= n e n≠3."
+   },
+   {
+    "id": "e",
+    "text": "admite uma única solução para todos m, n∈ℝ."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 51",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-52",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2019,
+  "statement": "Um instituto de pesquisa perguntou a 100 jovens se eles falavam francês e/ou inglês. Dos 100 jovens, 40 falavam francês e 70 falavam inglês. Qual a probabilidade de que, ao escolhermos um desses jovens, ele fale francês, mas não fale inglês?",
+  "options": [
+   {
+    "id": "a",
+    "text": "1 10 ⁄"
+   },
+   {
+    "id": "b",
+    "text": "2 10 ⁄"
+   },
+   {
+    "id": "c",
+    "text": "3 10 ⁄"
+   },
+   {
+    "id": "d",
+    "text": "4 10 ⁄"
+   },
+   {
+    "id": "e",
+    "text": "7 10 ⁄"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 52",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-53",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2019,
+  "statement": "Considere a situação na qual as placas dos automóveis são formadas por duas letras seguidas de quatro algarismos. Numa determinada cidade, os carros só podem ser emplacados utilizando as letras P e Q e os algarismos ímpares, sem repetição de algarismos. Qual o número máximo de carros que podem ser emplacados nesta cidade?",
+  "options": [
+   {
+    "id": "a",
+    "text": "120"
+   },
+   {
+    "id": "b",
+    "text": "240"
+   },
+   {
+    "id": "c",
+    "text": "360"
+   },
+   {
+    "id": "d",
+    "text": "480"
+   },
+   {
+    "id": "e",
+    "text": "520"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 53",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2019-e2-54",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2019,
+  "statement": "Sobre um tetraedro regular de aresta medindo 6cm, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "seu volume é igual a 18√2 cm4."
+   },
+   {
+    "id": "b",
+    "text": "sua altura mede 3√6 cm."
+   },
+   {
+    "id": "c",
+    "text": "o apótema da base mede 2√3 cm."
+   },
+   {
+    "id": "d",
+    "text": "sua área lateral é igual a 27√2cm5."
+   },
+   {
+    "id": "e",
+    "text": "sua área total é igual a 36√6cm5. RASCUNHO RASCUNHO RASCUNHO"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2019",
+  "sourceRef": "2ª etapa, questão 54",
+  "status": "draft",
+  "reviewedBy": null
+ }
+]

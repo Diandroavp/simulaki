@@ -1,0 +1,1472 @@
+[
+ {
+  "id": "psc-2020-e1-05",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2020,
+  "statement": "Assinale a alternativa que apresenta um país que, não tendo sido colonizado por Portugal, não fala a língua portuguesa:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Angola"
+   },
+   {
+    "id": "b",
+    "text": "Cabo Verde"
+   },
+   {
+    "id": "c",
+    "text": "Guiné-Bissau"
+   },
+   {
+    "id": "d",
+    "text": "Madagascar"
+   },
+   {
+    "id": "e",
+    "text": "São Tomé e Príncipe"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 05",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-07",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2020,
+  "statement": "Nas orações a seguir, classifique o sujeito, colocando entre os parênteses o seguinte código: S – sujeito simples C – sujeito composto I – sujeito indeterminado X – oração sem sujeito ( ) Removeram-se os obstáculos da estrada. ( ) Espalharam o boato com extrema rapidez. ( ) Deve obedecer-se às leis do país. ( ) Após a falta de luz, choveram reclamações sobre a companhia. ( ) São onze horas da manhã. ( ) Devem existir lacunas e contradições nessa lei. Assinale a alternativa que preenche corretamente os parênteses, de cima para baixo:",
+  "options": [
+   {
+    "id": "a",
+    "text": "I – S – C – X – X – C"
+   },
+   {
+    "id": "b",
+    "text": "S – C – I – X – I – X"
+   },
+   {
+    "id": "c",
+    "text": "S – I – I – S – X – C"
+   },
+   {
+    "id": "d",
+    "text": "C – I – I – C – S – X"
+   },
+   {
+    "id": "e",
+    "text": "C – S – C – S – X – C"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 07",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-08",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2020,
+  "statement": "Assinale a alternativa em que o hífen NÃO foi empregado de forma CORRETA:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A batida foi tão violenta que o para-choque do veículo ficou completamente amassado."
+   },
+   {
+    "id": "b",
+    "text": "Tive de ir ao Pronto Socorro com urgência, pois senti um súbito mal-estar após o almoço."
+   },
+   {
+    "id": "c",
+    "text": "Notei que os rodapés dos quartos estavam mal- lavados, apesar do caro pagamento efetuado."
+   },
+   {
+    "id": "d",
+    "text": "No meu dia-a-dia não costumo assistir a televisão, preferindo antes a companhia de livros."
+   },
+   {
+    "id": "e",
+    "text": "Na entrada da cidade, uma faixa com a expressão “bem-vindos” saudava os viajantes."
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 08",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-09",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2020,
+  "statement": "Leia as frases a seguir: I. Certas pessoas fingem ter mais posses do que realmente possuem. II. No trabalho, apenas cinco funcionários cumpriram as tarefas determinadas; os demais não souberam fazê-las. III. Infelizmente não tenho dinheiro bastante para ajudar a todos os meus familiares. IV. Preste muita atenção e pense antes de responder para escolher as respostas certas. V. Ouvi de um essa história, mas francamente não acredito nela. Assinale a alternativa que corresponde às frases em que as palavras em destaque são pronomes indefinidos:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as frases I, II e IV."
+   },
+   {
+    "id": "b",
+    "text": "Somente as frases I, II e V."
+   },
+   {
+    "id": "c",
+    "text": "Somente as frases I, III e IV."
+   },
+   {
+    "id": "d",
+    "text": "Somente as frases II, III e V."
+   },
+   {
+    "id": "e",
+    "text": "Somente as frases III, IV e V."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 09",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-10",
+  "stateCode": "PSC",
+  "topic": "portugues",
+  "year": 2020,
+  "statement": "Classifique morfologicamente os vocábulos sublinhados, colocando entre parênteses a letra a eles correspondente, conforme o seguinte código: A – artigo P – pronome pessoal oblíquo D – pronome demonstrativo ( ) Qual prato você prefere para almoçar? O de sempre? ( ) Eu estava com muita raiva, mas não o demonstrei. ( ) Finalmente, chegaram as férias. ( ) Estão dispensados todos os que terminaram a prova. ( ) Perdi o celular e não o encontrei em parte alguma. Assinale a alternativa que preenche CORRETAMENTE os parênteses, de cima para baixo:",
+  "options": [
+   {
+    "id": "a",
+    "text": "D – D – A – D – P"
+   },
+   {
+    "id": "b",
+    "text": "D – P – A – A – P"
+   },
+   {
+    "id": "c",
+    "text": "D – P – P – A – A"
+   },
+   {
+    "id": "d",
+    "text": "A – D – A – P – D"
+   },
+   {
+    "id": "e",
+    "text": "A – D – P – D – D"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 10",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-11",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2020,
+  "statement": "Leia o texto: Mal Secreto Se a cólera que espuma, a dor que mora N'alma, e destrói cada ilusão que nasce Tudo o que punge, tudo o que devora O coração, no rosto se estampasse; Se se pudesse, o espírito que chora, Ver através da máscara da face, Quanta gente, talvez, que inveja agora Nos causa, então piedade nos causasse! Quanta gente que ri, talvez, consigo Guarda um atroz, recôndito inimigo Como invisível chaga cancerosa! Quanta gente que ri, talvez existe, Cuja ventura única consiste Em parecer aos outros venturosa! CORREIA, Raimundo. Melhores poemas de Raimundo Correia. Seleção de Telenia Hill. 2. ed. São Paulo: Global, 2001, p.49. Considerando aspectos formais e de conteúdo do texto lido, analise as assertivas a seguir: I. As duas primeiras quadras apresentam encadeamentos (ou enjambements). II. O poema é uma elegia com versos dodecassilábicos em oitava rima. III. O sujeito lírico, no último terceto, aborda o disfarce das pessoas quanto a suas verdadeiras emoções. IV. O poema induz a uma reflexão filosófica acerca da importância que a aparência tem na sociedade. V. Todas as rimas do poema são ricas: pertencem a classes gramaticais diferentes. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as assertivas I, II e III são verdadeiras."
+   },
+   {
+    "id": "b",
+    "text": "Somente as assertivas I, II e V são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as assertivas I, III e IV são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as assertivas II, IV e V são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as assertivas III, IV e V são verdadeiras."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 11",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-12",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2020,
+  "statement": "A descoberta das terras ameríndias, particularmente as brasileiras, motivou diversas expedições com objetivos específicos: descrição da terra e do povo; catalogação das espécies da fauna e da flora para fins econômicos. Nesse contexto, muitos relatos foram feitos pelos expedicionários. Leia o excerto a seguir e depois considere as afirmativas que seguem: ―Capítulo sexto – Das fruitas da terra Também ha huma fruta que lhe chamão Bananas, e pela língua dos indios Pacovas: ha na terra muita abundancia dellas: perecem-se na feição com pepinos, nascem numas arvores mui tenras e não são muito altas, nem têm ramos senão folhas mui compridas e largas. [...] Esta he huma fruita mui sabrosa e das boas que ha na terra, tem huma pelle como de figo, a qual lhes lanção fora quando as querem comer e se come muitas dellas fazem dano á saude e causão febre a quem se desmanda nellas. Com esta fruita se mantem a maior parte dos escravos desta terra, porque assadas verdes passão por mantimento e quasi tem sustancia de pão. Ha duas qualidades desta fruita, humas são pequenas como figos berjaçotes, as outras são maiores e mais compridas. Estas pequenas têm dentro em si huma cousa estranha, a qual he que quando as cortão pelo meio com huma faca ou por qualquer parte que seja acha-se nellas hum signal à maneira de Crucifixo, e assi totalmente o parecem. [...]” Pero de Magalhães Gandavo, Tratado da Terra do Brasil/ História da Província Santa Cruz. Belo Horizonte: Itatiaia/São Paulo: Edusp, 1980. P. 50-51. (Fragmentado). Analise as afirmativas a seguir: I. Embora seja um fruto indigesto, quando consumida em exagero, o autor sugere que se enviem bananas a Portugal para mantimento, considerando seu potencial nutritivo e medicinal. II. A banana deve ser sacralizada uma vez que traz o crucifixo, símbolo do cristianismo, em seu interior. III. O excerto cumpre a função de informar à corte portuguesa sobre elementos da flora brasileira e seu potencial econômico. IV. A linguagem usada pelo autor retrata uma realidade desconhecida e estranha aos europeus e, para aproximar o leitor da realidade retratada, recorre à comparação a frutos europeus. V. A partir da descrição do cronista de uma terra exótica e misteriosa, sugere-se a visão de um paraíso abençoado por Deus. Assinale a alternativa correta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente as afirmativas I, II e V são verdadeiras."
+   },
+   {
+    "id": "b",
+    "text": "Somente as afirmativas I, III e IV são verdadeiras."
+   },
+   {
+    "id": "c",
+    "text": "Somente as afirmativas I e IV são verdadeiras."
+   },
+   {
+    "id": "d",
+    "text": "Somente as afirmativas II e V são verdadeiras."
+   },
+   {
+    "id": "e",
+    "text": "Somente as afirmativas III e IV são verdadeiras."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 12",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-14",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2020,
+  "statement": "Leia o texto: À CIDADE DA BAHIA Triste Bahia! Ó quão dessemelhante Estás e estou do nosso antigo estado, Pobre te vê a ti, tu a mi empenhado, Rica te vi eu já, tu a mi abundante. A ti trocou-te a máquina mercante, que em tua larga barra tem entrado, A mim foi-me trocando e tem trocado, Tanto negócio e tanto negociante. Deste em dar tanto açúcar excelente Pelas drogas inúteis, que abelhuda Simples aceitas do sagaz Brichote. Oh! se quisera Deus que de repente Um dia amanheceras tão sisuda que fora de algodão o teu capote! Gregório de Matos. IN MOISÉS, MASSAUD. Literatura Brasileira através dos textos. 22. Ed. São Paulo: Coutrix, 2006, p.46-47. De acordo com o texto, assinale com V as alternativas verdadeiras e com F as falsas: ( ) O poeta faz uma comparação entre a Bahia e os comerciantes de algodão. ( ) O sujeito lírico sonha com o retorno à época em que a Bahia era rica e governada por pessoas sérias. ( ) O poema é um lamento pelas perdas econômicas sofridas tanto pela cidade quanto pelo sujeito poético, ambos vítimas da exploração mercantilista. ( ) O poema é composto por versos redondilhos e decassilábicos. ( ) O tom de frustração e pessimismo é mantido em todo o poema. Lida de cima para baixo, a sequência CORRETA é:",
+  "options": [
+   {
+    "id": "a",
+    "text": "V – F – F – V – V"
+   },
+   {
+    "id": "b",
+    "text": "V – F – V – V – F"
+   },
+   {
+    "id": "c",
+    "text": "V – F – V – F – V"
+   },
+   {
+    "id": "d",
+    "text": "F – V – V – F – F"
+   },
+   {
+    "id": "e",
+    "text": "F – V – F – V – F"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 14",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-15",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2020,
+  "statement": "Leia a estrofe: Os poemas líricos do Arcadismo apresentam-se tematizados a partir de expressões latinas. Leia a estrofe da Lira 58, de Tomás Antônio Gonzaga e responda: Irás a divertir-te na floresta, sustentada Marília, no meu braço; aqui descansarei a quente sesta, dormindo um leve sono em teu regaço; enquanto a luta jogam os pastores, e emparelhados correm nas campinas, toucarei teus cabelos de boninas, nos troncos gravarei os teus louvores. Graças, Marília Bela, Graças a minha estrela! Tomás Antônio Gonzaga. IN MOISÉS, MASSAUD. Literatura Brasileira através dos textos. 22. Ed. São Paulo: Coutrix, 2006, p.81. Aponte a expressão CORRETAMENTE traduzida e definida identificada na estrofe da Lira 58, de Tomás Antônio Gonzaga:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Aurea mediocritas – mediocridade áurea, afirmação das qualidades da vida no campo."
+   },
+   {
+    "id": "b",
+    "text": "Fugere urbem – fuga do dia; eliminar os excessos e aproximar-se da perfeição da natureza."
+   },
+   {
+    "id": "c",
+    "text": "Inutilia Truncat – cortar o formal; trata da necessidade de aproveitar intensamente o presente."
+   },
+   {
+    "id": "d",
+    "text": "Carpe diem – cantar a cidade, a urbanização; simboliza a valorização das coisas cotidianas, simples."
+   },
+   {
+    "id": "e",
+    "text": "Locus amoenus – lugar ameno, onde os amantes se encontram para desfrutar os prazeres da natureza."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 15",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-16",
+  "stateCode": "PSC",
+  "topic": "literatura",
+  "year": 2020,
+  "statement": "Leia o texto: [...] Não faltava, Para se dar princípio à estranha festa, Mais que Lindoia. Há muito lhe preparam Todas de brancas penas revestidas Festões de flores as gentis donzelas. Cansados de esperar, ao seu retiro Vão muitos impacientes a buscá-la. Estes de crespa Tanajura aprendem Que entrara no jardim triste e chorosa, Sem consentir que alguém a acompanhasse. Um frio susto corre pelas veias De Caitutu, que deixa os seus no campo; E a irmã por entre as sombras do arvoredo Busca co’a vista, e teme de encontrá-la. Entram enfim na mais remota e interna Parte de antigo bosque, escuro e negro, Onde ao pé de uma lapa cavernosa Cobre uma rouca fonte, que murmura, Curva latada de jasmins e rosas. Este lugar delicioso e triste, Cansada de viver, tinha escolhido Para morrer a mísera Lindóia. [...] Canto IV (fragmento) de O Uraguai – José Basílio da Gama De acordo com o texto, assinale com V as alternativas verdadeiras e com F as falsas: ( ) O tema do épico O Uraguai, de Basílio da Gama, gira em torno da guerra que portugueses e espanhóis moveram contra indígenas e jesuítas em Sete Povos de Missões do Uraguai, em 1759. O fragmento lido trata da morte de Lindoia. ( ) O poemeto épico se constrói em 5 cantos; com estrofação livre, isto é, não obedece a número regular de versos; e com versos decassilábicos brancos. ( ) Lindoia, desiludida pelo perda de seu filho, morre nos braços de sua amiga Moema, ao atirar-se ao mar. ( ) O grande herói do poemeto é Caitutu que ouve Tanajura alertar sobre a morte de Lindoia. ( ) Mesmo tratando-se de um épico, O Uraguai não deixa de ter fortes características árcades como Inutilia trucat e Locus amenus. Lida de cima para baixo, a sequência CORRETA é:",
+  "options": [
+   {
+    "id": "a",
+    "text": "F – F – V – V – V"
+   },
+   {
+    "id": "b",
+    "text": "F – F – F– F – V"
+   },
+   {
+    "id": "c",
+    "text": "V – V – F – F – V"
+   },
+   {
+    "id": "d",
+    "text": "V – F –V – F – V"
+   },
+   {
+    "id": "e",
+    "text": "V – V – F – F – F"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 16",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-17",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2020,
+  "statement": "Na região do vale do Nilo, floresceu a civilização egípcia faraônica, que durou quase três mil anos. O desenvolvimento do Egito antigo ocorreu impulsionado por diversos fatores, em meio a uma região predominantemente desértica, localizado no nordeste da África. Adaptado de VICENTINO, Claudio; DORIGO, Gianpaolo. História geral e do Brasil. São Paulo: Editora Scipione, 2ª Edição, 2014, p.83. Com relação a um dos fatores que contribuíram para esse desenvolvimento do Egito faraônico, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "o desenvolvimento das atividades ligadas aos trabalhos especializados, por exemplo, a produção de cerveja e joias, tornou-se a base da economia do Egito faraônico."
+   },
+   {
+    "id": "b",
+    "text": "os egípcios construíram um complexo sistema de encanamento das águas do Nilo, que favoreceu as práticas agrícolas."
+   },
+   {
+    "id": "c",
+    "text": "o desenvolvimento da civilização antiga egípcia deveu-se apenas ao intenso comércio com o mundo asiático."
+   },
+   {
+    "id": "d",
+    "text": "a base econômica da civilização antiga egípcia estruturava-se, exclusivamente, em torno das atividades produtivas dos artesãos."
+   },
+   {
+    "id": "e",
+    "text": "a utilização de mão de obra exclusivamente escrava nas atividades agrícolas favoreceu o florescimento dessa civilização."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 17",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-18",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2020,
+  "statement": "―O Império Romano não podia crescer e consolidar-se sem olhar constantemente para além de suas fronteiras, isto é, o exterior lhe era fundamental, já que a incorporação de terras e a expansão demográfica constituíam os motores que conduziram Roma ao seu lugar de proeminência no mundo mediterrâneo.‖ MENDES, Norma Musco; BUSTAMANTE, Regina Maria da Cunha; DAVIDSON, Jorge. A experiência imperialista romana: teorias e práticas. Tempo, Niterói, v.9, n.18, p.17-41, Junho de 2005, p. 35. Sobre alguns dos mecanismos que caracterizaram o processo de constituição do Império Romano, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "a Pax Roman buscou consolidar a harmonia do Império Romano com a implantação de uma máquina político-administrativa, tendo como uma das consequências o crescimento econômico e a expansão do comércio."
+   },
+   {
+    "id": "b",
+    "text": "no período da República romana, a assembleia curial dedicava-se aos assuntos ligados à política de expansão territorial, tendo um papel fundamental no sucesso do processo de romanização."
+   },
+   {
+    "id": "c",
+    "text": "em 450 a.C. foi compilado o primeiro conjunto de leis romanas, a Lei das Doze Tábuas, que encerrou os conflitos na Península Itálica, garantindo a paz entre Roma e suas províncias."
+   },
+   {
+    "id": "d",
+    "text": "a emergência da República romana reduziu os conflitos entre patrícios e plebeus, garantindo a manutenção da paz no vasto território romano."
+   },
+   {
+    "id": "e",
+    "text": "no governo de Otávio Augusto, a descentralização do poder do imperador favoreceu o desenvolvimento cultural e a ampliação do comércio entre as províncias mais distantes."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 18",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-20",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2020,
+  "statement": "Importantes civilizações dominaram a região Mesoamérica. Uma delas ficou conhecida pela sua imponente cidade, com seus imensos templos, mercados, jardins e uma estrutura política altamente centralizada, localizada na cidade de Tenochtitlán, atual Cidade do México. Quanto à civilização que dominou essa região, é CORRETO afirmar que ela foi denominada de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Império Inca"
+   },
+   {
+    "id": "b",
+    "text": "Império Maia"
+   },
+   {
+    "id": "c",
+    "text": "Império de Oio"
+   },
+   {
+    "id": "d",
+    "text": "Império Asteca"
+   },
+   {
+    "id": "e",
+    "text": "Império Otomano"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 20",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-21",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2020,
+  "statement": "―Em 1415, a cidade de Ceuta, na costa norte africana, foi tomada por uma expedição portuguesa e transformou-se em base fortificada. Este acontecimento foi aclamado em toda a Europa cristã. Durante mais de um século depois disso, os portugueses tomaram, mantiveram e às vezes perderam uma linha de fortes e pequenos enclaves na cota norte da África, incluindo Argélia e Tânger.‖ BLACKBURN, Robin. A construção do escravismo no novo mundo, 1492-1800. Rio de Janeiro: Editora Record, 2003, p. 127. Acerca do contexto histórico mencionado no texto do historiador Robin Blackburn, pode-se afirmar que se trata da:",
+  "options": [
+   {
+    "id": "a",
+    "text": "expansão marítima portuguesa, um processo que transformou Lisboa no centro comercial do mundo europeu e que se caracterizava pela aliança de interesses entre a monarquia e o setor mercantil no período."
+   },
+   {
+    "id": "b",
+    "text": "expansão marítima portuguesa, um processo que transformou o setor mercantil de Lisboa o mais rico e poderoso da Península Ibérica, em detrimento do Estado."
+   },
+   {
+    "id": "c",
+    "text": "expansão marítima portuguesa, um processo que refletiu a manutenção exclusiva do poder da nobreza feudal e das autoridades eclesiásticas."
+   },
+   {
+    "id": "d",
+    "text": "expansão marítima portuguesa, um processo caracterizado pelo enfraquecimento da monarquia, enriquecimento dos grupos urbanos comerciais e crescente prestígio das autoridades eclesiásticas."
+   },
+   {
+    "id": "e",
+    "text": "expansão marítima portuguesa, um processo marcado pela centralização exclusiva do poder do Estado sob a autoridade do rei, em detrimento do setor mercantil e das autoridades eclesiásticas."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 21",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-22",
+  "stateCode": "PSC",
+  "topic": "historia",
+  "year": 2020,
+  "statement": "“Os reinos cristãos ibéricos, nascidos e consolidados durante a guerra contra o invasor islâmico, eram regiões da Europa cristã onde o ideal de cruzada estava mais enraizado no pensamento de seus combatentes. Durante a Reconquista da Hispânia, várias foram as campanhas militares desses reinos nas quais o espírito cruzadístico era manifestado.‖ SOUZA, Guilherme Queiroz de. Da reconquista hispânica à conquista do novo mundo: uma análise do espírito cruzadístico ibérico na crux cismarina e na crux ultramarina. Anais da Jornada de estudos antigos e medievais. 2011, p. 03. Sobre algumas das mais significativas consequências das Cruzadas, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "a participação de cristãos e muçulmanos nas expedições cruzadistas promoveu a tolerância religiosa na Europa."
+   },
+   {
+    "id": "b",
+    "text": "ocorreu o fortalecimento do poder e do prestígio dos senhores feudais, que passaram a lucrar economicamente com a conquista de territórios mais distantes."
+   },
+   {
+    "id": "c",
+    "text": "o crescente poder da Igreja romana se expandiu para além do território europeu; isso se deu em decorrência da exclusiva participação dos membros da igreja nas expedições cruzadistas."
+   },
+   {
+    "id": "d",
+    "text": "consolidou-se a ocupação total e definitiva do Egito após a sétima e oitava cruzadas (1250 e 1270), comandadas por Luís IX, rei da França."
+   },
+   {
+    "id": "e",
+    "text": "a reconquista cristã da Península Ibérica e a abertura do mar mediterrâneo aos comerciantes europeus favoreceram, posteriormente, o renascimento cultural e urbano da Europa."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 22",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-23",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2020,
+  "statement": "Leia com atenção o texto a seguir: No início, era um projeto militar dos EUA chamado de ―NAVSTAR‖; que foi criado na década de 1960, mas só foi considerado completo em 1995, depois de 35 anos de trabalho que custaram 10 bilhões de dólares aos cofres americanos. Autora: Caroline Faria Com base no texto e nos conhecimentos sobre o tema, assinale a alternativa que apresenta CORRETAMENTE a tecnologia descrita no conteúdo:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Geoprocessamento"
+   },
+   {
+    "id": "b",
+    "text": "Projeção Cartográfica"
+   },
+   {
+    "id": "c",
+    "text": "Sensoriamento Remoto"
+   },
+   {
+    "id": "d",
+    "text": "Sistema de Posicionamento Global"
+   },
+   {
+    "id": "e",
+    "text": "Sistema de Informações Geográficas"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 23",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-24",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2020,
+  "statement": "O solo dessa região brasileira foi muito modificado e prejudicado por fatores como: poluição, crescimento desordenado, exploração agrícola e mineral, diminuição dos rios e grande devastação da área por elevado desmatamento, tornando-se um solo pobre e ácido. Este tipo de solo pertence à Região:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Norte"
+   },
+   {
+    "id": "b",
+    "text": "Nordeste"
+   },
+   {
+    "id": "c",
+    "text": "Centro-Oeste"
+   },
+   {
+    "id": "d",
+    "text": "Sudeste"
+   },
+   {
+    "id": "e",
+    "text": "Sul"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 24",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-25",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2020,
+  "statement": "Qual dos grupos a seguir deliberou pelo repasse financeiro para ajudar no combate às queimadas na Amazônia, em 2019?",
+  "options": [
+   {
+    "id": "a",
+    "text": "NAFTA"
+   },
+   {
+    "id": "b",
+    "text": "BRICS"
+   },
+   {
+    "id": "c",
+    "text": "APEC"
+   },
+   {
+    "id": "d",
+    "text": "CARICOM"
+   },
+   {
+    "id": "e",
+    "text": "G7"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 25",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-27",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2020,
+  "statement": "Sobre o mapa temático, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "é um mapa que representa um tema específico ou área de assunto, como variação de temperatura, distribuição de precipitação e densidade populacional."
+   },
+   {
+    "id": "b",
+    "text": "é um mapa que destaca as áreas situadas na região equatorial e preserva as dimensões relativas entre os continentes e países."
+   },
+   {
+    "id": "c",
+    "text": "é uma representação gráfica que corresponde à redução da realidade que está sendo tematizada no mapa."
+   },
+   {
+    "id": "d",
+    "text": "resulta de um conjunto de operações que permite representar no plano, por meio de paralelos e meridianos, os fenômenos da superfície de uma esfera."
+   },
+   {
+    "id": "e",
+    "text": "seja qual for a porção representada, o mapa conserva a mesma relação com a área."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 27",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-28",
+  "stateCode": "PSC",
+  "topic": "geografia",
+  "year": 2020,
+  "statement": "A radiação solar é, provavelmente, o elemento mais importante do clima. Nesse sentido, a inclinação do equador terrestre, em relação ao plano que contém o equador do Sol, resulta:",
+  "options": [
+   {
+    "id": "a",
+    "text": "na quantidade de vapor de água encontrada na atmosfera."
+   },
+   {
+    "id": "b",
+    "text": "na dissolução da camada de ozônio da atmosfera, contribuindo para o aumento da temperatura terrestre."
+   },
+   {
+    "id": "c",
+    "text": "em diferentes quantidades de energia na superfície terrestre e, consequentemente, nas diferentes estações do ano."
+   },
+   {
+    "id": "d",
+    "text": "na elevação exagerada dos níveis de acidez da atmosfera, em consequência do uso de combustíveis fósseis nos transportes."
+   },
+   {
+    "id": "e",
+    "text": "em precipitações abundantes na zona equatorial e nas zonas litorâneas ocidentais úmidas tropicais."
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 28",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-29",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2020,
+  "statement": "Que RNA participa do sistema de defesa do genoma de células de plantas e animais e controla a tradução do RNA mensageiro?",
+  "options": [
+   {
+    "id": "a",
+    "text": "RNA nucleolar"
+   },
+   {
+    "id": "b",
+    "text": "RNA ribossômico"
+   },
+   {
+    "id": "c",
+    "text": "RNA transportador"
+   },
+   {
+    "id": "d",
+    "text": "Pequenos RNA(s) nucleares"
+   },
+   {
+    "id": "e",
+    "text": "Pequenos RNA(s) de interferência"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 29",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-30",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2020,
+  "statement": "O ramo da Biologia que estuda as águas interiores é denominado de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Biologia pesqueira"
+   },
+   {
+    "id": "b",
+    "text": "Biologia marinha"
+   },
+   {
+    "id": "c",
+    "text": "Protobiologia"
+   },
+   {
+    "id": "d",
+    "text": "Limnologia"
+   },
+   {
+    "id": "e",
+    "text": "Alometria"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 30",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-31",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2020,
+  "statement": "Bactérias Gram-positivas e negativas podem ser diferenciadas na microscopia através da técnica idealizada por Hans Christian Joachim Gram (1884). Que característica estrutural difere essas bactérias quanto a sua coloração por esta técnica e qual o resultado observável após a aplicação da mesma?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Bactérias gram-positivas apresentam uma parede espessa de peptidoglicano que retém o corante aplicado, resultando em uma coloração roxa."
+   },
+   {
+    "id": "b",
+    "text": "Bactérias gram-negativas apresentam uma parede espessa de peptidoglicano que retém o corante aplicado, resultando em uma coloração roxa."
+   },
+   {
+    "id": "c",
+    "text": "Bactérias gram-positivas apresentam uma parede delgada de peptidoglicano, mas com alta afinidade pelo corante aplicado, resultando em uma coloração vermelha."
+   },
+   {
+    "id": "d",
+    "text": "Bactérias gram-positivas apresentam uma parede espessa de peptidoglicano que retém o corante aplicado, resultando em uma coloração vermelha."
+   },
+   {
+    "id": "e",
+    "text": "As bactérias podem ser individualizadas porque apresentam diferentes níveis de coloração de seu material genético."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 31",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-32",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2020,
+  "statement": "São proteínas que participam do dobramento CORRETO de outras proteínas:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Hemoglobinas"
+   },
+   {
+    "id": "b",
+    "text": "Colágenos"
+   },
+   {
+    "id": "c",
+    "text": "Mioglobinas"
+   },
+   {
+    "id": "d",
+    "text": "Miosinas"
+   },
+   {
+    "id": "e",
+    "text": "Chaperoninas"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 32",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-33",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2020,
+  "statement": "A que se refere o termo mielopoiese?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Somente à formação de linfócitos."
+   },
+   {
+    "id": "b",
+    "text": "Somente à formação de granulócitos."
+   },
+   {
+    "id": "c",
+    "text": "Somente à formação de macrófagos."
+   },
+   {
+    "id": "d",
+    "text": "Somente à formação de células polimorfonucleares."
+   },
+   {
+    "id": "e",
+    "text": "À formação de eritrócitos, plaquetas e granulócitos."
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 33",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-34",
+  "stateCode": "PSC",
+  "topic": "biologia",
+  "year": 2020,
+  "statement": "O que há de especial na membrana externa das mitocôndrias que permite a passagem de pequenas moléculas?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Porinas"
+   },
+   {
+    "id": "b",
+    "text": "ATPase Na+/K+"
+   },
+   {
+    "id": "c",
+    "text": "Canais de Ca++ dependentes de voltagem"
+   },
+   {
+    "id": "d",
+    "text": "Excesso de colesterol"
+   },
+   {
+    "id": "e",
+    "text": "Complexos do poro"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 34",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-35",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2020,
+  "statement": "O ponto de ebulição do cloro é de – 35 ℃, enquanto do HCl é de −84,9 ℃. Já para o bromo, seu ponto de ebulição é de 58,8 ℃, enquanto para o HBr é de – 67 ℃. A partir dessas informações, é CORRETO afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "apesar das interações dipolo-dipolo no HCl serem mais intensas que no HBr, o bromo apresenta um maior raio atômico, tornando-o mais polarizável e produzindo uma força de London mais intensa no HBr."
+   },
+   {
+    "id": "b",
+    "text": "existem ligações de hidrogênio entre as moléculas de HBr, além das forças de dispersão de London."
+   },
+   {
+    "id": "c",
+    "text": "existem forças dipolo-dipolo entre as moléculas de HCl, além das forças de dispersão de London."
+   },
+   {
+    "id": "d",
+    "text": "a resultante das forças de interação intermoleculares no ácido clorídrico é mais intensa que no ácido bromídrico."
+   },
+   {
+    "id": "e",
+    "text": "a molécula de ácido clorídrico (HCl) apresenta um momento de dipolo elétrico menor que o ácido bromídrico (HBr), devido à maior eletronegatividade do cloro."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 35",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-36",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2020,
+  "statement": "Em 2015, a IUPAC confirmou a descoberta do elemento Tennesso (Ts), nome dado em referência ao estado de Tennessee (EUA). Ele é um elemento transurânico, com massa atômica elevada e altamente instável. Pouco se sabe sobre este elemento e dos compostos que ele pode formar. A configuração eletrônica provável do Tennesso (Ts, elemento 117) é:",
+  "options": [
+   {
+    "id": "a",
+    "text": "[Rn] 7s24f14 5d106p5"
+   },
+   {
+    "id": "b",
+    "text": "[Rn] 7s24f145d107p5"
+   },
+   {
+    "id": "c",
+    "text": "[Rn] 7s25f146d107p5"
+   },
+   {
+    "id": "d",
+    "text": "[Rn] 7s25f146d106p5"
+   },
+   {
+    "id": "e",
+    "text": "[Rn] 7s26f146d107p5"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 36",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-37",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2020,
+  "statement": "Das alternativas a seguir, qual técnica de separação se baseia na diferença de volatilidade das substâncias a serem separadas?",
+  "options": [
+   {
+    "id": "a",
+    "text": "Filtração"
+   },
+   {
+    "id": "b",
+    "text": "Destilação"
+   },
+   {
+    "id": "c",
+    "text": "Evaporação"
+   },
+   {
+    "id": "d",
+    "text": "Extração por solvente"
+   },
+   {
+    "id": "e",
+    "text": "Cromatografia em papel"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 37",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-38",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2020,
+  "statement": "“O manganês é um dos dez elementos mais abundantes na crosta terrestre, com concentrações geralmente superiores a 0,1% em peso na crosta continental média. Em ambientes naturais, a atividade hidrotérmica, intemperismo continental e precipitação química em soluções alcalinas são os principais processos responsáveis pela mobilidade do manganês. Similarmente aos óxidos / hidróxidos de Mn, os silicatos de Mn, como a braunita (fórmula geral 3Mn2O3 .MnSiO3), são minerais muito comuns em diferentes ambientes geológicos porque sua formação ocorre por vários processos geológicos”. Sinisi, Rosa et al. Ore Geology Reviews 94 (2018), p.1-11. Determine a porcentagem de manganês na braunita e seus estados de oxidação na ordem de apresentação na fórmula química (Mn = 54,94; O = 15,99; Si = 28,08):",
+  "options": [
+   {
+    "id": "a",
+    "text": "9,1 %; +3; +3"
+   },
+   {
+    "id": "b",
+    "text": "16,0 %; +2; +3"
+   },
+   {
+    "id": "c",
+    "text": "28,0 %; +3; +2"
+   },
+   {
+    "id": "d",
+    "text": "54,94 %; +2; +3"
+   },
+   {
+    "id": "e",
+    "text": "63,6 %; +3; +2"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 38",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-40",
+  "stateCode": "PSC",
+  "topic": "quimica",
+  "year": 2020,
+  "statement": "Considerando as moléculas SCl2, SO3 e SOCl2, assinale a alternativa que indica as geometrias dessas moléculas, na ordem dada:",
+  "options": [
+   {
+    "id": "a",
+    "text": "Linear, trigonal plana, trigonal piramidal"
+   },
+   {
+    "id": "b",
+    "text": "Linear, trigonal piramidal, trigonal plana"
+   },
+   {
+    "id": "c",
+    "text": "Angular, trigonal plana, linear"
+   },
+   {
+    "id": "d",
+    "text": "Angular, trigonal plana, trigonal piramidal"
+   },
+   {
+    "id": "e",
+    "text": "Angular, trigonal piramidal, trigonal plana"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 40",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-41",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2020,
+  "statement": "Na noite do dia 08.04.2019, a cidade do Rio de Janeiro passou por evento meteorológico extremo. Em apenas quatro horas, a cidade recebeu uma precipitação que variou entre 100mm e 200mm em vários bairros, superando a média local para todo o mês de abril. O temporal inundou ruas, derrubou árvores, destruiu ruas, carros e casas, além de provocar mortes, deixando a cidade em estado de crise. A área urbana da cidade do Rio de Janeiro é de 1200km2, e a precipitação média acumulada em apenas quatro horas nesta noite foi de 150mm. Sabendo que cada milímetro de precipitação acumulada corresponde ao volume de um litro para cada metro quadrado de superfície, podemos afirmar que a ordem de grandeza, em litros, do volume de chuva acumulado em apenas quatro horas, na noite do dia 08.04.2019, na cidade do Rio de Janeiro, foi de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "1011"
+   },
+   {
+    "id": "b",
+    "text": "1010"
+   },
+   {
+    "id": "c",
+    "text": "109"
+   },
+   {
+    "id": "d",
+    "text": "108"
+   },
+   {
+    "id": "e",
+    "text": "106"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 41",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-42",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2020,
+  "statement": "Uma estudante em pé no solo arremessa um caroço de tucumã verticalmente para cima. O caroço sai da mão da estudante no momento em que se encontra 2,00m acima do solo com velocidade de 54km𝑕 . Desprezando qualquer efeito do ar no movimento do caroço e sabendo que a estudante tira sua mão da trajetória do caroço, podemos afirmar que a distância que o caroço de tucumã percorrerá no ar antes de atingir o solo será de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "9,25m"
+   },
+   {
+    "id": "b",
+    "text": "13,25m"
+   },
+   {
+    "id": "c",
+    "text": "22,5m"
+   },
+   {
+    "id": "d",
+    "text": "24,5m"
+   },
+   {
+    "id": "e",
+    "text": "26,5m"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 42",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-44",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2020,
+  "statement": "O despachante de bagagem de um aeroporto deixa cair uma mala com 23kg sobre a esteira rolante que está passando abaixo a 2,0m/s. Os valores dos coeficientes de atrito estático e cinético, entre a mala e a esteira, valem, respectivamente, μe= 0,50 e μc= 0,25. A partir dessas informações, podemos afirmar que a distância que a mala irá escorregar sobre a superfície da esteira, até passar a deslocar- se junto dela, sem escorregar, será de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "80cm"
+   },
+   {
+    "id": "b",
+    "text": "60cm"
+   },
+   {
+    "id": "c",
+    "text": "50cm"
+   },
+   {
+    "id": "d",
+    "text": "40cm"
+   },
+   {
+    "id": "e",
+    "text": "30cm"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 44",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-45",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2020,
+  "statement": "A definição de planeta evoluiu ao longo da história, desde as estrelas errantes divinas da Antiguidade até 2006, quando a União Astronômica Internacional (UAI) estabeleceu parâmetros para a definição do que deve ser chamado de planeta. Segundo a UAI, planeta é um corpo celeste que orbita uma estrela ou um remanescente de estrela, com massa suficiente para se tornar esférico pela sua própria gravidade, mas não ao ponto de causar fusão termonuclear, e que tenha limpado de planetesimais sua dominância orbital. Sejam dois planetas hipotéticos A e B, com o planeta B tendo raio cinco vezes maior que o raio do planeta A e a metade da densidade do planeta A. Desprezando quaisquer efeitos ligados às rotações dos planetas e, sabendo que o volume de uma esfera de raio R é dado por V= 3 πR3, podemos afirmar que a razão entre os módulos das acelerações da gravidade à superfície, gBgA , dos planetas B e A, é igual a:",
+  "options": [
+   {
+    "id": "a",
+    "text": "5 2"
+   },
+   {
+    "id": "b",
+    "text": "5 4"
+   },
+   {
+    "id": "c",
+    "text": "1 5"
+   },
+   {
+    "id": "d",
+    "text": "2 5"
+   },
+   {
+    "id": "e",
+    "text": "4 5"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 45",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-46",
+  "stateCode": "PSC",
+  "topic": "fisica",
+  "year": 2020,
+  "statement": "Num experimento realizado no Laboratório de Física, uma esfera de madeira foi amarrada em um barbante preso no fundo de um recipiente, inicialmente vazio. Ao colocar água no recipiente, verificou-se que a tensão no barbante correspondia a um terço do peso da esfera quando esta ficou completamente imersa em água. A partir dessas informações, os alunos determinaram a densidade da madeira, encontrando o valor de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "0,25gcm3"
+   },
+   {
+    "id": "b",
+    "text": "0,33gcm3"
+   },
+   {
+    "id": "c",
+    "text": "0,50gcm3"
+   },
+   {
+    "id": "d",
+    "text": "0,67gcm3"
+   },
+   {
+    "id": "e",
+    "text": "0,75gcm3"
+   }
+  ],
+  "correctOptionId": "e",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 46",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-47",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2020,
+  "statement": "Ketto comprou um apartamento de cinco cômodos do seu amigo Stevo e observou que em cada um dos cômodos Stevo usava apenas lâmpadas incandescentes de 100 W (W= watt) para iluminar o ambiente. Visando economizar no consumo de energia, Ketto decidiu trocar as lâmpadas incandescentes por lâmpadas fluorescentes de 24 W, que são capazes de iluminar tão bem quanto as lâmpadas incandescentes. Sabendo que, em uma hora, uma lâmpada incandescente de 100 W consome uma quantidade de energia equivalente a 100 W𝑕 (W𝑕= Watt× 𝑕ora) ou 0,1 kW𝑕 (kW𝑕= quiloWatt× 𝑕ora) e 1 KW𝑕 de energia custa R$ 0,90, quanto Ketto economizou por mês na conta de energia em comparação a de Stevo, se ambos mantinham as lâmpadas acesas durante 12 horas por dia?",
+  "options": [
+   {
+    "id": "a",
+    "text": "R$ 123,12"
+   },
+   {
+    "id": "b",
+    "text": "R$ 110,00"
+   },
+   {
+    "id": "c",
+    "text": "R$ 71,28"
+   },
+   {
+    "id": "d",
+    "text": "R$ 38,00"
+   },
+   {
+    "id": "e",
+    "text": "R$ 24,63"
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 47",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-49",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2020,
+  "statement": "Ana tem 2 3 da idade de Josefa e é 2 anos mais jovem que Rosa. Além disso, Josefa tem 3 da idade de Rosa. Dessa forma, concluímos que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "A diferença entre as idades de Josefa e Rosa é igual a 6."
+   },
+   {
+    "id": "b",
+    "text": "A soma das idades das três é igual a 42."
+   },
+   {
+    "id": "c",
+    "text": "Ana é 3 anos mais jovem que Josefa."
+   },
+   {
+    "id": "d",
+    "text": "Josefa é 3 anos mais velha que Rosa."
+   },
+   {
+    "id": "e",
+    "text": "A soma das idades de Ana e Rosa é menor do que a idade de Josefa."
+   }
+  ],
+  "correctOptionId": "a",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 49",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-50",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2020,
+  "statement": "Joaquina gostaria de comprar um carro novo, mas infelizmente não possui recursos financeiros suficientes para arcar com a compra do veículo a vista. Ela verificou uma das modalidades de crédito que permite a compra parcelada e planejada de um bem e fez uma simulação de um carro que custa R$ 50.000,00. Nesta simulação a parcela fixa mensalmente é 1,8% do valor do carro por um período de 65 meses. Dessa forma, quanto, em percentual, Joaquina pagaria a mais pelo veículo, segundo a simulação?",
+  "options": [
+   {
+    "id": "a",
+    "text": "14%"
+   },
+   {
+    "id": "b",
+    "text": "15%"
+   },
+   {
+    "id": "c",
+    "text": "17%"
+   },
+   {
+    "id": "d",
+    "text": "18%"
+   },
+   {
+    "id": "e",
+    "text": "27%"
+   }
+  ],
+  "correctOptionId": "c",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 50",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-51",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2020,
+  "statement": "Um vendedor de uma determinada loja de eletrodomésticos recebe de salário R$ 1.350,00, mais uma comissão de R$ 255,00 por eletrodoméstico vendido. Sabendo que seu salário em um mês foi de R$ 2.370,00, a quantidade de eletrodomésticos vendidos foi de:",
+  "options": [
+   {
+    "id": "a",
+    "text": "1"
+   },
+   {
+    "id": "b",
+    "text": "2"
+   },
+   {
+    "id": "c",
+    "text": "3"
+   },
+   {
+    "id": "d",
+    "text": "4"
+   },
+   {
+    "id": "e",
+    "text": "5"
+   }
+  ],
+  "correctOptionId": "d",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 51",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-52",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2020,
+  "statement": "O preço, em reais (R$), de determinado produto varia no decorrer dos meses de acordo com a função f x = 0,30x2 −3,0x+ 70, para o período de um ano, em que x= 0 representa o momento inicial de análise, x= 1 após 1 mês, x= 2 após 2 meses etc. Então, o preço mínimo do produto é:",
+  "options": [
+   {
+    "id": "a",
+    "text": "R$ 53,30"
+   },
+   {
+    "id": "b",
+    "text": "R$ 62,50"
+   },
+   {
+    "id": "c",
+    "text": "R$ 70,00"
+   },
+   {
+    "id": "d",
+    "text": "R$ 85,50"
+   },
+   {
+    "id": "e",
+    "text": "R$ 96,30"
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 52",
+  "status": "draft",
+  "reviewedBy": null
+ },
+ {
+  "id": "psc-2020-e1-53",
+  "stateCode": "PSC",
+  "topic": "matematica",
+  "year": 2020,
+  "statement": "Considere as funções: ∗→ℝ ; f x = 3 ∙log x f: ℝ+ ∗→ℝ ; g x = log⁡(3 ∙x) g: ℝ+ Com relação aos gráficos dessas funções, podemos afirmar que:",
+  "options": [
+   {
+    "id": "a",
+    "text": "não se interceptam."
+   },
+   {
+    "id": "b",
+    "text": "se interceptam num único ponto."
+   },
+   {
+    "id": "c",
+    "text": "se interceptam em apenas dois pontos."
+   },
+   {
+    "id": "d",
+    "text": "coincidem."
+   },
+   {
+    "id": "e",
+    "text": "são simétricos em relação ao eixo das abscissas."
+   }
+  ],
+  "correctOptionId": "b",
+  "images": [],
+  "source": "UFAM - PSC 2020",
+  "sourceRef": "1ª etapa, questão 53",
+  "status": "draft",
+  "reviewedBy": null
+ }
+]
