@@ -80,5 +80,5 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Pendente: o Diandro conferir uma amostra da qualidade; só depois fazer as questões com imagem e o 2018 dia 2 (gabarito a conferir).
 - Scripts: `scripts/dump-sem-explicacao.mjs` e `scripts/merge-explicacoes.mjs`.
 
-## ATENÇÃO: ENEM 2018 dia 2 mistura cadernos
-- Conferido em 15/10/2026: `content/questions/enem/2018-d2.json` bate 89/89 com o gabarito oficial do **caderno 5 (amarelo)**, mas o texto das questões vem do caderno **CD6** (`2018_PV_impresso_D2_CD6.pdf`), cuja ordem é diferente. Por isso as respostas não conferem com as contas (d2-107, d2-138, d2-098). Correção: reimportar a prova do caderno 5 (`2018_PV_impresso_D2_CD5.pdf`) ou obter o gabarito do caderno 6. Sem explicações para 2018-d2 até corrigir.
+## ENEM 2018 dia 2: corrigido (15/10/2026)
+- O JSON misturava texto do caderno CD6 (cinza) com o gabarito do caderno 5 (amarelo). Reimportado do `2018_PV_impresso_D2_CD5.pdf` (amarelo) com o gabarito amarelo oficial: 89 questões (d2-150 anulada/ausente), gabaritos inalterados, enunciados e figuras agora do caderno correto. Continua rascunho (revisão humana em /admin/enem). Explicações de 2018-d2 ainda por gerar.
