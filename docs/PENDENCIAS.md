@@ -74,8 +74,11 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 ## Reta final (ENEM)
 - Card "🏁 Reta final" no topo de /app/enem quando faltam ≤30 dias para a data informada em Meu desempenho: contagem regressiva, 3 assuntos prioritários (do plano) com atalho de treino, revisão de erros. Nos últimos 7 dias sugere revisar, sem assunto novo.
 
-## Explicações do ENEM (2019–2025)
+## Explicações do ENEM (2018–2025)
 - Arquivo `content/explicacoes/enem.json` (id -> texto), mesclado em `loadAllRaw` quando a questão não tem explicação; aparece no treino e no gabarito do simulado com aviso de que foi preparada com IA.
-- Geradas 561 explicações (2019 a 2025, dias 1 e 2; 2020 e 2021 não têm questões só em texto no banco), só questões em texto. Puladas: as que dependem de texto-base/figura ausente e contas não verificáveis. 1.425 das 2.852 questões têm figura (não tratadas: precisam de leitura das imagens).
+- Geradas 629 explicações (2018 dia 1 e 2019 a 2025; 2020 e 2021 não têm questões só em texto no banco), só questões em texto. Puladas: as que dependem de texto-base/figura ausente e contas não verificáveis. 1.425 das 2.852 questões têm figura (não tratadas: precisam de leitura das imagens).
 - Pendente: o Diandro conferir uma amostra da qualidade; só depois fazer 2011–2018 e as questões com imagem.
 - Scripts: `scripts/dump-sem-explicacao.mjs` e `scripts/merge-explicacoes.mjs`.
+
+## ATENÇÃO: gabarito do ENEM 2018 dia 2 parece errado
+- Em `content/questions/enem/2018-d2.json` várias respostas marcadas não batem com a resolução (ex.: enem-2018-d2-107, som de sonorizador a 108 km/h e 8 cm = 375 Hz, mas o gabarito aponta 8,6 Hz; d2-138, 66 postes x R$ 8.000 = R$ 528.000, gabarito aponta R$ 512.000; d2-098, canudinho, gabarito aponta alternativa que não é a correta). Provável mistura de gabaritos de cadernos de cores diferentes. Conferir contra o gabarito oficial do INEP antes de publicar; não geradas explicações para 2018-d2 até corrigir.
