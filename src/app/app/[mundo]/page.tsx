@@ -3,7 +3,10 @@ import { notFound, redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
 import { getOpenAttempt, getStats } from '@/lib/attempts';
 import { desempenho } from '@/lib/desempenho';
-import { mundoDeTipo, mundoPorSlug } from '@/lib/mundos';
+import { eq } from 'drizzle-orm';
+import { getDb, schema } from '@/db';
+import { mundoDeTipo, mundoPorSlug, UFS_DETRAN } from '@/lib/mundos';
+import { escolherUfAction } from './actions';
 import { getSimulation, nomeTipo } from '@/lib/simulations';
 import { resumoErros } from '@/lib/treino';
 import { ensureOverrides } from '@/lib/question-overrides';
@@ -25,6 +28,9 @@ export default async function Hub({ params }: { params: Promise<{ mundo: string 
   if (!user) redirect('/entrar');
   await ensureOverrides();
   const [d, { stats, history }, open, erros] = await Promise.all([desempenho(user.id, m.slug), getStats(user.id), getOpenAttempt(user.id), resumoErros(user.id, m.slug)]);
+  const db = await getDb();
+  const [perfilUf] = await db.select({ uf: schema.users.detranUf }).from(schema.users).where(eq(schema.users.id, user.id)).limit(1);
+  const uf = UFS_DETRAN.find((x) => x.uf === perfilUf?.uf);
   const hist = history.filter((h) => mundoDeTipo(h.simulationType) === m.slug);
   const emAndamento = open && mundoDeTipo(open.simulationType) === m.slug ? open : null;
   const enem = m.slug === 'enem';
@@ -71,25 +77,43 @@ export default async function Hub({ params }: { params: Promise<{ mundo: string 
         )}
       </div>
 
-      <h2>{enem ? 'Prova completa' : 'Simulados'}</h2>
-      <div className="grid">
-        {m.simulados.map((slug) => {
-          const sim = getSimulation(slug)!;
-          const s = stats.get(slug);
-          return (
-            <div className="card" key={slug}>
-              <h3 style={{ margin: 0 }}>{sim.name}</h3>
-              {s ? (
-                <>
-                  <p style={{ margin: '12px 0 4px' }}><strong>{s.accuracy}%</strong> de acertos <span className="muted">({s.correct}/{s.answered} em {s.attempts} {s.attempts === 1 ? 'simulado' : 'simulados'})</span></p>
-                  <div className="meter" aria-hidden><i style={{ width: `${s.accuracy}%` }} /></div>
-                </>
-              ) : <p className="muted">Você ainda não fez este simulado.</p>}
-              <div className="row" style={{ marginTop: 10 }}><Link className="btn" href={`/simulado/${slug}`}>Fazer simulado</Link></div>
-            </div>
-          );
-        })}
-      </div>
+      {!enem && !uf ? (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <h3 style={{ marginTop: 0 }}>Em qual estado você vai fazer a prova?</h3>
+          <p className="muted" style={{ marginTop: 0 }}>Cada Detran tem suas regras. Escolha o seu e mostramos só o simulado certo. Você pode trocar quando quiser.</p>
+          <form action={escolherUfAction} className="row">
+            {UFS_DETRAN.map((x) => <button key={x.uf} name="uf" value={x.uf} className="btn">{x.nome}</button>)}
+          </form>
+        </div>
+      ) : (
+        <>
+          <h2>{enem ? 'Prova completa' : `Simulado do Detran ${uf!.uf}`}</h2>
+          <div className="grid">
+            {(enem ? m.simulados : [uf!.slug]).map((slug) => {
+              const sim = getSimulation(slug)!;
+              const s = stats.get(slug);
+              return (
+                <div className="card" key={slug}>
+                  <h3 style={{ margin: 0 }}>{sim.name}</h3>
+                  {s ? (
+                    <>
+                      <p style={{ margin: '12px 0 4px' }}><strong>{s.accuracy}%</strong> de acertos <span className="muted">({s.correct}/{s.answered} em {s.attempts} {s.attempts === 1 ? 'simulado' : 'simulados'})</span></p>
+                      <div className="meter" aria-hidden><i style={{ width: `${s.accuracy}%` }} /></div>
+                    </>
+                  ) : <p className="muted">Você ainda não fez este simulado.</p>}
+                  <div className="row" style={{ marginTop: 10 }}><Link className="btn" href={`/simulado/${slug}`}>Fazer simulado</Link></div>
+                </div>
+              );
+            })}
+          </div>
+          {!enem && (
+            <form action={escolherUfAction} className="muted" style={{ marginTop: 8 }}>
+              <input type="hidden" name="uf" value="" />
+              Estudando para {uf!.nome}. <button className="btn ghost" style={{ padding: '2px 10px' }}>Trocar estado</button>
+            </form>
+          )}
+        </>
+      )}
 
       <h2>Histórico</h2>
       {hist.length === 0 ? (

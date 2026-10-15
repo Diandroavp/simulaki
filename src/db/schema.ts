@@ -57,6 +57,7 @@ export const users = pgTable(
     role: userRole('role').notNull().default('student'),
     stateCode: text('state_code'), // sigla do estado, ex.: 'RR'
     examDate: timestamp('exam_date', { withTimezone: true }),
+    detranUf: text('detran_uf'), // estado do Detran que o aluno está estudando (AM, SP, BA)
     marketingConsent: boolean('marketing_consent').notNull().default(false),
     emailVerifiedAt: timestamp('email_verified_at', { withTimezone: true }),
     referralCode: text('referral_code').unique(),

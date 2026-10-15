@@ -20,3 +20,10 @@ export function mundoDeTipo(tipo: string): Mundo {
   const t = tipo.toLowerCase();
   return t === 'enem' || t.endsWith(':enem') || t.startsWith('treino:enem:') ? 'enem' : 'detran';
 }
+
+/** Estados com simulado do Detran. Quem estuda AM não faz SP: o aluno escolhe o seu e só vê ele. */
+export const UFS_DETRAN: { uf: string; nome: string; slug: string }[] = [
+  { uf: 'AM', nome: 'Amazonas', slug: 'detran-am' },
+  { uf: 'SP', nome: 'São Paulo', slug: 'detran-sp' },
+  { uf: 'BA', nome: 'Bahia', slug: 'detran-ba' },
+];
