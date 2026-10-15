@@ -76,7 +76,7 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 
 ## Explicações do ENEM (2018–2025)
 - Arquivo `content/explicacoes/enem.json` (id -> texto), mesclado em `loadAllRaw` quando a questão não tem explicação; aparece no treino e no gabarito do simulado com aviso de que foi preparada com IA.
-- Geradas 990 explicações (2014 a 2017, 2018 dia 1 e 2019 a 2025; 2020 e 2021 não têm questões só em texto no banco), só questões em texto. Puladas: as que dependem de texto-base/figura ausente e contas não verificáveis. 1.425 das 2.852 questões têm figura (não tratadas: precisam de leitura das imagens).
+- Geradas 1043 explicações (2014 a 2017, 2018 dia 1 e 2019 a 2025; 2020 e 2021 não têm questões só em texto no banco), só questões em texto. Puladas: as que dependem de texto-base/figura ausente e contas não verificáveis. 1.425 das 2.852 questões têm figura (não tratadas: precisam de leitura das imagens).
 - Pendente: o Diandro conferir uma amostra da qualidade; só depois fazer 2011–2013 e as questões com imagem.
 - Scripts: `scripts/dump-sem-explicacao.mjs` e `scripts/merge-explicacoes.mjs`.
 
