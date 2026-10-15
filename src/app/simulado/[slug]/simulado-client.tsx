@@ -1,5 +1,6 @@
 'use client';
 
+import { ShareResult } from '../../share-result';
 import Link from 'next/link';
 import { Statement, optionText } from '../../question-body';
 import { useCallback, useEffect, useRef, useState } from 'react';
@@ -114,6 +115,7 @@ export default function SimuladoClient({ slug, name, custom }: { slug: string; n
           <p className="muted">{custom ? 'Meta deste simulado' : 'Mínimo para aprovação neste simulado'}: {result.minCorrect}.</p>
         </div>
         <div className="row"><Link className="btn" href="/app">Ver minhas estatísticas</Link><a className="btn ghost" href={custom ? '/personalizado' : `/simulado/${slug}`}>Fazer outro</a></div>
+        {result.total > 0 && <div style={{ marginBlock: 12 }}><ShareResult nome={name} pct={Math.round((result.correct / result.total) * 100)} /></div>}
         <h2>Revisão</h2>
         {result.review.map((r, i) => (
           <div className="card" key={r.questionId} style={{ marginBottom: 12 }}>

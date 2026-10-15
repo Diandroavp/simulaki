@@ -1,5 +1,6 @@
 'use server';
 
+import { registrarIndicacao } from '@/lib/indicacao';
 import { eq } from 'drizzle-orm';
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
@@ -34,6 +35,8 @@ export async function signupAction(form: FormData) {
     .insert(schema.users)
     .values({ name, email, passwordHash: hashPassword(password), marketingConsent: form.get('marketing') === 'on' })
     .returning({ id: schema.users.id });
+  const ref = String(form.get('ref') ?? '');
+  if (ref) await registrarIndicacao(u!.id, ref).catch(() => false);
   await createSession(u!.id);
   await sendVerification(u!.id, appUrl());
   redirect('/app?verifique=1');

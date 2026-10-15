@@ -44,7 +44,7 @@ export async function deleteAccount(userId: string): Promise<'ok' | 'is_manager'
     await tx.update(schema.questionFeedback).set({ userId: null }).where(eq(schema.questionFeedback.userId, userId));
     await tx
       .update(schema.users)
-      .set({ name: 'Conta excluída', email: `excluida-${userId}@invalid.simulaki`, passwordHash: null, googleSub: null, stateCode: null, examDate: null, marketingConsent: false, deletedAt: new Date() })
+      .set({ name: 'Conta excluída', email: `excluida-${userId}@invalid.simulaki`, passwordHash: null, googleSub: null, stateCode: null, examDate: null, marketingConsent: false, referralCode: null, deletedAt: new Date() })
       .where(and(eq(schema.users.id, userId)));
   });
   return 'ok';

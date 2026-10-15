@@ -53,9 +53,9 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ e
 
           <div className="card" style={{ marginBottom: 16 }}>
             <h3 style={{ marginTop: 0 }}>Últimos 14 dias</h3>
-            <div className="bars" role="img" aria-label="Questões respondidas por dia, nos últimos 14 dias">
+            <div className="dbars" role="img" aria-label="Questões respondidas por dia, nos últimos 14 dias">
               {d.dias.map((x) => (
-                <div key={x.dia} className="bar" title={`${dm(x.dia)}: ${x.respondidas} questões, ${x.acertos} acertos`}>
+                <div key={x.dia} className="dbar" title={`${dm(x.dia)}: ${x.respondidas} questões, ${x.acertos} acertos`}>
                   <i style={{ height: `${Math.round((x.respondidas / max) * 100)}%` }} className={x.respondidas >= d.meta ? 'meta' : ''} />
                   <span>{dm(x.dia).slice(0, 2)}</span>
                 </div>

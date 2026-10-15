@@ -1,3 +1,4 @@
+import { recompensarIndicador } from './indicacao';
 import { and, desc, eq, gt, inArray, sql } from 'drizzle-orm';
 import { getDb, schema, type Db } from '@/db';
 import { hasFullAccess } from './access';
@@ -188,6 +189,7 @@ export async function confirmPayment(gatewayId: string, paidAmountCents?: number
     const sub = await grantAccess(tx, pay.userId, pay.planId, plan?.periodDays ?? 30, gatewayId);
     await tx.update(schema.payments).set({ subscriptionId: sub.id }).where(eq(schema.payments.id, pay.id));
     if (pay.couponId) await redeem(tx, pay.couponId, pay.userId); // cupom de desconto é consumido quando paga
+    await recompensarIndicador(tx, pay.userId, pay.planId, pay.amountCents); // 1º pagamento de quem foi indicado
     return 'confirmed';
   });
 }

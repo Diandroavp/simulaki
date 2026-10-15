@@ -59,6 +59,7 @@ export const users = pgTable(
     examDate: timestamp('exam_date', { withTimezone: true }),
     marketingConsent: boolean('marketing_consent').notNull().default(false),
     emailVerifiedAt: timestamp('email_verified_at', { withTimezone: true }),
+    referralCode: text('referral_code').unique(),
     createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
     deletedAt: timestamp('deleted_at', { withTimezone: true }),
   },
@@ -404,3 +405,17 @@ export const questionReviews = pgTable('question_reviews', {
   reviewerId: uuid('reviewer_id').references(() => users.id),
   updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
 });
+
+/** Indicação: quem indicou ganha dias quando o indicado faz o primeiro pagamento. */
+export const referrals = pgTable(
+  'referrals',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    referrerId: uuid('referrer_id').notNull().references(() => users.id),
+    referredId: uuid('referred_id').notNull().references(() => users.id),
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+    rewardedAt: timestamp('rewarded_at', { withTimezone: true }),
+    rewardDays: integer('reward_days'),
+  },
+  (t) => [uniqueIndex('referrals_referred_uq').on(t.referredId), index('referrals_referrer_idx').on(t.referrerId)],
+);

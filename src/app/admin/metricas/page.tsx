@@ -49,9 +49,9 @@ export default async function Metricas() {
       <div className="card" style={{ marginBottom: 16 }}>
         <h3 style={{ marginTop: 0 }}>Cadastros por semana</h3>
         {m.semanas.length === 0 ? <p className="muted">Sem cadastros nas últimas 8 semanas.</p> : (
-          <div className="bars" role="img" aria-label="Cadastros por semana">
+          <div className="dbars" role="img" aria-label="Cadastros por semana">
             {m.semanas.map((s) => (
-              <div key={s.semana} className="bar" title={`Semana de ${s.semana}: ${s.cadastros} cadastros`}>
+              <div key={s.semana} className="dbar" title={`Semana de ${s.semana}: ${s.cadastros} cadastros`}>
                 <i style={{ height: `${Math.round((s.cadastros / maxSem) * 100)}%` }} />
                 <span>{s.semana}</span>
               </div>

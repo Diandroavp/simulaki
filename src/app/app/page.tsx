@@ -10,6 +10,8 @@ import { isAvailable, nomeTipo, SIMULATIONS } from '@/lib/simulations';
 import { resumoErros } from '@/lib/treino';
 import { ensureOverrides } from '@/lib/question-overrides';
 import { PageHero } from '../page-hero';
+import { CopiarLink } from '../copiar-link';
+import { codigoDe, resumoIndicacoes, REWARD_DAYS } from '@/lib/indicacao';
 
 export const dynamic = 'force-dynamic';
 const TOPICS: Record<string, string> = {
@@ -25,6 +27,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
   const { cupom, verifique, verificado } = await searchParams;
   const [{ stats, history }, access, open, invites, myPartners] = await Promise.all([getStats(user.id), userHasAccess(user.id), getOpenAttempt(user.id), user.emailVerified ? pendingInvitesFor(user.email) : Promise.resolve([]), partnersOf(user.id)]);
   const errosPendentes = await resumoErros(user.id);
+  const [indic, codigoIndicacao] = await Promise.all([resumoIndicacoes(user.id), user.emailVerified ? codigoDe(user.id) : Promise.resolve('')]);
   const totalAnswered = [...stats.values()].reduce((a, s) => a + s.answered, 0);
   const totalCorrect = [...stats.values()].reduce((a, s) => a + s.correct, 0);
   const overall = totalAnswered ? Math.round((totalCorrect / totalAnswered) * 100) : null;
@@ -85,6 +88,18 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
         <p className="muted" style={{ marginTop: 0 }}>Sessões de 10 questões com correção na hora{errosPendentes > 0 ? `, e o caderno de erros com ${errosPendentes} ${errosPendentes === 1 ? 'questão' : 'questões'} para revisar hoje` : ''}.</p>
         <Link className="btn" href="/treino">Treinar agora</Link>
       </div>
+
+      {user.emailVerified && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <h3 style={{ marginTop: 0 }}>Indique e ganhe {REWARD_DAYS} dias</h3>
+          <p className="muted" style={{ marginTop: 0 }}>
+            Quando um amigo criar a conta pelo seu link e fizer o primeiro pagamento, você ganha {REWARD_DAYS} dias de acesso.
+            {indic.amigos > 0 ? ` Até agora: ${indic.amigos} ${indic.amigos === 1 ? 'amigo entrou' : 'amigos entraram'}, ${indic.premiados} já ${indic.premiados === 1 ? 'rendeu' : 'renderam'} dias (${indic.dias} no total).` : ''}
+            {indic.restantes === 0 ? ' Você já atingiu o limite de recompensas.' : ''}
+          </p>
+          <CopiarLink link={`${process.env.APP_URL ?? 'https://www.simulaki.com'}/cadastro?ref=${codigoIndicacao}`} />
+        </div>
+      )}
 
       <div className="card" style={{ marginBottom: 16 }}>
         <h3 style={{ marginTop: 0 }}>Meu desempenho</h3>

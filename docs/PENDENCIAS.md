@@ -51,6 +51,10 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - **Lembretes por e-mail** (saudade aos 3 dias, só para quem aceitou novidades; fim do plano 3 dias antes): prontos e **desligados**. Para ligar, na Vercel: `REMINDERS_ENABLED=1` e `CRON_SECRET` (16+ caracteres aleatórios). O cron diário está em `vercel.json` (12h UTC = 8h de Manaus). Todo e-mail leva link para sair da lista.
 - **Deixado para depois (decisão do Diandro, 14/10):** correção de redação com IA (precisa de chave de API em produção e definição de preço/plano).
 - **Caderno de erros com revisão espaçada** (volta logo, em 3 e em 7 dias; 3 acertos seguidos = dominada) e **data da prova** com contagem regressiva em /desempenho.
+- **/admin/metricas**: funil (cadastro → e-mail confirmado → 1º simulado → 1º pagamento), receita por plano, ticket médio, renovação.
+- **Avisos de erro de alunos** aparecem na revisão do ENEM (filtro "Com aviso de aluno").
+- **Compartilhar resultado** (WhatsApp / compartilhar do celular) na tela de resultado do simulado.
+- **Indique e ganhe**: quem indica ganha 15 dias quando o indicado faz o 1º pagamento (máx. 12 recompensas por pessoa). Link `/cadastro?ref=CÓDIGO`, card em /app para e-mail confirmado. Só o cadastro por e-mail carrega o código; cadastro via Google ainda não.
 - **Ainda não feito:** explicações das questões do ENEM (gerar rascunhos e passar pela revisão), correção de redação com IA.
 
 ## E-mail oficial
