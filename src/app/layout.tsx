@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl()),
   title: { default: SITE_TITLE, template: '%s | Simulaki' },
   description: SITE_DESC,
+  verification: { google: 'frLVc5IcQdWmeBZKdGuzznTn_0pGReWgFoJ-M0NWcmM' },
   ...(ADSENSE_CLIENT ? { other: { 'google-adsense-account': ADSENSE_CLIENT } } : {}),
   openGraph: { type: 'website', locale: 'pt_BR', siteName: 'Simulaki', title: SITE_TITLE, description: SITE_DESC },
   twitter: { card: 'summary_large_image', title: SITE_TITLE, description: SITE_DESC },
