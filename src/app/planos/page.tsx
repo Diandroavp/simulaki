@@ -3,6 +3,12 @@ import { and, asc, eq } from 'drizzle-orm';
 import { getDb, schema } from '@/db';
 import { PageHero } from '../page-hero';
 
+export const metadata = {
+  title: 'Planos e preços',
+  description: 'Simulados do Detran e do ENEM: comece grátis com 1 simulado por dia ou assine por Pix para treinar sem limite.',
+  alternates: { canonical: '/planos' },
+};
+
 export const dynamic = 'force-dynamic';
 const brl = (c: number) => (c / 100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 

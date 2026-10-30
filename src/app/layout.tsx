@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ADSENSE_CLIENT } from '@/lib/adsense';
+import { SITE_DESC, SITE_TITLE, siteUrl } from '@/lib/site';
 import { logoutAction } from './actions';
 import { getCurrentUser } from '@/lib/auth';
 import { MenuMobile, TabBar } from './menu-mobile';
@@ -12,11 +13,20 @@ import '@fontsource-variable/playfair-display/wght-italic.css';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.APP_URL ?? 'http://localhost:3000'),
-  title: { default: 'Simulaki | Simulados para a prova do Detran', template: '%s | Simulaki' },
-  description: 'Treine no formato da prova teórica do Detran com cronômetro, correção na hora e explicação de cada questão com a base legal.',
+  metadataBase: new URL(siteUrl()),
+  title: { default: SITE_TITLE, template: '%s | Simulaki' },
+  description: SITE_DESC,
   ...(ADSENSE_CLIENT ? { other: { 'google-adsense-account': ADSENSE_CLIENT } } : {}),
-  openGraph: { type: 'website', locale: 'pt_BR', siteName: 'Simulaki', title: 'Simulaki | Simulados para a prova do Detran', description: 'Simulados com cronômetro, correção na hora e explicação com a base legal.' },
+  openGraph: { type: 'website', locale: 'pt_BR', siteName: 'Simulaki', title: SITE_TITLE, description: SITE_DESC },
+  twitter: { card: 'summary_large_image', title: SITE_TITLE, description: SITE_DESC },
+};
+
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'Organization', '@id': `${siteUrl()}/#org`, name: 'Simulaki', url: siteUrl(), logo: `${siteUrl()}/icon.svg` },
+    { '@type': 'WebSite', '@id': `${siteUrl()}/#site`, name: 'Simulaki', url: siteUrl(), inLanguage: 'pt-BR', publisher: { '@id': `${siteUrl()}/#org` } },
+  ],
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
@@ -31,6 +41,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang="pt-BR">
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd).replace(/</g, '\\u003c') }} />
         {process.env.BETA === '1' && <div className="beta">Versão beta: o conteúdo ainda está em revisão e pode conter erros. Confira sempre a legislação oficial.</div>}
         <header className="top">
           <div className="wrap">

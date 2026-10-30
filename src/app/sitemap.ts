@@ -1,9 +1,10 @@
 import type { MetadataRoute } from 'next';
 import { ESTADOS, GUIAS } from '@/lib/guias';
+import { siteUrl } from '@/lib/site';
 import { VESTIBULARES } from '@/lib/vestibulares';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.APP_URL ?? 'http://localhost:3000';
+  const base = siteUrl();
   const fixas = ['/', '/planos', '/cadastro', '/guia', '/termos', '/privacidade', '/reembolso'];
   const paginas = [
     ...fixas.map((p) => ({ url: `${base}${p}` })),

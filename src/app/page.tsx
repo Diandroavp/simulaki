@@ -5,6 +5,7 @@ import { GUIAS } from '@/lib/guias';
 import { ensureOverrides } from '@/lib/question-overrides';
 import { ApagadorLousa, Borracha, Cena, CronometroSolto, Lapis, Livros, Marcador } from './ilustracoes';
 
+export const metadata = { alternates: { canonical: '/' } };
 export const revalidate = 60;
 
 export default async function Home() {
