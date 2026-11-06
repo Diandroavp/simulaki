@@ -1,5 +1,5 @@
 /**
- * Conquistas: níveis (Bambu → Diamante) e troféus. Tudo é calculado a partir do que o aluno já fez
+ * Conquistas: níveis (Calouro → Lenda) e troféus. Tudo é calculado a partir do que o aluno já fez
  * (simulados, respostas, indicações), sem tabela própria: nunca fica desatualizado e não dá para "perder" nada.
  */
 
@@ -25,14 +25,14 @@ export type Estatisticas = {
 };
 
 export const NIVEIS = [
-  { nome: 'Bambu', emoji: '🎋', xp: 0 },
-  { nome: 'Madeira', emoji: '🪵', xp: 40 },
-  { nome: 'Ferro', emoji: '⚙️', xp: 120 },
-  { nome: 'Bronze', emoji: '🥉', xp: 300 },
-  { nome: 'Prata', emoji: '🥈', xp: 600 },
-  { nome: 'Ouro', emoji: '🥇', xp: 1000 },
-  { nome: 'Platina', emoji: '💠', xp: 1600 },
-  { nome: 'Diamante', emoji: '💎', xp: 2500 },
+  { nome: 'Calouro', emoji: '🎒', xp: 0 },
+  { nome: 'Esforçado', emoji: '✏️', xp: 40 },
+  { nome: 'Esperto', emoji: '💡', xp: 120 },
+  { nome: 'Cabeça', emoji: '🤓', xp: 300 },
+  { nome: 'Fera', emoji: '🦁', xp: 600 },
+  { nome: 'Craque', emoji: '⚽', xp: 1000 },
+  { nome: 'Gênio', emoji: '🧬', xp: 1600 },
+  { nome: 'Lenda', emoji: '👑', xp: 2500 },
 ] as const;
 
 export const XP_POR_TROFEU = 25;
@@ -51,7 +51,7 @@ const DEFS: Def[] = [
   { id: 'sequencia-7', emoji: '🗓️', titulo: 'Semana de ferro', descricao: 'Estude 7 dias seguidos.', meta: 7, valor: (e) => e.melhorSequencia },
   { id: 'treino-rapido', emoji: '⚡', titulo: 'Treino rápido', descricao: 'Conclua 5 treinos rápidos.', meta: 5, valor: (e) => e.treinos },
   { id: 'maratonista', emoji: '🏃', titulo: 'Maratonista', descricao: 'Conclua 5 simulados.', meta: 5, valor: (e) => e.simulados },
-  { id: 'lenda', emoji: '🏆', titulo: 'Lenda', descricao: 'Conclua 20 simulados.', meta: 20, valor: (e) => e.simulados },
+  { id: 'veterano', emoji: '🎖️', titulo: 'Veterano', descricao: 'Conclua 20 simulados.', meta: 20, valor: (e) => e.simulados },
   { id: 'explorador', emoji: '🧭', titulo: 'Explorador', descricao: 'Estude no Detran e no ENEM.', meta: 2, valor: (e) => e.mundos },
   { id: 'radar-completo', emoji: '📡', titulo: 'Radar completo', descricao: 'Responda 10 questões em cada uma das 4 áreas do ENEM.', meta: 4, valor: (e) => e.areasEnem },
   { id: 'embaixador', emoji: '🤝', titulo: 'Embaixador', descricao: 'Um amigo entrou no Simulaki pelo seu link.', meta: 1, valor: (e) => e.indicados },

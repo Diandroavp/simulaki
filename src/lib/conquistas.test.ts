@@ -4,10 +4,10 @@ import { calcularConquistas, NIVEIS, sequencias, type Estatisticas } from './con
 const zero: Estatisticas = { respondidas: 0, certas: 0, simulados: 0, treinos: 0, melhorPct: 0, aprovouDetran: false, mundos: 0, melhorSequencia: 0, sequenciaAtual: 0, areasEnem: 0, indicados: 0 };
 
 describe('conquistas', () => {
-  it('quem não fez nada começa no Bambu, sem troféus', () => {
+  it('quem não fez nada começa no Calouro, sem troféus', () => {
     const c = calcularConquistas(zero);
     expect(c.xp).toBe(0);
-    expect(c.nivel.nome).toBe('Bambu');
+    expect(c.nivel.nome).toBe('Calouro');
     expect(c.ganhos).toBe(0);
     expect(c.progresso).toBe(0);
   });
@@ -16,14 +16,14 @@ describe('conquistas', () => {
     // 24*2 + 6*1 + 20 + troféus (primeiro-passo, aquecendo, mandou-bem) * 25
     expect(c.trofeus.filter((t) => t.ganho).map((t) => t.id).sort()).toEqual(['aquecendo', 'mandou-bem', 'primeiro-passo']);
     expect(c.xp).toBe(48 + 6 + 20 + 75);
-    expect(c.nivel.nome).toBe('Ferro');
-    expect(c.proximo?.nome).toBe('Bronze');
+    expect(c.nivel.nome).toBe('Esperto');
+    expect(c.proximo?.nome).toBe('Cabeça');
   });
   it('o progresso é proporcional ao caminho até o próximo nível', () => {
-    // meio caminho entre Madeira (40) e Ferro (120) = 80 XP
+    // meio caminho entre Esforçado (40) e Esperto (120) = 80 XP
     const c = calcularConquistas({ ...zero, respondidas: 55, certas: 0 });
     expect(c.xp).toBe(80); // 55 erradas * 1 + 25 do troféu "Aquecendo"
-    expect(c.nivel.nome).toBe('Madeira');
+    expect(c.nivel.nome).toBe('Esforçado');
     expect(c.progresso).toBe(50);
   });
   it('no último nível o progresso é 100 e não há próximo', () => {

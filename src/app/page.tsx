@@ -118,7 +118,7 @@ export default async function Home() {
       <section aria-label="Níveis e conquistas" style={{ textAlign: 'center' }}>
         <h2>Estude, ganhe XP e <em>suba de nível</em></h2>
         <div className="faixa-niveis">{NIVEIS.map((n) => <span key={n.nome}><span aria-hidden>{n.emoji}</span>{n.nome}</span>)}</div>
-        <p className="muted">Do Bambu ao Diamante, com troféus por simulado, sequência de dias e metas batidas.</p>
+        <p className="muted">De Calouro a Lenda, com troféus por simulado, sequência de dias e metas batidas.</p>
         <div className="row" style={{ justifyContent: 'center' }}><Link className="btn ghost" href="/conquistas">Ver conquistas</Link></div>
       </section>
 

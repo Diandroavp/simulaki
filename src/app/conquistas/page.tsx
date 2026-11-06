@@ -6,7 +6,7 @@ import { PageHero } from '../page-hero';
 
 export const metadata = {
   title: 'Conquistas e níveis',
-  description: 'Suba de nível do Bambu ao Diamante e ganhe troféus a cada simulado, sequência de estudos e meta batida no Simulaki.',
+  description: 'Suba de nível de Calouro a Lenda e ganhe troféus a cada simulado, sequência de estudos e meta batida no Simulaki.',
   alternates: { canonical: '/conquistas' },
 };
 export const dynamic = 'force-dynamic';
@@ -17,7 +17,7 @@ export default async function Conquistas() {
   const indice = c?.indice ?? -1;
   return (
     <>
-      <PageHero title={<>Suas <em>conquistas</em></>} lead="Cada questão e cada simulado dão XP. Suba do Bambu ao Diamante e junte troféus pelo caminho." />
+      <PageHero title={<>Suas <em>conquistas</em></>} lead="Cada questão e cada simulado dão XP. Suba de Calouro a Lenda e junte troféus pelo caminho." />
 
       {c ? (
         <section className="card nivel-hero" aria-label="Seu nível">
@@ -36,9 +36,9 @@ export default async function Conquistas() {
         </section>
       ) : (
         <section className="card nivel-hero">
-          <div className="nivel-emoji" aria-hidden>🎋</div>
+          <div className="nivel-emoji" aria-hidden>🎒</div>
           <div style={{ flex: 1, minWidth: 220 }}>
-            <h2 style={{ margin: '0 0 6px' }}>Comece no Bambu</h2>
+            <h2 style={{ margin: '0 0 6px' }}>Comece como Calouro</h2>
             <p className="muted" style={{ margin: 0 }}>Crie sua conta grátis e faça o primeiro simulado para ganhar seu primeiro troféu.</p>
             <div className="row"><Link className="btn" href="/cadastro">Criar conta grátis</Link><Link className="btn ghost" href="/entrar">Já tenho conta</Link></div>
           </div>

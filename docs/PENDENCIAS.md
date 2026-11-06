@@ -109,6 +109,6 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Ideias da campanha ainda não feitas: treino de 5 questões sem cadastro, cartão de compartilhar com radar, cupom com prazo até 15/11, ligar lembretes por e-mail (REMINDERS_ENABLED + CRON_SECRET).
 
 ## Conquistas (2026-11-06)
-- Níveis: Bambu, Madeira, Ferro, Bronze, Prata, Ouro, Platina, Diamante (XP: acerto 2, erro 1, simulado concluído 20, treino rápido 5, troféu 25). 15 troféus. Tudo calculado a partir de attempts/attempt_answers/referrals, sem tabela nova (`src/lib/conquistas.ts` puro + `conquistas-db.ts`).
+- Níveis: Calouro, Esforçado, Esperto, Cabeça, Fera, Craque, Gênio, Lenda (XP: acerto 2, erro 1, simulado concluído 20, treino rápido 5, troféu 25). 15 troféus. Tudo calculado a partir de attempts/attempt_answers/referrals, sem tabela nova (`src/lib/conquistas.ts` puro + `conquistas-db.ts`).
 - Telas: /conquistas (pública: visitante vê a escada e os troféus bloqueados), cartão de nível em Minha área, link "🏆 Conquistas" no menu e na barra do celular, faixa de níveis na home.
 - Não feito ainda: aviso "novo troféu!" ao ganhar, XP/troféu na tela de resultado, compartilhar troféu, ranking, comunidade (ver conversa).
