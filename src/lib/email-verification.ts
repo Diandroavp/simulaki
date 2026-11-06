@@ -24,6 +24,7 @@ export async function sendVerification(userId: string, appUrl: string): Promise<
   await sendEmail({
     to: u.email,
     subject: 'Confirme seu e-mail no Simulaki',
+    semCco: true,
     text: `Olá, ${u.name.split(' ')[0]}.\n\nPara confirmar seu e-mail, abra o link (vale por 24 horas):\n${appUrl}/verificar-email?token=${token}\n\nSe não foi você que se cadastrou, ignore este e-mail.`,
   });
   return 'sent';

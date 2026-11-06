@@ -30,6 +30,7 @@ export async function requestReset(email: string, appUrl: string): Promise<void>
   await sendEmail({
     to: email,
     subject: 'Redefinir sua senha no Simulaki',
+    semCco: true,
     text: `Olá, ${u.name.split(' ')[0]}.\n\nPara criar uma nova senha, abra o link (vale por 1 hora):\n${appUrl}/redefinir-senha?token=${token}\n\nSe não foi você, ignore este e-mail: sua senha continua a mesma.`,
   });
 }

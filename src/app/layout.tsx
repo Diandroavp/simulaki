@@ -5,6 +5,8 @@ import { SITE_DESC, SITE_TITLE, siteUrl } from '@/lib/site';
 import { logoutAction } from './actions';
 import { getCurrentUser } from '@/lib/auth';
 import { MenuMobile, TabBar } from './menu-mobile';
+import { GA_ID } from '@/lib/analytics';
+import { Analytics } from './analytics';
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/geist';
 import '@fontsource-variable/caveat';
@@ -69,6 +71,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </div>
         </header>
         <main>{children}</main>
+        {GA_ID && <Analytics id={GA_ID} />}
         {user && <TabBar />}
         <footer className="foot">
           <div className="wrap">

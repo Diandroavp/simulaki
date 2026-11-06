@@ -36,13 +36,13 @@ export default async function Admin() {
   return (
     <>
       <h1>Gestão</h1>
-      <p><Link href="/admin/cupons">Cupons</Link> · <Link href="/admin/parceiros">Parceiros</Link> · <Link href="/admin/questoes">Questões</Link> · <Link href="/admin/enem">Revisão ENEM</Link> · <Link href="/admin/metricas">Métricas</Link></p>
+      <p><Link href="/admin/usuarios">Usuários</Link> · <Link href="/admin/atividade">Atividade</Link> · <Link href="/admin/cupons">Cupons</Link> · <Link href="/admin/parceiros">Parceiros</Link> · <Link href="/admin/questoes">Questões</Link> · <Link href="/admin/enem">Revisão ENEM</Link> · <Link href="/admin/metricas">Métricas</Link></p>
       <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))" }}>
-        <div className="card"><div className="muted">Usuários</div><div className="price">{users?.total}</div><div className="muted">{users?.novos} nos últimos 30 dias</div></div>
+        <Link href="/admin/usuarios" className="card" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}><div className="muted">Usuários</div><div className="price">{users?.total}</div><div className="muted">{users?.novos} nos últimos 30 dias · ver quem são →</div></Link>
         <div className="card"><div className="muted">Assinantes ativos</div><div className="price">{subs?.ativas}</div></div>
         <div className="card"><div className="muted">Receita (30 dias)</div><div className="price">{brl(rev?.mes ?? 0)}</div><div className="muted">Total: {brl(rev?.total ?? 0)}</div></div>
         <div className="card"><div className="muted">Lista de espera</div><div className="price">{wl?.n}</div></div>
-        <div className="card"><div className="muted">Simulados</div><div className="price">{att?.total}</div><div className="muted">{att?.hoje} nas últimas 24 h</div></div>
+        <Link href="/admin/atividade" className="card" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}><div className="muted">Simulados</div><div className="price">{att?.total}</div><div className="muted">{att?.hoje} nas últimas 24 h · ver de quem →</div></Link>
       </div>
       <h2>Pagamentos recentes</h2>
       <div className="card scroll">

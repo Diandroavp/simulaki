@@ -3,7 +3,7 @@
  * em desenvolvimento, imprime o e-mail no console (para testar o fluxo sem provedor).
  * Em produção sem chave nada é enviado e o erro fica registrado no log do servidor.
  */
-export type Mail = { to: string; subject: string; text: string };
+export type Mail = { to: string; subject: string; text: string; /** true em e-mails com link de acesso (confirmação, redefinição de senha): nunca vão em cópia oculta. */ semCco?: boolean };
 
 export const outbox: Mail[] = []; // usado nos testes
 
@@ -28,7 +28,7 @@ export async function sendEmail(mail: Mail): Promise<boolean> {
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' },
-    body: JSON.stringify({ from: process.env.EMAIL_FROM ?? 'Simulaki <nao-responda@simulaki.com>', to: mail.to, ...(bccFor(mail.to).length ? { bcc: bccFor(mail.to) } : {}), subject: mail.subject, text: mail.text }),
+    body: JSON.stringify({ from: process.env.EMAIL_FROM ?? 'Simulaki <nao-responda@simulaki.com>', to: mail.to, ...(!mail.semCco && bccFor(mail.to).length ? { bcc: bccFor(mail.to) } : {}), subject: mail.subject, text: mail.text }),
   });
   if (!res.ok) console.error('Falha ao enviar e-mail:', res.status);
   return res.ok;

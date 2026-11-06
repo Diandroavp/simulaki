@@ -96,3 +96,8 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 ## SEO (2026-10-30)
 - Feito: título/descrição da home cobrindo Detran e ENEM; canonical na home e em /planos; JSON-LD Organization + WebSite; imagem de compartilhamento (opengraph-image); card do Twitter; `src/lib/site.ts` (em produção, sitemap/robots nunca caem em localhost: padrão https://www.simulaki.com); /prova liberado no robots.
 - Depende do Diandro: confirmar o domínio no Search Console (propriedade de domínio simulaki.com), enviar https://www.simulaki.com/sitemap.xml e pedir indexação da home, /prova/enem, /detran/am e dos guias; conferir que APP_URL na Vercel é https://www.simulaki.com.
+
+## Gestão, e-mails e Analytics (2026-11-06)
+- Gestão: novas telas /admin/usuarios (quem são, confirmação, entrada, plano, nº de simulados, último) e /admin/atividade (últimos 100 simulados com aluno, acertos, situação); os cartões Usuários e Simulados viram links.
+- E-mails: o Cco padrão (diandroavp@gmail.com) continua em todo e-mail do site, MAS não vai mais em confirmação de e-mail nem redefinição de senha (têm link de acesso à conta do aluno). O aluno sempre recebe o e-mail; a cópia era do Cco.
+- Google Analytics 4: `src/lib/analytics.ts` + `src/app/analytics.tsx`. Só liga com GA_ID (G-XXXXXXXXXX) na Vercel; aviso de cookies com Aceitar/Recusar (consent mode); não mede /admin, /pagamento, /assinar. Política de privacidade menciona o GA quando ligado.
