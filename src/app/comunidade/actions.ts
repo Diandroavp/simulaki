@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation';
 import { revalidatePath } from 'next/cache';
 import { getCurrentUser, requireAdmin, requireModerator } from '@/lib/auth';
 import { conquistasDe } from '@/lib/conquistas-db';
-import { decidirDenuncia, definirApelido, denunciar, eleger, publicar, reativar, removerPropria, responder, restaurar, type Decisao } from '@/lib/comunidade';
+import { decidirDenuncia, definirApelido, denunciar, editarPropria, eleger, publicar, reativar, removerPropria, responder, restaurar, type Decisao } from '@/lib/comunidade';
 import { mundoComValido, motivoDenunciaValido, tipoValido } from '@/lib/comunidade-regras';
 import { questaoPorId } from '@/lib/questao-por-id';
 
@@ -43,6 +43,15 @@ export async function responderAction(form: FormData) {
   if (!r.ok) volta(`/comunidade/${id}`, r.erro);
   revalidatePath(`/comunidade/${id}`);
   redirect(`/comunidade/${id}?ok=${encodeURIComponent('Resposta enviada.')}`);
+}
+
+export async function editarAction(form: FormData) {
+  const u = await logado();
+  const id = str(form, 'id'), raiz = str(form, 'raiz');
+  const r = await editarPropria(u, id, str(form, 'texto'));
+  if (!r.ok) volta(`/comunidade/${raiz}`, r.erro);
+  revalidatePath(`/comunidade/${raiz}`);
+  redirect(`/comunidade/${raiz}?ok=${encodeURIComponent('Mensagem atualizada.')}`);
 }
 
 export async function excluirAction(form: FormData) {

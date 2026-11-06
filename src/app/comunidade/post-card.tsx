@@ -1,4 +1,5 @@
-import { denunciarAction, excluirAction } from './actions';
+import { denunciarAction, editarAction, excluirAction } from './actions';
+import { MAX_TEXTO } from '@/lib/comunidade-regras';
 import { MOTIVOS_DENUNCIA, TIPOS } from '@/lib/comunidade-regras';
 import type { Item } from '@/lib/comunidade';
 
@@ -23,13 +24,23 @@ export function Mensagem({ item, raiz, meuId, resposta }: { item: Item; raiz: st
       <div className="row" style={{ marginTop: 0, alignItems: 'center', gap: 8 }}>
         <strong>{item.autor ?? 'Conta excluída'}</strong><Papel papel={item.papel} />
         {!resposta && <Selo kind={item.kind} />}
-        <span className="muted">{quando(item.createdAt)}</span>
+        <span className="muted">{quando(item.createdAt)}{item.editedAt ? ' (editado)' : ''}</span>
       </div>
       <p style={{ whiteSpace: 'pre-wrap', margin: '10px 0' }}>{item.body}</p>
       {item.status === 'visible' && (
         <div className="row" style={{ marginTop: 4, gap: 14 }}>
           {meu ? (
+            <>
+              <details>
+                <summary className="muted" style={{ cursor: 'pointer' }}>Editar</summary>
+                <form action={editarAction}>
+                  <input type="hidden" name="id" value={item.id} /><input type="hidden" name="raiz" value={raiz} />
+                  <label>Sua mensagem<textarea name="texto" required rows={4} maxLength={MAX_TEXTO} defaultValue={item.body} /></label>
+                  <div className="row"><button className="btn ghost">Salvar edição</button></div>
+                </form>
+              </details>
             <form action={excluirAction}><input type="hidden" name="id" value={item.id} /><input type="hidden" name="raiz" value={raiz} /><button className="btn ghost" style={{ padding: '2px 10px', fontSize: '.85rem' }}>Excluir</button></form>
+            </>
           ) : (
             <details>
               <summary className="muted" style={{ cursor: 'pointer' }}>Denunciar</summary>

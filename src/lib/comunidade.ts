@@ -57,12 +57,12 @@ export async function responder(user: CurrentUser, postId: string, body: string)
 }
 
 export type Papel = 'admin' | 'moderador' | null;
-export type Item = { id: string; autor: string | null; papel: Papel; autorId: string; mundo: string; kind: string; body: string; questionId: string | null; status: string; createdAt: Date; respostas: number };
+export type Item = { id: string; autor: string | null; papel: Papel; autorId: string; mundo: string; kind: string; body: string; questionId: string | null; status: string; createdAt: Date; editedAt: Date | null; respostas: number };
 
 const campos = {
   id: schema.communityPosts.id, autor: schema.users.nickname,
   papel: sql<Papel>`(case when ${schema.users.role} = 'admin' then 'admin' when ${schema.users.moderator} then 'moderador' else null end)`, autorId: schema.communityPosts.authorId, mundo: schema.communityPosts.mundo,
-  kind: schema.communityPosts.kind, body: schema.communityPosts.body, questionId: schema.communityPosts.questionId, status: schema.communityPosts.status, createdAt: schema.communityPosts.createdAt,
+  kind: schema.communityPosts.kind, body: schema.communityPosts.body, questionId: schema.communityPosts.questionId, status: schema.communityPosts.status, createdAt: schema.communityPosts.createdAt, editedAt: schema.communityPosts.editedAt,
 };
 
 export async function feed(mundo: string | null, kind: string | null, limite = 40): Promise<Item[]> {
@@ -87,6 +87,21 @@ export async function topico(id: string, comOcultas = false): Promise<{ post: It
   if (!post || (!comOcultas && post.status !== 'visible')) return null;
   const rs = await db.select(campos).from(schema.communityPosts).innerJoin(schema.users, eq(schema.users.id, schema.communityPosts.authorId)).where(and(eq(schema.communityPosts.parentId, id), comOcultas ? sql`true` : eq(schema.communityPosts.status, 'visible'))).orderBy(asc(schema.communityPosts.createdAt)).limit(200);
   return { post: { ...post, respostas: rs.length }, respostas: rs.map((r) => ({ ...r, respostas: 0 })) };
+}
+
+/** O autor edita a própria mensagem (só enquanto está visível). Passa pelas mesmas regras de texto e fica marcada como editada. */
+export async function editarPropria(user: CurrentUser, id: string, body: string): Promise<Motivo> {
+  const pode = podePostar(user);
+  if (!pode.ok) return pode;
+  const t = validarTexto(body, 2);
+  if (!t.ok) return t;
+  const db = await getDb();
+  const r = await db
+    .update(schema.communityPosts)
+    .set({ body: t.texto, editedAt: new Date() })
+    .where(and(eq(schema.communityPosts.id, id), eq(schema.communityPosts.authorId, user.id), eq(schema.communityPosts.status, 'visible')))
+    .returning({ id: schema.communityPosts.id });
+  return r.length ? { ok: true } : { ok: false, erro: 'Não foi possível editar essa mensagem.' };
 }
 
 /** O autor apaga a própria publicação (o texto some; as denúncias ficam). */

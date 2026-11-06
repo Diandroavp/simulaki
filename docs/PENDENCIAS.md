@@ -119,5 +119,5 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Moderação: administrador é moderador; o admin elege outros em /admin/moderadores (por e-mail). Moderador: manter visível, ocultar, ocultar e silenciar autor, restaurar, reativar. Não vê dados financeiros.
 - Ganchos: "Tirar dúvida na comunidade" na revisão do simulado e no treino; botão "Comunidade" ao compartilhar resultado; "Compartilhar na comunidade" em /conquistas.
 - Exclusão de conta apaga o texto das mensagens e o apelido. Política de privacidade atualizada.
-- Não feito: aviso por e-mail ao moderador, nível/troféu ao lado do apelido, editar mensagem, curtir/marcar melhor resposta, busca.
+- Edição: o autor edita a própria mensagem (marca "(editado)"; migração 0008). Não feito: aviso por e-mail ao moderador, nível/troféu ao lado do apelido, curtir/marcar melhor resposta, busca.
 - Comunidade: marcador 🛡️ ADM (administrador) e 🛡️ Moderador ao lado do apelido (feed, tópico e moderação). Nomes reservados (admin, moderador, simulaki, suporte, equipe, oficial…) continuam bloqueados para todos, inclusive a equipe, por decisão do Diandro.

@@ -325,6 +325,7 @@ export const communityPosts = pgTable(
     questionId: text('question_id'),
     status: text('status').notNull().default('visible'), // 'visible' | 'hidden' | 'removed'
     createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+    editedAt: timestamp('edited_at', { withTimezone: true }),
   },
   (t) => [index('community_posts_feed_idx').on(t.mundo, t.createdAt), index('community_posts_parent_idx').on(t.parentId)],
 );

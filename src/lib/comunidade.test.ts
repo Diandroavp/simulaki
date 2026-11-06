@@ -3,7 +3,7 @@ import type { CurrentUser } from './auth';
 
 process.env.PGLITE_DIR = 'memory://';
 const { getDb, schema } = await import('@/db');
-const { decidirDenuncia, definirApelido, denunciar, denunciasAbertas, eleger, feed, ocultadas, podePostar, publicar, responder, topico } = await import('./comunidade');
+const { decidirDenuncia, definirApelido, denunciar, denunciasAbertas, editarPropria, eleger, feed, ocultadas, podePostar, publicar, responder, topico } = await import('./comunidade');
 const { deleteAccount } = await import('./account');
 
 async function novo(email: string, nick: string | null, extra: Partial<CurrentUser> = {}): Promise<CurrentUser> {
@@ -41,6 +41,19 @@ describe('comunidade', () => {
     expect(t?.respostas[0]?.autor).toBe('Ajuda_Tres');
     const f = await feed('enem', null);
     expect(f.find((x) => x.id === p.id)?.respostas).toBe(1);
+  });
+
+  it('o autor edita a própria mensagem, com as mesmas regras, e fica marcada como editada', async () => {
+    const a = await novo('e1@example.com', 'Autor_Edita');
+    const o = await novo('e2@example.com', 'Outro_Edita');
+    const p = await publicar({ user: a, mundo: 'geral', kind: 'conversa', body: 'texto original' });
+    if (!p.ok) throw new Error('falhou');
+    expect((await editarPropria(o, p.id, 'tentando editar de outro')).ok).toBe(false);
+    expect((await editarPropria(a, p.id, 'veja www.golpe.com')).ok).toBe(false);
+    expect((await editarPropria(a, p.id, 'texto corrigido')).ok).toBe(true);
+    const t = await topico(p.id);
+    expect(t?.post.body).toBe('texto corrigido');
+    expect(t?.post.editedAt).not.toBeNull();
   });
 
   it('mostra o marcador de ADM e de moderador', async () => {
