@@ -5,7 +5,7 @@ import { VESTIBULARES } from '@/lib/vestibulares';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteUrl();
-  const fixas = ['/', '/planos', '/cadastro', '/guia', '/termos', '/privacidade', '/reembolso'];
+  const fixas = ['/', '/planos', '/cadastro', '/guia', '/conquistas', '/termos', '/privacidade', '/reembolso'];
   const paginas = [
     ...fixas.map((p) => ({ url: `${base}${p}` })),
     ...ESTADOS.map((e) => ({ url: `${base}/detran/${e.uf}` })),

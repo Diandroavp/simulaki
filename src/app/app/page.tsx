@@ -5,6 +5,7 @@ import { FREE_PER_DAY, getOpenAttempt } from '@/lib/attempts';
 import { desempenho } from '@/lib/desempenho';
 import { userHasAccess } from '@/lib/billing';
 import { resendVerificationAction } from '../actions';
+import { conquistasDe } from '@/lib/conquistas-db';
 import { acceptInviteAction, declineInviteAction, leavePartnerAction } from '../parceiro/actions';
 import { partnersOf, pendingInvitesFor } from '@/lib/partners';
 import { MUNDOS, mundoDeTipo } from '@/lib/mundos';
@@ -23,6 +24,7 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
   const { cupom, verifique, verificado } = await searchParams;
   const [access, open, invites, myPartners] = await Promise.all([userHasAccess(user.id), getOpenAttempt(user.id), user.emailVerified ? pendingInvitesFor(user.email) : Promise.resolve([]), partnersOf(user.id)]);
   const resumos = await Promise.all(MUNDOS.map((m) => desempenho(user.id, m.slug)));
+  const conq = await conquistasDe(user.id);
   const [indic, codigoIndicacao] = await Promise.all([resumoIndicacoes(user.id), user.emailVerified ? codigoDe(user.id) : Promise.resolve('')]);
 
   return (
@@ -38,6 +40,15 @@ export default async function Area({ searchParams }: { searchParams: Promise<{ c
           <form action={resendVerificationAction}><button className="btn ghost">Reenviar e-mail de confirmação</button></form>
         </div>
       )}
+      <section className="card mini-nivel" style={{ marginBottom: 12 }} aria-label="Seu nível">
+        <div className="nivel-emoji" aria-hidden>{conq.nivel.emoji}</div>
+        <div style={{ flex: 1, minWidth: 200 }}>
+          <div className="muted">Nível {conq.nivel.nome} · {conq.xp} XP</div>
+          <div className="barra" style={{ margin: '6px 0' }}><i style={{ width: `${conq.progresso}%` }} /></div>
+          <div className="muted">{conq.proximo ? `Faltam ${conq.faltamXp} XP para ${conq.proximo.emoji} ${conq.proximo.nome}` : 'Você chegou ao topo!'} · 🏅 {conq.ganhos}/{conq.trofeus.length} troféus{conq.sequenciaAtual > 0 ? ` · 🔥 ${conq.sequenciaAtual} ${conq.sequenciaAtual === 1 ? 'dia' : 'dias'}` : ''}</div>
+        </div>
+        <Link className="btn ghost" href="/conquistas">Ver conquistas</Link>
+      </section>
       {cupom === 'ok' && <p className="okmsg">Cupom aplicado! Seu acesso foi liberado.</p>}
       {invites.map((i) => (
         <div className="card" key={i.id} style={{ marginBottom: 12 }}>

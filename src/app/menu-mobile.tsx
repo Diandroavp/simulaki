@@ -31,6 +31,7 @@ export function TabBar() {
     { href: '/app', label: 'Início', icone: '🏠', ativo: path === '/app' },
     { href: '/app/detran', label: 'Detran', icone: '🚗', ativo: path.startsWith('/app/detran') },
     { href: '/app/enem', label: 'ENEM', icone: '🎓', ativo: path.startsWith('/app/enem') || path === '/checklist' || path === '/plano' || path === '/nota' },
+    { href: '/conquistas', label: 'Conquistas', icone: '🏆', ativo: path === '/conquistas' },
     { href: '/planos', label: 'Planos', icone: '⭐', ativo: path === '/planos' },
   ];
   return (

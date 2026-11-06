@@ -107,3 +107,8 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Datas: `src/lib/enem-calendario.ts` (1º dia 8/11, 2º dia 15/11 de 2026; conferidas em matéria que cita o calendário do INEP, conferir o edital). Faixa de contagem regressiva na home, em /prova/enem e no hub /app/enem; some sozinha depois de 15/11. A cada edição, atualizar as datas.
 - /guia agora é "Notícias e guias": guias com `tipo: 'noticia'` e `publicado` aparecem em "Notícias" no topo, por data. Novos: notícia "ENEM 2026: provas nos dias 8 e 15 de novembro" e guia "Semana entre as provas do ENEM: trilha de 6 dias".
 - Ideias da campanha ainda não feitas: treino de 5 questões sem cadastro, cartão de compartilhar com radar, cupom com prazo até 15/11, ligar lembretes por e-mail (REMINDERS_ENABLED + CRON_SECRET).
+
+## Conquistas (2026-11-06)
+- Níveis: Bambu, Madeira, Ferro, Bronze, Prata, Ouro, Platina, Diamante (XP: acerto 2, erro 1, simulado concluído 20, treino rápido 5, troféu 25). 15 troféus. Tudo calculado a partir de attempts/attempt_answers/referrals, sem tabela nova (`src/lib/conquistas.ts` puro + `conquistas-db.ts`).
+- Telas: /conquistas (pública: visitante vê a escada e os troféus bloqueados), cartão de nível em Minha área, link "🏆 Conquistas" no menu e na barra do celular, faixa de níveis na home.
+- Não feito ainda: aviso "novo troféu!" ao ganhar, XP/troféu na tela de resultado, compartilhar troféu, ranking, comunidade (ver conversa).

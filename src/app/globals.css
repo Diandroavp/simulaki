@@ -332,7 +332,7 @@ a.sim:hover{transform:translateY(-3px);border-color:var(--muted);box-shadow:var(
   .nav-desk{display:none!important}
   .menu-mob{display:block}
   main{padding:24px 16px 96px}
-  .tabbar{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--bg);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));box-shadow:0 -6px 20px -12px rgba(23,27,38,.25)}
+  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--bg);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px));box-shadow:0 -6px 20px -12px rgba(23,27,38,.25)}
   .tabbar a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;border-radius:12px;font-size:.74rem;font-weight:600;color:var(--muted);text-decoration:none}
   .tabbar a span{font-size:1.3rem;line-height:1}
   .tabbar a.on{color:var(--brand);background:var(--brand-soft)}
@@ -344,3 +344,26 @@ a.sim:hover{transform:translateY(-3px);border-color:var(--muted);box-shadow:var(
   .plano li,.chk-list li{align-items:flex-start}
 }
 .row .btn{max-width:100%;white-space:normal;text-align:left}
+
+/* Conquistas: níveis e troféus */
+.nivel-hero{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.nivel-emoji{font-size:4.2rem;line-height:1;width:96px;height:96px;display:grid;place-items:center;background:var(--pencil-soft);border-radius:50%}
+.barra{height:12px;border-radius:999px;background:var(--tint);overflow:hidden;border:1px solid var(--line)}
+.barra i{display:block;height:100%;background:linear-gradient(90deg,var(--leaf),var(--brand));border-radius:999px;transition:width .6s ease}
+.barra.mini{height:8px;max-width:180px;margin-bottom:2px}
+.escada{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px}
+.escada li{display:flex;flex-direction:column;align-items:center;gap:2px;padding:14px 8px;border:1.5px solid var(--line);border-radius:var(--rc);background:var(--surface);opacity:.55;filter:grayscale(.7)}
+.escada li .e{font-size:2rem}
+.escada li small{color:var(--muted)}
+.escada li.feito{opacity:1;filter:none;background:var(--brand-soft);border-color:transparent}
+.escada li.atual{opacity:1;filter:none;border-color:var(--brand);background:var(--pencil-soft);box-shadow:var(--shadow);transform:translateY(-3px)}
+.trofeus{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.trofeu{display:flex;gap:12px;align-items:flex-start;padding:16px;border:1.5px solid var(--line);border-radius:var(--rc);background:var(--surface)}
+.trofeu .e{font-size:2.1rem;line-height:1}
+.trofeu.off .e{filter:grayscale(1);opacity:.45}
+.trofeu.on{background:var(--pencil-soft);border-color:color-mix(in srgb,var(--pencil) 60%,var(--line))}
+.mini-nivel{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.mini-nivel .nivel-emoji{width:64px;height:64px;font-size:2.4rem}
+.faixa-niveis{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 14px}
+.faixa-niveis span{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-weight:600}
+@media (prefers-reduced-motion:reduce){.barra i{transition:none}}

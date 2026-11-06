@@ -3,6 +3,7 @@ import { ContagemEnem } from './contagem-enem';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
 import { GUIAS } from '@/lib/guias';
+import { NIVEIS } from '@/lib/conquistas';
 import { contagemEnem } from '@/lib/enem-calendario';
 import { ensureOverrides } from '@/lib/question-overrides';
 import { ApagadorLousa, Borracha, Cena, CronometroSolto, Lapis, Livros, Marcador } from './ilustracoes';
@@ -113,6 +114,13 @@ export default async function Home() {
           <p style={{ margin: 0 }}>As questões que você errou ficam guardadas para refazer até acertar.</p>
         </div>
       </div>
+
+      <section aria-label="Níveis e conquistas" style={{ textAlign: 'center' }}>
+        <h2>Estude, ganhe XP e <em>suba de nível</em></h2>
+        <div className="faixa-niveis">{NIVEIS.map((n) => <span key={n.nome}><span aria-hidden>{n.emoji}</span>{n.nome}</span>)}</div>
+        <p className="muted">Do Bambu ao Diamante, com troféus por simulado, sequência de dias e metas batidas.</p>
+        <div className="row" style={{ justifyContent: 'center' }}><Link className="btn ghost" href="/conquistas">Ver conquistas</Link></div>
+      </section>
 
       <h2>Notícias e <em>guias</em></h2>
       <div className="guias">
