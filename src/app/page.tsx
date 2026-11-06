@@ -3,11 +3,21 @@ import { ContagemEnem } from './contagem-enem';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
 import { GUIAS } from '@/lib/guias';
+import { contagemEnem } from '@/lib/enem-calendario';
 import { ensureOverrides } from '@/lib/question-overrides';
 import { ApagadorLousa, Borracha, Cena, CronometroSolto, Lapis, Livros, Marcador } from './ilustracoes';
 
 export const metadata = { alternates: { canonical: '/' } };
 export const revalidate = 60;
+
+/** Notícias primeiro; durante a campanha do ENEM, o guia da semana entre as provas logo depois. */
+function destaquesHome() {
+  const pin = contagemEnem() ? ['semana-entre-as-provas-do-enem'] : [];
+  const noticias = GUIAS.filter((g) => g.tipo === 'noticia');
+  const fixos = GUIAS.filter((g) => pin.includes(g.slug));
+  const resto = GUIAS.filter((g) => g.tipo !== 'noticia' && !pin.includes(g.slug));
+  return [...noticias, ...fixos, ...resto].slice(0, 6);
+}
 
 export default async function Home() {
   await ensureOverrides();
@@ -15,7 +25,7 @@ export default async function Home() {
   const outros = SIMULATIONS.filter((s) => s.group !== 'detran');
   return (
     <>
-      <ContagemEnem />
+      <div style={{ marginBottom: 48 }}><ContagemEnem /></div>
       <div className="herowrap bleed">
         <section className="hero">
           <span className="deco x" aria-hidden>xxxx</span>
@@ -104,15 +114,16 @@ export default async function Home() {
         </div>
       </div>
 
-      <h2>Guias para a <em>prova teórica</em></h2>
+      <h2>Notícias e <em>guias</em></h2>
       <div className="guias">
-        {GUIAS.map((g) => (
+        {destaquesHome().map((g) => (
           <Link key={g.slug} className="guia" href={`/guia/${g.slug}`}>
             <b>{g.titulo}</b>
             <span>{g.resumo}</span>
           </Link>
         ))}
       </div>
+      <p><Link href="/guia">Ver todas as notícias e guias →</Link></p>
 
       <section className="final">
         <Cena className="cena" />

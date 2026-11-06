@@ -36,11 +36,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const user = await getCurrentUser();
   const links = user
     ? [
-        { href: '/app', label: 'Minha área' }, { href: '/planos', label: 'Planos' },
+        { href: '/app', label: 'Minha área' }, { href: '/guia', label: 'Guias' }, { href: '/planos', label: 'Planos' },
         ...(user.role === 'partner_admin' ? [{ href: '/parceiro', label: 'Meu parceiro' }] : []),
         ...(user.role === 'admin' || user.role === 'staff' ? [{ href: '/admin', label: 'Gestão' }, { href: '/admin/parceiros', label: 'Parceiros' }] : []),
       ]
-    : [{ href: '/planos', label: 'Planos' }, { href: '/entrar', label: 'Entrar' }, { href: '/cadastro', label: 'Criar conta grátis', destaque: true }];
+    : [{ href: '/guia', label: 'Guias' }, { href: '/planos', label: 'Planos' }, { href: '/entrar', label: 'Entrar' }, { href: '/cadastro', label: 'Criar conta grátis', destaque: true }];
   return (
     <html lang="pt-BR">
       <body>
@@ -50,6 +50,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <div className="wrap">
             <Link href="/" className="logo">Simulaki</Link>
             <nav className="nav-desk">
+              <Link href="/guia">Guias</Link>
               <Link href="/planos">Planos</Link>
               {user ? (
                 <>
