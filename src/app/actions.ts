@@ -11,6 +11,7 @@ import { allowAction, isLockedOut, recordFailure, clearFailures } from '@/lib/ra
 import { applyReset, requestReset } from '@/lib/password-reset';
 import { confirmEmail, sendVerification } from '@/lib/email-verification';
 import { deleteAccount } from '@/lib/account';
+import { MOTIVOS_EXCLUSAO } from '@/lib/motivos-exclusao';
 
 const appUrl = () => process.env.APP_URL ?? 'http://localhost:3000';
 
@@ -111,12 +112,24 @@ export async function resendVerificationAction() {
   redirect(`/app?${r === 'limited' ? 'verifique=limite' : r === 'already' ? 'verificado=1' : 'verifique=1'}`);
 }
 
+/** Guarda o motivo (opcional) sem ligação com o aluno. Falha aqui nunca desfaz a exclusão. */
+async function registrarMotivoExclusao(motivo: string, detalhe: string) {
+  if (!MOTIVOS_EXCLUSAO.some((m) => m.id === motivo)) return;
+  try {
+    const db = await getDb();
+    await db.insert(schema.accountDeletions).values({ reason: motivo, detail: detalhe.slice(0, 500) || null });
+  } catch (e) {
+    console.error('Falha ao registrar motivo da exclusão:', e);
+  }
+}
+
 export async function deleteAccountAction(form: FormData) {
   const u = await getCurrentUser();
   if (!u) redirect('/entrar');
   if (str(form, 'confirm').toUpperCase() !== 'EXCLUIR') err('/app/conta', 'Digite EXCLUIR para confirmar.');
   const r = await deleteAccount(u!.id);
   if (r === 'is_manager') err('/app/conta', 'Sua conta gerencia uma autoescola parceira. Fale com o suporte para excluir.');
+  if (r === 'ok') await registrarMotivoExclusao(str(form, 'motivo'), str(form, 'detalhe'));
   await destroySession();
   redirect('/?conta=excluida');
 }

@@ -41,7 +41,7 @@ export default async function Usuarios() {
             {rows.map((r) => (
               <tr key={r.id} style={r.deletedAt ? { opacity: 0.5 } : undefined}>
                 <td>{when(r.createdAt)}</td>
-                <td>{r.name}{r.role !== 'student' ? ` (${r.role})` : ''}{r.deletedAt ? ' [excluída]' : ''}</td>
+                <td>{r.name}{r.role !== 'student' ? ` (${r.role})` : ''}{r.deletedAt ? ` [excluída em ${when(r.deletedAt)}]` : ''}</td>
                 <td>{r.email}</td>
                 <td>{r.verified ? 'Sim' : 'Não'}</td>
                 <td>{r.google ? 'Google' : 'E-mail e senha'}</td>

@@ -43,6 +43,13 @@
       "when": 1792030958638,
       "tag": "0005_short_shadowcat",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793969261209,
+      "tag": "0006_soft_the_twelve",
+      "breakpoints": true
     }
   ]
 }

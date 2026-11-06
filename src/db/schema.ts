@@ -309,6 +309,14 @@ export const auditLogs = pgTable('audit_logs', {
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
 });
 
+// Motivo (opcional) informado ao excluir a conta. Anônimo de propósito: sem ligação com o usuário.
+export const accountDeletions = pgTable('account_deletions', {
+  id: uuid('id').primaryKey().defaultRandom(),
+  reason: text('reason').notNull(),
+  detail: text('detail'),
+  createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+});
+
 // Falhas de login recentes, para limitar tentativas por e-mail (chave = e-mail em minúsculas).
 export const loginFailures = pgTable(
   'login_failures',
