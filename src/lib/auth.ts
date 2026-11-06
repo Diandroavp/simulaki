@@ -47,20 +47,20 @@ export async function destroySession() {
   jar.delete(COOKIE);
 }
 
-export type CurrentUser = { id: string; name: string; email: string; role: string; emailVerified: boolean };
+export type CurrentUser = { id: string; name: string; email: string; role: string; emailVerified: boolean; nickname: string | null; moderator: boolean; muted: boolean };
 
 export async function getCurrentUser(): Promise<CurrentUser | null> {
   const token = (await cookies()).get(COOKIE)?.value;
   if (!token) return null;
   const db = await getDb();
   const rows = await db
-    .select({ id: schema.users.id, name: schema.users.name, email: schema.users.email, role: schema.users.role, verifiedAt: schema.users.emailVerifiedAt })
+    .select({ id: schema.users.id, name: schema.users.name, email: schema.users.email, role: schema.users.role, verifiedAt: schema.users.emailVerifiedAt, nickname: schema.users.nickname, moderator: schema.users.moderator, muted: schema.users.communityMuted })
     .from(schema.sessions)
     .innerJoin(schema.users, eq(schema.users.id, schema.sessions.userId))
     .where(and(eq(schema.sessions.tokenHash, sha256(token)), gt(schema.sessions.expiresAt, new Date())))
     .limit(1);
   const r = rows[0];
-  return r ? { id: r.id, name: r.name, email: r.email, role: r.role, emailVerified: !!r.verifiedAt } : null;
+  return r ? { id: r.id, name: r.name, email: r.email, role: r.role, emailVerified: !!r.verifiedAt, nickname: r.nickname, moderator: r.moderator, muted: r.muted } : null;
 }
 
 /** E-mails em ADMIN_EMAILS (separados por vírgula) viram administradores ao entrar. */
@@ -73,6 +73,12 @@ export async function promoteIfAdmin(userId: string, email: string) {
     .update(schema.users)
     .set({ role: 'admin' })
     .where(and(eq(schema.users.id, userId), isNotNull(schema.users.emailVerifiedAt)));
+}
+
+/** Moderador da comunidade: quem o administrador elegeu, ou o próprio administrador. */
+export async function requireModerator(): Promise<CurrentUser | null> {
+  const u = await getCurrentUser();
+  return u && (u.moderator || u.role === 'admin') ? u : null;
 }
 
 export async function requireAdmin(): Promise<CurrentUser | null> {

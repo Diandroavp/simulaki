@@ -61,10 +61,13 @@ export const users = pgTable(
     marketingConsent: boolean('marketing_consent').notNull().default(false),
     emailVerifiedAt: timestamp('email_verified_at', { withTimezone: true }),
     referralCode: text('referral_code').unique(),
+    nickname: text('nickname'), // apelido público na comunidade (único, sem diferenciar maiúsculas)
+    moderator: boolean('moderator').notNull().default(false),
+    communityMuted: boolean('community_muted').notNull().default(false),
     createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
     deletedAt: timestamp('deleted_at', { withTimezone: true }),
   },
-  (t) => [uniqueIndex('users_email_uq').on(t.email)],
+  (t) => [uniqueIndex('users_email_uq').on(t.email), uniqueIndex('users_nickname_uq').on(sql`lower(${t.nickname})`)],
 );
 
 export const organizations = pgTable('organizations', {
@@ -308,6 +311,39 @@ export const auditLogs = pgTable('audit_logs', {
   after: jsonb('after'),
   createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
 });
+
+// Comunidade: publicações (parentId nulo) e respostas (parentId = publicação). Só texto, sem links.
+export const communityPosts = pgTable(
+  'community_posts',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    authorId: uuid('author_id').notNull().references(() => users.id),
+    parentId: uuid('parent_id'),
+    mundo: text('mundo').notNull(), // 'detran' | 'enem' | 'geral'
+    kind: text('kind').notNull(), // 'duvida' | 'resultado' | 'conquista' | 'conversa' | 'resposta'
+    body: text('body').notNull(),
+    questionId: text('question_id'),
+    status: text('status').notNull().default('visible'), // 'visible' | 'hidden' | 'removed'
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [index('community_posts_feed_idx').on(t.mundo, t.createdAt), index('community_posts_parent_idx').on(t.parentId)],
+);
+
+export const communityReports = pgTable(
+  'community_reports',
+  {
+    id: uuid('id').primaryKey().defaultRandom(),
+    postId: uuid('post_id').notNull().references(() => communityPosts.id),
+    reporterId: uuid('reporter_id').notNull().references(() => users.id),
+    reason: text('reason').notNull(), // 'spam' | 'ofensivo' | 'dados-pessoais' | 'outro'
+    note: text('note'),
+    status: text('status').notNull().default('open'), // 'open' | 'upheld' | 'dismissed'
+    createdAt: timestamp('created_at', { withTimezone: true }).notNull().defaultNow(),
+    resolvedBy: uuid('resolved_by').references(() => users.id),
+    resolvedAt: timestamp('resolved_at', { withTimezone: true }),
+  },
+  (t) => [uniqueIndex('community_reports_uq').on(t.postId, t.reporterId), index('community_reports_status_idx').on(t.status)],
+);
 
 // Motivo (opcional) informado ao excluir a conta. Anônimo de propósito: sem ligação com o usuário.
 export const accountDeletions = pgTable('account_deletions', {

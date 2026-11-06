@@ -115,7 +115,7 @@ export default function SimuladoClient({ slug, name, custom }: { slug: string; n
           <p className="muted">{custom ? 'Meta deste simulado' : 'Mínimo para aprovação neste simulado'}: {result.minCorrect}.</p>
         </div>
         <div className="row"><Link className="btn" href="/app">Ver minhas estatísticas</Link><a className="btn ghost" href={custom ? '/personalizado' : `/simulado/${slug}`}>Fazer outro</a></div>
-        {result.total > 0 && <div style={{ marginBlock: 12 }}><ShareResult nome={name} pct={Math.round((result.correct / result.total) * 100)} /></div>}
+        {result.total > 0 && <div style={{ marginBlock: 12 }}><ShareResult nome={name} pct={Math.round((result.correct / result.total) * 100)} mundo={slug.toLowerCase().includes('enem') ? 'enem' : 'detran'} /></div>}
         <h2>Revisão</h2>
         {result.review.map((r, i) => (
           <div className="card" key={r.questionId} style={{ marginBottom: 12 }}>
@@ -130,6 +130,7 @@ export default function SimuladoClient({ slug, name, custom }: { slug: string; n
             {r.explanation && <p className="muted">{r.explanation}</p>}
             {r.legalRef && !r.legalRef.includes('conferir') && !r.legalRef.startsWith('Banco Nacional') && <p className="muted">Base legal: {r.legalRef}</p>}
             <p className="muted" style={{ fontSize: '.8rem' }}>{r.sourceLine}</p>
+            <div className="row" style={{ marginTop: 8 }}><a className="btn ghost" style={{ padding: '2px 10px', fontSize: '.85rem' }} href={`/comunidade/novo?tipo=duvida&questao=${encodeURIComponent(r.questionId)}`}>💬 Tirar dúvida na comunidade</a></div>
             <ReportError questionId={r.questionId} />
           </div>
         ))}

@@ -112,3 +112,11 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - Níveis: Calouro, Esforçado, Esperto, Cabeça, Fera, Craque, Gênio, Lenda (XP: acerto 2, erro 1, simulado concluído 20, treino rápido 5, troféu 25). 15 troféus. Tudo calculado a partir de attempts/attempt_answers/referrals, sem tabela nova (`src/lib/conquistas.ts` puro + `conquistas-db.ts`).
 - Telas: /conquistas (pública: visitante vê a escada e os troféus bloqueados), cartão de nível em Minha área, link "🏆 Conquistas" no menu e na barra do celular, faixa de níveis na home.
 - Não feito ainda: aviso "novo troféu!" ao ganhar, XP/troféu na tela de resultado, compartilhar troféu, ranking, comunidade (ver conversa).
+
+## Comunidade (2026-11-06)
+- Telas: /comunidade (feed com filtros Detran/ENEM/Geral e por tipo: dúvida, resultado, conquista, conversa), /comunidade/novo, /comunidade/[id] (respostas, denunciar, excluir a própria), /comunidade/moderacao, /admin/moderadores. Migração 0007 (apelido, moderador, silenciado, posts e denúncias), aplicada no deploy.
+- Regras: só logados leem; para publicar precisa de e-mail confirmado + apelido (único) e não estar silenciado; sem links, e-mails, @ nem números de 9+ dígitos; limite de 10 publicações e 30 respostas por hora; 3 denúncias de pessoas diferentes ocultam a publicação até um moderador decidir.
+- Moderação: administrador é moderador; o admin elege outros em /admin/moderadores (por e-mail). Moderador: manter visível, ocultar, ocultar e silenciar autor, restaurar, reativar. Não vê dados financeiros.
+- Ganchos: "Tirar dúvida na comunidade" na revisão do simulado e no treino; botão "Comunidade" ao compartilhar resultado; "Compartilhar na comunidade" em /conquistas.
+- Exclusão de conta apaga o texto das mensagens e o apelido. Política de privacidade atualizada.
+- Não feito: aviso por e-mail ao moderador, nível/troféu ao lado do apelido, editar mensagem, curtir/marcar melhor resposta, busca.

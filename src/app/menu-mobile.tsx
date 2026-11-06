@@ -32,7 +32,7 @@ export function TabBar() {
     { href: '/app/detran', label: 'Detran', icone: '🚗', ativo: path.startsWith('/app/detran') },
     { href: '/app/enem', label: 'ENEM', icone: '🎓', ativo: path.startsWith('/app/enem') || path === '/checklist' || path === '/plano' || path === '/nota' },
     { href: '/conquistas', label: 'Conquistas', icone: '🏆', ativo: path === '/conquistas' },
-    { href: '/planos', label: 'Planos', icone: '⭐', ativo: path === '/planos' },
+    { href: '/comunidade', label: 'Comunidade', icone: '💬', ativo: path.startsWith('/comunidade') },
   ];
   return (
     <nav className="tabbar" aria-label="Navegação principal">

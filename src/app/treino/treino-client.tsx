@@ -145,6 +145,7 @@ export default function TreinoClient({ mundo, mundoNome, grupos, erros, agendada
             <strong>{f.correct ? 'Acertou.' : `Resposta certa: ${f.correctOptionId.toUpperCase()}.`}</strong>{' '}
             {f.explanation}
             {f.legalRef && <div className="muted" style={{ marginTop: 6 }}>Base legal: {f.legalRef}</div>}
+            <div style={{ marginTop: 8 }}><a href={`/comunidade/novo?tipo=duvida&questao=${encodeURIComponent(q.id)}`}>💬 Tirar dúvida na comunidade</a></div>
           </div>
         )}
         <p className="muted" style={{ fontSize: '.8rem', marginBottom: 0 }}>{q.sourceLine}</p>

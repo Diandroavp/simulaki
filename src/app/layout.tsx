@@ -36,7 +36,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const user = await getCurrentUser();
   const links = user
     ? [
-        { href: '/app', label: 'Minha área' }, { href: '/conquistas', label: '🏆 Conquistas' }, { href: '/guia', label: 'Guias' }, { href: '/planos', label: 'Planos' },
+        { href: '/app', label: 'Minha área' }, { href: '/conquistas', label: '🏆 Conquistas' }, { href: '/comunidade', label: '💬 Comunidade' }, { href: '/guia', label: 'Guias' }, { href: '/planos', label: 'Planos' },
         ...(user.role === 'partner_admin' ? [{ href: '/parceiro', label: 'Meu parceiro' }] : []),
         ...(user.role === 'admin' || user.role === 'staff' ? [{ href: '/admin', label: 'Gestão' }, { href: '/admin/parceiros', label: 'Parceiros' }] : []),
       ]
@@ -56,6 +56,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               {user ? (
                 <>
                   <Link href="/app">Minha área</Link>
+                  <Link href="/comunidade">💬 Comunidade</Link>
                   {user.role === 'partner_admin' && <Link href="/parceiro">Meu parceiro</Link>}
                   {(user.role === 'admin' || user.role === 'staff') && <><Link href="/admin">Gestão</Link><Link href="/admin/parceiros">Parceiros</Link></>}
                   <form action={logoutAction}><button className="btn ghost" style={{ padding: '6px 12px' }}>Sair</button></form>

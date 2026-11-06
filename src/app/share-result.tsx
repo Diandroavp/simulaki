@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 /** Compartilha só o percentual e o nome do simulado (nada de questões nem dados pessoais). */
-export function ShareResult({ nome, pct }: { nome: string; pct: number }) {
+export function ShareResult({ nome, pct, mundo = 'geral' }: { nome: string; pct: number; mundo?: string }) {
   const [copiado, setCopiado] = useState(false);
   const link = () => `${window.location.origin}/?utm_source=compartilhar`;
   const texto = () => `Fiz ${pct}% de acertos no simulado ${nome} do Simulaki. Teste o seu: ${link()}`;
@@ -22,6 +22,7 @@ export function ShareResult({ nome, pct }: { nome: string; pct: number }) {
   return (
     <div className="row" style={{ gap: 8, flexWrap: 'wrap' }}>
       <button className="btn ghost" onClick={compartilhar}>{copiado ? 'Copiado!' : 'Compartilhar resultado'}</button>
+      <a className="btn ghost" href={`/comunidade/novo?tipo=resultado&mundo=${mundo}&texto=${encodeURIComponent(`Fiz ${pct}% de acertos no simulado ${nome}.`)}`}>Comunidade</a>
       <button className="btn ghost" onClick={() => window.open(`https://wa.me/?text=${encodeURIComponent(texto())}`, '_blank', 'noopener,noreferrer')}>WhatsApp</button>
     </div>
   );

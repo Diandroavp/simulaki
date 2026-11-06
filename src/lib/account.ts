@@ -41,10 +41,11 @@ export async function deleteAccount(userId: string): Promise<'ok' | 'is_manager'
     await tx.delete(schema.orgInvites).where(eq(schema.orgInvites.email, u.email));
     await tx.delete(schema.waitlist).where(eq(schema.waitlist.email, u.email));
     await tx.delete(schema.loginFailures).where(eq(schema.loginFailures.key, u.email));
+    await tx.update(schema.communityPosts).set({ status: 'removed', body: '[mensagem removida pelo autor]', questionId: null }).where(eq(schema.communityPosts.authorId, userId));
     await tx.update(schema.questionFeedback).set({ userId: null }).where(eq(schema.questionFeedback.userId, userId));
     await tx
       .update(schema.users)
-      .set({ name: 'Conta excluída', email: `excluida-${userId}@invalid.simulaki`, passwordHash: null, googleSub: null, stateCode: null, examDate: null, marketingConsent: false, referralCode: null, deletedAt: new Date() })
+      .set({ name: 'Conta excluída', email: `excluida-${userId}@invalid.simulaki`, passwordHash: null, googleSub: null, stateCode: null, examDate: null, marketingConsent: false, referralCode: null, nickname: null, moderator: false, communityMuted: false, deletedAt: new Date() })
       .where(and(eq(schema.users.id, userId)));
   });
   return 'ok';

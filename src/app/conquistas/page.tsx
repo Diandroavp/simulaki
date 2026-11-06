@@ -3,6 +3,7 @@ import { getCurrentUser } from '@/lib/auth';
 import { conquistasDe } from '@/lib/conquistas-db';
 import { NIVEIS, TODOS_TROFEUS, XP_POR_TROFEU } from '@/lib/conquistas';
 import { PageHero } from '../page-hero';
+import { compartilharConquistaAction } from '../comunidade/actions';
 
 export const metadata = {
   title: 'Conquistas e níveis',
@@ -32,6 +33,7 @@ export default async function Conquistas() {
             <p className="muted" style={{ margin: '4px 0 0' }}>
               🏅 {c.ganhos} de {c.trofeus.length} troféus{c.sequenciaAtual > 0 ? ` · 🔥 ${c.sequenciaAtual} ${c.sequenciaAtual === 1 ? 'dia' : 'dias'} seguidos` : ''}
             </p>
+            <form action={compartilharConquistaAction} className="row"><button className="btn ghost">Compartilhar na comunidade</button></form>
           </div>
         </section>
       ) : (
