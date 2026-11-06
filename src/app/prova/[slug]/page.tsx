@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { ContagemEnem } from '../../contagem-enem';
 import { notFound } from 'next/navigation';
 import { PageHero } from '../../page-hero';
 import { ensureOverrides } from '@/lib/question-overrides';
@@ -26,6 +27,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <PageHero title={<>Simulado <em>{v.nome}</em></>} lead={v.lead} />
+      {v.slug === 'enem' && <ContagemEnem />}
       <article className="legal">
         <div className="card">
           <h3 style={{ marginTop: 0 }}>Sobre a prova</h3>

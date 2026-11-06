@@ -25,7 +25,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const ld = [
     {
       '@context': 'https://schema.org', '@type': 'Article', headline: g.titulo, description: g.resumo,
-      dateModified: g.atualizado, inLanguage: 'pt-BR', mainEntityOfPage: `${base}/guia/${g.slug}`,
+      ...(g.publicado ? { datePublished: g.publicado } : {}), dateModified: g.atualizado, inLanguage: 'pt-BR', mainEntityOfPage: `${base}/guia/${g.slug}`,
       publisher: { '@type': 'Organization', name: 'Simulaki' },
     },
     {
@@ -38,7 +38,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     <PageHero title={g.titulo} lead={g.intro} />
     <article className="legal">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld).replace(/</g, '\\u003c') }} />
-      <p className="muted"><Link href="/guia">Todos os guias</Link></p>
+      <p className="muted"><Link href="/guia">Notícias e guias</Link>{g.publicado ? ` · publicado em ${new Date(g.publicado + 'T12:00:00').toLocaleDateString('pt-BR')}` : ''}</p>
       {g.blocos.map((b, i) => (
         <section key={i}>
           {b.h && <h2>{b.h}</h2>}

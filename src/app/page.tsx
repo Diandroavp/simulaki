@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { ContagemEnem } from './contagem-enem';
 import { isAvailable, SIMULATIONS } from '@/lib/simulations';
 import { DemoQuestion } from './demo-question';
 import { GUIAS } from '@/lib/guias';
@@ -14,6 +15,7 @@ export default async function Home() {
   const outros = SIMULATIONS.filter((s) => s.group !== 'detran');
   return (
     <>
+      <ContagemEnem />
       <div className="herowrap bleed">
         <section className="hero">
           <span className="deco x" aria-hidden>xxxx</span>

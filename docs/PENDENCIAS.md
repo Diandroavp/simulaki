@@ -102,3 +102,8 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 - E-mails: o Cco padrão (diandroavp@gmail.com) continua em todo e-mail do site, MAS não vai mais em confirmação de e-mail nem redefinição de senha (têm link de acesso à conta do aluno). O aluno sempre recebe o e-mail; a cópia era do Cco.
 - Google Analytics 4: `src/lib/analytics.ts` + `src/app/analytics.tsx`. Só liga com GA_ID (G-XXXXXXXXXX) na Vercel; aviso de cookies com Aceitar/Recusar (consent mode); não mede /admin, /pagamento, /assinar. Política de privacidade menciona o GA quando ligado.
 - Exclusão de conta (2026-11-06): pergunta opcional "Por que você está saindo?" (motivo + comentário de até 500 caracteres), gravada sem ligação com o aluno em `account_deletions` (migração 0006, aplicada no deploy pelo vercel-build). Resultados em /admin/saidas. A tela Usuários mostra a data da exclusão.
+
+## Campanha ENEM 2026 e notícias (2026-11-06)
+- Datas: `src/lib/enem-calendario.ts` (1º dia 8/11, 2º dia 15/11 de 2026; conferidas em matéria que cita o calendário do INEP, conferir o edital). Faixa de contagem regressiva na home, em /prova/enem e no hub /app/enem; some sozinha depois de 15/11. A cada edição, atualizar as datas.
+- /guia agora é "Notícias e guias": guias com `tipo: 'noticia'` e `publicado` aparecem em "Notícias" no topo, por data. Novos: notícia "ENEM 2026: provas nos dias 8 e 15 de novembro" e guia "Semana entre as provas do ENEM: trilha de 6 dias".
+- Ideias da campanha ainda não feitas: treino de 5 questões sem cadastro, cartão de compartilhar com radar, cupom com prazo até 15/11, ligar lembretes por e-mail (REMINDERS_ENABLED + CRON_SECRET).

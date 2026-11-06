@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { ContagemEnem } from '../../contagem-enem';
 import { notFound, redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
 import { getOpenAttempt, getStats } from '@/lib/attempts';
@@ -45,6 +46,7 @@ export default async function Hub({ params }: { params: Promise<{ mundo: string 
   return (
     <>
       <PageHero compact title={<>{m.emoji} <em>{m.nome}</em></>} />
+      {m.slug === 'enem' && <ContagemEnem logado />}
       <Patrocinio userId={user.id} tela="hub" mundo={m.slug} />
       {emAndamento && <p className="note">Você tem um simulado em andamento. <Link href={emAndamento.simulationType.startsWith('custom:') ? `/personalizado?mundo=${m.slug}&retomar=1` : `/simulado/${emAndamento.simulationType}`}>Continuar</Link></p>}
       {reta && (

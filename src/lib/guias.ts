@@ -13,6 +13,10 @@ export type Guia = {
   blocos: Bloco[];
   faq: { q: string; a: string }[];
   atualizado: string; // AAAA-MM-DD
+  /** Notícia: aparece em "Notícias" no topo de /guia, ordenada por `publicado`. Padrão: guia. */
+  tipo?: 'guia' | 'noticia';
+  /** Data de publicação (AAAA-MM-DD); usada nas notícias. */
+  publicado?: string;
   /** Padrão: detran. */
   tema?: 'detran' | 'enem';
   /** Fonte mostrada no rodapé; padrão: a Resolução do CONTRAN. */

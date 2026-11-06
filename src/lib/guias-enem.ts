@@ -11,6 +11,93 @@ export const FONTE_ENEM = {
 
 export const GUIAS_ENEM: Guia[] = [
   {
+    slug: 'enem-2026-8-e-15-de-novembro',
+    tipo: 'noticia',
+    publicado: '2026-11-06',
+    tema: 'enem',
+    fonte: FONTE_ENEM,
+    titulo: 'ENEM 2026: provas nos dias 8 e 15 de novembro',
+    resumo: 'O ENEM 2026 acontece em dois domingos, 8 e 15 de novembro. Veja o que cai em cada dia e como usar a semana entre as provas.',
+    intro: 'As provas do ENEM 2026 serão aplicadas em dois domingos, 8 e 15 de novembro. Veja o que cai em cada dia e o que fazer agora.',
+    atualizado: '2026-11-06',
+    blocos: [
+      {
+        h: 'O que cai em cada dia',
+        ul: [
+          'Domingo, 8 de novembro: Linguagens, Códigos e suas Tecnologias, Ciências Humanas e a redação.',
+          'Domingo, 15 de novembro: Ciências da Natureza e Matemática.',
+          'Cada área tem 45 questões objetivas de múltipla escolha.',
+        ],
+        p: ['Horários, portões e documentos aceitos estão no edital do INEP e no Cartão de Confirmação de Inscrição. Confira sempre esses dois antes de sair de casa.'],
+      },
+      {
+        h: 'Quem faz o 1º dia ainda tem o 2º pela frente',
+        p: ['A semana entre as provas é uma boa chance de ajustar o que falta para Ciências da Natureza e Matemática. Evite assunto novo: o melhor uso do tempo é revisar o que você erra com mais frequência e manter o descanso em dia.', 'Montamos uma trilha de 6 dias para isso, no guia Semana entre as provas do ENEM.'],
+      },
+      {
+        h: 'Treine com provas anteriores',
+        p: ['No Simulaki você treina com questões das provas oficiais do ENEM, por área e por assunto, com correção na hora e acompanhamento do seu desempenho.'],
+      },
+    ],
+    faq: [
+      { q: 'Quais são as datas do ENEM 2026?', a: 'As provas são nos domingos 8 e 15 de novembro de 2026.' },
+      { q: 'O que cai no primeiro e no segundo dia?', a: 'No primeiro dia, Linguagens, Ciências Humanas e a redação. No segundo, Ciências da Natureza e Matemática.' },
+      { q: 'Onde confiro horário e local da minha prova?', a: 'No Cartão de Confirmação de Inscrição e no edital do ENEM, no site do INEP.' },
+    ],
+  },
+  {
+    slug: 'semana-entre-as-provas-do-enem',
+    tema: 'enem',
+    fonte: FONTE_ENEM,
+    titulo: 'Semana entre as provas do ENEM: trilha de 6 dias',
+    resumo: 'Um roteiro leve de 6 dias, de 9 a 14 de novembro, para chegar bem ao 2º dia do ENEM: Ciências da Natureza e Matemática.',
+    intro: 'Entre o 1º e o 2º dia do ENEM sobram seis dias. Este roteiro usa esse tempo sem cansar você: revisar o que mais rende, treinar com calma e descansar.',
+    atualizado: '2026-11-06',
+    blocos: [
+      {
+        h: 'Antes de começar',
+        p: ['Esta trilha vale para o 2º dia da edição de 2026, que traz Ciências da Natureza e Matemática. Ajuste o tamanho de cada dia ao seu ritmo: se ficar cansado, faça menos. Dormir bem vale mais do que uma questão a mais.'],
+      },
+      {
+        h: 'Segunda (9/11): diagnóstico',
+        p: ['Respire depois do 1º dia. Faça um treino de 10 questões de Natureza e outro de 10 de Matemática e olhe seu radar para ver os dois assuntos em que você mais erra.'],
+      },
+      {
+        h: 'Terça (10/11): Ciências da Natureza',
+        p: ['Treine os dois assuntos mais fracos de Natureza. Depois de cada treino, leia a explicação dos erros e anote o que ficou confuso.'],
+      },
+      {
+        h: 'Quarta (11/11): Matemática',
+        p: ['Faça o mesmo com Matemática: dois assuntos mais fracos, treino curto, explicação dos erros.'],
+      },
+      {
+        h: 'Quinta (12/11): treino cronometrado',
+        p: ['Faça um treino maior de uma das duas áreas, escolhendo a quantidade de questões, e controle o tempo. O objetivo é treinar o ritmo, não bater recorde.'],
+      },
+      {
+        h: 'Sexta (13/11): revisar os erros',
+        p: ['Refaça só as questões que você errou nos dias anteriores, na área de revisão de erros. É a parte que mais rende na reta final.'],
+      },
+      {
+        h: 'Sábado (14/11): véspera',
+        ul: [
+          'Não estude assunto novo.',
+          'Separe o documento e o material exigidos no edital e confira o seu Cartão de Confirmação.',
+          'Durma cedo.',
+        ],
+      },
+      {
+        h: 'Domingo (15/11): prova',
+        p: ['Faça a prova com calma. Você já fez a sua parte: agora é confiar no que treinou.'],
+      },
+    ],
+    faq: [
+      { q: 'Preciso estudar todos os dias até o 2º dia do ENEM?', a: 'Não precisa estudar o dia todo. Treinos curtos e revisão dos seus erros funcionam melhor do que maratonas, principalmente perto da prova.' },
+      { q: 'Posso aprender assunto novo na véspera?', a: 'Não é recomendado. Na véspera, descanse e confira o que o edital pede para o dia da prova.' },
+      { q: 'O que cai no 2º dia do ENEM?', a: 'Ciências da Natureza e Matemática, com 45 questões objetivas em cada área.' },
+    ],
+  },
+  {
     slug: 'como-funciona-o-enem',
     tema: 'enem',
     fonte: FONTE_ENEM,
