@@ -100,7 +100,7 @@ Grátis, Mensal R$ 12,90, Passe 60 dias R$ 19,90, Semestral R$ 49,90 e Anual R$ 
 ## Gestão, e-mails e Analytics (2026-11-06)
 - Gestão: novas telas /admin/usuarios (quem são, confirmação, entrada, plano, nº de simulados, último) e /admin/atividade (últimos 100 simulados com aluno, acertos, situação); os cartões Usuários e Simulados viram links.
 - E-mails: o Cco padrão (diandroavp@gmail.com) continua em todo e-mail do site, MAS não vai mais em confirmação de e-mail nem redefinição de senha (têm link de acesso à conta do aluno). O aluno sempre recebe o e-mail; a cópia era do Cco.
-- Google Analytics 4: `src/lib/analytics.ts` + `src/app/analytics.tsx`. Só liga com GA_ID (G-XXXXXXXXXX) na Vercel; aviso de cookies com Aceitar/Recusar (consent mode); não mede /admin, /pagamento, /assinar. Política de privacidade menciona o GA quando ligado.
+- Google Analytics 4 LIGADO (propriedade "Simulaki", ID G-PCZFJVXXVG gravado como padrão em `src/lib/analytics.ts`; GA_ID na Vercel tem prioridade e GA_ID vazio desliga) + `src/app/analytics.tsx`; aviso de cookies com Aceitar/Recusar (consent mode); não mede /admin, /pagamento, /assinar. Política de privacidade menciona o GA quando ligado.
 - Exclusão de conta (2026-11-06): pergunta opcional "Por que você está saindo?" (motivo + comentário de até 500 caracteres), gravada sem ligação com o aluno em `account_deletions` (migração 0006, aplicada no deploy pelo vercel-build). Resultados em /admin/saidas. A tela Usuários mostra a data da exclusão.
 
 ## Campanha ENEM 2026 e notícias (2026-11-06)
