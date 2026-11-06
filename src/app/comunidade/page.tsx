@@ -5,7 +5,7 @@ import { feed, podePostar, totalDenunciasAbertas } from '@/lib/comunidade';
 import { MUNDOS_COM, MUNDO_COM_NOME, TIPOS, mundoComValido, tipoValido } from '@/lib/comunidade-regras';
 import { PageHero } from '../page-hero';
 import { apelidoAction } from './actions';
-import { Selo } from './post-card';
+import { Papel, Selo } from './post-card';
 
 export const metadata = { title: 'Comunidade', robots: { index: false, follow: false } };
 export const dynamic = 'force-dynamic';
@@ -67,7 +67,7 @@ export default async function Comunidade({ searchParams }: { searchParams: Promi
           {itens.map((i) => (
             <Link key={i.id} href={`/comunidade/${i.id}`} className="card" style={{ display: 'block', marginBottom: 12, color: 'inherit', textDecoration: 'none' }}>
               <div className="row" style={{ marginTop: 0, alignItems: 'center', gap: 8 }}>
-                <strong>{i.autor ?? 'Conta excluída'}</strong><Selo kind={i.kind} /><span className="badge">{MUNDO_COM_NOME[i.mundo as keyof typeof MUNDO_COM_NOME] ?? i.mundo}</span><span className="muted">{quando(i.createdAt)}</span>
+                <strong>{i.autor ?? 'Conta excluída'}</strong><Papel papel={i.papel} /><Selo kind={i.kind} /><span className="badge">{MUNDO_COM_NOME[i.mundo as keyof typeof MUNDO_COM_NOME] ?? i.mundo}</span><span className="muted">{quando(i.createdAt)}</span>
               </div>
               <p style={{ margin: '10px 0 6px', whiteSpace: 'pre-wrap' }}>{i.body.length > 280 ? i.body.slice(0, 280) + '…' : i.body}</p>
               <span className="muted">💬 {i.respostas} {i.respostas === 1 ? 'resposta' : 'respostas'}</span>

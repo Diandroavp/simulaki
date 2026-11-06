@@ -43,6 +43,23 @@ describe('comunidade', () => {
     expect(f.find((x) => x.id === p.id)?.respostas).toBe(1);
   });
 
+  it('mostra o marcador de ADM e de moderador', async () => {
+    const adm = await novo('m1@example.com', 'Chefe_Um', { role: 'admin' });
+    const db = await getDb();
+    const { eq } = await import('drizzle-orm');
+    await db.update(schema.users).set({ role: 'admin' }).where(eq(schema.users.id, adm.id));
+    const mod = await novo('m2@example.com', 'Ajudante_Dois');
+    await db.update(schema.users).set({ moderator: true }).where(eq(schema.users.id, mod.id));
+    const aluno = await novo('m3@example.com', 'Aluno_Tres');
+    const pa = await publicar({ user: adm, mundo: 'geral', kind: 'conversa', body: 'mensagem do admin' });
+    const pm = await publicar({ user: mod, mundo: 'geral', kind: 'conversa', body: 'mensagem do moderador' });
+    const pl = await publicar({ user: aluno, mundo: 'geral', kind: 'conversa', body: 'mensagem do aluno' });
+    const f = await feed('geral', null);
+    expect(f.find((x) => pa.ok && x.id === pa.id)?.papel).toBe('admin');
+    expect(f.find((x) => pm.ok && x.id === pm.id)?.papel).toBe('moderador');
+    expect(f.find((x) => pl.ok && x.id === pl.id)?.papel).toBeNull();
+  });
+
   it('3 denúncias escondem a publicação; o moderador decide', async () => {
     const autor = await novo('c4@example.com', 'Autor_Quatro');
     const mod = await novo('c5@example.com', 'Mod_Cinco', { moderator: true });

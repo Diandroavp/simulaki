@@ -23,7 +23,7 @@ export default async function Moderacao() {
       {abertas.length === 0 && <div className="card"><p style={{ margin: 0 }}>Nenhuma denúncia aberta. Tudo tranquilo por aqui.</p></div>}
       {abertas.map((d) => (
         <div className="card" key={d.postId} style={{ marginBottom: 12 }}>
-          <div className="muted">Autor: <strong>{d.item.autor ?? 'conta excluída'}</strong> · {quando(d.item.createdAt)} · {d.item.status === 'hidden' ? 'oculta (3 denúncias)' : 'visível'}{d.autorSilenciado ? ' · autor silenciado' : ''}</div>
+          <div className="muted">Autor: <strong>{d.item.autor ?? 'conta excluída'}</strong>{d.item.papel ? ` (${d.item.papel === 'admin' ? 'ADM' : 'moderador'})` : ''} · {quando(d.item.createdAt)} · {d.item.status === 'hidden' ? 'oculta (3 denúncias)' : 'visível'}{d.autorSilenciado ? ' · autor silenciado' : ''}</div>
           <p style={{ whiteSpace: 'pre-wrap', margin: '10px 0' }}>{d.item.body}</p>
           <ul style={{ margin: '0 0 10px' }}>
             {d.denuncias.map((x, i) => <li key={i}>{motivo(x.reason)}{x.note ? `: "${x.note}"` : ''} <span className="muted">(por {x.por ?? '—'})</span></li>)}

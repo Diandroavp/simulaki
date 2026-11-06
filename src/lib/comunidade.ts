@@ -56,10 +56,12 @@ export async function responder(user: CurrentUser, postId: string, body: string)
   return { ok: true };
 }
 
-export type Item = { id: string; autor: string | null; autorId: string; mundo: string; kind: string; body: string; questionId: string | null; status: string; createdAt: Date; respostas: number };
+export type Papel = 'admin' | 'moderador' | null;
+export type Item = { id: string; autor: string | null; papel: Papel; autorId: string; mundo: string; kind: string; body: string; questionId: string | null; status: string; createdAt: Date; respostas: number };
 
 const campos = {
-  id: schema.communityPosts.id, autor: schema.users.nickname, autorId: schema.communityPosts.authorId, mundo: schema.communityPosts.mundo,
+  id: schema.communityPosts.id, autor: schema.users.nickname,
+  papel: sql<Papel>`(case when ${schema.users.role} = 'admin' then 'admin' when ${schema.users.moderator} then 'moderador' else null end)`, autorId: schema.communityPosts.authorId, mundo: schema.communityPosts.mundo,
   kind: schema.communityPosts.kind, body: schema.communityPosts.body, questionId: schema.communityPosts.questionId, status: schema.communityPosts.status, createdAt: schema.communityPosts.createdAt,
 };
 

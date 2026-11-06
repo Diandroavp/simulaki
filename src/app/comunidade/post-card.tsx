@@ -4,6 +4,12 @@ import type { Item } from '@/lib/comunidade';
 
 const quando = (d: Date) => d.toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: 'America/Manaus' });
 
+/** Marcador de quem faz parte da equipe: ADM ou Moderador. */
+export function Papel({ papel }: { papel: Item['papel'] }) {
+  if (!papel) return null;
+  return <span className="badge on" title={papel === 'admin' ? 'Administrador do Simulaki' : 'Moderador da comunidade'}>🛡️ {papel === 'admin' ? 'ADM' : 'Moderador'}</span>;
+}
+
 export function Selo({ kind }: { kind: string }) {
   const t = TIPOS.find((x) => x.id === kind);
   return t ? <span className="badge">{t.label}</span> : null;
@@ -15,7 +21,7 @@ export function Mensagem({ item, raiz, meuId, resposta }: { item: Item; raiz: st
   return (
     <div className="card" style={{ marginBottom: 12, marginLeft: resposta ? 20 : 0 }}>
       <div className="row" style={{ marginTop: 0, alignItems: 'center', gap: 8 }}>
-        <strong>{item.autor ?? 'Conta excluída'}</strong>
+        <strong>{item.autor ?? 'Conta excluída'}</strong><Papel papel={item.papel} />
         {!resposta && <Selo kind={item.kind} />}
         <span className="muted">{quando(item.createdAt)}</span>
       </div>
